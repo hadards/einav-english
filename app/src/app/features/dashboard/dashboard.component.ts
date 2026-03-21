@@ -92,6 +92,11 @@ const LEVEL_COLORS: Record<ContentLevel, string> = {
                 } @else {
                   <span class="text-gray-400 text-xs">Not started</span>
                 }
+                @if (card.score !== undefined) {
+                  <span class="ml-auto text-xs font-bold" style="color:#6366f1">
+                    {{ (card.score * 100).toFixed(0) }}%
+                  </span>
+                }
               </div>
             </div>
           }
