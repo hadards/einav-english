@@ -2,11 +2,6 @@
   "version": 2,
   "buildCommand": "cd app && ng build --configuration=production",
   "outputDirectory": "app/dist/app/browser",
-  "functions": {
-    "api/**/*.ts": {
-      "runtime": "@vercel/node"
-    }
-  },
   "routes": [
     {
       "src": "/api/(.*)",
