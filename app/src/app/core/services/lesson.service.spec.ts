@@ -29,7 +29,7 @@ describe('LessonService', () => {
     const mockLesson = { id: 'G-01', title: 'Present simple', level: 'A2' };
 
     service.getLesson('G-01').subscribe((lesson) => {
-      expect(lesson['id']).toBe('G-01');
+      expect(lesson.id).toBe('G-01');
       done();
     });
 
@@ -44,7 +44,7 @@ describe('LessonService', () => {
     service.getLesson('G-01').subscribe(() => {
       // Second call — should return from cache, no new HTTP request
       service.getLesson('G-01').subscribe((cached) => {
-        expect(cached['id']).toBe('G-01');
+        expect(cached.id).toBe('G-01');
         httpMock.expectNone('assets/lessons/G-01-present-simple.json');
         done();
       });
@@ -52,5 +52,9 @@ describe('LessonService', () => {
 
     const req = httpMock.expectOne('assets/lessons/G-01-present-simple.json');
     req.flush(mockLesson);
+  });
+
+  it('should throw for an unknown lesson id', () => {
+    expect(() => service.getLesson('NONEXISTENT')).toThrowError(/unknown grammar lesson/);
   });
 });
