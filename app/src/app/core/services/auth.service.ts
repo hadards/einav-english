@@ -1,4 +1,4 @@
-import { Injectable, signal, computed } from '@angular/core';
+import { Injectable, signal, computed, inject, DestroyRef } from '@angular/core';
 import { createClient, SupabaseClient, User } from '@supabase/supabase-js';
 import { environment } from '../../../environments/environment';
 
@@ -13,13 +13,17 @@ export class AuthService {
   readonly isLoggedIn$ = computed(() => this.currentUser$() !== null);
 
   constructor() {
+    const destroyRef = inject(DestroyRef);
+
     this.supabase.auth.getSession().then(({ data }) => {
       this.currentUser$.set(data.session?.user ?? null);
     });
 
-    this.supabase.auth.onAuthStateChange((_event, session) => {
+    const { data: { subscription } } = this.supabase.auth.onAuthStateChange((_event, session) => {
       this.currentUser$.set(session?.user ?? null);
     });
+
+    destroyRef.onDestroy(() => subscription.unsubscribe());
   }
 
   async signInWithGoogle(): Promise<void> {
@@ -31,6 +35,5 @@ export class AuthService {
 
   async signOut(): Promise<void> {
     await this.supabase.auth.signOut();
-    this.currentUser$.set(null);
   }
 }

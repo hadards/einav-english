@@ -6,3 +6,6 @@ app/.angular/
 *.js.map
 design/srs_unpacked/
 design/plan_unpacked/
+
+# Angular environment files with real credentials (use CI env vars instead)
+app/src/environments/environment.prod.ts
