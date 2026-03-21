@@ -43,9 +43,11 @@ function shuffle<T>(arr: T[]): T[] {
           <p class="text-4xl mb-3">{{ scoreDisplay() }} {{ passMark() ? '🎉' : '💪' }}</p>
           <p class="text-lg font-semibold text-gray-800 mb-1">{{ passMark() ? 'Practice complete!' : 'Keep going!' }}</p>
           <p class="text-sm text-gray-500 mb-6">{{ passMark() ? 'Speak tab is now unlocked.' : 'You need 70% to unlock speaking practice.' }}</p>
-          <button (click)="completed.emit(finalScore())" class="bg-blue-600 text-white px-8 py-3 rounded-xl font-semibold hover:bg-blue-700 transition min-h-[44px]">
-            {{ passMark() ? 'Continue to Speak →' : 'Retry' }}
-          </button>
+          @if (passMark()) {
+            <button (click)="completed.emit(finalScore())" class="bg-blue-600 text-white px-8 py-3 rounded-xl font-semibold hover:bg-blue-700 transition min-h-[44px]">Continue to Speak →</button>
+          } @else {
+            <button (click)="retry()" class="bg-blue-600 text-white px-8 py-3 rounded-xl font-semibold hover:bg-blue-700 transition min-h-[44px]">Retry</button>
+          }
         </div>
       } @else if (currentItem()) {
         <div class="bg-white rounded-xl border border-gray-200 p-5 flex flex-col gap-4">
@@ -118,7 +120,7 @@ export class PracticeTabComponent implements OnInit {
   readonly currentIndex = signal(0);
 
   userInput = '';
-  private mcqShuffled: string[] = [];
+  private readonly mcqShuffled = signal<string[]>([]);
   readonly builtSentence = signal<string[]>([]);
   readonly remainingWords = signal<string[]>([]);
 
@@ -152,7 +154,7 @@ export class PracticeTabComponent implements OnInit {
     return q.length > 0 && this.currentIndex() >= q.length;
   });
 
-  readonly mcqOptions = computed(() => this.mcqShuffled);
+  readonly mcqOptions = computed(() => this.mcqShuffled());
 
   mcqOptionClass(opt: string): string {
     const item = this.currentItem();
@@ -167,7 +169,7 @@ export class PracticeTabComponent implements OnInit {
     if (!item) return;
     this.userInput = '';
     if (item.exercise.type === 'mcq') {
-      this.mcqShuffled = shuffle([item.exercise.answer, ...(item.exercise.distractors ?? [])]);
+      this.mcqShuffled.set(shuffle([item.exercise.answer, ...(item.exercise.distractors ?? [])]));
     }
     if (item.exercise.type === 'sentence_builder') {
       this.builtSentence.set([]);
@@ -234,6 +236,16 @@ export class PracticeTabComponent implements OnInit {
     if (correct) {
       setTimeout(() => this.next(), 500);
     }
+  }
+
+  retry() {
+    const shuffled = shuffle(this.lesson.exercises);
+    this.queue.set(shuffled.map(e => ({
+      exercise: e, state: 'unanswered' as AnswerState,
+      userAnswer: '', showHint: false, showExplanation: false,
+    })));
+    this.currentIndex.set(0);
+    this.initCurrentExercise();
   }
 
   next() {
