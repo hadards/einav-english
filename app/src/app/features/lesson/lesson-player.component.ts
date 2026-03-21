@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { LessonService } from '../../core/services/lesson.service';
 import { ExplainTabComponent } from './explain-tab.component';
 import { PracticeTabComponent } from './practice-tab.component';
+import { SpeakTabComponent } from './speak-tab.component';
 import type { Lesson } from '@shared/lesson.schema';
 
 type Tab = 'explain' | 'practice' | 'speak';
@@ -11,7 +12,7 @@ type Tab = 'explain' | 'practice' | 'speak';
 @Component({
   selector: 'app-lesson-player',
   standalone: true,
-  imports: [CommonModule, RouterLink, ExplainTabComponent, PracticeTabComponent],
+  imports: [CommonModule, RouterLink, ExplainTabComponent, PracticeTabComponent, SpeakTabComponent],
   template: `
     <div class="min-h-screen bg-gray-50">
       <div class="bg-white border-b border-gray-200 px-4 py-3">
@@ -47,10 +48,7 @@ type Tab = 'explain' | 'practice' | 'speak';
           } @else if (activeTab() === 'practice') {
             <app-practice-tab [lesson]="lesson()!" (completed)="onPracticeComplete($event)" />
           } @else {
-            <div class="text-center text-gray-500 py-12">
-              <p class="text-lg font-medium mb-2">Speaking practice</p>
-              <p class="text-sm">Coming in Phase 5</p>
-            </div>
+            <app-speak-tab [lesson]="lesson()!" (completed)="onSpeakComplete($event)" />
           }
         </div>
       }
@@ -68,6 +66,7 @@ export class LessonPlayerComponent implements OnInit {
   readonly activeTab = signal<Tab>('explain');
   readonly practiceUnlocked = signal(false);
   readonly practiceScore = signal<number | null>(null);
+  readonly speakScore = signal<number | null>(null);
 
   ngOnInit() {
     const id = this.route.snapshot.paramMap.get('id');
@@ -90,5 +89,9 @@ export class LessonPlayerComponent implements OnInit {
     if (score >= 0.7) {
       this.practiceUnlocked.set(true);
     }
+  }
+
+  onSpeakComplete(score: number) {
+    this.speakScore.set(score);
   }
 }
