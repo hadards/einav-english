@@ -19,7 +19,7 @@ export const routes: Routes = [
   },
   {
     path: 'vocabulary',
-    loadComponent: () => import('./features/dashboard/dashboard.component').then(m => m.DashboardComponent),
+    loadComponent: () => import('./features/vocabulary/vocabulary.component').then(m => m.VocabularyComponent),
     canActivate: [authGuard],
   },
   {
