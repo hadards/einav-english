@@ -151,6 +151,7 @@ export class SpeakTabComponent implements OnInit, OnDestroy {
   readonly currentIndex = signal(0);
 
   private recognition: any = null;
+  private autoAdvanceTimer: ReturnType<typeof setTimeout> | null = null;
 
   ngOnInit() {
     this.results.set(
@@ -230,11 +231,18 @@ export class SpeakTabComponent implements OnInit, OnDestroy {
       state: passed ? 'passed' : 'failed',
     }));
     if (passed) {
-      setTimeout(() => this.advance(), 1200);
+      this.autoAdvanceTimer = setTimeout(() => {
+        this.autoAdvanceTimer = null;
+        this.advance();
+      }, 1200);
     }
   }
 
   advance() {
+    if (this.autoAdvanceTimer !== null) {
+      clearTimeout(this.autoAdvanceTimer);
+      this.autoAdvanceTimer = null;
+    }
     this.currentIndex.update(i => i + 1);
   }
 
@@ -254,5 +262,8 @@ export class SpeakTabComponent implements OnInit, OnDestroy {
 
   ngOnDestroy() {
     this.recognition?.stop();
+    if (this.autoAdvanceTimer !== null) {
+      clearTimeout(this.autoAdvanceTimer);
+    }
   }
 }
