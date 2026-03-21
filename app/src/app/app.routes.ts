@@ -14,7 +14,7 @@ export const routes: Routes = [
   },
   {
     path: 'lesson/:id',
-    loadComponent: () => import('./features/dashboard/dashboard.component').then(m => m.DashboardComponent),
+    loadComponent: () => import('./features/lesson/lesson-player.component').then(m => m.LessonPlayerComponent),
     canActivate: [authGuard],
   },
   {
