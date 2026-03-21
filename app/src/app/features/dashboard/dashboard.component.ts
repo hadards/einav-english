@@ -3,6 +3,7 @@ import { RouterLink } from '@angular/router';
 import { SyllabusService } from '../../core/services/syllabus.service';
 import { SyllabusEntry, ContentLevel } from '@shared/syllabus.constants';
 import { AuthService } from '../../core/services/auth.service';
+import { ProgressService } from '../../core/services/progress.service';
 
 type LessonStatus = 'not_started' | 'in_progress' | 'completed';
 
@@ -122,12 +123,20 @@ const LEVEL_COLORS: Record<ContentLevel, string> = {
 export class DashboardComponent {
   private syllabus = inject(SyllabusService);
   private auth = inject(AuthService);
+  private progress = inject(ProgressService);
 
   readonly levels = LEVELS;
   readonly activeLevel = signal<ContentLevel>('A2');
 
   private readonly allCards = computed<LessonCard[]>(() =>
-    this.syllabus.getAll().map(e => ({ ...e, status: 'not_started' as LessonStatus }))
+    this.syllabus.getAll().map(e => {
+      const row = this.progress.getLesson(e.id);
+      return {
+        ...e,
+        status: (row?.status ?? 'not_started') as LessonStatus,
+        score: row?.exercise_score ?? undefined,
+      };
+    })
   );
 
   readonly activeCards = computed(() =>
