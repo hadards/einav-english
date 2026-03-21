@@ -186,33 +186,45 @@ export class SpeakTabComponent implements OnInit, OnDestroy {
 
   startRecording() {
     if (!this.speechSupported) return;
+    // Stop any in-flight recognition before creating a new one
+    this.recognition?.stop();
+    this.recognition = null;
+
     const SpeechRecognition =
       (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
-    this.recognition = new SpeechRecognition();
-    this.recognition.lang = 'en-US';
-    this.recognition.interimResults = false;
-    this.recognition.maxAlternatives = 1;
+    const rec = new SpeechRecognition();
+    rec.lang = 'en-US';
+    rec.interimResults = false;
+    rec.maxAlternatives = 1;
+    this.recognition = rec;
 
     this.updateCurrent(r => ({ ...r, state: 'recording', transcript: '' }));
 
-    this.recognition.onresult = (event: any) => {
+    rec.onresult = (event: any) => {
       const transcript = event.results[0][0].transcript;
       this.handleTranscript(transcript);
     };
 
-    this.recognition.onerror = () => {
-      this.updateCurrent(r => ({ ...r, state: 'failed', transcript: '', score: 0 }));
+    rec.onerror = (event: any) => {
+      const errorType: string = event?.error ?? 'unknown';
+      const message = errorType === 'not-allowed'
+        ? 'Microphone access denied — please allow microphone access and try again.'
+        : `Recognition error: ${errorType}`;
+      console.warn('[SpeakTab] SpeechRecognition error:', errorType);
+      this.updateCurrent(r => ({ ...r, state: 'failed', transcript: message, score: 0 }));
     };
 
-    this.recognition.onend = () => {
+    rec.onend = () => {
+      // Only handle if this is still the active recognition instance
+      if (this.recognition !== rec) return;
+      this.recognition = null;
       const cur = this.current();
       if (cur?.state === 'recording') {
         this.updateCurrent(r => ({ ...r, state: 'failed', transcript: '', score: 0 }));
       }
-      this.recognition = null;
     };
 
-    this.recognition.start();
+    rec.start();
   }
 
   stopRecording() {
