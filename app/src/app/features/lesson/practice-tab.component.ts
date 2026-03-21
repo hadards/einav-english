@@ -237,6 +237,11 @@ export class PracticeTabComponent implements OnInit {
   }
 
   next() {
+    const item = this.currentItem();
+    // Re-queue wrong_once items at the end for one more attempt
+    if (item?.state === 'wrong_once') {
+      this.queue.update(q => [...q, { ...item, state: 'unanswered', showHint: false, userAnswer: '' }]);
+    }
     this.currentIndex.update(i => i + 1);
     this.initCurrentExercise();
   }
