@@ -113,7 +113,14 @@ export class LessonPlayerComponent implements OnInit {
     if (!id) { this.router.navigate(['/dashboard']); return; }
 
     this.lessonSvc.getLesson(id).subscribe({
-      next: lesson => { this.lesson.set(lesson); this.loading.set(false); },
+      next: lesson => {
+        this.lesson.set(lesson);
+        this.loading.set(false);
+        const existing = this.progress.getLesson(lesson.id);
+        if (!existing || existing.status === 'not_started') {
+          this.progress.saveLesson(lesson.id, { status: 'in_progress' });
+        }
+      },
       error: () => { this.error.set('Could not load lesson.'); this.loading.set(false); },
     });
   }
