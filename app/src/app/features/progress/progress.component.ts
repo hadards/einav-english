@@ -1,4 +1,5 @@
 import { Component, inject, computed } from '@angular/core';
+import { NgClass } from '@angular/common';
 import { RouterLink } from '@angular/router';
 import { SyllabusService } from '../../core/services/syllabus.service';
 import type { ContentLevel } from '@shared/syllabus.constants';
@@ -25,7 +26,7 @@ const LEVEL_COLORS: Record<ContentLevel, { bar: string; badge: string }> = {
 @Component({
   selector: 'app-progress',
   standalone: true,
-  imports: [RouterLink],
+  imports: [RouterLink, NgClass],
   template: `
     <div class="min-h-screen bg-gray-50 pb-20 lg:pb-0">
 
@@ -52,7 +53,7 @@ const LEVEL_COLORS: Record<ContentLevel, { bar: string; badge: string }> = {
             ></div>
           </div>
           <div class="flex justify-between text-sm text-gray-500">
-            <span>{{ completedCount() }} of {{ allLessons().length }} lessons complete</span>
+            <span>{{ completedCount() }} of {{ allLessons.length }} lessons complete</span>
             <span>{{ inProgressCount() }} in progress</span>
           </div>
         </div>
@@ -73,13 +74,14 @@ const LEVEL_COLORS: Record<ContentLevel, { bar: string; badge: string }> = {
           @for (level of levels; track level) {
             <div>
               <div class="flex items-center justify-between mb-1">
-                <span class="text-xs font-semibold px-2 py-0.5 rounded-full {{ levelBadge(level) }}">{{ level }}</span>
-                <span class="text-xs text-gray-500">{{ levelCompleted(level) }}/{{ levelTotal(level) }}</span>
+                <span class="text-xs font-semibold px-2 py-0.5 rounded-full" [ngClass]="levelColors[level].badge">{{ level }}</span>
+                <span class="text-xs text-gray-500">{{ levelStats()[level]!.completed }}/{{ levelStats()[level]!.total }}</span>
               </div>
               <div class="h-2 bg-gray-100 rounded-full overflow-hidden">
                 <div
-                  class="h-full rounded-full transition-all duration-700 {{ levelBar(level) }}"
-                  [style.width]="levelPct(level) + '%'"
+                  class="h-full rounded-full transition-all duration-700"
+                  [ngClass]="levelColors[level].bar"
+                  [style.width]="levelStats()[level]!.pct + '%'"
                 ></div>
               </div>
             </div>
@@ -118,54 +120,51 @@ export class ProgressComponent {
 
   readonly levels = LEVELS;
   readonly streak = 0; // Phase 9+ will wire to Supabase
+  readonly levelColors = LEVEL_COLORS;
 
-  readonly allLessons = computed<LessonProgress[]>(() =>
-    this.syllabusService.getAll().map(e => ({
-      id: e.id,
-      title: e.title,
-      level: e.level,
-      type: e.type as 'grammar' | 'vocabulary',
-      status: 'not_started' as LessonStatus,
-      score: 0,
-    }))
-  );
+  // Static: SyllabusService.getAll() returns a constant array, not a signal.
+  // Replace with a computed when progress signals are added in a future phase.
+  readonly allLessons: LessonProgress[] = this.syllabusService.getAll().map(e => ({
+    id: e.id,
+    title: e.title,
+    level: e.level,
+    type: e.type as 'grammar' | 'vocabulary',
+    status: 'not_started' as LessonStatus,
+    score: 0,
+  }));
 
   readonly completedCount = computed(() =>
-    this.allLessons().filter(l => l.status === 'completed').length
+    this.allLessons.filter(l => l.status === 'completed').length
   );
 
   readonly inProgressCount = computed(() =>
-    this.allLessons().filter(l => l.status === 'in_progress').length
+    this.allLessons.filter(l => l.status === 'in_progress').length
   );
 
   readonly overallPct = computed(() => {
-    const total = this.allLessons().length;
+    const total = this.allLessons.length;
     return total ? Math.round((this.completedCount() / total) * 100) : 0;
   });
 
-  levelTotal(level: ContentLevel): number {
-    return this.allLessons().filter(l => l.level === level).length;
-  }
-
-  levelCompleted(level: ContentLevel): number {
-    return this.allLessons().filter(l => l.level === level && l.status === 'completed').length;
-  }
-
-  levelPct(level: ContentLevel): number {
-    const total = this.levelTotal(level);
-    return total ? Math.round((this.levelCompleted(level) / total) * 100) : 0;
-  }
-
-  levelBar(level: ContentLevel): string {
-    return LEVEL_COLORS[level].bar;
-  }
-
-  levelBadge(level: ContentLevel): string {
-    return LEVEL_COLORS[level].badge;
-  }
+  // Single pass over allLessons to compute total, completed, and pct per level.
+  readonly levelStats = computed(() => {
+    const stats = {} as Record<ContentLevel, { total: number; completed: number; pct: number }>;
+    for (const level of LEVELS) {
+      stats[level] = { total: 0, completed: 0, pct: 0 };
+    }
+    for (const lesson of this.allLessons) {
+      stats[lesson.level].total++;
+      if (lesson.status === 'completed') stats[lesson.level].completed++;
+    }
+    for (const level of LEVELS) {
+      const { total, completed } = stats[level];
+      stats[level].pct = total ? Math.round((completed / total) * 100) : 0;
+    }
+    return stats;
+  });
 
   readonly suggestedLessons = computed(() =>
-    this.allLessons()
+    this.allLessons
       .filter(l => l.status !== 'completed')
       .slice(0, 5)
   );

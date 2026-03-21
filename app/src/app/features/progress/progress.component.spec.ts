@@ -26,7 +26,7 @@ describe('ProgressComponent', () => {
   });
 
   it('should load all 54 lessons', () => {
-    expect(component.allLessons().length).toBe(54);
+    expect(component.allLessons.length).toBe(54);
   });
 
   it('should show 0% overall progress when all not_started', () => {
@@ -41,18 +41,18 @@ describe('ProgressComponent', () => {
     expect(component.suggestedLessons().length).toBe(5);
   });
 
-  it('levelTotal() returns correct counts for all levels summing to 54', () => {
-    const a2 = component.levelTotal('A2');
-    const b1 = component.levelTotal('B1');
-    const b2 = component.levelTotal('B2');
-    expect(a2 + b1 + b2).toBe(54);
-    expect(a2).toBeGreaterThan(0);
+  it('levelStats() returns correct counts for all levels summing to 54', () => {
+    const stats = component.levelStats();
+    const total = stats['A2'].total + stats['B1'].total + stats['B2'].total;
+    expect(total).toBe(54);
+    expect(stats['A2'].total).toBeGreaterThan(0);
   });
 
-  it('levelPct() returns 0 when no lessons completed', () => {
-    expect(component.levelPct('A2')).toBe(0);
-    expect(component.levelPct('B1')).toBe(0);
-    expect(component.levelPct('B2')).toBe(0);
+  it('levelStats() returns 0 pct when no lessons completed', () => {
+    const stats = component.levelStats();
+    expect(stats['A2'].pct).toBe(0);
+    expect(stats['B1'].pct).toBe(0);
+    expect(stats['B2'].pct).toBe(0);
   });
 
   it('streak should be 0 (stub)', () => {
