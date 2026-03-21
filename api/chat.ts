@@ -16,6 +16,10 @@ Do NOT:
 - Overwhelm with multiple corrections at once
 - Be condescending`;
 
+const MAX_MESSAGES = 20;
+const MAX_CONTENT_LENGTH = 2000;
+const ALLOWED_ROLES = new Set(['user', 'assistant']);
+
 interface Message {
   role: 'user' | 'assistant';
   content: string;
@@ -30,19 +34,38 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
+  // Auth check: require a Supabase JWT in the Authorization header
+  const authHeader = req.headers['authorization'];
+  if (!authHeader?.startsWith('Bearer ')) {
+    return res.status(401).json({ error: 'Unauthorized' });
+  }
+
   const apiKey = process.env['ANTHROPIC_API_KEY'];
   if (!apiKey) {
     return res.status(500).json({ error: 'ANTHROPIC_API_KEY not configured' });
   }
 
-  const { messages } = req.body as RequestBody;
+  const { messages } = (req.body ?? {}) as RequestBody;
+
+  // Validate messages array
   if (!Array.isArray(messages) || messages.length === 0) {
     return res.status(400).json({ error: 'messages array required' });
   }
 
+  for (const msg of messages) {
+    if (!ALLOWED_ROLES.has(msg.role)) {
+      return res.status(400).json({ error: `Invalid role: ${msg.role}` });
+    }
+    if (typeof msg.content !== 'string' || msg.content.length > MAX_CONTENT_LENGTH) {
+      return res.status(400).json({ error: 'message content too long or invalid' });
+    }
+  }
+
+  // Cap history to last MAX_MESSAGES to bound token costs
+  const trimmedMessages = messages.slice(-MAX_MESSAGES);
+
   const client = new Anthropic({ apiKey });
 
-  // Stream the response
   res.setHeader('Content-Type', 'text/event-stream');
   res.setHeader('Cache-Control', 'no-cache');
   res.setHeader('Connection', 'keep-alive');
@@ -52,7 +75,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       model: 'claude-haiku-4-5-20251001',
       max_tokens: 512,
       system: SYSTEM_PROMPT,
-      messages,
+      messages: trimmedMessages,
     });
 
     for await (const chunk of stream) {
@@ -66,8 +89,9 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
     res.write('data: [DONE]\n\n');
     res.end();
-  } catch (err: any) {
-    res.write(`data: ${JSON.stringify({ error: err.message ?? 'Unknown error' })}\n\n`);
+  } catch (err) {
+    const message = err instanceof Error ? err.message : String(err);
+    res.write(`data: ${JSON.stringify({ error: message })}\n\n`);
     res.end();
   }
 }

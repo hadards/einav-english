@@ -1,5 +1,5 @@
 import { Injectable, signal, computed, inject, DestroyRef } from '@angular/core';
-import { createClient, SupabaseClient, User } from '@supabase/supabase-js';
+import { createClient, SupabaseClient, User, Session } from '@supabase/supabase-js';
 import { environment } from '../../../environments/environment';
 
 @Injectable({ providedIn: 'root' })
@@ -10,6 +10,7 @@ export class AuthService {
   );
 
   readonly currentUser$ = signal<User | null>(null);
+  readonly currentSession$ = signal<Session | null>(null);
   readonly isLoggedIn$ = computed(() => this.currentUser$() !== null);
 
   constructor() {
@@ -17,10 +18,12 @@ export class AuthService {
 
     this.supabase.auth.getSession().then(({ data }) => {
       this.currentUser$.set(data.session?.user ?? null);
+      this.currentSession$.set(data.session ?? null);
     });
 
     const { data: { subscription } } = this.supabase.auth.onAuthStateChange((_event, session) => {
       this.currentUser$.set(session?.user ?? null);
+      this.currentSession$.set(session ?? null);
     });
 
     destroyRef.onDestroy(() => subscription.unsubscribe());

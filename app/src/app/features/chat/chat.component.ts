@@ -1,11 +1,14 @@
-import { Component, signal, ElementRef, ViewChild, AfterViewChecked } from '@angular/core';
+import { Component, inject, signal, ElementRef, ViewChild, OnDestroy } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { FormsModule } from '@angular/forms';
+import { AuthService } from '../../core/services/auth.service';
 
 interface ChatMessage {
   role: 'user' | 'assistant';
   content: string;
 }
+
+const MAX_HISTORY = 20;
 
 @Component({
   selector: 'app-chat',
@@ -60,8 +63,7 @@ interface ChatMessage {
             (keydown.enter)="send()"
             [disabled]="streaming()"
             placeholder="{{ streaming() ? 'Waiting for response...' : 'Type a message...' }}"
-            class="flex-1 border border-gray-300 rounded-xl px-4 py-3 text-base focus:outline-none focus:ring-2 focus:ring-blue-400 disabled:bg-gray-50 disabled:text-gray-400 min-h-[44px]"
-            style="font-size: 16px"
+            class="flex-1 border border-gray-300 rounded-xl px-4 py-3 text-base focus:outline-none focus:ring-2 focus:ring-blue-400 disabled:bg-gray-50 disabled:text-gray-400 min-h-[44px] text-base"
           />
           <button
             (click)="send()"
@@ -75,16 +77,20 @@ interface ChatMessage {
     </div>
   `,
 })
-export class ChatComponent implements AfterViewChecked {
+export class ChatComponent implements OnDestroy {
   @ViewChild('messagesEl') private messagesEl!: ElementRef<HTMLDivElement>;
+
+  private readonly auth = inject(AuthService);
 
   readonly messages = signal<ChatMessage[]>([]);
   readonly streaming = signal(false);
   inputText = '';
 
-  ngAfterViewChecked() {
+  private abortController: AbortController | null = null;
+
+  private scrollToBottom() {
     const el = this.messagesEl?.nativeElement;
-    if (el) el.scrollTop = el.scrollHeight;
+    if (el) setTimeout(() => { el.scrollTop = el.scrollHeight; }, 0);
   }
 
   send() {
@@ -95,25 +101,35 @@ export class ChatComponent implements AfterViewChecked {
     this.messages.update(msgs => [...msgs, { role: 'user', content: text }]);
     this.messages.update(msgs => [...msgs, { role: 'assistant', content: '' }]);
     this.streaming.set(true);
+    this.scrollToBottom();
 
+    // Send a sliding window of history (exclude the empty assistant placeholder)
     const history = this.messages()
       .slice(0, -1)
+      .slice(-MAX_HISTORY)
       .map(m => ({ role: m.role, content: m.content }));
 
     this.streamChat(history);
   }
 
   private async streamChat(messages: ChatMessage[]) {
+    this.abortController = new AbortController();
+    const { signal } = this.abortController;
+
     try {
+      const token = this.auth.currentSession$()?.access_token;
       const response = await fetch('/api/chat', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          ...(token ? { 'Authorization': `Bearer ${token}` } : {}),
+        },
         body: JSON.stringify({ messages }),
+        signal,
       });
 
       if (!response.ok || !response.body) {
         this.appendToLast('(Error: could not connect to tutor)');
-        this.streaming.set(false);
         return;
       }
 
@@ -132,17 +148,13 @@ export class ChatComponent implements AfterViewChecked {
         for (const line of lines) {
           if (!line.startsWith('data: ')) continue;
           const payload = line.slice(6).trim();
-          if (payload === '[DONE]') {
-            this.streaming.set(false);
-            return;
-          }
+          if (payload === '[DONE]') return;
           try {
             const parsed = JSON.parse(payload);
             if (parsed.text) {
               this.appendToLast(parsed.text);
             } else if (parsed.error) {
               this.appendToLast(`(Error: ${parsed.error})`);
-              this.streaming.set(false);
               return;
             }
           } catch {
@@ -150,10 +162,12 @@ export class ChatComponent implements AfterViewChecked {
           }
         }
       }
-    } catch {
+    } catch (err) {
+      if (err instanceof Error && err.name === 'AbortError') return;
       this.appendToLast('(Error: network failure)');
     } finally {
       this.streaming.set(false);
+      this.abortController = null;
     }
   }
 
@@ -166,5 +180,10 @@ export class ChatComponent implements AfterViewChecked {
       }
       return updated;
     });
+    this.scrollToBottom();
+  }
+
+  ngOnDestroy() {
+    this.abortController?.abort();
   }
 }
