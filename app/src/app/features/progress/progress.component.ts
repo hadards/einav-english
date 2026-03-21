@@ -2,6 +2,7 @@ import { Component, inject, computed } from '@angular/core';
 import { NgClass } from '@angular/common';
 import { RouterLink } from '@angular/router';
 import { SyllabusService } from '../../core/services/syllabus.service';
+import { ProgressService } from '../../core/services/progress.service';
 import type { ContentLevel } from '@shared/syllabus.constants';
 
 type LessonStatus = 'not_started' | 'in_progress' | 'completed';
@@ -53,7 +54,7 @@ const LEVEL_COLORS: Record<ContentLevel, { bar: string; badge: string }> = {
             ></div>
           </div>
           <div class="flex justify-between text-sm text-gray-500">
-            <span>{{ completedCount() }} of {{ allLessons.length }} lessons complete</span>
+            <span>{{ completedCount() }} of {{ allLessons().length }} lessons complete</span>
             <span>{{ inProgressCount() }} in progress</span>
           </div>
         </div>
@@ -117,32 +118,36 @@ const LEVEL_COLORS: Record<ContentLevel, { bar: string; badge: string }> = {
 })
 export class ProgressComponent {
   private syllabusService = inject(SyllabusService);
+  private progress = inject(ProgressService);
 
   readonly levels = LEVELS;
   readonly streak = 0; // Phase 9+ will wire to Supabase
   readonly levelColors = LEVEL_COLORS;
 
-  // Static: SyllabusService.getAll() returns a constant array, not a signal.
-  // Replace with a computed when progress signals are added in a future phase.
-  readonly allLessons: LessonProgress[] = this.syllabusService.getAll().map(e => ({
-    id: e.id,
-    title: e.title,
-    level: e.level,
-    type: e.type as 'grammar' | 'vocabulary',
-    status: 'not_started' as LessonStatus,
-    score: 0,
-  }));
+  protected readonly allLessons = computed<LessonProgress[]>(() =>
+    this.syllabusService.getAll().map(e => {
+      const row = this.progress.getLesson(e.id);
+      return {
+        id: e.id,
+        title: e.title,
+        level: e.level,
+        type: e.type as 'grammar' | 'vocabulary',
+        status: (row?.status ?? 'not_started') as LessonStatus,
+        score: row?.exercise_score ?? 0,
+      };
+    })
+  );
 
   readonly completedCount = computed(() =>
-    this.allLessons.filter(l => l.status === 'completed').length
+    this.allLessons().filter(l => l.status === 'completed').length
   );
 
   readonly inProgressCount = computed(() =>
-    this.allLessons.filter(l => l.status === 'in_progress').length
+    this.allLessons().filter(l => l.status === 'in_progress').length
   );
 
   readonly overallPct = computed(() => {
-    const total = this.allLessons.length;
+    const total = this.allLessons().length;
     return total ? Math.round((this.completedCount() / total) * 100) : 0;
   });
 
@@ -152,7 +157,7 @@ export class ProgressComponent {
     for (const level of LEVELS) {
       stats[level] = { total: 0, completed: 0, pct: 0 };
     }
-    for (const lesson of this.allLessons) {
+    for (const lesson of this.allLessons()) {
       stats[lesson.level].total++;
       if (lesson.status === 'completed') stats[lesson.level].completed++;
     }
@@ -164,7 +169,7 @@ export class ProgressComponent {
   });
 
   readonly suggestedLessons = computed(() =>
-    this.allLessons
+    this.allLessons()
       .filter(l => l.status !== 'completed')
       .slice(0, 5)
   );
