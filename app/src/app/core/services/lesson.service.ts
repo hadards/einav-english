@@ -1,7 +1,7 @@
 import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable, of } from 'rxjs';
-import { shareReplay, tap } from 'rxjs/operators';
+import { Observable, of, throwError } from 'rxjs';
+import { catchError, shareReplay, tap } from 'rxjs/operators';
 import { SYLLABUS } from '@shared/syllabus.constants';
 import type { Lesson } from '@shared/lesson.schema';
 
@@ -25,6 +25,10 @@ export class LessonService {
       tap(lesson => {
         this.resultCache.set(id, lesson);
         this.inflightCache.delete(id);
+      }),
+      catchError(err => {
+        this.inflightCache.delete(id);
+        return throwError(() => err);
       }),
       shareReplay(1),
     );

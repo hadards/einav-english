@@ -57,4 +57,24 @@ describe('LessonService', () => {
   it('should throw for an unknown lesson id', () => {
     expect(() => service.getLesson('NONEXISTENT')).toThrowError(/unknown grammar lesson/);
   });
+
+  it('should remove inflight entry on HTTP error so next call retries', (done) => {
+    const errorResponse = new ErrorEvent('Network error');
+
+    service.getLesson('G-01').subscribe({
+      error: () => {
+        // After failure, a second call should make a fresh HTTP request
+        service.getLesson('G-01').subscribe((lesson) => {
+          expect(lesson['id']).toBe('G-01');
+          done();
+        });
+
+        const retryReq = httpMock.expectOne('assets/lessons/G-01-present-simple.json');
+        retryReq.flush({ id: 'G-01', title: 'Present simple', level: 'A2' });
+      }
+    });
+
+    const failedReq = httpMock.expectOne('assets/lessons/G-01-present-simple.json');
+    failedReq.error(errorResponse);
+  });
 });
