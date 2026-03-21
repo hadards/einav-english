@@ -1,0 +1,507 @@
+{
+  "id": "G-23",
+  "title": "Defining relative clauses",
+  "level": "B1",
+  "order": 23,
+  "explain": {
+    "rule": "Relative clauses give essential information about a noun — they tell us WHICH one. They use relative pronouns: who (for people), which (for things), that (for people or things), where (for places), when (for times), whose (for possession). Defining relative clauses do not use commas — the information is essential to identify which person or thing we mean. If you remove a defining relative clause, the sentence loses its essential meaning.",
+    "why_matters": "Relative clauses let you build more complex, natural sentences and give precise information without starting a new sentence. They appear in all forms of English and are essential at B1 level.",
+    "hebrew_note": "Hebrew uses ש (she) for all relative clauses regardless of the noun type: הגבר שאני מכיר (the man that I know), הבית שהוא גר בו (the house that he lives in). In English you must choose who/which/that/where/when depending on what the noun is. Also: in Hebrew you often need a pronoun at the end (גר בו), but in English relative clauses, the pronoun is dropped: 'the house that he lives in' — NOT 'the house that he lives in it'.",
+    "tip": "Quick guide: WHO = person (the man who called), WHICH = thing (the book which I read), THAT = person or thing (informal), WHERE = place (the city where I grew up), WHEN = time (the day when we met), WHOSE = possession (the woman whose car was stolen). Object relative pronouns (when the relative pronoun is the object) can be omitted in informal English: 'The book (that) I read' — the 'that' is optional here.",
+    "relative_pronouns": [
+      {
+        "pronoun": "who",
+        "use": "subject or object — people",
+        "example": "The woman who lives next door is a doctor."
+      },
+      {
+        "pronoun": "which",
+        "use": "subject or object — things",
+        "example": "The book which I borrowed is brilliant."
+      },
+      {
+        "pronoun": "that",
+        "use": "subject or object — people or things (informal)",
+        "example": "The car that I bought last year broke down."
+      },
+      {
+        "pronoun": "where",
+        "use": "place",
+        "example": "The city where I grew up has changed a lot."
+      },
+      {
+        "pronoun": "when",
+        "use": "time",
+        "example": "I'll never forget the day when we met."
+      },
+      {
+        "pronoun": "whose",
+        "use": "possession",
+        "example": "The man whose wallet was stolen called the police."
+      }
+    ],
+    "good_examples": [
+      {
+        "id": "G-23-ge-001",
+        "sentence": "The woman who called you is my manager.",
+        "audio_text": "The woman who called you is my manager.",
+        "note": "who = subject of the relative clause (she called)"
+      },
+      {
+        "id": "G-23-ge-002",
+        "sentence": "I lost the keys which you gave me.",
+        "audio_text": "I lost the keys which you gave me.",
+        "note": "which = object (you gave them to me)"
+      },
+      {
+        "id": "G-23-ge-003",
+        "sentence": "This is the restaurant that I told you about.",
+        "audio_text": "This is the restaurant that I told you about.",
+        "note": "that = thing, informal register"
+      },
+      {
+        "id": "G-23-ge-004",
+        "sentence": "The city where I grew up is much smaller than Tel Aviv.",
+        "audio_text": "The city where I grew up is much smaller than Tel Aviv.",
+        "note": "where = place"
+      },
+      {
+        "id": "G-23-ge-005",
+        "sentence": "I still remember the day when we first met.",
+        "audio_text": "I still remember the day when we first met.",
+        "note": "when = time"
+      },
+      {
+        "id": "G-23-ge-006",
+        "sentence": "The woman whose car was stolen reported it to the police.",
+        "audio_text": "The woman whose car was stolen reported it to the police.",
+        "note": "whose = possession"
+      },
+      {
+        "id": "G-23-ge-007",
+        "sentence": "The people who work here are very dedicated.",
+        "audio_text": "The people who work here are very dedicated.",
+        "note": "who = subject, plural"
+      },
+      {
+        "id": "G-23-ge-008",
+        "sentence": "Is this the book you were talking about?",
+        "audio_text": "Is this the book you were talking about?",
+        "note": "Relative pronoun omitted (object position) — informal"
+      },
+      {
+        "id": "G-23-ge-009",
+        "sentence": "The company that made this phone went bankrupt.",
+        "audio_text": "The company that made this phone went bankrupt.",
+        "note": "that for a company (thing/organisation)"
+      },
+      {
+        "id": "G-23-ge-010",
+        "sentence": "I need someone who can speak Arabic.",
+        "audio_text": "I need someone who can speak Arabic.",
+        "note": "who for a person — subject position"
+      }
+    ],
+    "bad_examples": [
+      {
+        "id": "G-23-be-001",
+        "wrong": "The man which I spoke to was very helpful.",
+        "correct": "The man who I spoke to was very helpful.",
+        "reason": "which is for things. For people use who (or that in informal English)."
+      },
+      {
+        "id": "G-23-be-002",
+        "wrong": "The book who I read was excellent.",
+        "correct": "The book which/that I read was excellent.",
+        "reason": "who is for people only. For things use which or that."
+      },
+      {
+        "id": "G-23-be-003",
+        "wrong": "The city where I grew up it is beautiful.",
+        "correct": "The city where I grew up is beautiful.",
+        "reason": "Don't repeat the subject with a pronoun after a relative clause. 'where I grew up' already refers to the city — don't add 'it'."
+      },
+      {
+        "id": "G-23-be-004",
+        "wrong": "She is the woman whose she lost her passport.",
+        "correct": "She is the woman who lost her passport.",
+        "reason": "whose = possession (the woman's passport). If it's her own action use who: the woman who lost her passport."
+      },
+      {
+        "id": "G-23-be-005",
+        "wrong": "This is the hotel that we stayed in it.",
+        "correct": "This is the hotel that we stayed in.",
+        "reason": "Don't add a pronoun (it/him/her/them) at the end of a relative clause in English. In Hebrew: המלון שהתגרנו בו — the 'בו' has no equivalent in English."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "G-23-ex-001",
+      "type": "fill_blank",
+      "question": "The woman ___ called you is my colleague.",
+      "answer": "who",
+      "hint": "Person as subject → who",
+      "explanation": "who for a person who does the action.",
+      "hebrew_note": "ש + אדם = who"
+    },
+    {
+      "id": "G-23-ex-002",
+      "type": "fill_blank",
+      "question": "This is the book ___ I told you about.",
+      "answer": "which / that",
+      "hint": "Thing as object → which or that",
+      "explanation": "which or that for a thing.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-23-ex-003",
+      "type": "fill_blank",
+      "question": "The restaurant ___ we ate last night was fantastic.",
+      "answer": "where",
+      "hint": "Place → where",
+      "explanation": "where for a place.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-23-ex-004",
+      "type": "fill_blank",
+      "question": "I'll never forget the day ___ we graduated.",
+      "answer": "when",
+      "hint": "Time → when",
+      "explanation": "when for a time.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-23-ex-005",
+      "type": "fill_blank",
+      "question": "The man ___ car was stolen called the police.",
+      "answer": "whose",
+      "hint": "Possession → whose",
+      "explanation": "whose = belonging to the man.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-23-ex-006",
+      "type": "fill_blank",
+      "question": "The people ___ work in this office are very friendly.",
+      "answer": "who",
+      "hint": "People as subject → who",
+      "explanation": "who for people.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-23-ex-007",
+      "type": "fill_blank",
+      "question": "Do you know anyone ___ speaks Mandarin?",
+      "answer": "who",
+      "hint": "Person (anyone) → who",
+      "explanation": "who for a person.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-23-ex-008",
+      "type": "fill_blank",
+      "question": "The laptop ___ I bought last year has already broken.",
+      "answer": "which / that",
+      "hint": "Thing → which or that",
+      "explanation": "which or that for a thing.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-23-ex-009",
+      "type": "fill_blank",
+      "question": "This is the company ___ I applied to.",
+      "answer": "which / that",
+      "hint": "Company (thing/organisation) → which or that",
+      "explanation": "which or that for organisations.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-23-ex-010",
+      "type": "fill_blank",
+      "question": "She is the doctor ___ treated me last year.",
+      "answer": "who",
+      "hint": "Person → who",
+      "explanation": "who for a person.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-23-ex-011",
+      "type": "fill_blank",
+      "question": "Can you recommend a hotel ___ has a pool?",
+      "answer": "which / that",
+      "hint": "Hotel (thing) + has a pool (subject) → which or that",
+      "explanation": "which or that for a thing.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-23-ex-012",
+      "type": "fill_blank",
+      "question": "The town ___ I was born has about 10,000 people.",
+      "answer": "where",
+      "hint": "Town = place → where",
+      "explanation": "where for a place.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-23-ex-013",
+      "type": "mcq",
+      "question": "The man ___ I met yesterday is a journalist.",
+      "answer": "who",
+      "hint": "Person in object position — who or that",
+      "explanation": "who (or that) for a person. Not which.",
+      "hebrew_note": [
+        "which",
+        "where",
+        "whose"
+      ]
+    },
+    {
+      "id": "G-23-ex-014",
+      "type": "mcq",
+      "question": "Is this the bag ___ you were looking for?",
+      "answer": "that / which",
+      "hint": "Thing in object position → that or which",
+      "explanation": "that or which for a thing.",
+      "hebrew_note": [
+        "who",
+        "where",
+        "when"
+      ]
+    },
+    {
+      "id": "G-23-ex-015",
+      "type": "mcq",
+      "question": "She lives in the house ___ was built in 1890.",
+      "answer": "which / that",
+      "hint": "House (thing) as subject of relative clause",
+      "explanation": "which or that for a thing as subject.",
+      "hebrew_note": [
+        "who",
+        "where",
+        "when"
+      ]
+    },
+    {
+      "id": "G-23-ex-016",
+      "type": "mcq",
+      "question": "Do you remember the year ___ we moved here?",
+      "answer": "when",
+      "hint": "Year = time → when",
+      "explanation": "when for a time period.",
+      "hebrew_note": [
+        "which",
+        "who",
+        "where"
+      ]
+    },
+    {
+      "id": "G-23-ex-017",
+      "type": "mcq",
+      "question": "I know a man ___ brother is a famous musician.",
+      "answer": "whose",
+      "hint": "Possession — his brother → whose",
+      "explanation": "whose = possession (it is his brother).",
+      "hebrew_note": [
+        "who",
+        "which",
+        "that"
+      ]
+    },
+    {
+      "id": "G-23-ex-018",
+      "type": "mcq",
+      "question": "The email ___ you sent me was very helpful.",
+      "answer": "which / that",
+      "hint": "Email (thing) in object position",
+      "explanation": "which or that for a thing. Object position — pronoun can be omitted.",
+      "hebrew_note": [
+        "who",
+        "where",
+        "whose"
+      ]
+    },
+    {
+      "id": "G-23-ex-019",
+      "type": "error_correction",
+      "question": "Find and fix: 'The man which helped me was very kind.'",
+      "answer": "The man who helped me was very kind.",
+      "hint": "which is for things. Person → who",
+      "explanation": "which = things. For people use who.",
+      "hebrew_note": "who = אדם, which = דבר"
+    },
+    {
+      "id": "G-23-ex-020",
+      "type": "error_correction",
+      "question": "Find and fix: 'The book who I read was brilliant.'",
+      "answer": "The book which/that I read was brilliant.",
+      "hint": "who is for people. Book → which or that",
+      "explanation": "who = people only. Things → which or that.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-23-ex-021",
+      "type": "error_correction",
+      "question": "Find and fix: 'This is the hotel that we stayed in it.'",
+      "answer": "This is the hotel that we stayed in.",
+      "hint": "Don't repeat the object with a pronoun after relative clause",
+      "explanation": "In English, never repeat the noun with a pronoun. NOT 'stayed in it' — just 'stayed in'.",
+      "hebrew_note": "בעברית: המלון שהתגרנו בו — ה'בו' לא קיים באנגלית"
+    },
+    {
+      "id": "G-23-ex-022",
+      "type": "error_correction",
+      "question": "Find and fix: 'The city where I grew up it is beautiful.'",
+      "answer": "The city where I grew up is beautiful.",
+      "hint": "Don't add 'it' after the relative clause",
+      "explanation": "The relative clause already refers back to the city. Don't repeat with 'it'.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-23-ex-023",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "answer": null,
+      "hint": "who as subject",
+      "explanation": "The woman who lives next door is a doctor.",
+      "hebrew_note": null,
+      "words": [
+        "The",
+        "woman",
+        "who",
+        "lives",
+        "next",
+        "door",
+        "is",
+        "a",
+        "doctor"
+      ]
+    },
+    {
+      "id": "G-23-ex-024",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "answer": null,
+      "hint": "where for place",
+      "explanation": "This is the café where I usually work in the morning.",
+      "hebrew_note": null,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "café",
+        "where",
+        "I",
+        "usually",
+        "work",
+        "morning",
+        "in",
+        "the"
+      ]
+    },
+    {
+      "id": "G-23-ex-025",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "answer": null,
+      "hint": "whose for possession",
+      "explanation": "The man whose wallet was stolen called the police immediately.",
+      "hebrew_note": null,
+      "words": [
+        "The",
+        "man",
+        "whose",
+        "wallet",
+        "was",
+        "stolen",
+        "called",
+        "police",
+        "the",
+        "immediately"
+      ]
+    }
+  ],
+  "speak": [
+    {
+      "id": "G-23-sp-001",
+      "sentence": "The woman who interviewed me was really professional and easy to talk to.",
+      "chunks": [
+        "The woman who interviewed me",
+        "was really professional and easy to talk to."
+      ],
+      "phonetic_hints": "'Interviewed' = IN-ter-vyood. 'Professional' = pruh-FESH-uh-nul.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-23-sp-002",
+      "sentence": "This is the café where I always come to work when I need to concentrate.",
+      "chunks": [
+        "This is the café where I always come to work",
+        "when I need to concentrate."
+      ],
+      "phonetic_hints": "'Concentrate' = KON-sun-trayt — four syllables.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-23-sp-003",
+      "sentence": "The book that changed my life was given to me by a friend.",
+      "chunks": [
+        "The book that changed my life",
+        "was given to me by a friend."
+      ],
+      "phonetic_hints": "'Changed' = CHAYNGD. 'Given' = GIV-un.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-23-sp-004",
+      "sentence": "I still remember the day when I got the news about the job.",
+      "chunks": [
+        "I still remember the day",
+        "when I got the news about the job."
+      ],
+      "phonetic_hints": "'Remember' = rih-MEM-ber. 'News' = NYOOZ.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-23-sp-005",
+      "sentence": "The man whose car I accidentally hit was very understanding.",
+      "chunks": [
+        "The man whose car I accidentally hit",
+        "was very understanding."
+      ],
+      "phonetic_hints": "'Accidentally' = ak-SID-un-tuh-lee — five syllables. 'Understanding' = un-der-STAND-ing.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-23-sp-006",
+      "sentence": "Do you know anyone who speaks Japanese and is looking for work?",
+      "chunks": [
+        "Do you know anyone who speaks Japanese",
+        "and is looking for work?"
+      ],
+      "phonetic_hints": "'Japanese' = jap-uh-NEEZ — stress on last syllable.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-23-sp-007",
+      "sentence": "The city where I spent my childhood looks completely different now.",
+      "chunks": [
+        "The city where I spent my childhood",
+        "looks completely different now."
+      ],
+      "phonetic_hints": "'Childhood' = CHY-lhood — two syllables. 'Completely' = kum-PLEET-lee.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-23-sp-008",
+      "sentence": "She's the colleague whose advice I always trust most.",
+      "chunks": [
+        "She's the colleague whose advice",
+        "I always trust most."
+      ],
+      "phonetic_hints": "'Colleague' = KOL-eeg. 'Advice' = ad-VYS — stress on second syllable.",
+      "pass_threshold": 0.7
+    }
+  ]
+}

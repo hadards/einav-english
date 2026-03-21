@@ -1,0 +1,307 @@
+{
+  "id": "V-05",
+  "theme": "Health & body",
+  "level": "A2",
+  "words": [
+    {
+      "id": "V-05-w-001",
+      "word": "symptom",
+      "part_of_speech": "noun",
+      "definition": "a sign that indicates you have a particular illness",
+      "example_sentences": [
+        "The main symptoms of flu are high fever and extreme fatigue.",
+        "She went to the doctor when her symptoms got significantly worse.",
+        "These are classic symptoms of severe dehydration."
+      ],
+      "pronunciation_tip": "SIMP-tum — two syllables, stress on first.",
+      "common_mistake": "Don't say 'sign of illness' every time — say 'symptom'.",
+      "collocations": "['describe symptoms', 'common symptoms', 'symptom of']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-05-w-002",
+      "word": "prescription",
+      "part_of_speech": "noun",
+      "definition": "a written instruction from a doctor for medication",
+      "example_sentences": [
+        "The doctor gave me a prescription for a course of antibiotics.",
+        "You need a prescription to obtain this particular medicine.",
+        "She collected her monthly prescription from the pharmacy."
+      ],
+      "pronunciation_tip": "prih-SKRIP-shun — three syllables, stress on second.",
+      "common_mistake": "Don't say 'a letter from the doctor for medicine' — say 'a prescription'.",
+      "collocations": "['get a prescription', 'prescription medicine', 'fill a prescription']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-05-w-003",
+      "word": "diagnose",
+      "part_of_speech": "verb",
+      "definition": "to identify what illness or condition someone has",
+      "example_sentences": [
+        "She was diagnosed with Type 2 diabetes last year.",
+        "The doctor diagnosed a severe vitamin D deficiency.",
+        "It took several months to correctly diagnose the condition."
+      ],
+      "pronunciation_tip": "dy-ug-NOHZ — three syllables, stress on third.",
+      "common_mistake": "Don't say 'the doctor found my illness' — say 'the doctor diagnosed me with...'.",
+      "collocations": "['diagnose with', 'be diagnosed', 'correctly diagnose']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-05-w-004",
+      "word": "recovery",
+      "part_of_speech": "noun",
+      "definition": "the process of getting better after illness or injury",
+      "example_sentences": [
+        "She made a remarkably full recovery after the major operation.",
+        "Recovery from spinal surgery can take six months or longer.",
+        "His recovery was much faster than the doctors had expected."
+      ],
+      "pronunciation_tip": "rih-KUV-er-ee — four syllables, stress on second.",
+      "common_mistake": "Don't say 'he became healthy again' as a noun — say 'his recovery was rapid'.",
+      "collocations": "['make a full recovery', 'recovery time', 'slow recovery']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-05-w-005",
+      "word": "chronic",
+      "part_of_speech": "adjective",
+      "definition": "a condition that lasts a very long time or keeps returning",
+      "example_sentences": [
+        "She has suffered from chronic back pain for over a decade.",
+        "Chronic stress is genuinely harmful to your long-term health.",
+        "It's a chronic condition that can be managed but never fully cured."
+      ],
+      "pronunciation_tip": "KRON-ik — two syllables, stress on first.",
+      "common_mistake": "Don't say 'long-term illness' every time — say 'chronic condition'.",
+      "collocations": "['chronic condition', 'chronic pain', 'chronic illness']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-05-w-006",
+      "word": "immune system",
+      "part_of_speech": "noun",
+      "definition": "the body's natural defence system against disease and infection",
+      "example_sentences": [
+        "Regular exercise significantly strengthens your immune system.",
+        "His immune system was seriously weakened by months of stress.",
+        "A good balanced diet is essential for a healthy immune system."
+      ],
+      "pronunciation_tip": "ih-MYOON SIS-tum.",
+      "common_mistake": "Don't say 'my body's defence' — say 'my immune system'.",
+      "collocations": "['boost immune system', 'strong immune system', 'weaken immune system']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-05-w-007",
+      "word": "stamina",
+      "part_of_speech": "noun",
+      "definition": "the physical or mental ability to do something demanding for a long time",
+      "example_sentences": [
+        "Running long distances requires remarkable physical stamina.",
+        "She has incredible stamina — she can work productively all day.",
+        "Regular training will gradually build up your stamina."
+      ],
+      "pronunciation_tip": "STAM-ih-nuh — three syllables, stress on first.",
+      "common_mistake": "Don't say 'energy to continue' — say 'stamina'.",
+      "collocations": "['build stamina', 'physical stamina', 'need stamina']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-05-w-008",
+      "word": "allergy",
+      "part_of_speech": "noun",
+      "definition": "an abnormal medical reaction to a particular substance",
+      "example_sentences": [
+        "She has a severe and potentially life-threatening allergy to peanuts.",
+        "Hay fever is an extremely common seasonal allergy.",
+        "His dust allergy causes him to sneeze constantly in old buildings."
+      ],
+      "pronunciation_tip": "AL-er-jee — three syllables, stress on first.",
+      "common_mistake": "Don't say 'I have a problem with nuts' — say 'I have a nut allergy'.",
+      "collocations": "['nut allergy', 'food allergy', 'seasonal allergy']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-05-w-009",
+      "word": "fatigue",
+      "part_of_speech": "noun",
+      "definition": "extreme tiredness, often as a result of physical or mental effort",
+      "example_sentences": [
+        "She was suffering from complete exhaustion and severe fatigue.",
+        "Fatigue is a very common and debilitating symptom of anaemia.",
+        "The long international journey caused significant fatigue."
+      ],
+      "pronunciation_tip": "fuh-TEEG — two syllables, stress on second.",
+      "common_mistake": "Don't say 'I am very tired' always — 'fatigue' is more extreme and often medical.",
+      "collocations": "['extreme fatigue', 'suffer from fatigue', 'mental fatigue']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-05-w-010",
+      "word": "consult",
+      "part_of_speech": "verb",
+      "definition": "to seek advice or information from a professional",
+      "example_sentences": [
+        "You should always consult a doctor before changing your diet.",
+        "She consulted a specialist about her persistent back pain.",
+        "Always consult a qualified professional before taking new medication."
+      ],
+      "pronunciation_tip": "kun-SULT — stress on second syllable.",
+      "common_mistake": "Don't say 'I asked the doctor' formally — say 'I consulted a doctor'.",
+      "collocations": "['consult a doctor', 'consult a specialist', 'consult with']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-05-w-011",
+      "word": "contagious",
+      "part_of_speech": "adjective",
+      "definition": "easily spread from one person to another",
+      "example_sentences": [
+        "Chickenpox is highly contagious and spreads very easily.",
+        "Please stay at home if you have a contagious illness.",
+        "His infectious enthusiasm is almost as contagious as a cold."
+      ],
+      "pronunciation_tip": "kun-TAY-jus — three syllables, stress on second.",
+      "common_mistake": "Don't confuse contagious (spread by contact) with infectious (spread through air).",
+      "collocations": "['highly contagious', 'contagious disease', 'remain contagious']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-05-w-012",
+      "word": "dosage",
+      "part_of_speech": "noun",
+      "definition": "the specific amount of medicine to be taken at one time",
+      "example_sentences": [
+        "Always follow the recommended dosage on the medication label.",
+        "The dosage needs to be carefully adjusted for younger children.",
+        "Never exceed the maximum recommended daily dosage."
+      ],
+      "pronunciation_tip": "DOH-sij — two syllables, stress on first.",
+      "common_mistake": "Don't say 'the amount of medicine' every time — say 'the dosage'.",
+      "collocations": "['recommended dosage', 'daily dosage', 'maximum dosage']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-05-w-013",
+      "word": "well-being",
+      "part_of_speech": "noun",
+      "definition": "the state of being comfortable, healthy, and happy",
+      "example_sentences": [
+        "Regular exercise has a profoundly positive effect on mental well-being.",
+        "The company takes employee well-being very seriously indeed.",
+        "Adequate sleep is absolutely essential for overall well-being."
+      ],
+      "pronunciation_tip": "WEL-bee-ing — stress on first.",
+      "common_mistake": "Don't say 'health and happiness' every time — say 'well-being'.",
+      "collocations": "['mental well-being', 'overall well-being', 'improve well-being']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-05-w-014",
+      "word": "inflammation",
+      "part_of_speech": "noun",
+      "definition": "redness, swelling, and pain in part of the body as a reaction",
+      "example_sentences": [
+        "Applying ice reduces inflammation significantly after a sports injury.",
+        "Chronic inflammation can lead to very serious long-term conditions.",
+        "Anti-inflammatory drugs help to reduce the pain of swollen joints."
+      ],
+      "pronunciation_tip": "in-fluh-MAY-shun — four syllables, stress on third.",
+      "common_mistake": "Don't say 'the swelling and pain' — say 'inflammation'.",
+      "collocations": "['reduce inflammation', 'chronic inflammation', 'inflammation of']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-05-w-015",
+      "word": "sedentary",
+      "part_of_speech": "adjective",
+      "definition": "involving sitting for long periods with little physical activity",
+      "example_sentences": [
+        "He has a very sedentary office job sitting at a computer all day.",
+        "A sedentary lifestyle significantly increases the risk of heart disease.",
+        "Too many people in modern life lead sedentary lifestyles."
+      ],
+      "pronunciation_tip": "SED-un-ter-ee — four syllables, stress on first.",
+      "common_mistake": "Don't say 'he doesn't move much' formally — say 'he has a sedentary lifestyle'.",
+      "collocations": "['sedentary lifestyle', 'sedentary job', 'sedentary behaviour']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-05-w-016",
+      "word": "ache",
+      "part_of_speech": "noun/verb",
+      "definition": "a continuous dull pain that does not stop",
+      "example_sentences": [
+        "I have a terrible headache that has lasted all afternoon.",
+        "My whole body aches terribly after yesterday's long run.",
+        "She had a persistent dull ache in her lower back."
+      ],
+      "pronunciation_tip": "AYK — rhymes with 'cake'.",
+      "common_mistake": "Don't say 'I have pain in my head' — say 'I have a headache'. Ache = dull, continuous pain.",
+      "collocations": "['headache', 'backache', 'muscles ache']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-05-w-017",
+      "word": "precaution",
+      "part_of_speech": "noun",
+      "definition": "an action taken in advance to prevent something going wrong",
+      "example_sentences": [
+        "She took every possible precaution to avoid getting ill.",
+        "As a sensible precaution, they evacuated the whole building.",
+        "It's a very sensible precaution to wear factor 50 sunscreen."
+      ],
+      "pronunciation_tip": "prih-KAW-shun — three syllables, stress on second.",
+      "common_mistake": "Don't say 'something to prevent problems' — say 'a precaution' or 'take precautions'.",
+      "collocations": "['take precautions', 'safety precaution', 'as a precaution']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-05-w-018",
+      "word": "deteriorate",
+      "part_of_speech": "verb",
+      "definition": "to become progressively worse over time",
+      "example_sentences": [
+        "Her medical condition deteriorated very rapidly and unexpectedly.",
+        "The relationship between the two colleagues has seriously deteriorated.",
+        "The quality of the equipment had slowly deteriorated."
+      ],
+      "pronunciation_tip": "dih-TEER-ee-uh-rayt — five syllables, stress on second.",
+      "common_mistake": "Don't say 'it got worse' in formal contexts — say 'it deteriorated'.",
+      "collocations": "['condition deteriorates', 'rapidly deteriorate', 'begin to deteriorate']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-05-w-019",
+      "word": "rehabilitate",
+      "part_of_speech": "verb",
+      "definition": "to help someone recover their health or abilities after illness",
+      "example_sentences": [
+        "The physiotherapist rehabilitated her knee effectively after surgery.",
+        "The hospital has a dedicated unit for rehabilitating patients.",
+        "It took him six months to fully rehabilitate after the accident."
+      ],
+      "pronunciation_tip": "ree-huh-BIL-ih-tayt — five syllables, stress on third.",
+      "common_mistake": "Don't say 'help to become healthy again' always — say 'rehabilitate'.",
+      "collocations": "['rehabilitate after', 'fully rehabilitate', 'rehabilitate patients']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-05-w-020",
+      "word": "outpatient",
+      "part_of_speech": "noun",
+      "definition": "a patient receiving hospital treatment without staying overnight",
+      "example_sentences": [
+        "She attends the hospital regularly as an outpatient.",
+        "The outpatient clinic operates on Tuesday and Thursday mornings.",
+        "Outpatient treatment is usually quicker and more convenient for patients."
+      ],
+      "pronunciation_tip": "OWT-pay-shunt — three syllables, stress on first.",
+      "common_mistake": "Don't say 'patient who doesn't sleep in hospital' — say 'outpatient'.",
+      "collocations": "['outpatient clinic', 'outpatient treatment', 'attend as outpatient']",
+      "difficulty": 3
+    }
+  ]
+}

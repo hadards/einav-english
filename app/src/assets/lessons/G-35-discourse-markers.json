@@ -1,0 +1,440 @@
+{
+  "id": "G-35",
+  "title": "Discourse markers",
+  "level": "B2",
+  "order": 35,
+  "explain": {
+    "rule": "Discourse markers are words and phrases that organise speech and writing, signal relationships between ideas, and help the listener or reader follow your logic. Categories: (1) Adding information: furthermore, moreover, in addition, what is more. (2) Contrast: nevertheless, nonetheless, on the other hand, by contrast. (3) Result/consequence: consequently, as a result, therefore, hence, thus. (4) Concession: admittedly, granted, while it is true that. (5) Summarising: in conclusion, to sum up, overall, in short. (6) Clarifying: in other words, that is to say, namely, specifically.",
+    "why_matters": "Discourse markers transform basic English into polished, connected English. They are essential for academic writing, formal presentations, business communication, and sophisticated conversation. Their correct use is a clear B2 marker.",
+    "hebrew_note": "Hebrew uses similar connectors (יתרה מזו, לעומת זאת, בנוסף, לסיכום) and the concepts transfer well. The challenge is learning the English register — some of these (hence, thus, henceforth) are very formal, while others (plus, anyway) are informal. Using the right level of formality matters.",
+    "tip": "Register matters: moreover/furthermore (formal writing). Plus/also (informal). However (neutral). Consequently (very formal). Choose the right marker for the context. Also remember: most of these come at the START of a new sentence or clause, often followed by a comma.",
+    "good_examples": [
+      {
+        "id": "G-35-ge-001",
+        "sentence": "The project was completed on time. Furthermore, it came in under budget.",
+        "audio_text": "The project was completed on time. Furthermore, it came in under budget.",
+        "note": "furthermore = additionally, more importantly"
+      },
+      {
+        "id": "G-35-ge-002",
+        "sentence": "She studied hard. Nevertheless, she failed the exam.",
+        "audio_text": "She studied hard. Nevertheless, she failed the exam.",
+        "note": "nevertheless = despite this — strong contrast"
+      },
+      {
+        "id": "G-35-ge-003",
+        "sentence": "The weather was terrible. Consequently, the event was cancelled.",
+        "audio_text": "The weather was terrible. Consequently, the event was cancelled.",
+        "note": "consequently = as a result"
+      },
+      {
+        "id": "G-35-ge-004",
+        "sentence": "The city has excellent transport. On the other hand, housing is very expensive.",
+        "audio_text": "The city has excellent transport. On the other hand, housing is very expensive.",
+        "note": "on the other hand = contrasting point"
+      },
+      {
+        "id": "G-35-ge-005",
+        "sentence": "Admittedly, the plan has some weaknesses, but the overall strategy is sound.",
+        "audio_text": "Admittedly, the plan has some weaknesses, but the overall strategy is sound.",
+        "note": "admittedly = I admit this, but..."
+      },
+      {
+        "id": "G-35-ge-006",
+        "sentence": "In conclusion, the evidence suggests that the policy has been effective.",
+        "audio_text": "In conclusion, the evidence suggests that the policy has been effective.",
+        "note": "in conclusion = summarising"
+      },
+      {
+        "id": "G-35-ge-007",
+        "sentence": "The product is cheaper. Moreover, it is more reliable than the competition.",
+        "audio_text": "The product is cheaper. Moreover, it is more reliable than the competition.",
+        "note": "moreover = additionally, and what's more"
+      },
+      {
+        "id": "G-35-ge-008",
+        "sentence": "He is highly qualified. In other words, he is exactly what we need.",
+        "audio_text": "He is highly qualified. In other words, he is exactly what we need.",
+        "note": "in other words = to rephrase/clarify"
+      },
+      {
+        "id": "G-35-ge-009",
+        "sentence": "By contrast, the second group performed significantly better.",
+        "audio_text": "By contrast, the second group performed significantly better.",
+        "note": "by contrast = in comparison"
+      },
+      {
+        "id": "G-35-ge-010",
+        "sentence": "The results were positive. As such, we will proceed with the project.",
+        "audio_text": "The results were positive. As such, we will proceed with the project.",
+        "note": "as such = therefore, for this reason"
+      }
+    ],
+    "bad_examples": [
+      {
+        "id": "G-35-be-001",
+        "wrong": "She worked hard. However she failed.",
+        "correct": "She worked hard. However, she failed.",
+        "reason": "However must be followed by a comma when starting a sentence."
+      },
+      {
+        "id": "G-35-be-002",
+        "wrong": "Furthermore he was late.",
+        "correct": "Furthermore, he was late.",
+        "reason": "Furthermore followed by a comma — discourse markers starting a sentence need a comma."
+      },
+      {
+        "id": "G-35-be-003",
+        "wrong": "The price is high. Moreover the quality is poor.",
+        "correct": "The price is high. Moreover, the quality is poor.",
+        "reason": "Comma after moreover."
+      },
+      {
+        "id": "G-35-be-004",
+        "wrong": "Nevertheless but she continued.",
+        "correct": "Nevertheless, she continued.",
+        "reason": "Don't combine discourse markers. Use one: Nevertheless she continued."
+      },
+      {
+        "id": "G-35-be-005",
+        "wrong": "In the other hand, there are advantages.",
+        "correct": "On the other hand, there are advantages.",
+        "reason": "on the other hand — not 'in the other hand'."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "G-35-ex-001",
+      "type": "fill_blank",
+      "question": "The project is expensive. ___, the potential returns are enormous.",
+      "answer": "However / Nevertheless / That said",
+      "hint": "Contrast: despite the expense...",
+      "explanation": "However/Nevertheless/That said — contrast.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-35-ex-002",
+      "type": "fill_blank",
+      "question": "She has years of experience. ___, she has an excellent reputation.",
+      "answer": "Furthermore / Moreover / In addition",
+      "hint": "Adding positive information",
+      "explanation": "Furthermore/Moreover — adding information.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-35-ex-003",
+      "type": "fill_blank",
+      "question": "Sales dropped significantly. ___, three stores had to be closed.",
+      "answer": "Consequently / As a result / Therefore",
+      "hint": "Result of sales dropping",
+      "explanation": "Consequently — result/consequence.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-35-ex-004",
+      "type": "fill_blank",
+      "question": "He speaks French. ___, he is fluent in Mandarin.",
+      "answer": "What is more / Moreover / In addition",
+      "hint": "Adding impressive extra information",
+      "explanation": "What is more — adding stronger point.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-35-ex-005",
+      "type": "fill_blank",
+      "question": "___, we recommend proceeding with the original plan.",
+      "answer": "In conclusion / To sum up / Overall",
+      "hint": "Summarising recommendation",
+      "explanation": "In conclusion — summarising.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-35-ex-006",
+      "type": "fill_blank",
+      "question": "The system is difficult to use. ___, it is unreliable.",
+      "answer": "Furthermore / Moreover / In addition",
+      "hint": "Adding another problem",
+      "explanation": "Furthermore/Moreover — adding more information.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-35-ex-007",
+      "type": "fill_blank",
+      "question": "Costs have risen. ___, productivity has also fallen.",
+      "answer": "In addition / Furthermore / On top of this",
+      "hint": "Adding another problem",
+      "explanation": "In addition — adding.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-35-ex-008",
+      "type": "fill_blank",
+      "question": "She is the most experienced. ___, she is also the most motivated.",
+      "answer": "In addition / Furthermore / What is more",
+      "hint": "Adding another strong quality",
+      "explanation": "In addition/Furthermore.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-35-ex-009",
+      "type": "mcq",
+      "question": "The plan has some flaws. ___, it is the best option available.",
+      "answer": "Nevertheless",
+      "hint": "Concession: despite the flaws...",
+      "explanation": "Nevertheless = despite this, still the best.",
+      "distractors": "Furthermore / Consequently / In addition",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-35-ex-010",
+      "type": "mcq",
+      "question": "___ the evidence is not conclusive, it does suggest a strong correlation.",
+      "answer": "Admittedly",
+      "hint": "Concession: admitting a limitation",
+      "explanation": "Admittedly = I admit this is true, BUT...",
+      "distractors": "Consequently / In addition / Furthermore",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-35-ex-011",
+      "type": "mcq",
+      "question": "The report was inaccurate. ___, the presentation was poorly structured.",
+      "answer": "In addition / Moreover",
+      "hint": "Adding another problem",
+      "explanation": "In addition/Moreover — adding.",
+      "distractors": [
+        "Nevertheless / Although / Despite"
+      ],
+      "hebrew_note": null
+    },
+    {
+      "id": "G-35-ex-012",
+      "type": "mcq",
+      "question": "The first group improved slightly. ___, the second group showed dramatic progress.",
+      "answer": "By contrast",
+      "hint": "Comparing with contrasting result",
+      "explanation": "By contrast — direct comparison.",
+      "distractors": [
+        "Furthermore / In addition / Moreover"
+      ],
+      "hebrew_note": null
+    },
+    {
+      "id": "G-35-ex-013",
+      "type": "mcq",
+      "question": "___, the experiment was a complete success.",
+      "answer": "To sum up / In short / Overall",
+      "hint": "Summarising conclusion",
+      "explanation": "In short/To sum up — summary.",
+      "distractors": [
+        "Furthermore / However / Admittedly"
+      ],
+      "hebrew_note": null
+    },
+    {
+      "id": "G-35-ex-014",
+      "type": "mcq",
+      "question": "It is expensive. ___, it is excellent value for money.",
+      "answer": "That said / Nevertheless / However",
+      "hint": "Concession then opposite point",
+      "explanation": "That said/Nevertheless — contrast.",
+      "distractors": [
+        "Furthermore / In addition / Moreover"
+      ],
+      "hebrew_note": null
+    },
+    {
+      "id": "G-35-ex-015",
+      "type": "mcq",
+      "question": "She has a degree in economics, ___, a master's in finance.",
+      "answer": "as well as / and moreover",
+      "hint": "Adding qualification",
+      "explanation": "as well as — additional qualification in the same sentence.",
+      "distractors": [
+        "nevertheless / however / therefore"
+      ],
+      "hebrew_note": null
+    },
+    {
+      "id": "G-35-ex-016",
+      "type": "error_correction",
+      "question": "Find and fix: 'The price is high. Moreover the quality is poor.'",
+      "answer": "The price is high. Moreover, the quality is poor.",
+      "hint": "Comma after discourse marker starting a sentence",
+      "explanation": "Moreover, — comma required.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-35-ex-017",
+      "type": "error_correction",
+      "question": "Find and fix: 'In the other hand, there are advantages.'",
+      "answer": "On the other hand, there are advantages.",
+      "hint": "Fixed phrase: on the other hand",
+      "explanation": "on the other hand — not in.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-35-ex-018",
+      "type": "error_correction",
+      "question": "Find and fix: 'Nevertheless but she continued.'",
+      "answer": "Nevertheless, she continued.",
+      "hint": "One discourse marker at a time",
+      "explanation": "one connector only — not two together.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-35-ex-019",
+      "type": "error_correction",
+      "question": "Find and fix: 'She worked hard. However she failed.'",
+      "answer": "She worked hard. However, she failed.",
+      "hint": "Comma after However",
+      "explanation": "However, — comma after however.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-35-ex-020",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "project",
+        "The",
+        "was",
+        "late",
+        "Furthermore",
+        "it",
+        "over",
+        "came",
+        "budget",
+        "in",
+        ","
+      ],
+      "answer": "The project was late. Furthermore, it came in over budget.",
+      "hint": "Furthermore adds another negative point",
+      "explanation": "Furthermore, — comma after.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-35-ex-021",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "is",
+        "The",
+        "expensive",
+        "plan",
+        "Nevertheless",
+        "the",
+        "is",
+        "best",
+        "option",
+        ","
+      ],
+      "answer": "The plan is expensive. Nevertheless, it is the best option.",
+      "hint": "Nevertheless contrasts with what came before",
+      "explanation": "Nevertheless, — concession.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-35-ex-022",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "conclusion",
+        "In",
+        "the",
+        "recommend",
+        "we",
+        "plan",
+        "original",
+        ","
+      ],
+      "answer": "In conclusion, we recommend the original plan.",
+      "hint": "In conclusion to summarise",
+      "explanation": "In conclusion, — comma after.",
+      "hebrew_note": null
+    }
+  ],
+  "speak": [
+    {
+      "id": "G-35-sp-001",
+      "sentence": "The project came in under budget. Furthermore, it was completed two weeks ahead of schedule.",
+      "chunks": [
+        "The project came in under budget.",
+        "Furthermore, it was completed two weeks ahead of schedule."
+      ],
+      "phonetic_hints": "'Furthermore' = fur-THER-mawr. 'Schedule' = SHED-yool (British).",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-35-sp-002",
+      "sentence": "The solution is expensive. Nevertheless, it is the most effective one available.",
+      "chunks": [
+        "The solution is expensive.",
+        "Nevertheless, it is the most effective one available."
+      ],
+      "phonetic_hints": "'Nevertheless' = nev-er-thuh-LESS. 'Effective' = ih-FEK-tiv.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-35-sp-003",
+      "sentence": "Sales increased in the first quarter. Consequently, we hired ten new staff members.",
+      "chunks": [
+        "Sales increased in the first quarter.",
+        "Consequently, we hired ten new staff members."
+      ],
+      "phonetic_hints": "'Consequently' = KON-sih-kwent-lee.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-35-sp-004",
+      "sentence": "The city has excellent public transport. On the other hand, the cost of living is very high.",
+      "chunks": [
+        "The city has excellent public transport.",
+        "On the other hand, the cost of living is very high."
+      ],
+      "phonetic_hints": "'Transport' = TRANS-port. 'Living' = LIV-ing.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-35-sp-005",
+      "sentence": "Admittedly, the plan has some weaknesses, but overall it is sound.",
+      "chunks": [
+        "Admittedly, the plan has some weaknesses,",
+        "but overall it is sound."
+      ],
+      "phonetic_hints": "'Admittedly' = ad-MIT-id-lee. 'Overall' = OH-ver-awl.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-35-sp-006",
+      "sentence": "In conclusion, the evidence strongly supports the introduction of the new policy.",
+      "chunks": [
+        "In conclusion,",
+        "the evidence strongly supports the introduction of the new policy."
+      ],
+      "phonetic_hints": "'Evidence' = EV-ih-dunss. 'Introduction' = in-truh-DUK-shun.",
+      "pass_threshold": 0.55
+    },
+    {
+      "id": "G-35-sp-007",
+      "sentence": "She is highly qualified. What is more, she has direct experience in exactly this area.",
+      "chunks": [
+        "She is highly qualified.",
+        "What is more, she has direct experience in exactly this area."
+      ],
+      "phonetic_hints": "'Qualified' = KWOL-ih-fyd. 'Experience' = ik-SPEER-ee-unss.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-35-sp-008",
+      "sentence": "By contrast, the results in the second group were far more impressive.",
+      "chunks": [
+        "By contrast,",
+        "the results in the second group were far more impressive."
+      ],
+      "phonetic_hints": "'Contrast' = KON-trast. 'Impressive' = im-PRES-iv.",
+      "pass_threshold": 0.65
+    }
+  ]
+}

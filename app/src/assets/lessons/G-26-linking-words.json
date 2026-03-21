@@ -1,0 +1,530 @@
+{
+  "id": "G-26",
+  "title": "Linking words: although / however / therefore / despite",
+  "level": "B1",
+  "order": 26,
+  "explain": {
+    "rule": "Linking words connect ideas and show the relationship between them. For contrast: although (conjunction, in a sentence), however (adverb, at start of new sentence or clause with ;), despite/in spite of (preposition, followed by noun/-ing, not by clause). For reason and result: because (conjunction), so (conjunction), therefore (adverb, more formal), as a result (phrase). For addition: also, in addition, furthermore, moreover. For concession: even though (stronger than although), while/whereas (for comparison).",
+    "why_matters": "Linking words transform basic English into fluent, connected English. They show logical relationships between ideas and are essential for writing, presentations, and sophisticated conversation. This is a key B1 skill.",
+    "hebrew_note": "Hebrew uses similar linking words: אבל, עם זאת, למרות, לכן, מכיוון ש. The main differences in English: (1) 'however' is an adverb, not a conjunction — you can't use it like 'but'. You cannot say 'I was tired however I went' — it must be 'I was tired. However, I went.' (2) 'despite' and 'in spite of' are followed by a noun or -ing, NEVER by a clause with subject and verb. 'Despite that it was cold' is wrong — say 'Despite the cold' or 'Despite it being cold'.",
+    "tip": "Key structures: ALTHOUGH + clause (subject + verb): Although it was cold, I went out. DESPITE / IN SPITE OF + noun or -ing: Despite the cold, I went out. HOWEVER = but in a new sentence (formal): It was cold. However, I went out. THEREFORE = so in a formal/written context: It was cold; therefore I wore a coat.",
+    "contrast_linkers": [
+      {
+        "linker": "although / even though",
+        "structure": "although + clause",
+        "example": "Although it was raining, we went for a walk."
+      },
+      {
+        "linker": "however",
+        "structure": "new sentence or after ;",
+        "example": "It was raining. However, we went for a walk."
+      },
+      {
+        "linker": "despite / in spite of",
+        "structure": "despite + noun or -ing",
+        "example": "Despite the rain, we went for a walk."
+      },
+      {
+        "linker": "but",
+        "structure": "conjunction (informal)",
+        "example": "It was raining but we went for a walk."
+      },
+      {
+        "linker": "while / whereas",
+        "structure": "while + clause (comparison)",
+        "example": "While she loves jazz, her husband prefers classical."
+      }
+    ],
+    "result_linkers": [
+      {
+        "linker": "because / as / since",
+        "structure": "because + clause (reason)",
+        "example": "I was late because the traffic was bad."
+      },
+      {
+        "linker": "so",
+        "structure": "so + clause (result, informal)",
+        "example": "The traffic was bad, so I was late."
+      },
+      {
+        "linker": "therefore",
+        "structure": "new sentence (formal result)",
+        "example": "The traffic was bad. Therefore, I was late."
+      },
+      {
+        "linker": "as a result",
+        "structure": "new sentence (result phrase)",
+        "example": "The traffic was bad. As a result, I was late."
+      }
+    ],
+    "good_examples": [
+      {
+        "id": "G-26-ge-001",
+        "sentence": "Although she was tired, she stayed to help.",
+        "audio_text": "Although she was tired, she stayed to help.",
+        "note": "although + clause shows contrast/concession"
+      },
+      {
+        "id": "G-26-ge-002",
+        "sentence": "The project was difficult. However, we finished on time.",
+        "audio_text": "The project was difficult. However, we finished on time.",
+        "note": "however starts a new sentence (or after ;)"
+      },
+      {
+        "id": "G-26-ge-003",
+        "sentence": "Despite the rain, we had a great time.",
+        "audio_text": "Despite the rain, we had a great time.",
+        "note": "despite + noun"
+      },
+      {
+        "id": "G-26-ge-004",
+        "sentence": "In spite of feeling ill, she went to work.",
+        "audio_text": "In spite of feeling ill, she went to work.",
+        "note": "in spite of + -ing"
+      },
+      {
+        "id": "G-26-ge-005",
+        "sentence": "I was late because the meeting ran over.",
+        "audio_text": "I was late because the meeting ran over.",
+        "note": "because + clause for reason"
+      },
+      {
+        "id": "G-26-ge-006",
+        "sentence": "The report was late; therefore, the meeting was postponed.",
+        "audio_text": "The report was late; therefore, the meeting was postponed.",
+        "note": "therefore = formal 'so'"
+      },
+      {
+        "id": "G-26-ge-007",
+        "sentence": "She studied hard. As a result, she passed all her exams.",
+        "audio_text": "She studied hard. As a result, she passed all her exams.",
+        "note": "as a result = consequence"
+      },
+      {
+        "id": "G-26-ge-008",
+        "sentence": "Even though it was expensive, it was worth every penny.",
+        "audio_text": "Even though it was expensive, it was worth every penny.",
+        "note": "even though = stronger contrast than although"
+      },
+      {
+        "id": "G-26-ge-009",
+        "sentence": "She loves the city, whereas her husband prefers the countryside.",
+        "audio_text": "She loves the city, whereas her husband prefers the countryside.",
+        "note": "whereas = contrast between two opposing things"
+      },
+      {
+        "id": "G-26-ge-010",
+        "sentence": "The salary was low. Nevertheless, he accepted the job.",
+        "audio_text": "The salary was low. Nevertheless, he accepted the job.",
+        "note": "nevertheless = however/despite this (formal)"
+      }
+    ],
+    "bad_examples": [
+      {
+        "id": "G-26-be-001",
+        "wrong": "However she was tired, she kept working.",
+        "correct": "Although she was tired, she kept working.",
+        "reason": "'however' cannot be a conjunction connecting two clauses. Use 'although' for this."
+      },
+      {
+        "id": "G-26-be-002",
+        "wrong": "Despite that it was cold, we went out.",
+        "correct": "Despite the cold, we went out. / Although it was cold, we went out.",
+        "reason": "'despite' is followed by a noun or -ing, NEVER by 'that + clause'. Use 'although' for clauses."
+      },
+      {
+        "id": "G-26-be-003",
+        "wrong": "She was tired. Although she continued.",
+        "correct": "She was tired. However, she continued. OR Although she was tired, she continued.",
+        "reason": "'although' must connect two parts of the same sentence, not start a new sentence alone."
+      },
+      {
+        "id": "G-26-be-004",
+        "wrong": "The flight was delayed so therefore we missed the connection.",
+        "correct": "The flight was delayed, so we missed the connection. / The flight was delayed; therefore, we missed the connection.",
+        "reason": "Don't use 'so' and 'therefore' together — they mean the same thing. Use one or the other."
+      },
+      {
+        "id": "G-26-be-005",
+        "wrong": "Despite of the problems, we succeeded.",
+        "correct": "Despite the problems, we succeeded. / In spite of the problems, we succeeded.",
+        "reason": "'despite' is NOT followed by 'of'. Use 'despite' alone or use 'in spite of'."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "G-26-ex-001",
+      "type": "fill_blank",
+      "question": "___ it was raining, we went for a walk.",
+      "answer": "Although / Even though",
+      "hint": "Concession: linking two clauses in same sentence",
+      "explanation": "Although/Even though + clause shows contrast.",
+      "hebrew_note": "אם כי / למרות ש = although"
+    },
+    {
+      "id": "G-26-ex-002",
+      "type": "fill_blank",
+      "question": "The exam was difficult. ___, most students passed.",
+      "answer": "However",
+      "hint": "Contrast in new sentence → however",
+      "explanation": "However starts a new sentence to show contrast.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-26-ex-003",
+      "type": "fill_blank",
+      "question": "___ the bad weather, we enjoyed the trip.",
+      "answer": "Despite / In spite of",
+      "hint": "Contrast: noun phrase follows → despite or in spite of",
+      "explanation": "Despite + noun. In spite of + noun.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-26-ex-004",
+      "type": "fill_blank",
+      "question": "She didn't get the job ___ she had the most experience.",
+      "answer": "even though / although",
+      "hint": "Surprising contrast — she had most experience but didn't get it",
+      "explanation": "even though/although = concession (surprising contrast).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-26-ex-005",
+      "type": "fill_blank",
+      "question": "The meeting was cancelled. ___, the project continued.",
+      "answer": "However / Nevertheless",
+      "hint": "Contrast/concession in new sentence",
+      "explanation": "However or Nevertheless — contrast in new sentence.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-26-ex-006",
+      "type": "fill_blank",
+      "question": "I left early ___ I was feeling unwell.",
+      "answer": "because",
+      "hint": "Giving a reason → because",
+      "explanation": "because + reason clause.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-26-ex-007",
+      "type": "fill_blank",
+      "question": "She worked very hard. ___, she was promoted quickly.",
+      "answer": "As a result / Therefore",
+      "hint": "Consequence in new sentence",
+      "explanation": "As a result / Therefore — formal result.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-26-ex-008",
+      "type": "fill_blank",
+      "question": "___ feeling nervous, she gave an excellent presentation.",
+      "answer": "Despite / In spite of",
+      "hint": "Contrast: feeling nervous (feeling = -ing) → despite/in spite of",
+      "explanation": "Despite + -ing. Despite feeling nervous.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-26-ex-009",
+      "type": "fill_blank",
+      "question": "He enjoys living in the city ___ his wife prefers the countryside.",
+      "answer": "whereas / while",
+      "hint": "Contrasting two opposing preferences",
+      "explanation": "whereas/while = contrast between two opposing situations.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-26-ex-010",
+      "type": "fill_blank",
+      "question": "The prices were very high. ___ we decided to look elsewhere.",
+      "answer": "Therefore / As a result, / So",
+      "hint": "Result in new sentence or continuation",
+      "explanation": "Therefore/As a result (new sentence) or So (same sentence).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-26-ex-011",
+      "type": "fill_blank",
+      "question": "___ she studied all night, she still failed the exam.",
+      "answer": "Although / Even though",
+      "hint": "Surprising negative result despite effort",
+      "explanation": "Although/Even though — the effort didn't produce the expected result.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-26-ex-012",
+      "type": "fill_blank",
+      "question": "The solution was simple. ___, nobody had thought of it before.",
+      "answer": "However",
+      "hint": "Surprising contrast in new sentence",
+      "explanation": "However — surprising contrast.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-26-ex-013",
+      "type": "mcq",
+      "question": "Choose the correct sentence:",
+      "answer": "Despite being tired, she finished the report.",
+      "hint": "despite + -ing (not 'despite that')",
+      "explanation": "Despite + noun/-ing. despite being tired = correct.",
+      "hebrew_note": [
+        "Despite that she was tired, she finished.",
+        "Although tired, despite she finished.",
+        "Despite of being tired, she finished."
+      ]
+    },
+    {
+      "id": "G-26-ex-014",
+      "type": "mcq",
+      "question": "The traffic was terrible. ___, we arrived on time.",
+      "answer": "However",
+      "hint": "Contrast in a new sentence → however (not although)",
+      "explanation": "however starts a new sentence. although connects two parts of one sentence.",
+      "hebrew_note": [
+        "Although",
+        "Despite",
+        "Even though"
+      ]
+    },
+    {
+      "id": "G-26-ex-015",
+      "type": "mcq",
+      "question": "___ his young age, he is extremely talented.",
+      "answer": "Despite",
+      "hint": "Contrast: noun phrase (his young age) follows → despite",
+      "explanation": "Despite + noun phrase. 'Despite of' is wrong.",
+      "hebrew_note": [
+        "Although",
+        "However",
+        "Despite of"
+      ]
+    },
+    {
+      "id": "G-26-ex-016",
+      "type": "mcq",
+      "question": "She trained for months. ___, she won the race.",
+      "answer": "As a result",
+      "hint": "Result follows a cause in a new sentence",
+      "explanation": "As a result — the winning is the consequence of the training.",
+      "hebrew_note": [
+        "However",
+        "Although",
+        "Despite"
+      ]
+    },
+    {
+      "id": "G-26-ex-017",
+      "type": "mcq",
+      "question": "He loves jazz ___ his sister prefers rock music.",
+      "answer": "whereas / while",
+      "hint": "Comparing two opposite preferences",
+      "explanation": "whereas/while = comparing two contrasting situations.",
+      "hebrew_note": [
+        "however",
+        "despite",
+        "because"
+      ]
+    },
+    {
+      "id": "G-26-ex-018",
+      "type": "mcq",
+      "question": "Which is incorrect?",
+      "answer": "Despite of the problems, they succeeded.",
+      "hint": "despite is NEVER followed by 'of'",
+      "explanation": "Despite the problems (correct) / In spite of the problems (correct) / Despite of (WRONG).",
+      "hebrew_note": [
+        "Despite the problems, they succeeded.",
+        "In spite of the problems, they succeeded.",
+        "Even though there were problems, they succeeded."
+      ]
+    },
+    {
+      "id": "G-26-ex-019",
+      "type": "error_correction",
+      "question": "Find and fix: 'Despite that it was cold, we had a picnic.'",
+      "answer": "Despite the cold, we had a picnic. OR Although it was cold, we had a picnic.",
+      "hint": "despite + noun or -ing, NOT despite + that clause",
+      "explanation": "despite = preposition → followed by noun or -ing. For clauses use although.",
+      "hebrew_note": "despite = מילת יחס, אחריה שם עצם. לא 'despite that'"
+    },
+    {
+      "id": "G-26-ex-020",
+      "type": "error_correction",
+      "question": "Find and fix: 'However she was late, she apologised.'",
+      "answer": "Although she was late, she apologised.",
+      "hint": "however cannot connect two clauses like a conjunction",
+      "explanation": "however = adverb in a new sentence. although = conjunction connecting clauses.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-26-ex-021",
+      "type": "error_correction",
+      "question": "Find and fix: 'She was tired. Although she continued working.'",
+      "answer": "She was tired. However, she continued working. OR Although she was tired, she continued working.",
+      "hint": "although must connect two parts of the same sentence",
+      "explanation": "although cannot start a sentence alone. Use however for a new sentence.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-26-ex-022",
+      "type": "error_correction",
+      "question": "Find and fix: 'It was raining so therefore we stayed inside.'",
+      "answer": "It was raining, so we stayed inside. OR It was raining; therefore, we stayed inside.",
+      "hint": "so and therefore mean the same thing — don't use both",
+      "explanation": "Use so OR therefore, never both together.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-26-ex-023",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "answer": null,
+      "hint": "although + clause + contrast",
+      "explanation": "Although the salary was low, she accepted the job because she loved the work.",
+      "hebrew_note": null,
+      "words": [
+        "Although",
+        "the",
+        "salary",
+        "was",
+        "low",
+        "she",
+        "accepted",
+        "the",
+        "job",
+        "because",
+        "she",
+        "loved",
+        "the",
+        "work"
+      ]
+    },
+    {
+      "id": "G-26-ex-024",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "answer": null,
+      "hint": "despite + noun",
+      "explanation": "Despite the distance, she visits her family every weekend.",
+      "hebrew_note": null,
+      "words": [
+        "Despite",
+        "the",
+        "distance",
+        "she",
+        "visits",
+        "her",
+        "family",
+        "every",
+        "weekend"
+      ]
+    },
+    {
+      "id": "G-26-ex-025",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "answer": null,
+      "hint": "however in new sentence",
+      "explanation": "The project was behind schedule. However, the team managed to deliver on time.",
+      "hebrew_note": null,
+      "words": [
+        "The",
+        "project",
+        "was",
+        "behind",
+        "schedule",
+        "However",
+        "the",
+        "team",
+        "managed",
+        "to",
+        "deliver",
+        "on",
+        "time"
+      ]
+    }
+  ],
+  "speak": [
+    {
+      "id": "G-26-sp-001",
+      "sentence": "Although she was nervous, she gave a brilliant presentation.",
+      "chunks": [
+        "Although she was nervous,",
+        "she gave a brilliant presentation."
+      ],
+      "phonetic_hints": "'Nervous' = NUR-vus. 'Brilliant' = BRIL-yunt.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-26-sp-002",
+      "sentence": "The weather was terrible. However, we still had a great time.",
+      "chunks": [
+        "The weather was terrible.",
+        "However, we still had a great time."
+      ],
+      "phonetic_hints": "'Terrible' = TER-ih-bul — three syllables. 'However' = how-EV-er.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-26-sp-003",
+      "sentence": "Despite the heavy rain, the match went ahead as planned.",
+      "chunks": [
+        "Despite the heavy rain,",
+        "the match went ahead as planned."
+      ],
+      "phonetic_hints": "'Despite' = dih-SPYT. 'Ahead' = uh-HED. 'Planned' = PLAND.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-26-sp-004",
+      "sentence": "She worked incredibly hard. As a result, she was promoted within a year.",
+      "chunks": [
+        "She worked incredibly hard.",
+        "As a result, she was promoted within a year."
+      ],
+      "phonetic_hints": "'Incredibly' = in-KRED-ih-blee. 'Promoted' = pruh-MOH-tid.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-26-sp-005",
+      "sentence": "Even though the project was challenging, I learned a lot from it.",
+      "chunks": [
+        "Even though the project was challenging,",
+        "I learned a lot from it."
+      ],
+      "phonetic_hints": "'Challenging' = CHAL-in-jing — three syllables. 'Learned' = LURND.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-26-sp-006",
+      "sentence": "I love big cities whereas my partner prefers the countryside.",
+      "chunks": [
+        "I love big cities",
+        "whereas my partner prefers the countryside."
+      ],
+      "phonetic_hints": "'Whereas' = wair-AZ — stress on second. 'Countryside' = KUN-tree-syd.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-26-sp-007",
+      "sentence": "The deadline was tomorrow. Therefore, we worked through the night.",
+      "chunks": [
+        "The deadline was tomorrow.",
+        "Therefore, we worked through the night."
+      ],
+      "phonetic_hints": "'Therefore' = THAIR-fawr. 'Through' = THROO — rhymes with 'do'.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-26-sp-008",
+      "sentence": "In spite of all the difficulties, they managed to finish the project on time.",
+      "chunks": [
+        "In spite of all the difficulties,",
+        "they managed to finish the project on time."
+      ],
+      "phonetic_hints": "'Despite' and 'in spite of' mean the same. 'Difficulties' = dif-ih-KUL-teez.",
+      "pass_threshold": 0.6
+    }
+  ]
+}

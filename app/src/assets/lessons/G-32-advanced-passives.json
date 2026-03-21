@@ -1,0 +1,436 @@
+{
+  "id": "G-32",
+  "title": "Advanced passive structures",
+  "level": "B2",
+  "order": 32,
+  "explain": {
+    "rule": "Advanced passive forms include: (1) Perfect passives: has/have been + pp (present perfect passive), had been + pp (past perfect passive), will have been + pp (future perfect passive). (2) Continuous passives: is/was being + pp. (3) Modal passives: modal + be + pp (must be done, should have been done). (4) Reporting passives: it is said that / he is believed to / she is thought to be. These are extremely common in formal, academic, and news English.",
+    "why_matters": "Advanced passives are essential for formal writing, news reporting, and academic English. They let you discuss actions and events without specifying who does them, which is often required in professional contexts.",
+    "hebrew_note": "Hebrew passive binyanim (נפעל, פועל, הופעל) are common but less systematically used for all these tenses and modals. In English, the passive can apply to virtually any tense and combines with modals in complex ways that require explicit practice.",
+    "tip": "Key structures to master: was being done (in progress and passive, past), should have been done (should + perfect passive), is said to be / it is believed that (reporting passives common in news). Test: can you say who the agent is? If not, passive is natural here.",
+    "good_examples": [
+      {
+        "id": "G-32-ge-001",
+        "sentence": "The road was being repaired when we drove past.",
+        "audio_text": "The road was being repaired when we drove past.",
+        "note": "Past continuous passive — in progress in the past"
+      },
+      {
+        "id": "G-32-ge-002",
+        "sentence": "The report has been reviewed by the committee.",
+        "audio_text": "The report has been reviewed by the committee.",
+        "note": "Present perfect passive"
+      },
+      {
+        "id": "G-32-ge-003",
+        "sentence": "The building had been abandoned for years before it was renovated.",
+        "audio_text": "The building had been abandoned for years before it was renovated.",
+        "note": "Past perfect passive — before another past event"
+      },
+      {
+        "id": "G-32-ge-004",
+        "sentence": "This should have been done yesterday.",
+        "audio_text": "This should have been done yesterday.",
+        "note": "Modal perfect passive — obligation that wasn't met"
+      },
+      {
+        "id": "G-32-ge-005",
+        "sentence": "It is said that she earns over a million dollars a year.",
+        "audio_text": "It is said that she earns over a million dollars a year.",
+        "note": "Reporting passive — common in news"
+      },
+      {
+        "id": "G-32-ge-006",
+        "sentence": "He is believed to be hiding somewhere in the city.",
+        "audio_text": "He is believed to be hiding somewhere in the city.",
+        "note": "Reporting passive with infinitive"
+      },
+      {
+        "id": "G-32-ge-007",
+        "sentence": "The results are expected to be announced tomorrow.",
+        "audio_text": "The results are expected to be announced tomorrow.",
+        "note": "Passive with infinitive — formal/news style"
+      },
+      {
+        "id": "G-32-ge-008",
+        "sentence": "The new law is being debated in parliament this week.",
+        "audio_text": "The new law is being debated in parliament this week.",
+        "note": "Present continuous passive"
+      },
+      {
+        "id": "G-32-ge-009",
+        "sentence": "The contract must be signed before the end of the month.",
+        "audio_text": "The contract must be signed before the end of the month.",
+        "note": "Modal passive — obligation"
+      },
+      {
+        "id": "G-32-ge-010",
+        "sentence": "She was thought to have left the country months ago.",
+        "audio_text": "She was thought to have left the country months ago.",
+        "note": "Past reporting passive"
+      }
+    ],
+    "bad_examples": [
+      {
+        "id": "G-32-be-001",
+        "wrong": "The road was being repair when we drove past.",
+        "correct": "The road was being repaired when we drove past.",
+        "reason": "Passive needs past participle: was being repaired."
+      },
+      {
+        "id": "G-32-be-002",
+        "wrong": "This should been done yesterday.",
+        "correct": "This should have been done yesterday.",
+        "reason": "Modal perfect passive: should have been + pp."
+      },
+      {
+        "id": "G-32-be-003",
+        "wrong": "It is said that she earn over a million.",
+        "correct": "It is said that she earns over a million.",
+        "reason": "Reporting passive: it is said THAT + normal clause (present simple: earns)."
+      },
+      {
+        "id": "G-32-be-004",
+        "wrong": "The building had abandoned for years.",
+        "correct": "The building had been abandoned for years.",
+        "reason": "Past perfect passive needs 'been': had been abandoned."
+      },
+      {
+        "id": "G-32-be-005",
+        "wrong": "He believed to be hiding in the city.",
+        "correct": "He is believed to be hiding in the city.",
+        "reason": "Reporting passive: he IS believed to (not 'he believed to')."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "G-32-ex-001",
+      "type": "fill_blank",
+      "question": "The road ___ (repair) when we arrived.",
+      "answer": "was being repaired",
+      "hint": "Past continuous passive: was being + pp",
+      "explanation": "was being repaired.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-32-ex-002",
+      "type": "fill_blank",
+      "question": "The report ___ (review) by the committee yesterday.",
+      "answer": "was reviewed",
+      "hint": "Past simple passive",
+      "explanation": "was reviewed.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-32-ex-003",
+      "type": "fill_blank",
+      "question": "This ___ (should/do) weeks ago.",
+      "answer": "should have been done",
+      "hint": "Modal perfect passive: should + have been + pp",
+      "explanation": "should have been done.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-32-ex-004",
+      "type": "fill_blank",
+      "question": "It ___ (say) that he is the wealthiest person in the country.",
+      "answer": "is said",
+      "hint": "Reporting passive: it is said that...",
+      "explanation": "is said — reporting passive.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-32-ex-005",
+      "type": "fill_blank",
+      "question": "The building ___ (abandon) for decades before they renovated it.",
+      "answer": "had been abandoned",
+      "hint": "Past perfect passive: had been + pp",
+      "explanation": "had been abandoned.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-32-ex-006",
+      "type": "fill_blank",
+      "question": "The new policy ___ (debate) in parliament all week.",
+      "answer": "is being debated",
+      "hint": "Present continuous passive: is being + pp",
+      "explanation": "is being debated.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-32-ex-007",
+      "type": "fill_blank",
+      "question": "She ___ (believe/leave) the country.",
+      "answer": "is believed to have left",
+      "hint": "Reporting passive with perfect infinitive",
+      "explanation": "is believed to have left.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-32-ex-008",
+      "type": "fill_blank",
+      "question": "All applications ___ (must/submit) by Friday.",
+      "answer": "must be submitted",
+      "hint": "Modal passive: must be + pp",
+      "explanation": "must be submitted.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-32-ex-009",
+      "type": "fill_blank",
+      "question": "The results ___ (expect/announce) tomorrow morning.",
+      "answer": "are expected to be announced",
+      "hint": "Passive + infinitive: are expected to be + pp",
+      "explanation": "are expected to be announced.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-32-ex-010",
+      "type": "fill_blank",
+      "question": "The package ___ (deliver) by the time you get home.",
+      "answer": "will have been delivered",
+      "hint": "Future perfect passive: will have been + pp",
+      "explanation": "will have been delivered.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-32-ex-011",
+      "type": "mcq",
+      "question": "The meeting ___ while we were trying to call.",
+      "answer": "was being held",
+      "hint": "Past continuous passive",
+      "explanation": "was being held.",
+      "distractors": [
+        "was held / has been held / had been held"
+      ],
+      "hebrew_note": null
+    },
+    {
+      "id": "G-32-ex-012",
+      "type": "mcq",
+      "question": "This mistake ___ have been avoided with better planning.",
+      "answer": "could",
+      "hint": "Modal perfect passive",
+      "explanation": "could have been avoided.",
+      "distractors": [
+        "can / will / would"
+      ],
+      "hebrew_note": null
+    },
+    {
+      "id": "G-32-ex-013",
+      "type": "mcq",
+      "question": "It ___ that the company will announce new jobs.",
+      "answer": "is expected",
+      "hint": "Reporting passive",
+      "explanation": "is expected — passive reporting.",
+      "distractors": [
+        "expects / expecting / expected"
+      ],
+      "hebrew_note": null
+    },
+    {
+      "id": "G-32-ex-014",
+      "type": "mcq",
+      "question": "The stadium ___ for the past two years.",
+      "answer": "has been under construction",
+      "hint": "Present perfect passive",
+      "explanation": "has been under construction.",
+      "distractors": [
+        "is under construction / was under construction / had been constructed"
+      ],
+      "hebrew_note": null
+    },
+    {
+      "id": "G-32-ex-015",
+      "type": "mcq",
+      "question": "She ___ to be the best candidate for the position.",
+      "answer": "is considered",
+      "hint": "Reporting passive with infinitive",
+      "explanation": "is considered to be.",
+      "distractors": [
+        "considers / considered / is considering"
+      ],
+      "hebrew_note": null
+    },
+    {
+      "id": "G-32-ex-016",
+      "type": "error_correction",
+      "question": "Find and fix: 'The road was being repair.'",
+      "answer": "The road was being repaired.",
+      "hint": "Past continuous passive needs past participle",
+      "explanation": "was being repaired — pp required.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-32-ex-017",
+      "type": "error_correction",
+      "question": "Find and fix: 'This should been done yesterday.'",
+      "answer": "This should have been done yesterday.",
+      "hint": "Modal perfect passive needs 'have'",
+      "explanation": "should have been done.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-32-ex-018",
+      "type": "error_correction",
+      "question": "Find and fix: 'He believed to be hiding in the city.'",
+      "answer": "He is believed to be hiding in the city.",
+      "hint": "Reporting passive: he IS believed",
+      "explanation": "is believed — the verb 'be' is needed.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-32-ex-019",
+      "type": "error_correction",
+      "question": "Find and fix: 'The building had abandoned for years.'",
+      "answer": "The building had been abandoned for years.",
+      "hint": "Past perfect passive needs 'been'",
+      "explanation": "had been abandoned.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-32-ex-020",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "was",
+        "The",
+        "bridge",
+        "being",
+        "when",
+        "we",
+        "repaired",
+        "arrived"
+      ],
+      "answer": "The bridge was being repaired when we arrived.",
+      "hint": "Past continuous passive",
+      "explanation": "was being repaired.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-32-ex-021",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "should",
+        "This",
+        "have",
+        "been",
+        "done",
+        "Friday",
+        "by"
+      ],
+      "answer": "This should have been done by Friday.",
+      "hint": "Modal perfect passive",
+      "explanation": "should have been done.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-32-ex-022",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "It",
+        "said",
+        "is",
+        "that",
+        "she",
+        "wealthiest",
+        "is",
+        "person",
+        "the",
+        "in",
+        "country",
+        "the"
+      ],
+      "answer": "It is said that she is the wealthiest person in the country.",
+      "hint": "Reporting passive: it is said that",
+      "explanation": "it is said that + normal clause.",
+      "hebrew_note": null
+    }
+  ],
+  "speak": [
+    {
+      "id": "G-32-sp-001",
+      "sentence": "The building has been converted into luxury apartments.",
+      "chunks": [
+        "The building has been converted",
+        "into luxury apartments."
+      ],
+      "phonetic_hints": "'Converted' = kun-VUR-tid. 'Luxury' = LUK-shuh-ree.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-32-sp-002",
+      "sentence": "The report should have been submitted three days ago.",
+      "chunks": [
+        "The report should have been submitted",
+        "three days ago."
+      ],
+      "phonetic_hints": "'Submitted' = sub-MIT-id. 'Should have been' = three words.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-32-sp-003",
+      "sentence": "It is believed that the suspect is still in the country.",
+      "chunks": [
+        "It is believed that the suspect",
+        "is still in the country."
+      ],
+      "phonetic_hints": "'Believed' = bih-LEEVD. 'Suspect' = SUS-pekt.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-32-sp-004",
+      "sentence": "The new motorway is expected to be completed by the end of the year.",
+      "chunks": [
+        "The new motorway is expected to be completed",
+        "by the end of the year."
+      ],
+      "phonetic_hints": "'Motorway' = MOH-ter-way. 'Completed' = kum-PLEET-id.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-32-sp-005",
+      "sentence": "The road was being repaired so we had to take a different route.",
+      "chunks": [
+        "The road was being repaired",
+        "so we had to take a different route."
+      ],
+      "phonetic_hints": "'Repaired' = rih-PAIRD. 'Route' = ROOT (British) or ROWT (American).",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-32-sp-006",
+      "sentence": "She is thought to have been working on this project for over five years.",
+      "chunks": [
+        "She is thought to have been working on this project",
+        "for over five years."
+      ],
+      "phonetic_hints": "'Thought' = THAWT. Complex passive — take it slowly.",
+      "pass_threshold": 0.55
+    },
+    {
+      "id": "G-32-sp-007",
+      "sentence": "All decisions must be approved by the board before they can be implemented.",
+      "chunks": [
+        "All decisions must be approved by the board",
+        "before they can be implemented."
+      ],
+      "phonetic_hints": "'Approved' = uh-PROOVD. 'Implemented' = IM-pleh-men-tid.",
+      "pass_threshold": 0.55
+    },
+    {
+      "id": "G-32-sp-008",
+      "sentence": "The contract had been signed before the dispute arose.",
+      "chunks": [
+        "The contract had been signed",
+        "before the dispute arose."
+      ],
+      "phonetic_hints": "'Contract' = KON-trakt. 'Dispute' = dis-PYOOT. 'Arose' = uh-ROHZ.",
+      "pass_threshold": 0.6
+    }
+  ]
+}

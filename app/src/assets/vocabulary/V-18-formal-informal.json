@@ -1,0 +1,307 @@
+{
+  "id": "V-18",
+  "theme": "Formal vs informal language",
+  "level": "B2",
+  "words": [
+    {
+      "id": "V-18-w-001",
+      "word": "commence",
+      "part_of_speech": "verb",
+      "definition": "to begin (formal); informal = start",
+      "example_sentences": [
+        "The ceremony will commence at 10am precisely.",
+        "We shall commence proceedings after lunch.",
+        "The lecture commenced exactly on time."
+      ],
+      "pronunciation_tip": "kuh-MENSS — two syllables, stress on second.",
+      "common_mistake": "Formal: 'commence'. Informal: 'start'. Don't use 'commence' in casual conversation.",
+      "collocations": "['commence proceedings', 'commence operations', 'the event will commence']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-18-w-002",
+      "word": "inquire",
+      "part_of_speech": "verb",
+      "definition": "to ask for information (formal); informal = ask",
+      "example_sentences": [
+        "I'm writing to inquire about the vacancy.",
+        "She inquired whether the position was still available.",
+        "Please inquire at the reception desk."
+      ],
+      "pronunciation_tip": "in-KWYR — two syllables, stress on second.",
+      "common_mistake": "Formal: 'inquire' (British: enquire). Informal: 'ask'. Don't use 'inquire' in casual speech.",
+      "collocations": "['inquire about', 'write to inquire', 'inquire further']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-18-w-003",
+      "word": "terminate",
+      "part_of_speech": "verb",
+      "definition": "to end or stop something (formal); informal = end, stop, sack",
+      "example_sentences": [
+        "The contract will be terminated on 31st December.",
+        "His employment was terminated immediately.",
+        "They terminated the agreement without warning."
+      ],
+      "pronunciation_tip": "TUR-mih-nayt — three syllables, stress on first.",
+      "common_mistake": "Formal: 'terminate'. Informal: 'end' or 'stop'. 'Terminate' in employment means 'fire'.",
+      "collocations": "['terminate a contract', 'terminate employment', 'terminate the agreement']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-18-w-004",
+      "word": "furthermore",
+      "part_of_speech": "adverb",
+      "definition": "in addition to what has been said (formal); informal = also, and",
+      "example_sentences": [
+        "Furthermore, the report highlights several key risks.",
+        "The price is too high; furthermore, the quality is poor.",
+        "Furthermore, we recommend immediate action."
+      ],
+      "pronunciation_tip": "FUR-ther-mawr — three syllables, stress on first.",
+      "common_mistake": "Formal: 'furthermore'. Informal: 'also' or 'and'. Don't use 'furthermore' in casual conversation.",
+      "collocations": "['furthermore, it should be noted', 'furthermore, the evidence', 'moreover/furthermore']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-18-w-005",
+      "word": "request",
+      "part_of_speech": "verb",
+      "definition": "to ask for something formally; informal = ask for",
+      "example_sentences": [
+        "I would like to request a meeting at your earliest convenience.",
+        "She formally requested an extension on the deadline.",
+        "We request that all guests arrive by 6pm."
+      ],
+      "pronunciation_tip": "rih-KWEST — two syllables, stress on second.",
+      "common_mistake": "Formal: 'request'. Informal: 'ask for'. 'Request' implies formality and respect.",
+      "collocations": "['formally request', 'request a meeting', 'request information']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-18-w-006",
+      "word": "obtain",
+      "part_of_speech": "verb",
+      "definition": "to get something (formal); informal = get",
+      "example_sentences": [
+        "She obtained her degree in 2018.",
+        "The information can be obtained from the website.",
+        "Please obtain written permission before proceeding."
+      ],
+      "pronunciation_tip": "ub-TAYN — two syllables, stress on second.",
+      "common_mistake": "Formal: 'obtain'. Informal: 'get'. Use 'obtain' in official and professional writing.",
+      "collocations": "['obtain permission', 'obtain information', 'obtain a certificate']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-18-w-007",
+      "word": "prior to",
+      "part_of_speech": "preposition",
+      "definition": "before (formal); informal = before",
+      "example_sentences": [
+        "Please complete the form prior to your appointment.",
+        "Prior to the meeting, she sent a detailed agenda.",
+        "All documents must be submitted prior to the deadline."
+      ],
+      "pronunciation_tip": "PRY-er to.",
+      "common_mistake": "Formal: 'prior to'. Informal: 'before'. Use 'prior to' in official communications only.",
+      "collocations": "['prior to the meeting', 'prior to submission', 'prior to arrival']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-18-w-008",
+      "word": "assist",
+      "part_of_speech": "verb",
+      "definition": "to help (formal); informal = help",
+      "example_sentences": [
+        "Our staff will assist you with any queries.",
+        "She was assisted by a team of specialists.",
+        "Please do not hesitate to contact us if we can assist."
+      ],
+      "pronunciation_tip": "uh-SIST — two syllables, stress on second.",
+      "common_mistake": "Formal: 'assist'. Informal: 'help'. Both are correct but 'assist' sounds more professional.",
+      "collocations": "['assist with', 'please assist', 'assist someone in']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-18-w-009",
+      "word": "nevertheless",
+      "part_of_speech": "adverb",
+      "definition": "despite this, however (formal); informal = but, still",
+      "example_sentences": [
+        "The results were disappointing. Nevertheless, progress has been made.",
+        "It was a difficult decision; nevertheless, we proceeded.",
+        "Nevertheless, the project was completed on time."
+      ],
+      "pronunciation_tip": "nev-er-thuh-LESS — four syllables, stress on last.",
+      "common_mistake": "Formal: 'nevertheless'. Informal: 'but' or 'still'. Don't use 'nevertheless' in casual speech.",
+      "collocations": "['nevertheless, we', 'nevertheless, the results', 'nevertheless important']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-18-w-010",
+      "word": "endeavour",
+      "part_of_speech": "verb/noun",
+      "definition": "to try hard (formal); informal = try",
+      "example_sentences": [
+        "We will endeavour to respond within 24 hours.",
+        "She endeavoured to complete the project on time.",
+        "Every endeavour was made to ensure accuracy."
+      ],
+      "pronunciation_tip": "en-DEV-er — three syllables, stress on second.",
+      "common_mistake": "Formal: 'endeavour'. Informal: 'try'. American spelling: 'endeavor'.",
+      "collocations": "['endeavour to', 'make every endeavour', 'best endeavours']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-18-w-011",
+      "word": "regarding",
+      "part_of_speech": "preposition",
+      "definition": "about (formal); informal = about",
+      "example_sentences": [
+        "I am writing regarding your recent application.",
+        "She had several questions regarding the terms.",
+        "Please contact us regarding any outstanding issues."
+      ],
+      "pronunciation_tip": "rih-GAR-ding — three syllables, stress on second.",
+      "common_mistake": "Formal: 'regarding'. Informal: 'about'. Use 'regarding' at the start of formal emails.",
+      "collocations": "['regarding your', 'regarding the matter', 'regarding our conversation']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-18-w-012",
+      "word": "substantial",
+      "part_of_speech": "adjective",
+      "definition": "large in amount or importance (formal); informal = big, large",
+      "example_sentences": [
+        "There has been a substantial improvement in results.",
+        "A substantial number of complaints were received.",
+        "The changes have had a substantial impact."
+      ],
+      "pronunciation_tip": "sub-STAN-shul — three syllables, stress on second.",
+      "common_mistake": "Formal: 'substantial'. Informal: 'big' or 'large'. Use in reports and formal writing.",
+      "collocations": "['substantial improvement', 'substantial evidence', 'substantial number']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-18-w-013",
+      "word": "rectify",
+      "part_of_speech": "verb",
+      "definition": "to put something right (formal); informal = fix, sort out",
+      "example_sentences": [
+        "We will rectify the error as soon as possible.",
+        "The situation must be rectified urgently.",
+        "Steps were taken to rectify the problem."
+      ],
+      "pronunciation_tip": "REK-tih-fy — three syllables, stress on first.",
+      "common_mistake": "Formal: 'rectify'. Informal: 'fix' or 'sort out'. Use in professional complaint responses.",
+      "collocations": "['rectify the error', 'rectify the situation', 'steps to rectify']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-18-w-014",
+      "word": "in lieu of",
+      "part_of_speech": "preposition",
+      "definition": "instead of (formal); informal = instead of",
+      "example_sentences": [
+        "She received payment in lieu of notice.",
+        "Extra holiday was offered in lieu of a pay rise.",
+        "In lieu of an apology, he sent flowers."
+      ],
+      "pronunciation_tip": "in LYOO of.",
+      "common_mistake": "Formal: 'in lieu of'. Informal: 'instead of'. Common in employment and legal contexts.",
+      "collocations": "['in lieu of notice', 'payment in lieu', 'in lieu of an apology']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-18-w-015",
+      "word": "expedite",
+      "part_of_speech": "verb",
+      "definition": "to speed up a process (formal); informal = speed up",
+      "example_sentences": [
+        "We will expedite your order due to the delay.",
+        "Could you expedite the review process?",
+        "She asked for the application to be expedited."
+      ],
+      "pronunciation_tip": "EK-spih-dyt — three syllables, stress on first.",
+      "common_mistake": "Formal: 'expedite'. Informal: 'speed up'. Common in business correspondence.",
+      "collocations": "['expedite the process', 'expedite a request', 'expedite delivery']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-18-w-016",
+      "word": "hereby",
+      "part_of_speech": "adverb",
+      "definition": "by this statement or action (very formal/legal); informal = not used",
+      "example_sentences": [
+        "I hereby declare the meeting open.",
+        "You are hereby notified of the change.",
+        "I hereby certify that the above is correct."
+      ],
+      "pronunciation_tip": "heer-BY — two syllables, stress on second.",
+      "common_mistake": "Only used in legal and very formal documents. Never in casual speech.",
+      "collocations": "['hereby declare', 'hereby notify', 'hereby certify']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-18-w-017",
+      "word": "pursuant to",
+      "part_of_speech": "preposition",
+      "definition": "following or acting according to (legal/formal); informal = in line with, following",
+      "example_sentences": [
+        "Pursuant to our agreement, payment is due on the 1st.",
+        "The decision was made pursuant to company policy.",
+        "Pursuant to your request, I have enclosed the documents."
+      ],
+      "pronunciation_tip": "pur-SYOO-unt to — three syllables, stress on second.",
+      "common_mistake": "Very formal/legal only. In casual writing use 'following' or 'in accordance with'.",
+      "collocations": "['pursuant to our agreement', 'pursuant to the policy', 'pursuant to your request']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-18-w-018",
+      "word": "ascertain",
+      "part_of_speech": "verb",
+      "definition": "to find out for certain (formal); informal = find out, check",
+      "example_sentences": [
+        "We need to ascertain the facts before proceeding.",
+        "She ascertained that the information was correct.",
+        "Please ascertain whether they are available."
+      ],
+      "pronunciation_tip": "as-er-TAYN — three syllables, stress on third.",
+      "common_mistake": "Formal: 'ascertain'. Informal: 'find out'. Common in investigative and legal writing.",
+      "collocations": "['ascertain the facts', 'ascertain whether', 'need to ascertain']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-18-w-019",
+      "word": "forthwith",
+      "part_of_speech": "adverb",
+      "definition": "immediately (very formal/legal); informal = immediately, right away",
+      "example_sentences": [
+        "The contract must be terminated forthwith.",
+        "The employee was dismissed forthwith.",
+        "Payment is required forthwith."
+      ],
+      "pronunciation_tip": "FORTH-with — two syllables, stress on first.",
+      "common_mistake": "Very formal, mainly legal. In everyday formal writing use 'immediately'. Never in casual speech.",
+      "collocations": "['effective forthwith', 'terminated forthwith', 'dismissed forthwith']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-18-w-020",
+      "word": "notwithstanding",
+      "part_of_speech": "preposition/adverb",
+      "definition": "despite (very formal); informal = despite, even though",
+      "example_sentences": [
+        "Notwithstanding the difficulties, the project succeeded.",
+        "Notwithstanding his qualifications, he was rejected.",
+        "The decision stands notwithstanding the appeal."
+      ],
+      "pronunciation_tip": "not-with-STAN-ding — four syllables, stress on third.",
+      "common_mistake": "Very formal/legal. In normal formal writing use 'despite'. Never in casual speech.",
+      "collocations": "['notwithstanding the fact', 'notwithstanding challenges', 'notwithstanding opposition']",
+      "difficulty": 3
+    }
+  ]
+}

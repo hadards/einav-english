@@ -1,0 +1,460 @@
+{
+  "id": "G-36",
+  "title": "Phrasal verbs in depth",
+  "level": "B2",
+  "order": 36,
+  "explain": {
+    "rule": "Phrasal verbs combine a verb with one or two particles (prepositions or adverbs) to create a new meaning. Types: (1) Separable transitive: you can put the object between verb and particle or after — 'turn the TV off' / 'turn off the TV'. BUT if the object is a pronoun, it MUST go in the middle: 'turn it off' (never 'turn off it'). (2) Inseparable transitive: object always comes after the particle — 'look after the children' (never 'look the children after'). (3) Intransitive: no object — 'break down', 'get up', 'carry on'. (4) Three-part phrasal verbs: always inseparable — 'put up with', 'look forward to', 'come up with'.",
+    "why_matters": "Phrasal verbs are absolutely essential for natural English. Native speakers use them constantly in conversation. There are thousands, but mastering the most common ones and understanding the grammar rules transforms your English comprehension and production.",
+    "hebrew_note": "Hebrew has no direct equivalent of phrasal verbs — Hebrew uses different verb roots for different meanings. This means every English phrasal verb must be treated as a new vocabulary item. The key grammar rule is the pronoun placement: 'turn it off' (correct), 'turn off it' (wrong). Hebrew speakers often say 'look after it' correctly but then say 'turn off it' — the rule is: pronoun ALWAYS goes between verb and particle.",
+    "tip": "The pronoun rule: if the object is a pronoun (it, them, me, him, her, us), it MUST go between verb and particle. Always. 'Call him back' (correct). 'Call back him' (wrong). 'Pick them up' (correct). 'Pick up them' (wrong). For noun objects: both positions are usually fine for separable phrasal verbs.",
+    "good_examples": [
+      {
+        "id": "G-36-ge-001",
+        "sentence": "Can you turn the TV off? / Can you turn off the TV?",
+        "audio_text": "Can you turn the TV off? / Can you turn off the TV?",
+        "note": "Separable: both positions fine with noun object"
+      },
+      {
+        "id": "G-36-ge-002",
+        "sentence": "Can you turn it off? (NOT: turn off it)",
+        "audio_text": "Can you turn it off? (NOT: turn off it)",
+        "note": "Pronoun must go between verb and particle"
+      },
+      {
+        "id": "G-36-ge-003",
+        "sentence": "She looks after her elderly parents.",
+        "audio_text": "She looks after her elderly parents.",
+        "note": "Inseparable: object always after particle"
+      },
+      {
+        "id": "G-36-ge-004",
+        "sentence": "The car broke down on the motorway.",
+        "audio_text": "The car broke down on the motorway.",
+        "note": "Intransitive: no object"
+      },
+      {
+        "id": "G-36-ge-005",
+        "sentence": "I can't put up with this noise any longer.",
+        "audio_text": "I can't put up with this noise any longer.",
+        "note": "Three-part phrasal verb: always inseparable"
+      },
+      {
+        "id": "G-36-ge-006",
+        "sentence": "She came up with an excellent solution.",
+        "audio_text": "She came up with an excellent solution.",
+        "note": "come up with = think of/invent"
+      },
+      {
+        "id": "G-36-ge-007",
+        "sentence": "He turned down the offer. / He turned the offer down.",
+        "audio_text": "He turned down the offer. / He turned the offer down.",
+        "note": "turn down = refuse. Separable."
+      },
+      {
+        "id": "G-36-ge-008",
+        "sentence": "I'll look into the matter and get back to you.",
+        "audio_text": "I'll look into the matter and get back to you.",
+        "note": "look into = investigate. get back to = contact again"
+      },
+      {
+        "id": "G-36-ge-009",
+        "sentence": "They had to call off the match due to the weather.",
+        "audio_text": "They had to call off the match due to the weather.",
+        "note": "call off = cancel. Separable."
+      },
+      {
+        "id": "G-36-ge-010",
+        "sentence": "She's finding it hard to get over the disappointment.",
+        "audio_text": "She's finding it hard to get over the disappointment.",
+        "note": "get over = recover from. Inseparable."
+      }
+    ],
+    "bad_examples": [
+      {
+        "id": "G-36-be-001",
+        "wrong": "Can you turn off it?",
+        "correct": "Can you turn it off?",
+        "reason": "Pronouns must go between verb and particle. Never after."
+      },
+      {
+        "id": "G-36-be-002",
+        "wrong": "She looks her parents after.",
+        "correct": "She looks after her parents.",
+        "reason": "Inseparable phrasal verbs: object always after particle."
+      },
+      {
+        "id": "G-36-be-003",
+        "wrong": "He put up the noise with.",
+        "correct": "He put up with the noise.",
+        "reason": "Three-part phrasal verbs are inseparable: put up with + object."
+      },
+      {
+        "id": "G-36-be-004",
+        "wrong": "I can't get my cold over.",
+        "correct": "I can't get over my cold.",
+        "reason": "get over is inseparable: get over + object."
+      },
+      {
+        "id": "G-36-be-005",
+        "wrong": "They called the match off it.",
+        "correct": "They called the match off. / They called it off.",
+        "reason": "Object between verb and particle, or after particle (nouns only). Pronoun must be in the middle."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "G-36-ex-001",
+      "type": "fill_blank",
+      "question": "Could you turn ___ the lights when you leave? (use the particle only)",
+      "answer": "off",
+      "hint": "turn off = switch off (separable)",
+      "explanation": "turn off the lights OR turn the lights off.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-36-ex-002",
+      "type": "fill_blank",
+      "question": "She's been looking ___ her neighbour's cat while they're away.",
+      "answer": "after",
+      "hint": "look after = take care of (inseparable)",
+      "explanation": "look after + object (always after particle).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-36-ex-003",
+      "type": "fill_blank",
+      "question": "The meeting was called ___ due to the director's illness.",
+      "answer": "off",
+      "hint": "call off = cancel",
+      "explanation": "call off = cancel.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-36-ex-004",
+      "type": "fill_blank",
+      "question": "I can't put ___ with this noise any longer.",
+      "answer": "up",
+      "hint": "put up with = tolerate (three-part, inseparable)",
+      "explanation": "put up with = tolerate.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-36-ex-005",
+      "type": "fill_blank",
+      "question": "She came ___ a brilliant idea during the meeting.",
+      "answer": "up with",
+      "hint": "come up with = think of/invent (three-part)",
+      "explanation": "come up with = think of.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-36-ex-006",
+      "type": "fill_blank",
+      "question": "The car broke ___ on the motorway.",
+      "answer": "down",
+      "hint": "break down = stop working (intransitive)",
+      "explanation": "break down = stop functioning.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-36-ex-007",
+      "type": "fill_blank",
+      "question": "He turned ___ every job offer he received.",
+      "answer": "down",
+      "hint": "turn down = refuse (separable)",
+      "explanation": "turn down = refuse.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-36-ex-008",
+      "type": "fill_blank",
+      "question": "Please fill ___ this form and return it.",
+      "answer": "in / out",
+      "hint": "fill in/out = complete a form",
+      "explanation": "fill in (British) or fill out (American).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-36-ex-009",
+      "type": "fill_blank",
+      "question": "She needs to get ___ the fact that he's not coming back.",
+      "answer": "over",
+      "hint": "get over = accept/recover from",
+      "explanation": "get over = recover from/accept.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-36-ex-010",
+      "type": "fill_blank",
+      "question": "They've decided to put ___ the meeting until next week.",
+      "answer": "off",
+      "hint": "put off = postpone (separable)",
+      "explanation": "put off = postpone.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-36-ex-011",
+      "type": "mcq",
+      "question": "Can you pick ___ from the station?",
+      "answer": "me up",
+      "hint": "Pronoun must go between verb and particle",
+      "explanation": "me up — pronoun between verb and particle.",
+      "distractors": "up me / up me at / me at up",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-36-ex-012",
+      "type": "mcq",
+      "question": "She always ___ her promises.",
+      "answer": "keeps to / lives up to",
+      "hint": "live up to = fulfil expectations",
+      "explanation": "lives up to — three-part phrasal verb.",
+      "distractors": "carries up / goes through with / follows to",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-36-ex-013",
+      "type": "mcq",
+      "question": "Which is correct?",
+      "answer": "Turn it off.",
+      "hint": "Pronoun must go between verb and particle",
+      "explanation": "Turn it off — pronoun in the middle.",
+      "distractors": "Turn off it. / Off turn it. / It turn off.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-36-ex-014",
+      "type": "mcq",
+      "question": "He's finding it hard to ___ his new boss.",
+      "answer": "get on with",
+      "hint": "get on with = have a good relationship with",
+      "explanation": "get on with — three-part phrasal verb.",
+      "distractors": "get along / be fine with / carry along with",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-36-ex-015",
+      "type": "mcq",
+      "question": "The charity event ___ over £50,000.",
+      "answer": "raised",
+      "hint": "raise = collect money (not a phrasal verb here — but know the difference)",
+      "explanation": "raised — this is a simple verb, not phrasal.",
+      "distractors": [
+        "brought up / came up with / put in"
+      ],
+      "hebrew_note": null
+    },
+    {
+      "id": "G-36-ex-016",
+      "type": "mcq",
+      "question": "She ___ her application at the last minute.",
+      "answer": "handed in",
+      "hint": "hand in = submit (separable)",
+      "explanation": "handed in — submit.",
+      "distractors": [
+        "handed up / handed across / gave in"
+      ],
+      "hebrew_note": null
+    },
+    {
+      "id": "G-36-ex-017",
+      "type": "mcq",
+      "question": "I need to ___ the situation more carefully before deciding.",
+      "answer": "look into",
+      "hint": "look into = investigate (inseparable)",
+      "explanation": "look into — investigate.",
+      "distractors": [
+        "look at up / investigate into / look it into"
+      ],
+      "hebrew_note": null
+    },
+    {
+      "id": "G-36-ex-018",
+      "type": "mcq",
+      "question": "They had to ___ the launch because of technical problems.",
+      "answer": "put off / call off",
+      "hint": "put off/call off = postpone/cancel",
+      "explanation": "put off or call off.",
+      "distractors": [
+        "put down / set off / call on"
+      ],
+      "hebrew_note": null
+    },
+    {
+      "id": "G-36-ex-019",
+      "type": "error_correction",
+      "question": "Find and fix: 'Can you turn off it?'",
+      "answer": "Can you turn it off?",
+      "hint": "Pronoun must go between verb and particle",
+      "explanation": "turn it off — pronoun in middle.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-36-ex-020",
+      "type": "error_correction",
+      "question": "Find and fix: 'She looks her elderly parents after.'",
+      "answer": "She looks after her elderly parents.",
+      "hint": "Inseparable phrasal verb: object after particle",
+      "explanation": "looks after her parents — inseparable.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-36-ex-021",
+      "type": "error_correction",
+      "question": "Find and fix: 'He put up the noise with.'",
+      "answer": "He put up with the noise.",
+      "hint": "Three-part phrasal verb: always inseparable",
+      "explanation": "put up with + object (object always at end).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-36-ex-022",
+      "type": "error_correction",
+      "question": "Find and fix: 'I called off it at the last minute.'",
+      "answer": "I called it off at the last minute.",
+      "hint": "Pronoun between verb and particle",
+      "explanation": "called it off — pronoun in middle.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-36-ex-023",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "she",
+        "Could",
+        "look",
+        "my",
+        "after",
+        "while",
+        "dog",
+        "I'm",
+        "away"
+      ],
+      "answer": "Could she look after my dog while I'm away?",
+      "hint": "Inseparable: look after + object after particle",
+      "explanation": "look after my dog — object after particle.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-36-ex-024",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "She",
+        "up",
+        "came",
+        "brilliant",
+        "a",
+        "with",
+        "idea"
+      ],
+      "answer": "She came up with a brilliant idea.",
+      "hint": "Three-part phrasal verb",
+      "explanation": "came up with + object.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-36-ex-025",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "the",
+        "off",
+        "call",
+        "they",
+        "had",
+        "match",
+        "to"
+      ],
+      "answer": "They had to call off the match.",
+      "hint": "call off = cancel (separable)",
+      "explanation": "call off the match OR call the match off.",
+      "hebrew_note": null
+    }
+  ],
+  "speak": [
+    {
+      "id": "G-36-sp-001",
+      "sentence": "Could you look into the problem and get back to me by the end of the day?",
+      "chunks": [
+        "Could you look into the problem",
+        "and get back to me by the end of the day?"
+      ],
+      "phonetic_hints": "'Look into' = investigate. 'Get back to' = contact again.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-36-sp-002",
+      "sentence": "She came up with such a creative solution that everyone was impressed.",
+      "chunks": [
+        "She came up with such a creative solution",
+        "that everyone was impressed."
+      ],
+      "phonetic_hints": "'Creative' = kree-AY-tiv. 'Impressed' = im-PREST.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-36-sp-003",
+      "sentence": "I can't put up with this situation any longer — something needs to change.",
+      "chunks": [
+        "I can't put up with this situation any longer —",
+        "something needs to change."
+      ],
+      "phonetic_hints": "'Put up with' = tolerate. 'Situation' = sich-yoo-AY-shun.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-36-sp-004",
+      "sentence": "The car broke down just as we were about to set off on our journey.",
+      "chunks": [
+        "The car broke down just as we were about to set off",
+        "on our journey."
+      ],
+      "phonetic_hints": "'Broke down' = stopped working. 'Set off' = begin a journey.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-36-sp-005",
+      "sentence": "Please fill in the form and hand it in at the front desk.",
+      "chunks": [
+        "Please fill in the form",
+        "and hand it in at the front desk."
+      ],
+      "phonetic_hints": "'Fill in' = complete. 'Hand it in' — pronoun between verb and particle.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-36-sp-006",
+      "sentence": "She turned down the offer even though it was very generous.",
+      "chunks": [
+        "She turned down the offer",
+        "even though it was very generous."
+      ],
+      "phonetic_hints": "'Turned down' = refused. 'Generous' = JEN-er-us.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-36-sp-007",
+      "sentence": "He's been looking after his mother since she came out of hospital.",
+      "chunks": [
+        "He's been looking after his mother",
+        "since she came out of hospital."
+      ],
+      "phonetic_hints": "'Looking after' = taking care of. Inseparable.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-36-sp-008",
+      "sentence": "They had to call off the event at short notice because of the bad weather.",
+      "chunks": [
+        "They had to call off the event at short notice",
+        "because of the bad weather."
+      ],
+      "phonetic_hints": "'Call off' = cancel. 'Notice' = NOH-tiss.",
+      "pass_threshold": 0.65
+    }
+  ]
+}

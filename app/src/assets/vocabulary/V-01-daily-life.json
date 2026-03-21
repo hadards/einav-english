@@ -1,0 +1,307 @@
+{
+  "id": "V-01",
+  "theme": "Daily life & routines",
+  "level": "A2",
+  "words": [
+    {
+      "id": "V-01-w-001",
+      "word": "routine",
+      "part_of_speech": "noun",
+      "definition": "the usual order of things you do every day",
+      "example_sentences": [
+        "I have a morning routine that never changes.",
+        "She follows the same routine every weekday.",
+        "It helps to have a consistent routine."
+      ],
+      "pronunciation_tip": "roo-TEEN — stress on second syllable.",
+      "common_mistake": "Don't say 'I do my routine' — say 'I follow/stick to my routine'.",
+      "collocations": "['daily routine', 'morning routine', 'stick to a routine']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-01-w-002",
+      "word": "commute",
+      "part_of_speech": "verb/noun",
+      "definition": "to travel regularly between home and work",
+      "example_sentences": [
+        "She commutes to work by train every day.",
+        "My commute takes about an hour each way.",
+        "He hates the long commute in rush hour."
+      ],
+      "pronunciation_tip": "kuh-MYOOT — stress on second syllable.",
+      "common_mistake": "Don't say 'I make a commute' — say 'I commute' or 'my commute takes...'.",
+      "collocations": "['daily commute', 'commute to work', 'long commute']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-01-w-003",
+      "word": "schedule",
+      "part_of_speech": "noun/verb",
+      "definition": "a plan showing what will happen and when",
+      "example_sentences": [
+        "I have a very busy schedule this week.",
+        "Can we schedule a meeting for Thursday?",
+        "The project is on schedule."
+      ],
+      "pronunciation_tip": "SHED-yool (British) or SKED-yool (American).",
+      "common_mistake": "Don't say 'I have a full programme' — say 'I have a busy schedule'.",
+      "collocations": "['busy schedule', 'schedule a meeting', 'on schedule']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-01-w-004",
+      "word": "appointment",
+      "part_of_speech": "noun",
+      "definition": "an arranged time to meet someone professionally",
+      "example_sentences": [
+        "I have a doctor's appointment at 3pm.",
+        "She made an appointment with the hairdresser.",
+        "Don't be late for your appointment."
+      ],
+      "pronunciation_tip": "uh-POINT-ment — stress on second syllable.",
+      "common_mistake": "Don't say 'I have a meeting with the doctor' — say 'I have an appointment'.",
+      "collocations": "['make an appointment', 'doctor appointment', 'keep an appointment']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-01-w-005",
+      "word": "habit",
+      "part_of_speech": "noun",
+      "definition": "something you do regularly, often without thinking",
+      "example_sentences": [
+        "Checking my phone first thing is a bad habit.",
+        "She has a habit of arriving early everywhere.",
+        "Regular exercise is a healthy habit to develop."
+      ],
+      "pronunciation_tip": "HAB-it — short 'a', stress on first.",
+      "common_mistake": "Don't say 'I have the habit to check' — say 'I have a habit of checking'.",
+      "collocations": "['bad habit', 'break a habit', 'develop a habit']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-01-w-006",
+      "word": "chore",
+      "part_of_speech": "noun",
+      "definition": "a routine household task that must be done",
+      "example_sentences": [
+        "Doing the dishes is my least favourite chore.",
+        "We share the household chores equally.",
+        "He hates doing chores at the weekend."
+      ],
+      "pronunciation_tip": "CHAWR — rhymes with 'more'.",
+      "common_mistake": "Don't say 'I do works at home' — say 'I do chores' or 'household chores'.",
+      "collocations": "['household chores', 'do chores', 'share chores']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-01-w-007",
+      "word": "errand",
+      "part_of_speech": "noun",
+      "definition": "a short trip to do a specific task such as buying or collecting something",
+      "example_sentences": [
+        "I have a few errands to run this afternoon.",
+        "Can you run a quick errand for me?",
+        "She spent the morning running errands around town."
+      ],
+      "pronunciation_tip": "EHR-und — stress on first syllable.",
+      "common_mistake": "Don't say 'I go to do some tasks' — say 'I have errands to run'.",
+      "collocations": "['run an errand', 'quick errand', 'errands to run']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-01-w-008",
+      "word": "deadline",
+      "part_of_speech": "noun",
+      "definition": "the latest time or date by which something must be completed",
+      "example_sentences": [
+        "The deadline for the report is Friday morning.",
+        "She always works best under deadline pressure.",
+        "They missed the deadline by two days."
+      ],
+      "pronunciation_tip": "DED-lyn — stress on first syllable.",
+      "common_mistake": "Don't say 'I have a last date' — say 'I have a deadline'.",
+      "collocations": "['meet a deadline', 'miss a deadline', 'tight deadline']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-01-w-009",
+      "word": "priority",
+      "part_of_speech": "noun",
+      "definition": "the thing that is most important and should be done first",
+      "example_sentences": [
+        "Family is my absolute top priority.",
+        "You need to get your priorities in order.",
+        "Exercise has become a daily priority for her."
+      ],
+      "pronunciation_tip": "pry-OR-ih-tee — stress on second syllable.",
+      "common_mistake": "Don't say 'My first importance is' — say 'My top priority is'.",
+      "collocations": "['top priority', 'set priorities', 'make something a priority']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-01-w-010",
+      "word": "unwind",
+      "part_of_speech": "verb",
+      "definition": "to relax and reduce stress after a busy period",
+      "example_sentences": [
+        "I like to unwind with a good book in the evenings.",
+        "After a long week, I desperately need to unwind.",
+        "A walk in the park always helps me unwind."
+      ],
+      "pronunciation_tip": "un-WYND — stress on second syllable.",
+      "common_mistake": "Don't say 'I relax myself' — say 'I unwind' or simply 'I relax'.",
+      "collocations": "['unwind after work', 'need to unwind', 'help you unwind']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-01-w-011",
+      "word": "punctual",
+      "part_of_speech": "adjective",
+      "definition": "arriving or doing things at exactly the right time",
+      "example_sentences": [
+        "She is always punctual — I've never seen her late.",
+        "It's very important to be punctual for job interviews.",
+        "Being punctual shows respect for other people's time."
+      ],
+      "pronunciation_tip": "PUNK-choo-ul — three syllables, stress on first.",
+      "common_mistake": "Don't say 'She is always on time' then 'punctual' — just use one.",
+      "collocations": "['be punctual', 'always punctual', 'punctual person']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-01-w-012",
+      "word": "allocate",
+      "part_of_speech": "verb",
+      "definition": "to give or set aside time, money, or resources for a purpose",
+      "example_sentences": [
+        "I allocate two hours a day to exercise.",
+        "The manager allocates tasks to each team member.",
+        "You should allocate more time to preparation."
+      ],
+      "pronunciation_tip": "AL-uh-kayt — stress on first syllable.",
+      "common_mistake": "Don't say 'I give time to exercise' — say 'I allocate time to exercise'.",
+      "collocations": "['allocate time', 'allocate resources', 'allocate tasks']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-01-w-013",
+      "word": "overwhelmed",
+      "part_of_speech": "adjective",
+      "definition": "feeling that you have too much to deal with at once",
+      "example_sentences": [
+        "I'm completely overwhelmed by my workload right now.",
+        "She felt overwhelmed by the amount of information.",
+        "Don't get overwhelmed — take it one step at a time."
+      ],
+      "pronunciation_tip": "oh-ver-WELMD — stress on third syllable.",
+      "common_mistake": "Don't say 'I have too much work' only — say 'I feel overwhelmed by my workload'.",
+      "collocations": "['feel overwhelmed', 'completely overwhelmed', 'overwhelmed by']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-01-w-014",
+      "word": "juggle",
+      "part_of_speech": "verb",
+      "definition": "to manage several tasks or responsibilities at the same time",
+      "example_sentences": [
+        "She juggles work and family life brilliantly.",
+        "It's very hard to juggle multiple projects simultaneously.",
+        "He is juggling three jobs at the moment."
+      ],
+      "pronunciation_tip": "JUG-ul — stress on first syllable.",
+      "common_mistake": "Don't say 'She does many things at the same time' — say 'She juggles work and family'.",
+      "collocations": "['juggle responsibilities', 'juggle work and family', 'juggle tasks']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-01-w-015",
+      "word": "procrastinate",
+      "part_of_speech": "verb",
+      "definition": "to keep delaying something you should do",
+      "example_sentences": [
+        "He tends to procrastinate when he faces difficult tasks.",
+        "Stop procrastinating and just start writing!",
+        "She procrastinated all week and then rushed at the end."
+      ],
+      "pronunciation_tip": "proh-KRAS-tih-nayt — four syllables, stress on second.",
+      "common_mistake": "Don't say 'I delay my work' — say 'I procrastinate' or 'I put things off'.",
+      "collocations": "['tend to procrastinate', 'stop procrastinating', 'procrastinate about']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-01-w-016",
+      "word": "sustainable",
+      "part_of_speech": "adjective",
+      "definition": "able to be maintained for a long time without causing harm",
+      "example_sentences": [
+        "Is your current work-life balance sustainable?",
+        "We need a more sustainable approach to managing our time.",
+        "Working 80 hours a week is simply not sustainable."
+      ],
+      "pronunciation_tip": "sus-TAYN-uh-bul — four syllables, stress on second.",
+      "common_mistake": "Don't say 'This can continue' — say 'This is sustainable'.",
+      "collocations": "['sustainable lifestyle', 'sustainable pace', 'not sustainable']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-01-w-017",
+      "word": "catch up",
+      "part_of_speech": "phrasal verb",
+      "definition": "to do something you missed or did not have time to do",
+      "example_sentences": [
+        "I need to catch up on my emails after the holiday.",
+        "Let's meet for coffee and catch up properly.",
+        "She caught up on her sleep over the long weekend."
+      ],
+      "pronunciation_tip": "catch UP — stress on up.",
+      "common_mistake": "Don't say 'I need to do the things I missed' — say 'I need to catch up on...'",
+      "collocations": "['catch up on emails', 'catch up with someone', 'need to catch up']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-01-w-018",
+      "word": "set aside",
+      "part_of_speech": "phrasal verb",
+      "definition": "to save or reserve time or money for a specific purpose",
+      "example_sentences": [
+        "I set aside an hour every morning for reading.",
+        "You should set aside some money for unexpected costs.",
+        "She sets aside time for exercise every single day."
+      ],
+      "pronunciation_tip": "set uh-SYD — smooth linking.",
+      "common_mistake": "Don't say 'I keep time for reading' — say 'I set aside time for reading'.",
+      "collocations": "['set aside time', 'set aside money', 'set aside for']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-01-w-019",
+      "word": "run out of",
+      "part_of_speech": "phrasal verb",
+      "definition": "to use all of something so none is left",
+      "example_sentences": [
+        "I've run out of time to finish the project.",
+        "We've completely run out of milk again.",
+        "She ran out of patience with the constant delays."
+      ],
+      "pronunciation_tip": "run OUT of — stress on out.",
+      "common_mistake": "Don't say 'I finished the time' — say 'I've run out of time'.",
+      "collocations": "['run out of time', 'run out of money', 'run out of patience']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-01-w-020",
+      "word": "keep up with",
+      "part_of_speech": "phrasal verb",
+      "definition": "to continue at the same level or pace as someone or something",
+      "example_sentences": [
+        "It's very hard to keep up with all the latest news.",
+        "She struggles to keep up with the fast pace of work.",
+        "He finds it difficult to keep up with his more experienced colleagues."
+      ],
+      "pronunciation_tip": "keep UP with — stress on up.",
+      "common_mistake": "Don't say 'I can't follow the news' — say 'I can't keep up with the news'.",
+      "collocations": "['keep up with news', 'keep up with work', 'hard to keep up with']",
+      "difficulty": 2
+    }
+  ]
+}

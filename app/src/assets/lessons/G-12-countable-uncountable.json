@@ -1,0 +1,472 @@
+{
+  "id": "G-12",
+  "title": "Countable and uncountable nouns",
+  "level": "A2",
+  "order": 12,
+  "explain": {
+    "rule": "Countable nouns are things you can count: one book, two books, three books. They have a singular and a plural form. Uncountable nouns are things you cannot count individually: water, milk, information, advice, furniture. They have no plural form — you never say 'informations' or 'advices'. To talk about quantities, use some (positive statements and offers), any (negatives and questions), much/many, a lot of, a few/a little, enough.",
+    "why_matters": "Choosing the right quantifier (much vs many, a few vs a little) depends entirely on whether the noun is countable or uncountable. This affects almost every sentence where you talk about amounts or quantities.",
+    "hebrew_note": "In Hebrew, many nouns that are uncountable in English can be pluralised (like מידעים). In English, information, advice, furniture, luggage, money, news, hair, traffic, and many others are always singular and uncountable — never add -s. Also: 'news' is singular in English — 'The news is good' (not 'the news are good').",
+    "tip": "If you can put a number in front of it, it is countable (three books, five people). If you cannot (three informations? — NO), it is uncountable. For uncountable nouns, use 'a piece of' or 'a bit of' to talk about one unit: a piece of advice, a piece of furniture, a bit of information.",
+    "quantifiers": {
+      "some": "positive sentences: I have some money. | offers: Would you like some coffee?",
+      "any": "negatives: I don't have any money. | questions: Do you have any questions?",
+      "much": "uncountable in negatives/questions: I don't have much time. How much water?",
+      "many": "countable in negatives/questions: I don't have many friends. How many people?",
+      "a_lot_of": "both countable and uncountable in positives: I have a lot of time. I have a lot of books.",
+      "a_few": "countable positives (small number): I have a few ideas.",
+      "a_little": "uncountable positives (small amount): I have a little money.",
+      "few": "countable — negative meaning (not many): Few people came = almost nobody",
+      "little": "uncountable — negative meaning (not much): Little time remains = almost no time"
+    },
+    "good_examples": [
+      {
+        "id": "G-12-ge-001",
+        "sentence": "I need some information about the schedule.",
+        "audio_text": "I need some information about the schedule.",
+        "note": "information = uncountable, no plural, use some"
+      },
+      {
+        "id": "G-12-ge-002",
+        "sentence": "Do you have any questions?",
+        "audio_text": "Do you have any questions?",
+        "note": "questions = countable (plural) + any in a question"
+      },
+      {
+        "id": "G-12-ge-003",
+        "sentence": "There isn't much traffic today.",
+        "audio_text": "There isn't much traffic today.",
+        "note": "traffic = uncountable → much (not many)"
+      },
+      {
+        "id": "G-12-ge-004",
+        "sentence": "She has a lot of experience.",
+        "audio_text": "She has a lot of experience.",
+        "note": "experience (as general skill) = uncountable → a lot of"
+      },
+      {
+        "id": "G-12-ge-005",
+        "sentence": "I only have a little time before my meeting.",
+        "audio_text": "I only have a little time before my meeting.",
+        "note": "time = uncountable → a little"
+      },
+      {
+        "id": "G-12-ge-006",
+        "sentence": "Can I give you a piece of advice?",
+        "audio_text": "Can I give you a piece of advice?",
+        "note": "advice = uncountable → a piece of advice (not 'an advice')"
+      },
+      {
+        "id": "G-12-ge-007",
+        "sentence": "How many people are coming to the party?",
+        "audio_text": "How many people are coming to the party?",
+        "note": "people = countable → many"
+      },
+      {
+        "id": "G-12-ge-008",
+        "sentence": "How much does this cost?",
+        "audio_text": "How much does this cost?",
+        "note": "money/cost = uncountable → how much"
+      },
+      {
+        "id": "G-12-ge-009",
+        "sentence": "We have a few options to consider.",
+        "audio_text": "We have a few options to consider.",
+        "note": "options = countable → a few"
+      },
+      {
+        "id": "G-12-ge-010",
+        "sentence": "The news is very worrying today.",
+        "audio_text": "The news is very worrying today.",
+        "note": "news = uncountable, always singular — the news IS"
+      }
+    ],
+    "bad_examples": [
+      {
+        "id": "G-12-be-001",
+        "wrong": "Can you give me an advice?",
+        "correct": "Can you give me some advice? / a piece of advice?",
+        "reason": "Advice is uncountable — no 'an advice'. Use some advice or a piece of advice."
+      },
+      {
+        "id": "G-12-be-002",
+        "wrong": "I don't have many money.",
+        "correct": "I don't have much money.",
+        "reason": "Money is uncountable → use much, not many. Many is for countable nouns."
+      },
+      {
+        "id": "G-12-be-003",
+        "wrong": "She has a lot of furnitures.",
+        "correct": "She has a lot of furniture.",
+        "reason": "Furniture is uncountable — no plural. Never 'furnitures'."
+      },
+      {
+        "id": "G-12-be-004",
+        "wrong": "The news are bad today.",
+        "correct": "The news is bad today.",
+        "reason": "News is uncountable and always takes a singular verb — the news IS."
+      },
+      {
+        "id": "G-12-be-005",
+        "wrong": "I have few money left.",
+        "correct": "I have little money left.",
+        "reason": "few is for countable nouns. little is for uncountable nouns. Money = uncountable → little money."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "G-12-ex-001",
+      "type": "fill_blank",
+      "question": "How ___ (many/much) sugar do you take in your coffee?",
+      "answer": "much",
+      "hint": "Sugar = uncountable",
+      "explanation": "Sugar is uncountable → how much sugar.",
+      "hebrew_note": "סוכר = שם עצם שאינו ניתן לספירה → much"
+    },
+    {
+      "id": "G-12-ex-002",
+      "type": "fill_blank",
+      "question": "There are ___ (many/much) students in my English class.",
+      "answer": "many",
+      "hint": "Students = countable (you can count them)",
+      "explanation": "Students is countable → many students.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-12-ex-003",
+      "type": "fill_blank",
+      "question": "I don't have ___ (much/many) time — I'm very busy.",
+      "answer": "much",
+      "hint": "Time = uncountable",
+      "explanation": "Time is uncountable → much time (in a negative).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-12-ex-004",
+      "type": "fill_blank",
+      "question": "She gave me ___ (a/some) good advice.",
+      "answer": "some",
+      "hint": "Advice = uncountable. Can you say 'an advice'?",
+      "explanation": "Advice is uncountable — no 'an advice'. Use some advice.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-12-ex-005",
+      "type": "fill_blank",
+      "question": "There's ___ (little/few) milk left in the fridge.",
+      "answer": "a little",
+      "hint": "Milk = uncountable, small amount",
+      "explanation": "Milk is uncountable → a little milk (small positive amount).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-12-ex-006",
+      "type": "fill_blank",
+      "question": "We have ___ (a few/a little) options to choose from.",
+      "answer": "a few",
+      "hint": "Options = countable (you can count them)",
+      "explanation": "Options is countable → a few options.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-12-ex-007",
+      "type": "fill_blank",
+      "question": "There was a lot of ___ (traffic/traffics) on the motorway.",
+      "answer": "traffic",
+      "hint": "Traffic = uncountable, never plural",
+      "explanation": "Traffic is uncountable — never add -s. A lot of traffic.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-12-ex-008",
+      "type": "fill_blank",
+      "question": "Do you have ___ (some/any) questions for me?",
+      "answer": "any",
+      "hint": "Question → do you need some or any?",
+      "explanation": "Questions in this form → any. Any in questions and negatives.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-12-ex-009",
+      "type": "fill_blank",
+      "question": "I need ___ (some/any) information about visa requirements.",
+      "answer": "some",
+      "hint": "Positive statement → some",
+      "explanation": "Positive statements use some: I need some information.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-12-ex-010",
+      "type": "fill_blank",
+      "question": "She doesn't have ___ (much/many) experience in this field.",
+      "answer": "much",
+      "hint": "Experience (general skill) = uncountable",
+      "explanation": "Experience as a general skill is uncountable → much experience.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-12-ex-011",
+      "type": "fill_blank",
+      "question": "How ___ (much/many) people work in your company?",
+      "answer": "many",
+      "hint": "People = countable",
+      "explanation": "People is countable → how many people.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-12-ex-012",
+      "type": "fill_blank",
+      "question": "We bought ___ (a few/a little) new furniture for the living room.",
+      "answer": "some",
+      "hint": "Furniture = uncountable. Which quantifier?",
+      "explanation": "Furniture is uncountable. Use some furniture or a piece of furniture, not a few.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-12-ex-013",
+      "type": "mcq",
+      "question": "Which sentence is correct?",
+      "answer": "I need some information.",
+      "hint": "Information = uncountable",
+      "explanation": "Information is uncountable — no article 'an', no plural 's'.",
+      "distractors": [
+        "I need an information.",
+        "I need some informations.",
+        "I need a information."
+      ]
+    },
+    {
+      "id": "G-12-ex-014",
+      "type": "mcq",
+      "question": "Choose the correct quantifier: '___ people know about this.'",
+      "answer": "Few",
+      "hint": "Few (without 'a') has a negative meaning — almost nobody",
+      "explanation": "Few people = almost nobody. A few people = some (positive meaning).",
+      "distractors": [
+        "Little",
+        "A few",
+        "Much"
+      ]
+    },
+    {
+      "id": "G-12-ex-015",
+      "type": "mcq",
+      "question": "The news ___ not good today.",
+      "answer": "is",
+      "hint": "Is 'news' singular or plural in English?",
+      "explanation": "News is always singular in English — the news IS.",
+      "distractors": [
+        "are",
+        "were",
+        "have"
+      ]
+    },
+    {
+      "id": "G-12-ex-016",
+      "type": "mcq",
+      "question": "She has ___ experience in marketing.",
+      "answer": "a lot of",
+      "hint": "Positive statement about uncountable noun",
+      "explanation": "A lot of works with uncountable nouns in positive statements.",
+      "distractors": [
+        "many",
+        "a few",
+        "few"
+      ]
+    },
+    {
+      "id": "G-12-ex-017",
+      "type": "mcq",
+      "question": "Is there ___ petrol in the car?",
+      "answer": "any",
+      "hint": "Question → some or any?",
+      "explanation": "Questions typically use any: Is there any petrol?",
+      "distractors": [
+        "some",
+        "much",
+        "a few"
+      ]
+    },
+    {
+      "id": "G-12-ex-018",
+      "type": "mcq",
+      "question": "Which of these is uncountable?",
+      "answer": "luggage",
+      "hint": "Which one cannot be counted individually?",
+      "explanation": "Luggage is uncountable. Books, cars, and ideas are all countable.",
+      "distractors": [
+        "book",
+        "car",
+        "idea"
+      ]
+    },
+    {
+      "id": "G-12-ex-019",
+      "type": "error_correction",
+      "question": "Find and fix: 'Can you give me an advice about my CV?'",
+      "answer": "Can you give me some advice about my CV?",
+      "hint": "Advice = uncountable — can you use 'an'?",
+      "explanation": "Advice is uncountable — no 'an advice'. Use some advice or a piece of advice.",
+      "hebrew_note": "advice = שם עצם שאינו ניתן לספירה. לא 'an advice'"
+    },
+    {
+      "id": "G-12-ex-020",
+      "type": "error_correction",
+      "question": "Find and fix: 'There isn't many milk left.'",
+      "answer": "There isn't much milk left.",
+      "hint": "Milk = uncountable → much or many?",
+      "explanation": "Milk is uncountable → much. Many is for countable nouns.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-12-ex-021",
+      "type": "error_correction",
+      "question": "Find and fix: 'She bought three furnitures for her apartment.'",
+      "answer": "She bought some furniture / three pieces of furniture for her apartment.",
+      "hint": "Furniture = uncountable — can it be plural?",
+      "explanation": "Furniture is uncountable — never 'furnitures'. Use some furniture or pieces of furniture.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-12-ex-022",
+      "type": "error_correction",
+      "question": "Find and fix: 'I have few money in my wallet.'",
+      "answer": "I have little money in my wallet.",
+      "hint": "few is for countable nouns. Money is uncountable.",
+      "explanation": "Few = for countable. Little = for uncountable. Money = uncountable → little money.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-12-ex-023",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "much",
+        "how",
+        "does",
+        "it",
+        "cost"
+      ],
+      "answer": "How much does it cost?",
+      "hint": "How much for uncountable / price questions",
+      "explanation": "How much = uncountable quantity or price."
+    },
+    {
+      "id": "G-12-ex-024",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "people",
+        "many",
+        "how",
+        "are",
+        "there",
+        "waiting"
+      ],
+      "answer": "How many people are there waiting?",
+      "hint": "People = countable → many",
+      "explanation": "How many + countable plural noun."
+    },
+    {
+      "id": "G-12-ex-025",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "give",
+        "of",
+        "you",
+        "can",
+        "me",
+        "advice",
+        "a",
+        "piece"
+      ],
+      "answer": "Can you give me a piece of advice?",
+      "hint": "'A piece of' is used with uncountable nouns to refer to one unit",
+      "explanation": "a piece of advice = one item of advice. A piece of information, a piece of furniture."
+    }
+  ],
+  "speak": [
+    {
+      "id": "G-12-sp-001",
+      "sentence": "How much time do we have before the presentation starts?",
+      "chunks": [
+        "How much time do we have",
+        "before the presentation starts?"
+      ],
+      "phonetic_hints": "'Presentation' = prez-en-TAY-shun — four syllables, stress on third.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-12-sp-002",
+      "sentence": "I don't have much experience with this kind of software.",
+      "chunks": [
+        "I don't have much experience",
+        "with this kind of software."
+      ],
+      "phonetic_hints": "'Experience' = ik-SPEER-ee-unss — four syllables. 'Software' = SOFT-wair.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-12-sp-003",
+      "sentence": "Can you give me some information about the opening hours?",
+      "chunks": [
+        "Can you give me some information",
+        "about the opening hours?"
+      ],
+      "phonetic_hints": "'Information' = in-fer-MAY-shun — four syllables, stress on third. 'Opening' = OH-puh-ning.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-12-sp-004",
+      "sentence": "There are a few options but not much time to decide.",
+      "chunks": [
+        "There are a few options",
+        "but not much time to decide."
+      ],
+      "phonetic_hints": "'Options' = OP-shunz. 'Decide' = dih-SYD — stress on second syllable.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-12-sp-005",
+      "sentence": "How many people work in your department?",
+      "chunks": [
+        "How many people work",
+        "in your department?"
+      ],
+      "phonetic_hints": "'Department' = dih-PART-ment — three syllables, stress on second.",
+      "pass_threshold": 0.75
+    },
+    {
+      "id": "G-12-sp-006",
+      "sentence": "I only have a little money left until the end of the month.",
+      "chunks": [
+        "I only have a little money left",
+        "until the end of the month."
+      ],
+      "phonetic_hints": "'Until' = un-TIL — stress on second. 'Month' = MUNTH — the 'th' sound at the end.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-12-sp-007",
+      "sentence": "The news is full of bad stories at the moment.",
+      "chunks": [
+        "The news is full of bad stories",
+        "at the moment."
+      ],
+      "phonetic_hints": "'Stories' = STAWR-eez. 'Moment' = MOH-ment. Remember: the news IS (not are).",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-12-sp-008",
+      "sentence": "Do you have any questions before we start?",
+      "chunks": [
+        "Do you have any questions",
+        "before we start?"
+      ],
+      "phonetic_hints": "'Questions' = KWES-chunz. 'Before' = bih-FAWR.",
+      "pass_threshold": 0.75
+    }
+  ]
+}

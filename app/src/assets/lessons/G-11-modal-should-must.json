@@ -1,0 +1,513 @@
+{
+  "id": "G-11",
+  "title": "Modal verbs: should / must",
+  "level": "A2",
+  "order": 11,
+  "explain": {
+    "rule": "Should is used for advice and recommendations — things that are a good idea but not obligatory. Must is used for strong obligation, rules, and necessity — things that are required or very important. Should is softer: 'You should see a doctor' = I recommend it. Must is stronger: 'You must wear a seatbelt' = it is required. Mustn't means it is forbidden (do NOT do this). Don't have to means it is NOT necessary (but you can if you want). This distinction between mustn't and don't have to is crucial — they are opposite in meaning.",
+    "why_matters": "Should and must come up constantly in giving advice, following rules, talking about obligations at work or in daily life. The difference between mustn't (forbidden) and don't have to (not necessary) is one of the most commonly confused points in English.",
+    "hebrew_note": "Hebrew uses צריך (tsarikh) for both 'should' and 'must' — context determines how strong it is. In English you must choose the right word. Should = אתה צריך (advice), Must = אתה חייב (strong obligation). Mustn't = אסור (forbidden) — NOT the same as 'don't have to'. Don't have to = לא חייב (not necessary, optional).",
+    "tip": "Think of a dial from soft to strong: should (good idea) → must (required). For negatives: mustn't means DO NOT (forbidden), don't have to means NOT necessary. These are completely opposite! 'You mustn't drive without a licence' = it is illegal. 'You don't have to drive' = you can take the bus if you prefer.",
+    "form": {
+      "should": "subject + should + base verb (positive) | subject + shouldn't + base verb (negative) | Should + subject + base verb? (question)",
+      "must": "subject + must + base verb (positive) | subject + mustn't + base verb (DO NOT) | subject + don't/doesn't have to + base verb (NOT necessary)"
+    },
+    "uses": [
+      {
+        "use": "Advice/recommendation",
+        "example": "You should drink more water.",
+        "modal": "should"
+      },
+      {
+        "use": "Expectation",
+        "example": "She should be here by now.",
+        "modal": "should"
+      },
+      {
+        "use": "Strong obligation/rule",
+        "example": "You must show your ID at the entrance.",
+        "modal": "must"
+      },
+      {
+        "use": "Logical deduction",
+        "example": "He must be tired — he worked 12 hours.",
+        "modal": "must"
+      },
+      {
+        "use": "Prohibition (FORBIDDEN)",
+        "example": "You mustn't smoke in here.",
+        "modal": "mustn't"
+      },
+      {
+        "use": "No obligation (optional)",
+        "example": "You don't have to come if you're busy.",
+        "modal": "don't have to"
+      }
+    ],
+    "good_examples": [
+      {
+        "id": "G-11-ge-001",
+        "sentence": "You should see a doctor about that cough.",
+        "audio_text": "You should see a doctor about that cough.",
+        "note": "Advice — it is a good idea"
+      },
+      {
+        "id": "G-11-ge-002",
+        "sentence": "She shouldn't stay up so late.",
+        "audio_text": "She shouldn't stay up so late.",
+        "note": "Negative advice — it is not a good idea"
+      },
+      {
+        "id": "G-11-ge-003",
+        "sentence": "All passengers must wear a seatbelt.",
+        "audio_text": "All passengers must wear a seatbelt.",
+        "note": "Rule/obligation — it is required"
+      },
+      {
+        "id": "G-11-ge-004",
+        "sentence": "You mustn't use your phone while driving.",
+        "audio_text": "You mustn't use your phone while driving.",
+        "note": "Prohibition — it is illegal/forbidden"
+      },
+      {
+        "id": "G-11-ge-005",
+        "sentence": "You don't have to finish everything on your plate.",
+        "audio_text": "You don't have to finish everything on your plate.",
+        "note": "No obligation — it is optional"
+      },
+      {
+        "id": "G-11-ge-006",
+        "sentence": "He must be very intelligent to solve that so quickly.",
+        "audio_text": "He must be very intelligent to solve that so quickly.",
+        "note": "Logical deduction — I'm almost certain it's true"
+      },
+      {
+        "id": "G-11-ge-007",
+        "sentence": "Should I bring anything to the party?",
+        "audio_text": "Should I bring anything to the party?",
+        "note": "Asking for advice/guidance"
+      },
+      {
+        "id": "G-11-ge-008",
+        "sentence": "Students must submit their essays by Friday.",
+        "audio_text": "Students must submit their essays by Friday.",
+        "note": "Deadline = obligation"
+      },
+      {
+        "id": "G-11-ge-009",
+        "sentence": "You should try the hummus here — it's amazing.",
+        "audio_text": "You should try the hummus here — it's amazing.",
+        "note": "Recommendation about food"
+      },
+      {
+        "id": "G-11-ge-010",
+        "sentence": "The package should arrive tomorrow.",
+        "audio_text": "The package should arrive tomorrow.",
+        "note": "Expectation — it is expected to happen"
+      }
+    ],
+    "bad_examples": [
+      {
+        "id": "G-11-be-001",
+        "wrong": "You should to see a doctor.",
+        "correct": "You should see a doctor.",
+        "reason": "Modal verbs are always followed by base verb — no 'to'. should see, not should to see."
+      },
+      {
+        "id": "G-11-be-002",
+        "wrong": "You mustn't to be late.",
+        "correct": "You mustn't be late.",
+        "reason": "No 'to' after mustn't. Mustn't + base verb."
+      },
+      {
+        "id": "G-11-be-003",
+        "wrong": "You don't must go.",
+        "correct": "You don't have to go.",
+        "reason": "There is no 'don't must'. The correct form for 'not necessary' is don't/doesn't have to."
+      },
+      {
+        "id": "G-11-be-004",
+        "wrong": "She shoulds call him.",
+        "correct": "She should call him.",
+        "reason": "Modal verbs never add -s. Should stays as should for all subjects."
+      },
+      {
+        "id": "G-11-be-005",
+        "wrong": "You mustn't to worry — it means the same as don't have to.",
+        "correct": "Mustn't = forbidden. Don't have to = not necessary. They are NOT the same!",
+        "reason": "Mustn't = do not do this (forbidden). Don't have to = you can, but it is not required. Completely opposite meanings."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "G-11-ex-001",
+      "type": "fill_blank",
+      "question": "You ___ (should) eat so much sugar — it's bad for you.",
+      "answer": "shouldn't",
+      "hint": "Negative advice — it is not a good idea",
+      "explanation": "Negative advice: shouldn't + base verb.",
+      "hebrew_note": "עצה שלילית = shouldn't"
+    },
+    {
+      "id": "G-11-ex-002",
+      "type": "fill_blank",
+      "question": "All visitors ___ (must) sign in at reception.",
+      "answer": "must",
+      "hint": "Rule/obligation — required",
+      "explanation": "must = strong obligation or rule.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-11-ex-003",
+      "type": "fill_blank",
+      "question": "You ___ (must not) park here — it's a fire exit.",
+      "answer": "mustn't",
+      "hint": "Forbidden/prohibited — do not do this",
+      "explanation": "mustn't = it is forbidden, illegal, or not allowed.",
+      "hebrew_note": "mustn't = אסור"
+    },
+    {
+      "id": "G-11-ex-004",
+      "type": "fill_blank",
+      "question": "You ___ (not necessary) bring food — we have plenty.",
+      "answer": "don't have to",
+      "hint": "Not necessary — optional",
+      "explanation": "don't have to = it is not required, but you can if you want.",
+      "hebrew_note": "don't have to = לא חייב (לא חובה)"
+    },
+    {
+      "id": "G-11-ex-005",
+      "type": "fill_blank",
+      "question": "___ I book a table in advance, or can I just arrive?",
+      "answer": "Should",
+      "hint": "Asking for advice/recommendation",
+      "explanation": "Should I...? = asking what is advisable.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-11-ex-006",
+      "type": "fill_blank",
+      "question": "He ___ be at least 40 — look at his grey hair.",
+      "answer": "must",
+      "hint": "Logical deduction — I'm almost certain",
+      "explanation": "must = strong deduction/certainty based on evidence.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-11-ex-007",
+      "type": "fill_blank",
+      "question": "You ___ (should) try that new restaurant on Dizengoff Street.",
+      "answer": "should",
+      "hint": "Recommendation",
+      "explanation": "should = recommendation/advice.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-11-ex-008",
+      "type": "fill_blank",
+      "question": "Children ___ (must not) play near the road.",
+      "answer": "mustn't",
+      "hint": "For safety, this is forbidden",
+      "explanation": "mustn't = it is dangerous and not allowed.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-11-ex-009",
+      "type": "fill_blank",
+      "question": "You ___ (not necessary) dress formally — it's a casual party.",
+      "answer": "don't have to",
+      "hint": "It is not required — optional",
+      "explanation": "don't have to = no obligation, you can if you want.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-11-ex-010",
+      "type": "fill_blank",
+      "question": "She looks exhausted. She ___ (should) get some rest.",
+      "answer": "should",
+      "hint": "Advice based on what I can see",
+      "explanation": "should = I recommend this based on the situation.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-11-ex-011",
+      "type": "fill_blank",
+      "question": "Employees ___ (must) wear a badge at all times.",
+      "answer": "must",
+      "hint": "Workplace rule = strong obligation",
+      "explanation": "must = rule that is enforced.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-11-ex-012",
+      "type": "fill_blank",
+      "question": "You ___ (should not) drink coffee late at night if you want to sleep well.",
+      "answer": "shouldn't",
+      "hint": "Advice about habits",
+      "explanation": "Negative advice: shouldn't = it is not recommended.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-11-ex-013",
+      "type": "mcq",
+      "question": "You ___ touch that wire — it could be dangerous.",
+      "answer": "mustn't",
+      "hint": "Forbidden for safety reasons",
+      "explanation": "mustn't = do not do this (danger/prohibition).",
+      "distractors": [
+        "don't have to",
+        "shouldn't to",
+        "should"
+      ]
+    },
+    {
+      "id": "G-11-ex-014",
+      "type": "mcq",
+      "question": "You ___ come to the meeting if you're not feeling well.",
+      "answer": "don't have to",
+      "hint": "It is not necessary — optional",
+      "explanation": "don't have to = not required. Compare: mustn't = forbidden.",
+      "distractors": [
+        "mustn't",
+        "shouldn't",
+        "must"
+      ]
+    },
+    {
+      "id": "G-11-ex-015",
+      "type": "mcq",
+      "question": "She ___ be at home — her car is in the driveway.",
+      "answer": "must",
+      "hint": "Logical deduction based on evidence",
+      "explanation": "must = strong deduction. Her car is there → she must be home.",
+      "distractors": [
+        "should",
+        "has to",
+        "can"
+      ]
+    },
+    {
+      "id": "G-11-ex-016",
+      "type": "mcq",
+      "question": "Which sentence expresses advice?",
+      "answer": "You should exercise more.",
+      "hint": "Advice = recommendation, not a rule",
+      "explanation": "should = advice/recommendation, not obligation.",
+      "distractors": [
+        "You must exercise more.",
+        "You mustn't exercise.",
+        "You don't have to exercise."
+      ]
+    },
+    {
+      "id": "G-11-ex-017",
+      "type": "mcq",
+      "question": "Passengers ___ carry liquids over 100ml through security.",
+      "answer": "mustn't",
+      "hint": "Airport rule — prohibited",
+      "explanation": "Airport security rule = mustn't (forbidden).",
+      "distractors": [
+        "don't have to",
+        "shouldn't to",
+        "can't to"
+      ]
+    },
+    {
+      "id": "G-11-ex-018",
+      "type": "mcq",
+      "question": "You ___ to see a doctor. (giving advice, correct form)",
+      "answer": "should",
+      "hint": "Modal + base verb. Which modal for advice?",
+      "explanation": "should + base verb. No 'to' after should.",
+      "distractors": [
+        "should to",
+        "must to",
+        "are should"
+      ]
+    },
+    {
+      "id": "G-11-ex-019",
+      "type": "error_correction",
+      "question": "Find and fix the mistake: 'You should to drink more water.'",
+      "answer": "You should drink more water.",
+      "hint": "What comes after a modal verb?",
+      "explanation": "Modal + base verb. No 'to'. Should drink, not should to drink.",
+      "hebrew_note": "אחרי modal תמיד פועל בסיס — בלי to"
+    },
+    {
+      "id": "G-11-ex-020",
+      "type": "error_correction",
+      "question": "Find and fix the mistake: 'She shoulds call her parents more often.'",
+      "answer": "She should call her parents more often.",
+      "hint": "Do modals add -s?",
+      "explanation": "Modal verbs NEVER add -s. Should for all subjects.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-11-ex-021",
+      "type": "error_correction",
+      "question": "Find and fix the mistake: 'You don't must pay — it's free.'",
+      "answer": "You don't have to pay — it's free.",
+      "hint": "How do you say 'not necessary' with must?",
+      "explanation": "There is no 'don't must'. Use don't/doesn't have to for 'not necessary'.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-11-ex-022",
+      "type": "error_correction",
+      "question": "Find and fix the mistake: 'You mustn't eat if you're not hungry — it means you don't need to eat.'",
+      "answer": "You don't have to eat if you're not hungry.",
+      "hint": "Mustn't = forbidden. Don't have to = not necessary. Which one fits here?",
+      "explanation": "Mustn't = forbidden/prohibited. Don't have to = not necessary/optional. Here we mean it is not required.",
+      "hebrew_note": "mustn't = אסור. don't have to = לא חייב"
+    },
+    {
+      "id": "G-11-ex-023",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "should",
+        "doctor",
+        "you",
+        "a",
+        "see"
+      ],
+      "answer": "You should see a doctor.",
+      "hint": "Subject + modal + base verb",
+      "explanation": "should + base verb — no 'to'."
+    },
+    {
+      "id": "G-11-ex-024",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "mustn't",
+        "phones",
+        "use",
+        "you",
+        "here",
+        "your"
+      ],
+      "answer": "You mustn't use your phones here.",
+      "hint": "Prohibition: subject + mustn't + base verb",
+      "explanation": "mustn't use — prohibition."
+    },
+    {
+      "id": "G-11-ex-025",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "have",
+        "don't",
+        "you",
+        "to",
+        "wear",
+        "uniform",
+        "a"
+      ],
+      "answer": "You don't have to wear a uniform.",
+      "hint": "Not necessary: subject + don't have to + base verb",
+      "explanation": "don't have to = not necessary."
+    },
+    {
+      "id": "G-11-ex-026",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "be",
+        "must",
+        "brilliant",
+        "she",
+        "to",
+        "that",
+        "understand"
+      ],
+      "answer": "She must be brilliant to understand that.",
+      "hint": "Logical deduction: subject + must + base verb",
+      "explanation": "must be = I deduce she is brilliant based on evidence."
+    }
+  ],
+  "speak": [
+    {
+      "id": "G-11-sp-001",
+      "sentence": "You should drink plenty of water and get enough sleep.",
+      "chunks": [
+        "You should drink plenty of water",
+        "and get enough sleep."
+      ],
+      "phonetic_hints": "'Plenty' = PLEN-tee. 'Enough' = ih-NUF — stress on second syllable. 'Sleep' = SLEEP — long 'ee'.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-11-sp-002",
+      "sentence": "All employees must wear a badge when they enter the building.",
+      "chunks": [
+        "All employees must wear a badge",
+        "when they enter the building."
+      ],
+      "phonetic_hints": "'Employees' = em-PLOY-eez — stress on third syllable. 'Badge' = BAJ. 'Enter' = EN-ter.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-11-sp-003",
+      "sentence": "You mustn't park here — it's a bus stop.",
+      "chunks": [
+        "You mustn't park here —",
+        "it's a bus stop."
+      ],
+      "phonetic_hints": "'Mustn't' = MUS-unt — two syllables, say it as one word. 'Park' = PARK.",
+      "pass_threshold": 0.75
+    },
+    {
+      "id": "G-11-sp-004",
+      "sentence": "You don't have to come if you're busy — I can manage alone.",
+      "chunks": [
+        "You don't have to come if you're busy —",
+        "I can manage alone."
+      ],
+      "phonetic_hints": "'Don't have to' — link these words: don't-have-tuh. 'Manage' = MAN-ij — stress on first syllable.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-11-sp-005",
+      "sentence": "Should I call ahead to make sure they're open?",
+      "chunks": [
+        "Should I call ahead",
+        "to make sure they're open?"
+      ],
+      "phonetic_hints": "'Ahead' = uh-HED — stress on second syllable. 'Make sure' — link: MAYK-shoor.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-11-sp-006",
+      "sentence": "She must be exhausted after working a double shift.",
+      "chunks": [
+        "She must be exhausted",
+        "after working a double shift."
+      ],
+      "phonetic_hints": "'Exhausted' = ig-ZAWST-id — three syllables, stress on second. 'Double' = DUB-ul. 'Shift' = SHIFT.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-11-sp-007",
+      "sentence": "You shouldn't leave food out overnight — it can go bad.",
+      "chunks": [
+        "You shouldn't leave food out overnight —",
+        "it can go bad."
+      ],
+      "phonetic_hints": "'Shouldn't' = SHOOD-unt. 'Overnight' = OH-ver-nyt — stress on last syllable. 'Bad' — short 'a'.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-11-sp-008",
+      "sentence": "Everyone must complete the training before they start the job.",
+      "chunks": [
+        "Everyone must complete the training",
+        "before they start the job."
+      ],
+      "phonetic_hints": "'Complete' = kum-PLEET — stress on second syllable. 'Training' = TRAYN-ing. 'Before' = bih-FAWR.",
+      "pass_threshold": 0.65
+    }
+  ]
+}

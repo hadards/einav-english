@@ -1,0 +1,469 @@
+{
+  "id": "G-21",
+  "title": "Passive voice",
+  "level": "B1",
+  "order": 21,
+  "explain": {
+    "rule": "In active sentences the subject does the action: 'The chef cooked the meal.' In passive sentences the subject receives the action: 'The meal was cooked by the chef.' The passive is formed with be + past participle. Tenses change the form of 'be': present simple passive = is/are + pp, past simple passive = was/were + pp, present perfect passive = has/have been + pp, future passive = will be + pp. The agent (who did it) is introduced with 'by' and is often omitted if unknown or unimportant.",
+    "why_matters": "Passive voice is extremely common in English — in news reports, scientific writing, business communication, and everyday speech when the focus is on what happened rather than who did it. Understanding and using it marks intermediate-level English.",
+    "hebrew_note": "Hebrew has a passive binyan (בניין נפעל and others): נבנה, נאכל. Hebrew passive is used similarly to English passive, so the concept is familiar. The main difference is the structure: English passive always uses a form of 'be' + past participle, whereas Hebrew passive changes the verb form. Also: 'by' = על ידי in passive sentences.",
+    "tip": "Ask yourself: who is doing the action? If we want to focus on WHAT happened (or if we don't know/care who did it) → use passive. News: 'Three people were arrested.' (We don't know/say who arrested them.) Science: 'The substance was heated to 100°C.' (Not important who heated it.) When the agent IS important, use 'by': 'The novel was written by Tolstoy.'",
+    "form": {
+      "present_simple": "is/are + past participle: English is spoken here.",
+      "past_simple": "was/were + past participle: The window was broken.",
+      "present_perfect": "has/have been + past participle: The report has been submitted.",
+      "future": "will be + past participle: The results will be announced tomorrow.",
+      "modal": "modal + be + past participle: This must be done immediately."
+    },
+    "good_examples": [
+      {
+        "id": "G-21-ge-001",
+        "sentence": "English is spoken in over 50 countries.",
+        "audio_text": "English is spoken in over 50 countries.",
+        "note": "Present simple passive — general fact"
+      },
+      {
+        "id": "G-21-ge-002",
+        "sentence": "The window was broken last night.",
+        "audio_text": "The window was broken last night.",
+        "note": "Past simple passive — focus on the window, not who broke it"
+      },
+      {
+        "id": "G-21-ge-003",
+        "sentence": "The report has been submitted.",
+        "audio_text": "The report has been submitted.",
+        "note": "Present perfect passive — recent action, current result"
+      },
+      {
+        "id": "G-21-ge-004",
+        "sentence": "The results will be announced tomorrow.",
+        "audio_text": "The results will be announced tomorrow.",
+        "note": "Future passive — focus on when it happens"
+      },
+      {
+        "id": "G-21-ge-005",
+        "sentence": "The novel was written by Tolstoy.",
+        "audio_text": "The novel was written by Tolstoy.",
+        "note": "'by' introduces the agent when important"
+      },
+      {
+        "id": "G-21-ge-006",
+        "sentence": "Hundreds of people are employed by the company.",
+        "audio_text": "Hundreds of people are employed by the company.",
+        "note": "Present simple passive with agent"
+      },
+      {
+        "id": "G-21-ge-007",
+        "sentence": "My car was stolen while I was at work.",
+        "audio_text": "My car was stolen while I was at work.",
+        "note": "Past passive — focus on the car, agent unknown"
+      },
+      {
+        "id": "G-21-ge-008",
+        "sentence": "All decisions must be approved by the board.",
+        "audio_text": "All decisions must be approved by the board.",
+        "note": "Modal passive: must be + pp"
+      },
+      {
+        "id": "G-21-ge-009",
+        "sentence": "Three people were injured in the accident.",
+        "audio_text": "Three people were injured in the accident.",
+        "note": "Passive in news reporting — very common"
+      },
+      {
+        "id": "G-21-ge-010",
+        "sentence": "This form should be filled in and returned by Friday.",
+        "audio_text": "This form should be filled in and returned by Friday.",
+        "note": "Instructions using passive"
+      }
+    ],
+    "bad_examples": [
+      {
+        "id": "G-21-be-001",
+        "wrong": "English is speak here.",
+        "correct": "English is spoken here.",
+        "reason": "Passive needs the past participle: is spoken, not is speak."
+      },
+      {
+        "id": "G-21-be-002",
+        "wrong": "The car was stole.",
+        "correct": "The car was stolen.",
+        "reason": "steal → stole (past simple) → stolen (past participle). Passive needs past participle: was stolen."
+      },
+      {
+        "id": "G-21-be-003",
+        "wrong": "The report has been submitted by me yesterday.",
+        "correct": "The report was submitted by me yesterday.",
+        "reason": "'Yesterday' = specific past time → past simple passive (was submitted), not present perfect passive."
+      },
+      {
+        "id": "G-21-be-004",
+        "wrong": "The meal was cook by the chef.",
+        "correct": "The meal was cooked by the chef.",
+        "reason": "Passive = be + past participle. cook → cooked."
+      },
+      {
+        "id": "G-21-be-005",
+        "wrong": "By the chef was cooked the meal.",
+        "correct": "The meal was cooked by the chef.",
+        "reason": "Word order in passive: subject + was/were + past participle + by + agent."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "G-21-ex-001",
+      "type": "fill_blank",
+      "question": "English ___ (speak) all over the world.",
+      "answer": "is spoken",
+      "hint": "Present simple passive: is/are + past participle",
+      "explanation": "is spoken — present simple passive, general fact.",
+      "hebrew_note": "פסיבי הווה: is/are + past participle"
+    },
+    {
+      "id": "G-21-ex-002",
+      "type": "fill_blank",
+      "question": "The window ___ (break) last night.",
+      "answer": "was broken",
+      "hint": "Past simple passive: was/were + past participle",
+      "explanation": "was broken — past simple passive. break → broken.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-21-ex-003",
+      "type": "fill_blank",
+      "question": "The report ___ (already / submit) — check your email.",
+      "answer": "has already been submitted",
+      "hint": "Present perfect passive: has/have been + pp",
+      "explanation": "has already been submitted — present perfect passive.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-21-ex-004",
+      "type": "fill_blank",
+      "question": "The results ___ (announce) tomorrow morning.",
+      "answer": "will be announced",
+      "hint": "Future passive: will be + past participle",
+      "explanation": "will be announced — future passive.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-21-ex-005",
+      "type": "fill_blank",
+      "question": "This building ___ (build) in 1920.",
+      "answer": "was built",
+      "hint": "Past simple passive. build → built (irregular)",
+      "explanation": "was built — build → built (irregular past participle).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-21-ex-006",
+      "type": "fill_blank",
+      "question": "Over a million cars ___ (produce) at this factory every year.",
+      "answer": "are produced",
+      "hint": "Present simple passive, plural subject → are",
+      "explanation": "are produced — plural subject, present simple passive.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-21-ex-007",
+      "type": "fill_blank",
+      "question": "All applications must ___ (submit) by 5pm Friday.",
+      "answer": "be submitted",
+      "hint": "Modal passive: modal + be + past participle",
+      "explanation": "must be submitted — modal passive.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-21-ex-008",
+      "type": "fill_blank",
+      "question": "My wallet ___ (steal) on the bus this morning.",
+      "answer": "was stolen",
+      "hint": "Past simple passive. steal → stolen (irregular)",
+      "explanation": "was stolen — steal → stolen.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-21-ex-009",
+      "type": "fill_blank",
+      "question": "The new hospital ___ (open) by the prime minister next month.",
+      "answer": "will be opened",
+      "hint": "Future passive with agent (by the PM)",
+      "explanation": "will be opened — future passive.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-21-ex-010",
+      "type": "fill_blank",
+      "question": "Three people ___ (injure) in the accident.",
+      "answer": "were injured",
+      "hint": "Past simple passive, plural subject → were",
+      "explanation": "were injured — plural subject, past passive.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-21-ex-011",
+      "type": "fill_blank",
+      "question": "___ this room ___ (clean) today?",
+      "answer": "Has / been cleaned",
+      "hint": "Present perfect passive question",
+      "explanation": "Has this room been cleaned? — present perfect passive question.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-21-ex-012",
+      "type": "fill_blank",
+      "question": "The email ___ (send) to the wrong address by mistake.",
+      "answer": "was sent",
+      "hint": "Past simple passive. send → sent (irregular)",
+      "explanation": "was sent — send → sent.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-21-ex-013",
+      "type": "mcq",
+      "question": "Choose the correct passive sentence:",
+      "answer": "The letter was written by hand.",
+      "hint": "Past simple passive: was written (irregular pp)",
+      "explanation": "was written — write → written (irregular pp).",
+      "hebrew_note": [
+        "The letter was wrote by hand.",
+        "The letter was writing by hand.",
+        "The letter were written by hand."
+      ]
+    },
+    {
+      "id": "G-21-ex-014",
+      "type": "mcq",
+      "question": "English ___ as the official language in many countries.",
+      "answer": "is used",
+      "hint": "Present simple passive for a general fact",
+      "explanation": "is used — present simple passive.",
+      "hebrew_note": [
+        "used",
+        "uses",
+        "is using"
+      ]
+    },
+    {
+      "id": "G-21-ex-015",
+      "type": "mcq",
+      "question": "The concert ___ next Saturday.",
+      "answer": "will be held",
+      "hint": "Future passive for a scheduled event",
+      "explanation": "will be held — future passive.",
+      "hebrew_note": [
+        "will hold",
+        "is held",
+        "was held"
+      ]
+    },
+    {
+      "id": "G-21-ex-016",
+      "type": "mcq",
+      "question": "The new policy ___ last week.",
+      "answer": "was introduced",
+      "hint": "Past simple passive for a recent past event",
+      "explanation": "was introduced — past simple passive.",
+      "hebrew_note": [
+        "has introduced",
+        "is introduced",
+        "introduced"
+      ]
+    },
+    {
+      "id": "G-21-ex-017",
+      "type": "mcq",
+      "question": "The work ___ by the time you arrive.",
+      "answer": "will have been finished",
+      "hint": "Future perfect passive — completed before a future point",
+      "explanation": "will have been finished — future perfect passive.",
+      "hebrew_note": [
+        "will be finished",
+        "was finished",
+        "has been finished"
+      ]
+    },
+    {
+      "id": "G-21-ex-018",
+      "type": "mcq",
+      "question": "This project ___ be completed on time — it's very important.",
+      "answer": "must",
+      "hint": "Modal passive — obligation",
+      "explanation": "must be completed — modal passive.",
+      "hebrew_note": [
+        "should to",
+        "is must",
+        "was"
+      ]
+    },
+    {
+      "id": "G-21-ex-019",
+      "type": "error_correction",
+      "question": "Find and fix: 'English is speak here.'",
+      "answer": "English is spoken here.",
+      "hint": "Passive needs which verb form?",
+      "explanation": "Passive = be + past participle. speak → spoken.",
+      "hebrew_note": "פסיבי = be + past participle"
+    },
+    {
+      "id": "G-21-ex-020",
+      "type": "error_correction",
+      "question": "Find and fix: 'The car was stole.'",
+      "answer": "The car was stolen.",
+      "hint": "steal → past participle?",
+      "explanation": "steal → stole (past simple) → stolen (past participle).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-21-ex-021",
+      "type": "error_correction",
+      "question": "Find and fix: 'The meal was cook by the chef.'",
+      "answer": "The meal was cooked by the chef.",
+      "hint": "Passive = be + past participle. cook → ?",
+      "explanation": "cook → cooked (past participle). was cooked.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-21-ex-022",
+      "type": "error_correction",
+      "question": "Find and fix: 'Three people was injured.'",
+      "answer": "Three people were injured.",
+      "hint": "Three people = plural subject. was or were?",
+      "explanation": "Three people = plural → were injured.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-21-ex-023",
+      "type": "error_correction",
+      "question": "Find and fix: 'The report has submitted.'",
+      "answer": "The report has been submitted.",
+      "hint": "Present perfect passive needs 'been' between has and the pp",
+      "explanation": "has been submitted — present perfect passive: has/have + been + pp.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-21-ex-024",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "answer": null,
+      "hint": "Past simple passive with agent",
+      "explanation": "The Eiffel Tower was designed by Gustave Eiffel.",
+      "hebrew_note": null,
+      "words": [
+        "The",
+        "Tower",
+        "Eiffel",
+        "designed",
+        "was",
+        "Eiffel",
+        "by",
+        "Gustave"
+      ]
+    },
+    {
+      "id": "G-21-ex-025",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "answer": null,
+      "hint": "Future passive",
+      "explanation": "The winner will be announced at the end of the ceremony.",
+      "hebrew_note": null,
+      "words": [
+        "The",
+        "winner",
+        "will",
+        "be",
+        "announced",
+        "at",
+        "end",
+        "the",
+        "ceremony",
+        "of",
+        "the"
+      ]
+    }
+  ],
+  "speak": [
+    {
+      "id": "G-21-sp-001",
+      "sentence": "English is spoken in over fifty countries around the world.",
+      "chunks": [
+        "English is spoken in over fifty countries",
+        "around the world."
+      ],
+      "phonetic_hints": "'Spoken' = SPOH-kun. 'Countries' = KUN-treez.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-21-sp-002",
+      "sentence": "Three people were arrested after the incident last night.",
+      "chunks": [
+        "Three people were arrested",
+        "after the incident last night."
+      ],
+      "phonetic_hints": "'Arrested' = uh-REST-id. 'Incident' = IN-sih-dunt.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-21-sp-003",
+      "sentence": "The report has already been sent to all the managers.",
+      "chunks": [
+        "The report has already been sent",
+        "to all the managers."
+      ],
+      "phonetic_hints": "'Already' = awl-RED-ee. 'Managers' = MAN-ih-jerz.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-21-sp-004",
+      "sentence": "All decisions must be approved by the board before we proceed.",
+      "chunks": [
+        "All decisions must be approved by the board",
+        "before we proceed."
+      ],
+      "phonetic_hints": "'Approved' = uh-PROOVD. 'Proceed' = proh-SEED.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-21-sp-005",
+      "sentence": "My phone was stolen while I was on the train.",
+      "chunks": [
+        "My phone was stolen",
+        "while I was on the train."
+      ],
+      "phonetic_hints": "'Stolen' = STOH-lun. 'Train' = TRAYN.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-21-sp-006",
+      "sentence": "The new library will be opened by the mayor next month.",
+      "chunks": [
+        "The new library will be opened by the mayor",
+        "next month."
+      ],
+      "phonetic_hints": "'Library' = LY-bruh-ree — three syllables. 'Mayor' = MAY-er.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-21-sp-007",
+      "sentence": "This form needs to be filled in and returned within two weeks.",
+      "chunks": [
+        "This form needs to be filled in and returned",
+        "within two weeks."
+      ],
+      "phonetic_hints": "'Returned' = rih-TURND. 'Within' = wih-THIN.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-21-sp-008",
+      "sentence": "Over a million tourists are expected to visit this year.",
+      "chunks": [
+        "Over a million tourists are expected to visit",
+        "this year."
+      ],
+      "phonetic_hints": "'Tourists' = TOOR-ists. 'Expected' = ik-SPEK-tid.",
+      "pass_threshold": 0.65
+    }
+  ]
+}

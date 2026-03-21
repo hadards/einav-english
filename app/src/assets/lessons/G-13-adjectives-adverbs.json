@@ -1,0 +1,484 @@
+{
+  "id": "G-13",
+  "title": "Adjectives and adverbs",
+  "level": "A2",
+  "order": 13,
+  "explain": {
+    "rule": "Adjectives describe nouns — they tell us what something is like: a fast car, a beautiful view, a difficult exam. Adjectives never add -s and they come BEFORE the noun or after linking verbs (be, seem, look, feel, sound, taste). Adverbs describe verbs, adjectives, or other adverbs — they tell us HOW something is done: She drives fast. He speaks quietly. Most adverbs are formed by adding -ly to an adjective. Frequency adverbs (always, usually, often, sometimes, never) tell us how often and go BEFORE the main verb but AFTER be.",
+    "why_matters": "Adjectives and adverbs let you express detail, opinion, and degree. Without them, English is flat and basic. With them, you can describe experiences vividly and be precise about how things happen.",
+    "hebrew_note": "In Hebrew, adjectives come AFTER the noun (כלב חכם = dog intelligent). In English, adjectives come BEFORE the noun: a clever dog. Also, Hebrew adjectives agree in gender and number (כלב חכם / כלבה חכמה). In English, adjectives NEVER change: a clever dog, two clever dogs, a clever cat — always the same form. Adverbs: in Hebrew you often add the prefix ב to a noun (בזהירות = carefully). In English, add -ly to the adjective: careful → carefully.",
+    "tip": "The -ly test: if a word ends in -ly and describes how something is done, it is probably an adverb (slowly, carefully, quickly). But watch out — some -ly words are adjectives (friendly, lovely, lively) and some adverbs have no -ly (fast, hard, late, well — good becomes well as an adverb).",
+    "spelling_rules": [
+      {
+        "rule": "Most adjectives: add -ly",
+        "examples": "slow→slowly, quick→quickly, careful→carefully, bad→badly"
+      },
+      {
+        "rule": "Adjectives ending in -le: replace e with y",
+        "examples": "gentle→gently, possible→possibly, comfortable→comfortably"
+      },
+      {
+        "rule": "Adjectives ending in -y: change y to i + ly",
+        "examples": "easy→easily, happy→happily, noisy→noisily"
+      },
+      {
+        "rule": "Adjectives ending in -ic: add -ally",
+        "examples": "basic→basically, dramatic→dramatically, automatic→automatically"
+      },
+      {
+        "rule": "Irregular adverbs",
+        "examples": "good→well, fast→fast, hard→hard, late→late, early→early"
+      }
+    ],
+    "adjective_order": "When using multiple adjectives before a noun, English has a preferred order: Opinion → Size → Age → Shape → Colour → Origin → Material. 'A lovely small old round green French silver box.' You rarely use more than 2-3 adjectives in a row.",
+    "good_examples": [
+      {
+        "id": "G-13-ge-001",
+        "sentence": "She is a careful driver.",
+        "audio_text": "She is a careful driver.",
+        "note": "Careful = adjective describing the noun 'driver'"
+      },
+      {
+        "id": "G-13-ge-002",
+        "sentence": "She drives carefully.",
+        "audio_text": "She drives carefully.",
+        "note": "Carefully = adverb describing HOW she drives"
+      },
+      {
+        "id": "G-13-ge-003",
+        "sentence": "He speaks very quietly.",
+        "audio_text": "He speaks very quietly.",
+        "note": "Quietly = adverb (how) + very = adverb of degree"
+      },
+      {
+        "id": "G-13-ge-004",
+        "sentence": "This is a really interesting book.",
+        "audio_text": "This is a really interesting book.",
+        "note": "interesting = adjective before noun, really = adverb modifying adjective"
+      },
+      {
+        "id": "G-13-ge-005",
+        "sentence": "The exam was unexpectedly difficult.",
+        "audio_text": "The exam was unexpectedly difficult.",
+        "note": "difficult = adjective after 'was', unexpectedly = adverb modifying adjective"
+      },
+      {
+        "id": "G-13-ge-006",
+        "sentence": "He's a fast runner — he runs really fast.",
+        "audio_text": "He's a fast runner — he runs really fast.",
+        "note": "fast = adjective (before runner) and fast = adverb (how he runs) — same form"
+      },
+      {
+        "id": "G-13-ge-007",
+        "sentence": "She always works hard.",
+        "audio_text": "She always works hard.",
+        "note": "always = frequency adverb before main verb. hard = adverb (not hardly — that means almost not)"
+      },
+      {
+        "id": "G-13-ge-008",
+        "sentence": "It tastes good.",
+        "audio_text": "It tastes good.",
+        "note": "After linking verb 'taste' → adjective (good), not adverb (well)"
+      },
+      {
+        "id": "G-13-ge-009",
+        "sentence": "He speaks English well.",
+        "audio_text": "He speaks English well.",
+        "note": "well = adverb form of 'good' — describes HOW he speaks"
+      },
+      {
+        "id": "G-13-ge-010",
+        "sentence": "She looked worried when I saw her.",
+        "audio_text": "She looked worried when I saw her.",
+        "note": "After linking verb 'look' → adjective 'worried', not adverb"
+      }
+    ],
+    "bad_examples": [
+      {
+        "id": "G-13-be-001",
+        "wrong": "She drives careful.",
+        "correct": "She drives carefully.",
+        "reason": "After an action verb (drives), you need an adverb. careful → carefully."
+      },
+      {
+        "id": "G-13-be-002",
+        "wrong": "He speaks English good.",
+        "correct": "He speaks English well.",
+        "reason": "Good is an adjective. The adverb form is 'well'. Speaks well, not speaks good."
+      },
+      {
+        "id": "G-13-be-003",
+        "wrong": "She works hardly.",
+        "correct": "She works hard.",
+        "reason": "Hard is the adverb form of 'hard'. Hardly means 'almost not' — completely different meaning!"
+      },
+      {
+        "id": "G-13-be-004",
+        "wrong": "It is a very interested topic.",
+        "correct": "It is a very interesting topic.",
+        "reason": "Interesting describes the topic. Interested describes how a person feels. The topic is interesting; you are interested in it."
+      },
+      {
+        "id": "G-13-be-005",
+        "wrong": "A black big car.",
+        "correct": "A big black car.",
+        "reason": "Adjective order: size before colour. big black, not black big."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "G-13-ex-001",
+      "type": "fill_blank",
+      "question": "She completed the task ___ (quick).",
+      "answer": "quickly",
+      "hint": "Add -ly to quick to make the adverb",
+      "explanation": "quick → quickly. An adverb describes how the task was completed.",
+      "hebrew_note": "תואר פועל מסתיים ב-ly: quick → quickly"
+    },
+    {
+      "id": "G-13-ex-002",
+      "type": "fill_blank",
+      "question": "He is a ___ (care) worker — he never makes mistakes.",
+      "answer": "careful",
+      "hint": "Before a noun → adjective",
+      "explanation": "careful = adjective. It describes the noun 'worker'.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-13-ex-003",
+      "type": "fill_blank",
+      "question": "The music was so loud I could ___ (hard) hear myself think.",
+      "answer": "hardly",
+      "hint": "hardly = almost not. Different from 'hard'!",
+      "explanation": "Hardly = almost not. I could hardly hear = I could almost not hear. Note: NOT the same as 'hard'.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-13-ex-004",
+      "type": "fill_blank",
+      "question": "She speaks ___ (good) English for someone who only started learning a year ago.",
+      "answer": "well",
+      "hint": "Adverb form of 'good'",
+      "explanation": "Good is the adjective. Well is the adverb. Speaks well.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-13-ex-005",
+      "type": "fill_blank",
+      "question": "That smells ___! What are you cooking?",
+      "answer": "wonderful / amazing / great / good",
+      "hint": "After a linking verb like 'smell' → adjective or adverb?",
+      "explanation": "After linking verbs (smell, look, taste, feel, sound, seem) → adjective, not adverb.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-13-ex-006",
+      "type": "fill_blank",
+      "question": "He finished the exam ___ (surprising).",
+      "answer": "surprisingly",
+      "hint": "Describes how he finished — adverb needed. -ic → -ically? No, surprising → surprisingly",
+      "explanation": "surprising → surprisingly. Add -ly to form the adverb.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-13-ex-007",
+      "type": "fill_blank",
+      "question": "It was a ___ (bore) lecture — I almost fell asleep.",
+      "answer": "boring",
+      "hint": "Adjective before the noun 'lecture'",
+      "explanation": "boring = adjective. The lecture is boring. You are bored.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-13-ex-008",
+      "type": "fill_blank",
+      "question": "Please drive ___. The roads are dangerous.",
+      "answer": "carefully / slowly",
+      "hint": "How should you drive? Adverb needed.",
+      "explanation": "carefully or slowly — both adverbs describing how to drive.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-13-ex-009",
+      "type": "fill_blank",
+      "question": "She answered all the questions ___ (correct).",
+      "answer": "correctly",
+      "hint": "correct → add -ly for the adverb",
+      "explanation": "correct → correctly. Describes how she answered.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-13-ex-010",
+      "type": "fill_blank",
+      "question": "He runs really ___. He should enter a marathon.",
+      "answer": "fast",
+      "hint": "fast is both an adjective and an adverb — no -ly needed",
+      "explanation": "fast = irregular adverb. Same form as adjective. He runs fast, not fastly.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-13-ex-011",
+      "type": "fill_blank",
+      "question": "I was ___ (tire) after the long flight.",
+      "answer": "tired",
+      "hint": "After 'was' (linking verb) → adjective",
+      "explanation": "After be, seem, look, feel → adjective. I was tired.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-13-ex-012",
+      "type": "fill_blank",
+      "question": "She ___ (easy) solved the problem.",
+      "answer": "easily",
+      "hint": "easy ends in y → change to i + ly",
+      "explanation": "easy → easily. Consonant + y → change y to i, add -ly.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-13-ex-013",
+      "type": "mcq",
+      "question": "He finished the race ___.",
+      "answer": "quickly",
+      "hint": "Describes how he finished — HOW = adverb",
+      "explanation": "quickly = adverb. Describes how he finished (verb).",
+      "distractors": [
+        "quick",
+        "quicker",
+        "quickful"
+      ]
+    },
+    {
+      "id": "G-13-ex-014",
+      "type": "mcq",
+      "question": "She's a ___ dancer.",
+      "answer": "graceful",
+      "hint": "Before a noun → adjective",
+      "explanation": "graceful = adjective. Describes the noun 'dancer'.",
+      "distractors": [
+        "gracefully",
+        "gracefull",
+        "gracing"
+      ]
+    },
+    {
+      "id": "G-13-ex-015",
+      "type": "mcq",
+      "question": "The food tasted ___.",
+      "answer": "delicious",
+      "hint": "After linking verb 'taste' → adjective or adverb?",
+      "explanation": "After linking verbs (taste, smell, look, feel, sound), use adjective. The food tasted delicious.",
+      "distractors": [
+        "deliciously",
+        "deliciouly",
+        "delicyed"
+      ]
+    },
+    {
+      "id": "G-13-ex-016",
+      "type": "mcq",
+      "question": "He works ___ but he plays ___.",
+      "answer": "hard / hard",
+      "hint": "Hard is both an adjective and an adverb — same form",
+      "explanation": "hard = irregular adverb. Same form as adjective. Works hard, plays hard.",
+      "distractors": [
+        "hardly / hardly",
+        "hard / hardly",
+        "hardly / hard"
+      ]
+    },
+    {
+      "id": "G-13-ex-017",
+      "type": "mcq",
+      "question": "Which is the correct adjective order?",
+      "answer": "a beautiful old Italian painting",
+      "hint": "Opinion → Age → Origin",
+      "explanation": "Opinion (beautiful) → Age (old) → Origin (Italian). This is the natural English order.",
+      "distractors": [
+        "an Italian old beautiful painting",
+        "an old beautiful Italian painting",
+        "a beautiful Italian old painting"
+      ]
+    },
+    {
+      "id": "G-13-ex-018",
+      "type": "mcq",
+      "question": "I'm really ___ in learning new languages.",
+      "answer": "interested",
+      "hint": "How do YOU feel? interested (about you) or interesting (about the topic)?",
+      "explanation": "interested = how a person feels. interesting = describing the thing itself. I am interested in it (it interests me).",
+      "distractors": [
+        "interesting",
+        "interest",
+        "interestingly"
+      ]
+    },
+    {
+      "id": "G-13-ex-019",
+      "type": "error_correction",
+      "question": "Find and fix: 'She drives very careful.'",
+      "answer": "She drives very carefully.",
+      "hint": "After a verb, use adverb not adjective",
+      "explanation": "drives = action verb → needs adverb. careful → carefully.",
+      "hebrew_note": "אחרי פועל פעולה = תואר פועל (-ly)"
+    },
+    {
+      "id": "G-13-ex-020",
+      "type": "error_correction",
+      "question": "Find and fix: 'He speaks English good.'",
+      "answer": "He speaks English well.",
+      "hint": "Good = adjective. What is the adverb form?",
+      "explanation": "good (adjective) → well (adverb). He speaks English well.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-13-ex-021",
+      "type": "error_correction",
+      "question": "Find and fix: 'It was a very interested presentation.'",
+      "answer": "It was a very interesting presentation.",
+      "hint": "The presentation creates interest — which form?",
+      "explanation": "interesting = the thing creates interest. interested = how a person feels. The presentation is interesting.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-13-ex-022",
+      "type": "error_correction",
+      "question": "Find and fix: 'She works hardly to support her family.'",
+      "answer": "She works hard to support her family.",
+      "hint": "What does 'hardly' mean? Is that what you want to say?",
+      "explanation": "hardly = almost not. That is not the meaning here. hard = the adverb for effort.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-13-ex-023",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "carefully",
+        "the",
+        "doctor",
+        "listened",
+        "patient",
+        "to",
+        "very"
+      ],
+      "answer": "The doctor listened very carefully to the patient.",
+      "hint": "Adverb (carefully) modifies how the doctor listened. Very modifies the adverb.",
+      "explanation": "Subject + verb + adverb phrase + to + object."
+    },
+    {
+      "id": "G-13-ex-024",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "is",
+        "small",
+        "old",
+        "a",
+        "beautiful",
+        "town",
+        "it"
+      ],
+      "answer": "It is a beautiful small old town.",
+      "hint": "Adjective order: opinion → size → age",
+      "explanation": "Opinion (beautiful) → Size (small) → Age (old) → town."
+    },
+    {
+      "id": "G-13-ex-025",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "the",
+        "surprisingly",
+        "was",
+        "easy",
+        "exam"
+      ],
+      "answer": "The exam was surprisingly easy.",
+      "hint": "surprisingly modifies the adjective 'easy'",
+      "explanation": "surprisingly = adverb modifying adjective easy. Placed directly before the adjective it modifies."
+    }
+  ],
+  "speak": [
+    {
+      "id": "G-13-sp-001",
+      "sentence": "She speaks English very fluently — almost like a native speaker.",
+      "chunks": [
+        "She speaks English very fluently —",
+        "almost like a native speaker."
+      ],
+      "phonetic_hints": "'Fluently' = FLOO-unt-lee — three syllables. 'Native' = NAY-tiv.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-13-sp-002",
+      "sentence": "He's a really hard worker but he rarely takes breaks.",
+      "chunks": [
+        "He's a really hard worker",
+        "but he rarely takes breaks."
+      ],
+      "phonetic_hints": "'Rarely' = RAIR-lee. 'Worker' = WUR-ker. 'Breaks' = BRAYKZ.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-13-sp-003",
+      "sentence": "The film was incredibly boring — I nearly fell asleep.",
+      "chunks": [
+        "The film was incredibly boring —",
+        "I nearly fell asleep."
+      ],
+      "phonetic_hints": "'Incredibly' = in-KRED-ih-blee — four syllables. 'Nearly' = NEER-lee.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-13-sp-004",
+      "sentence": "It tastes absolutely delicious — what's in it?",
+      "chunks": [
+        "It tastes absolutely delicious —",
+        "what's in it?"
+      ],
+      "phonetic_hints": "'Absolutely' = AB-suh-loot-lee — four syllables. 'Delicious' = dih-LISH-us.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-13-sp-005",
+      "sentence": "Please speak clearly so everyone can hear you.",
+      "chunks": [
+        "Please speak clearly",
+        "so everyone can hear you."
+      ],
+      "phonetic_hints": "'Clearly' = KLEER-lee. 'Everyone' = EV-ree-wun — three syllables.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-13-sp-006",
+      "sentence": "She looked really worried when she heard the news.",
+      "chunks": [
+        "She looked really worried",
+        "when she heard the news."
+      ],
+      "phonetic_hints": "'Worried' = WUR-eed. 'Heard' = HURD (irregular past of hear).",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-13-sp-007",
+      "sentence": "He drives dangerously fast — I always feel nervous in his car.",
+      "chunks": [
+        "He drives dangerously fast —",
+        "I always feel nervous in his car."
+      ],
+      "phonetic_hints": "'Dangerously' = DAYN-jer-us-lee — four syllables. 'Nervous' = NUR-vus.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-13-sp-008",
+      "sentence": "It's a beautiful small village on the coast.",
+      "chunks": [
+        "It's a beautiful small village",
+        "on the coast."
+      ],
+      "phonetic_hints": "'Beautiful' = BYOO-tih-ful — three syllables. 'Village' = VIL-ij. 'Coast' = KOHST.",
+      "pass_threshold": 0.7
+    }
+  ]
+}

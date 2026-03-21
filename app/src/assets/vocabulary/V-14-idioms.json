@@ -1,0 +1,307 @@
+{
+  "id": "V-14",
+  "theme": "Idioms",
+  "level": "B2",
+  "words": [
+    {
+      "id": "V-14-w-001",
+      "word": "hit the nail on the head",
+      "part_of_speech": "idiom",
+      "definition": "to say or do exactly the right thing",
+      "example_sentences": [
+        "She hit the nail on the head with her analysis.",
+        "You've hit the nail on the head — that's exactly the problem.",
+        "His report really hit the nail on the head."
+      ],
+      "pronunciation_tip": "HIT the NAYL on the HED.",
+      "common_mistake": "Don't translate literally — this means to identify or say something exactly right.",
+      "collocations": "['really hit the nail on the head', 'you hit the nail on the head', 'hit the nail on the head with']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-14-w-002",
+      "word": "bite the bullet",
+      "part_of_speech": "idiom",
+      "definition": "to endure something painful or difficult",
+      "example_sentences": [
+        "He bit the bullet and went to the dentist.",
+        "She bit the bullet and had the difficult conversation.",
+        "Sometimes you just have to bite the bullet."
+      ],
+      "pronunciation_tip": "BYT the BOOL-it.",
+      "common_mistake": "Don't say 'he accepted the pain' — say 'he bit the bullet'.",
+      "collocations": "['bite the bullet and', 'just bite the bullet', 'have to bite the bullet']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-14-w-003",
+      "word": "burn bridges",
+      "part_of_speech": "idiom",
+      "definition": "to permanently damage a relationship or opportunity",
+      "example_sentences": [
+        "Don't burn your bridges — you might need them later.",
+        "She left the company without burning any bridges.",
+        "He burned his bridges by speaking badly of his boss."
+      ],
+      "pronunciation_tip": "BURN BRIJ-iz.",
+      "common_mistake": "Don't translate literally — means to destroy future possibilities by doing something irreversible.",
+      "collocations": "['burn your bridges', 'don't burn bridges', 'burn bridges with']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-14-w-004",
+      "word": "the ball is in your court",
+      "part_of_speech": "idiom",
+      "definition": "it is your turn to take action or make a decision",
+      "example_sentences": [
+        "I've made my offer — the ball is in your court now.",
+        "She's done all she can. The ball is in his court.",
+        "The ball is in your court — what do you decide?"
+      ],
+      "pronunciation_tip": "the BAWL is in your KAWT.",
+      "common_mistake": "Don't translate literally — means it's your turn to decide or act.",
+      "collocations": "['the ball is in your court', 'ball is in their court', 'now the ball is in your court']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-14-w-005",
+      "word": "miss the boat",
+      "part_of_speech": "idiom",
+      "definition": "to miss an opportunity because you acted too late",
+      "example_sentences": [
+        "He missed the boat on investing in crypto early on.",
+        "Don't miss the boat — register before Friday!",
+        "She missed the boat on the promotion because she waited too long."
+      ],
+      "pronunciation_tip": "MISS the BOHT.",
+      "common_mistake": "Don't say 'he lost the chance' always — say 'he missed the boat'.",
+      "collocations": "['miss the boat on', 'don't miss the boat', 'missed the boat']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-14-w-006",
+      "word": "pull someone's leg",
+      "part_of_speech": "idiom",
+      "definition": "to tell someone something that is not true as a joke",
+      "example_sentences": [
+        "Are you pulling my leg? That can't be real!",
+        "He was just pulling her leg — he didn't mean it seriously.",
+        "I thought he was pulling my leg but he was serious."
+      ],
+      "pronunciation_tip": "POOL SUM-wunz LEG.",
+      "common_mistake": "Don't translate literally — means to joke or tease someone.",
+      "collocations": "['pull my leg', 'just pulling your leg', 'is he pulling your leg']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-14-w-007",
+      "word": "cost an arm and a leg",
+      "part_of_speech": "idiom",
+      "definition": "to be very expensive",
+      "example_sentences": [
+        "That holiday cost an arm and a leg.",
+        "Childcare in the city centre costs an arm and a leg.",
+        "Repairs on old cars always cost an arm and a leg."
+      ],
+      "pronunciation_tip": "KOST un ARM and a LEG.",
+      "common_mistake": "Don't say 'it was very expensive' always — say 'it cost an arm and a leg'.",
+      "collocations": "['cost an arm and a leg', 'really costs an arm and a leg', 'that costs an arm and a leg']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-14-w-008",
+      "word": "under the weather",
+      "part_of_speech": "idiom",
+      "definition": "feeling slightly ill or unwell",
+      "example_sentences": [
+        "I'm feeling a bit under the weather today.",
+        "She's been under the weather all week — probably a cold.",
+        "He stayed home because he was feeling under the weather."
+      ],
+      "pronunciation_tip": "UN-der the WETH-er.",
+      "common_mistake": "Don't say 'I am a bit sick' — say 'I'm feeling a bit under the weather'.",
+      "collocations": "['feeling under the weather', 'a bit under the weather', 'been under the weather']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-14-w-009",
+      "word": "on the same page",
+      "part_of_speech": "idiom",
+      "definition": "having the same understanding or agreement about something",
+      "example_sentences": [
+        "Before we start, let's make sure we're all on the same page.",
+        "Are we on the same page about the deadline?",
+        "They spent an hour getting on the same page."
+      ],
+      "pronunciation_tip": "on the SAYM PAYJ.",
+      "common_mistake": "Don't say 'we all understand each other' — say 'we're on the same page'.",
+      "collocations": "['on the same page', 'get on the same page', 'make sure we're on the same page']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-14-w-010",
+      "word": "hit the ground running",
+      "part_of_speech": "idiom",
+      "definition": "to start something quickly and energetically from the beginning",
+      "example_sentences": [
+        "She really hit the ground running in her new role.",
+        "We need someone who can hit the ground running from day one.",
+        "He hit the ground running and delivered results in week one."
+      ],
+      "pronunciation_tip": "HIT the GROWND RUN-ing.",
+      "common_mistake": "Don't say 'she started well quickly' — say 'she hit the ground running'.",
+      "collocations": "['hit the ground running', 'need to hit the ground running', 'really hit the ground running']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-14-w-011",
+      "word": "get the ball rolling",
+      "part_of_speech": "idiom",
+      "definition": "to start a process or activity",
+      "example_sentences": [
+        "Let's get the ball rolling with a quick introduction.",
+        "She got the ball rolling by suggesting the first topic.",
+        "We need someone to get the ball rolling on this project."
+      ],
+      "pronunciation_tip": "get the BAWL ROH-ling.",
+      "common_mistake": "Don't say 'let's start' every time — say 'let's get the ball rolling'.",
+      "collocations": "['get the ball rolling', 'let's get the ball rolling', 'start to get the ball rolling']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-14-w-012",
+      "word": "the tip of the iceberg",
+      "part_of_speech": "idiom",
+      "definition": "only a small visible part of a much larger problem",
+      "example_sentences": [
+        "This complaint is just the tip of the iceberg.",
+        "The financial problems we can see are only the tip of the iceberg.",
+        "What you've found so far is just the tip of the iceberg."
+      ],
+      "pronunciation_tip": "the TIP of the EYS-burg.",
+      "common_mistake": "Don't say 'a small part of a bigger problem' every time — say 'the tip of the iceberg'.",
+      "collocations": "['just the tip of the iceberg', 'only the tip of the iceberg', 'tip of the iceberg of']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-14-w-013",
+      "word": "throw in the towel",
+      "part_of_speech": "idiom",
+      "definition": "to admit defeat and give up",
+      "example_sentences": [
+        "After three failed attempts, he finally threw in the towel.",
+        "Don't throw in the towel — you can still win this.",
+        "She refused to throw in the towel despite all the setbacks."
+      ],
+      "pronunciation_tip": "THROH in the TOW-ul.",
+      "common_mistake": "Don't say 'he gave up' always — say 'he threw in the towel'.",
+      "collocations": "['throw in the towel', 'don't throw in the towel', 'finally threw in the towel']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-14-w-014",
+      "word": "beat around the bush",
+      "part_of_speech": "idiom",
+      "definition": "to avoid talking directly about the main point",
+      "example_sentences": [
+        "Stop beating around the bush and tell me what happened.",
+        "He always beats around the bush instead of being direct.",
+        "She appreciated that he didn't beat around the bush."
+      ],
+      "pronunciation_tip": "BEET uh-ROWND the BUSH.",
+      "common_mistake": "Don't say 'he doesn't say things directly' — say 'he beats around the bush'.",
+      "collocations": "['stop beating around the bush', 'tend to beat around the bush', 'beating around the bush']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-14-w-015",
+      "word": "once in a blue moon",
+      "part_of_speech": "idiom",
+      "definition": "very rarely",
+      "example_sentences": [
+        "He visits his family once in a blue moon.",
+        "I eat fast food once in a blue moon.",
+        "Once in a blue moon, everything goes perfectly."
+      ],
+      "pronunciation_tip": "WUNSS in a BLOO MOON.",
+      "common_mistake": "Don't say 'very rarely' every time — say 'once in a blue moon'.",
+      "collocations": "['once in a blue moon', 'happens once in a blue moon', 'only once in a blue moon']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-14-w-016",
+      "word": "back to square one",
+      "part_of_speech": "idiom",
+      "definition": "having to start again from the beginning",
+      "example_sentences": [
+        "The deal fell through, so we're back to square one.",
+        "The failed prototype put them back to square one.",
+        "After the rejection, she was back to square one."
+      ],
+      "pronunciation_tip": "BAK to SKWAIR WUN.",
+      "common_mistake": "Don't say 'we have to start again' — say 'we're back to square one'.",
+      "collocations": "['back to square one', 'send back to square one', 'back at square one']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-14-w-017",
+      "word": "get cold feet",
+      "part_of_speech": "idiom",
+      "definition": "to become nervous and hesitant about something you planned to do",
+      "example_sentences": [
+        "He got cold feet before the wedding and nearly didn't show up.",
+        "She got cold feet before signing the contract.",
+        "Don't get cold feet now — you've worked so hard."
+      ],
+      "pronunciation_tip": "get KOHLD FEET.",
+      "common_mistake": "Don't say 'he became nervous' — say 'he got cold feet'.",
+      "collocations": "['get cold feet', 'getting cold feet', 'got cold feet about']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-14-w-018",
+      "word": "let the cat out of the bag",
+      "part_of_speech": "idiom",
+      "definition": "to accidentally reveal a secret",
+      "example_sentences": [
+        "She let the cat out of the bag about the surprise party.",
+        "He let the cat out of the bag too early.",
+        "Who let the cat out of the bag?"
+      ],
+      "pronunciation_tip": "let the KAT owt of the BAG.",
+      "common_mistake": "Don't say 'she told the secret accidentally' — say 'she let the cat out of the bag'.",
+      "collocations": "['let the cat out of the bag', 'accidentally let the cat out', 'who let the cat out of the bag']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-14-w-019",
+      "word": "take it with a grain of salt",
+      "part_of_speech": "idiom",
+      "definition": "to not completely believe something because it may be exaggerated",
+      "example_sentences": [
+        "Take everything he says with a grain of salt.",
+        "I'd take that review with a grain of salt — it seems biased.",
+        "She took the good news with a grain of salt."
+      ],
+      "pronunciation_tip": "TAYK it with a GRAYN of SAWLT.",
+      "common_mistake": "Don't say 'don't believe it completely' — say 'take it with a grain of salt'.",
+      "collocations": "['take with a grain of salt', 'take what they say with a grain of salt', 'best taken with a grain of salt']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-14-w-020",
+      "word": "see eye to eye",
+      "part_of_speech": "idiom",
+      "definition": "to agree with someone completely",
+      "example_sentences": [
+        "They don't always see eye to eye on management style.",
+        "Finally, we see eye to eye on the strategy.",
+        "She and her boss rarely see eye to eye."
+      ],
+      "pronunciation_tip": "SEE EYE to EYE.",
+      "common_mistake": "Don't say 'they agree' every time — say 'they see eye to eye'.",
+      "collocations": "['see eye to eye on', 'don't always see eye to eye', 'rarely see eye to eye']",
+      "difficulty": 2
+    }
+  ]
+}

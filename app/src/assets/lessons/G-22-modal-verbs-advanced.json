@@ -1,0 +1,515 @@
+{
+  "id": "G-22",
+  "title": "Modal verbs: could / might / may",
+  "level": "B1",
+  "order": 22,
+  "explain": {
+    "rule": "Could, might, and may all express possibility, but with slightly different strengths and uses. May = possibility (fairly formal), about 50% likely: 'It may rain.' Might = possibility (slightly less certain than may), very common in speech: 'I might go.' Could = possibility (often based on conditions) or past ability: 'She could be at home.' For polite requests: could is softer than can. May is formal for permission: 'May I leave?' For past ability (could vs was able to): could = general ability in the past, was able to = achievement on a specific occasion.",
+    "why_matters": "May, might, and could appear constantly in natural English for expressing uncertainty, making polite requests, and talking about possibilities. Getting the nuance right is a key B1 skill.",
+    "hebrew_note": "Hebrew expresses possibility mostly with אולי (ulai = maybe) + verb, and יכול (yakhol) for ability. English modals carry more nuance. May/might both translate roughly to אולי, but English grammar requires them to be modal verbs before the main verb — not a separate adverb. Could for possibility has no direct Hebrew modal equivalent — Israelis often say 'maybe' where English would use 'could'.",
+    "tip": "Possibility scale: will (certain) → should (expected) → may (50%) → might (40%) → could (possible, conditional). For polite requests: Could you...? is softer than Can you...? and more natural in professional settings. May I...? is the most formal. Never add -s or -ing to modal verbs, and always follow them with base verb.",
+    "uses": [
+      {
+        "modal": "may",
+        "use": "Possibility (formal)",
+        "example": "The project may be delayed."
+      },
+      {
+        "modal": "may",
+        "use": "Permission (formal)",
+        "example": "May I use your phone?"
+      },
+      {
+        "modal": "might",
+        "use": "Possibility (everyday)",
+        "example": "I might come to the party."
+      },
+      {
+        "modal": "might",
+        "use": "Suggestion",
+        "example": "You might want to try again."
+      },
+      {
+        "modal": "could",
+        "use": "Possibility (conditional)",
+        "example": "That could be the answer."
+      },
+      {
+        "modal": "could",
+        "use": "Past ability (general)",
+        "example": "She could swim at age three."
+      },
+      {
+        "modal": "could",
+        "use": "Polite request",
+        "example": "Could you help me with this?"
+      },
+      {
+        "modal": "was/were able to",
+        "use": "Past achievement (specific)",
+        "example": "We were able to finish on time."
+      }
+    ],
+    "good_examples": [
+      {
+        "id": "G-22-ge-001",
+        "sentence": "It might rain this afternoon — bring an umbrella.",
+        "audio_text": "It might rain this afternoon — bring an umbrella.",
+        "note": "might = possibility, not certain"
+      },
+      {
+        "id": "G-22-ge-002",
+        "sentence": "She may be stuck in traffic.",
+        "audio_text": "She may be stuck in traffic.",
+        "note": "may = possibility, slightly formal"
+      },
+      {
+        "id": "G-22-ge-003",
+        "sentence": "Could you pass me the salt, please?",
+        "audio_text": "Could you pass me the salt, please?",
+        "note": "could = polite request"
+      },
+      {
+        "id": "G-22-ge-004",
+        "sentence": "He could speak three languages when he was ten.",
+        "audio_text": "He could speak three languages when he was ten.",
+        "note": "could = past general ability"
+      },
+      {
+        "id": "G-22-ge-005",
+        "sentence": "May I ask you a question?",
+        "audio_text": "May I ask you a question?",
+        "note": "may = formal permission request"
+      },
+      {
+        "id": "G-22-ge-006",
+        "sentence": "We were able to finish the project before the deadline.",
+        "audio_text": "We were able to finish the project before the deadline.",
+        "note": "was/were able to = specific achievement"
+      },
+      {
+        "id": "G-22-ge-007",
+        "sentence": "That could be a problem — let's check.",
+        "audio_text": "That could be a problem — let's check.",
+        "note": "could = conditional possibility"
+      },
+      {
+        "id": "G-22-ge-008",
+        "sentence": "You might want to reconsider that decision.",
+        "audio_text": "You might want to reconsider that decision.",
+        "note": "might want to = soft suggestion"
+      },
+      {
+        "id": "G-22-ge-009",
+        "sentence": "The keys may be in your coat pocket.",
+        "audio_text": "The keys may be in your coat pocket.",
+        "note": "may = deduction/possibility"
+      },
+      {
+        "id": "G-22-ge-010",
+        "sentence": "I couldn't come to the meeting — I was ill.",
+        "audio_text": "I couldn't come to the meeting — I was ill.",
+        "note": "couldn't = inability in the past"
+      }
+    ],
+    "bad_examples": [
+      {
+        "id": "G-22-be-001",
+        "wrong": "She mights come.",
+        "correct": "She might come.",
+        "reason": "Modals never add -s. might stays as might for all subjects."
+      },
+      {
+        "id": "G-22-be-002",
+        "wrong": "Could you to help me?",
+        "correct": "Could you help me?",
+        "reason": "No 'to' after modal verbs. Could you help (base verb directly)."
+      },
+      {
+        "id": "G-22-be-003",
+        "wrong": "I could to swim when I was young.",
+        "correct": "I could swim when I was young.",
+        "reason": "No 'to' after could. Could + base verb always."
+      },
+      {
+        "id": "G-22-be-004",
+        "wrong": "She could finish the report yesterday. (specific achievement)",
+        "correct": "She was able to finish the report yesterday.",
+        "reason": "For a specific achievement in the past, use was/were able to — not could."
+      },
+      {
+        "id": "G-22-be-005",
+        "wrong": "May you help me?",
+        "correct": "Could you help me? / Can you help me?",
+        "reason": "May is for permission (May I...?), not requests to others. Use Could you...? or Can you...? for requests."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "G-22-ex-001",
+      "type": "fill_blank",
+      "question": "I ___ come tonight — I'm not sure yet.",
+      "answer": "might / may",
+      "hint": "Possibility, uncertain → might or may",
+      "explanation": "might or may — both express uncertainty about the future.",
+      "hebrew_note": "אולי = might / may"
+    },
+    {
+      "id": "G-22-ex-002",
+      "type": "fill_blank",
+      "question": "___ you send me the file by email?",
+      "answer": "Could",
+      "hint": "Polite request → could you...?",
+      "explanation": "Could you...? = polite request. Softer than Can you...?",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-22-ex-003",
+      "type": "fill_blank",
+      "question": "She ___ speak French fluently when she was a child.",
+      "answer": "could",
+      "hint": "Past general ability → could",
+      "explanation": "could = past general ability. She had this skill as a child.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-22-ex-004",
+      "type": "fill_blank",
+      "question": "___ I ask you something personal?",
+      "answer": "May / Could",
+      "hint": "Formal permission request",
+      "explanation": "May I...? or Could I...? — both for requesting permission.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-22-ex-005",
+      "type": "fill_blank",
+      "question": "The meeting ___ start late — the director is stuck in traffic.",
+      "answer": "may / might",
+      "hint": "Possibility based on current situation",
+      "explanation": "may or might — expressing possibility.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-22-ex-006",
+      "type": "fill_blank",
+      "question": "Despite the storm, they ___ (be able to) finish the work.",
+      "answer": "were able to",
+      "hint": "Specific achievement in the past → was/were able to",
+      "explanation": "were able to — specific achievement despite obstacles.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-22-ex-007",
+      "type": "fill_blank",
+      "question": "That ___ be a mistake — let me check again.",
+      "answer": "could / might / may",
+      "hint": "Deduction/possibility about something",
+      "explanation": "could/might/may = possible explanation.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-22-ex-008",
+      "type": "fill_blank",
+      "question": "She ___ (not / could) understand why he was upset.",
+      "answer": "couldn't",
+      "hint": "Past inability → couldn't",
+      "explanation": "couldn't = could not = past inability.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-22-ex-009",
+      "type": "fill_blank",
+      "question": "You ___ want to arrive early — it gets very busy.",
+      "answer": "might",
+      "hint": "Soft suggestion with might want to",
+      "explanation": "You might want to = soft suggestion.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-22-ex-010",
+      "type": "fill_blank",
+      "question": "The keys ___ be in your bag — have you checked?",
+      "answer": "might / may / could",
+      "hint": "Possibility — where the keys could be",
+      "explanation": "might/may/could — all express possibility here.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-22-ex-011",
+      "type": "fill_blank",
+      "question": "___ you repeat that? I didn't quite catch it.",
+      "answer": "Could",
+      "hint": "Very polite request to repeat",
+      "explanation": "Could you repeat that? = very polite request.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-22-ex-012",
+      "type": "fill_blank",
+      "question": "When I was younger I ___ run very fast, but now I can't.",
+      "answer": "could",
+      "hint": "Past general ability vs present inability",
+      "explanation": "could = past general ability I used to have.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-22-ex-013",
+      "type": "mcq",
+      "question": "I'm not sure about tomorrow — I ___ come or I might not.",
+      "answer": "might",
+      "hint": "Expressing genuine uncertainty",
+      "explanation": "might = genuine uncertainty, about 40-50% likely.",
+      "hebrew_note": [
+        "will",
+        "would",
+        "should"
+      ]
+    },
+    {
+      "id": "G-22-ex-014",
+      "type": "mcq",
+      "question": "Which is the most polite request?",
+      "answer": "Could you possibly help me with this?",
+      "hint": "Softest/most polite request form",
+      "explanation": "Could you possibly = very soft, polite request.",
+      "hebrew_note": [
+        "Can you help me?",
+        "Help me with this.",
+        "You should help me."
+      ]
+    },
+    {
+      "id": "G-22-ex-015",
+      "type": "mcq",
+      "question": "She ___ play the violin brilliantly when she was young.",
+      "answer": "could",
+      "hint": "Past general ability",
+      "explanation": "could = past general ability she had.",
+      "hebrew_note": [
+        "was able to",
+        "might",
+        "would"
+      ]
+    },
+    {
+      "id": "G-22-ex-016",
+      "type": "mcq",
+      "question": "___ I sit here? Is this seat taken?",
+      "answer": "May",
+      "hint": "Formal permission question",
+      "explanation": "May I...? = formal permission request.",
+      "hebrew_note": [
+        "Should",
+        "Must",
+        "Might"
+      ]
+    },
+    {
+      "id": "G-22-ex-017",
+      "type": "mcq",
+      "question": "Despite the problems, we ___ deliver the project on time.",
+      "answer": "were able to",
+      "hint": "Specific achievement overcoming difficulties",
+      "explanation": "were able to = specific achievement despite obstacles.",
+      "hebrew_note": [
+        "could",
+        "might",
+        "may"
+      ]
+    },
+    {
+      "id": "G-22-ex-018",
+      "type": "mcq",
+      "question": "The test results ___ take up to two weeks.",
+      "answer": "may",
+      "hint": "Formal possibility (written/official context)",
+      "explanation": "may = possibility in formal/written contexts.",
+      "hebrew_note": [
+        "might to",
+        "could to",
+        "will"
+      ]
+    },
+    {
+      "id": "G-22-ex-019",
+      "type": "error_correction",
+      "question": "Find and fix: 'She mights come to the party.'",
+      "answer": "She might come to the party.",
+      "hint": "Modal verbs never add -s",
+      "explanation": "might never changes. She might come.",
+      "hebrew_note": "modal verbs לא מקבלים s"
+    },
+    {
+      "id": "G-22-ex-020",
+      "type": "error_correction",
+      "question": "Find and fix: 'Could you to send me the report?'",
+      "answer": "Could you send me the report?",
+      "hint": "After modal verbs: base verb, no 'to'",
+      "explanation": "No 'to' after modals. Could you send (base verb).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-22-ex-021",
+      "type": "error_correction",
+      "question": "Find and fix: 'Yesterday she could finish the project despite the problems.'",
+      "answer": "Yesterday she was able to finish the project despite the problems.",
+      "hint": "Specific past achievement → was/were able to, not could",
+      "explanation": "Specific achievement → was able to. Could = general ability only.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-22-ex-022",
+      "type": "error_correction",
+      "question": "Find and fix: 'May you help me move this table?'",
+      "answer": "Could you help me move this table?",
+      "hint": "May is for permission requests (May I...?), not requests to others",
+      "explanation": "May I...? = I request permission. Could you...? = asking someone else to do something.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-22-ex-023",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "answer": null,
+      "hint": "might + base verb for possibility",
+      "explanation": "I might not be able to come tomorrow.",
+      "hebrew_note": null,
+      "words": [
+        "might",
+        "I",
+        "not",
+        "able",
+        "come",
+        "be",
+        "tomorrow",
+        "to"
+      ]
+    },
+    {
+      "id": "G-22-ex-024",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "answer": null,
+      "hint": "Could you = polite request",
+      "explanation": "Could you explain that again more slowly?",
+      "hebrew_note": null,
+      "words": [
+        "Could",
+        "you",
+        "that",
+        "explain",
+        "again",
+        "slowly",
+        "more"
+      ]
+    },
+    {
+      "id": "G-22-ex-025",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "answer": null,
+      "hint": "was able to for specific past achievement",
+      "explanation": "She was able to pass the exam despite studying for only one week.",
+      "hebrew_note": null,
+      "words": [
+        "She",
+        "was",
+        "able",
+        "to",
+        "pass",
+        "exam",
+        "the",
+        "despite",
+        "studying",
+        "only",
+        "for",
+        "week",
+        "one"
+      ]
+    }
+  ],
+  "speak": [
+    {
+      "id": "G-22-sp-001",
+      "sentence": "I might go to the coast at the weekend if the weather is good.",
+      "chunks": [
+        "I might go to the coast at the weekend",
+        "if the weather is good."
+      ],
+      "phonetic_hints": "'Coast' = KOHST. 'Weekend' = WEEK-end.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-22-sp-002",
+      "sentence": "Could you speak a little more slowly, please? I didn't catch that.",
+      "chunks": [
+        "Could you speak a little more slowly, please?",
+        "I didn't catch that."
+      ],
+      "phonetic_hints": "'Slowly' = SLOH-lee. 'Catch' = KACH — in the sense of 'hear and understand'.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-22-sp-003",
+      "sentence": "She could run really fast when she was younger — she won several competitions.",
+      "chunks": [
+        "She could run really fast when she was younger —",
+        "she won several competitions."
+      ],
+      "phonetic_hints": "'Competitions' = kom-peh-TISH-unz — four syllables.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-22-sp-004",
+      "sentence": "May I ask what time the meeting is scheduled to start?",
+      "chunks": [
+        "May I ask",
+        "what time the meeting is scheduled to start?"
+      ],
+      "phonetic_hints": "'Scheduled' = SHED-yoold (British) or SKED-yoold (American).",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-22-sp-005",
+      "sentence": "Despite the bad weather, we were able to complete the project on time.",
+      "chunks": [
+        "Despite the bad weather,",
+        "we were able to complete the project on time."
+      ],
+      "phonetic_hints": "'Despite' = dih-SPYT — stress on second. 'Complete' = kum-PLEET.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-22-sp-006",
+      "sentence": "The problem might be more serious than we first thought.",
+      "chunks": [
+        "The problem might be more serious",
+        "than we first thought."
+      ],
+      "phonetic_hints": "'Serious' = SEER-ee-us — three syllables. 'Thought' = THAWT — irregular past.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-22-sp-007",
+      "sentence": "That could be the answer, but I'm not completely sure yet.",
+      "chunks": [
+        "That could be the answer,",
+        "but I'm not completely sure yet."
+      ],
+      "phonetic_hints": "'Completely' = kum-PLEET-lee. 'Answer' = AN-ser.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-22-sp-008",
+      "sentence": "I couldn't understand why she was so upset about it.",
+      "chunks": [
+        "I couldn't understand",
+        "why she was so upset about it."
+      ],
+      "phonetic_hints": "'Couldn't' = KOOD-unt. 'Understand' = un-der-STAND — stress on last syllable.",
+      "pass_threshold": 0.65
+    }
+  ]
+}

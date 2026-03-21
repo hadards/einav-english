@@ -1,0 +1,307 @@
+{
+  "id": "V-06",
+  "theme": "Shopping & money",
+  "level": "A2",
+  "words": [
+    {
+      "id": "V-06-w-001",
+      "word": "receipt",
+      "part_of_speech": "noun",
+      "definition": "a document showing that you have paid for something",
+      "example_sentences": [
+        "Always keep your receipt in case you need to return the item.",
+        "She lost the receipt and therefore couldn't get a refund.",
+        "The receipt shows the exact amount and date of purchase."
+      ],
+      "pronunciation_tip": "rih-SEET — two syllables, stress on second. The 'p' is completely silent.",
+      "common_mistake": "Don't say 'the paper that shows I paid' — say 'the receipt'. Remember: silent P in receipt.",
+      "collocations": "['keep the receipt', 'show your receipt', 'ask for a receipt']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-06-w-002",
+      "word": "discount",
+      "part_of_speech": "noun/verb",
+      "definition": "a reduction in the normal price of something",
+      "example_sentences": [
+        "Students receive a generous 10% discount at this museum.",
+        "They offered a big discount on all last season's models.",
+        "I can discount the price slightly for a long-term regular customer."
+      ],
+      "pronunciation_tip": "DIS-kownt — stress on first syllable.",
+      "common_mistake": "Don't say 'reduction in price' every time — say 'discount'.",
+      "collocations": "['offer a discount', 'student discount', 'discount on']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-06-w-003",
+      "word": "refund",
+      "part_of_speech": "noun/verb",
+      "definition": "money paid back when you return something or are unsatisfied",
+      "example_sentences": [
+        "I asked for a full refund on the faulty laptop.",
+        "They refused to give me a refund without the original receipt.",
+        "The company promptly issued a full refund."
+      ],
+      "pronunciation_tip": "REE-fund — stress on first syllable.",
+      "common_mistake": "Don't say 'give me back my money' formally — say 'I'd like a refund please'.",
+      "collocations": "['full refund', 'request a refund', 'issue a refund']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-06-w-004",
+      "word": "budget",
+      "part_of_speech": "noun/verb",
+      "definition": "a plan for how to spend money within certain limits",
+      "example_sentences": [
+        "We're on a very tight budget this month unfortunately.",
+        "I carefully budgeted for the holiday months in advance.",
+        "Try hard to stay within your budget."
+      ],
+      "pronunciation_tip": "BUJ-it — two syllables, stress on first.",
+      "common_mistake": "Don't say 'I plan my money' — say 'I budget carefully' or 'I'm on a budget'.",
+      "collocations": "['tight budget', 'stick to a budget', 'budget for']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-06-w-005",
+      "word": "bargain",
+      "part_of_speech": "noun/verb",
+      "definition": "something bought for much less than its usual price",
+      "example_sentences": [
+        "This jacket was an absolute bargain — it was half price!",
+        "She always bargains at the souk market.",
+        "I absolutely love finding a real bargain in the January sales."
+      ],
+      "pronunciation_tip": "BAR-gun — two syllables, stress on first.",
+      "common_mistake": "Don't say 'a cheap thing I bought' — say 'I got a bargain' or 'it was a real bargain'.",
+      "collocations": "['find a bargain', 'real bargain', 'bargain price']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-06-w-006",
+      "word": "impulse buy",
+      "part_of_speech": "noun",
+      "definition": "something bought suddenly without any prior planning",
+      "example_sentences": [
+        "That expensive jacket was an impulse buy — I didn't really need it.",
+        "I tend to make impulse buys when I'm bored and browsing online.",
+        "She regretted the impulse buy the very next morning."
+      ],
+      "pronunciation_tip": "IM-pulss-by.",
+      "common_mistake": "Don't say 'I bought it without thinking' — say 'it was an impulse buy'.",
+      "collocations": "['make an impulse buy', 'typical impulse buy', 'regret impulse buy']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-06-w-007",
+      "word": "transaction",
+      "part_of_speech": "noun",
+      "definition": "an occasion when goods or services are bought or sold",
+      "example_sentences": [
+        "The entire transaction was completed in just a few seconds.",
+        "The bank records every single transaction on your account.",
+        "He made several large and suspicious transactions last month."
+      ],
+      "pronunciation_tip": "tran-ZAK-shun — three syllables, stress on second.",
+      "common_mistake": "Don't say 'buying and selling' — say 'transaction' in formal or financial contexts.",
+      "collocations": "['financial transaction', 'complete a transaction', 'suspicious transaction']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-06-w-008",
+      "word": "warranty",
+      "part_of_speech": "noun",
+      "definition": "a manufacturer's promise to repair or replace a faulty product",
+      "example_sentences": [
+        "This laptop comes with a standard two-year warranty.",
+        "The warranty has expired so the repair will cost you money.",
+        "Keep the warranty documentation somewhere safe and accessible."
+      ],
+      "pronunciation_tip": "WOR-un-tee — three syllables, stress on first.",
+      "common_mistake": "Don't confuse 'guarantee' with 'warranty' — warranty is specifically for products.",
+      "collocations": "['come with a warranty', 'one-year warranty', 'warranty has expired']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-06-w-009",
+      "word": "afford",
+      "part_of_speech": "verb",
+      "definition": "to have enough money to buy or pay for something",
+      "example_sentences": [
+        "I simply can't afford a new phone right now.",
+        "She saved diligently until she could afford the holiday.",
+        "Can you really afford to take three weeks off work?"
+      ],
+      "pronunciation_tip": "uh-FAWD — stress on second syllable.",
+      "common_mistake": "Don't say 'I have enough money for it' always — say 'I can't afford it' naturally.",
+      "collocations": "['can't afford', 'afford to buy', 'barely afford']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-06-w-010",
+      "word": "overcharge",
+      "part_of_speech": "verb",
+      "definition": "to charge someone more money than is fair or correct",
+      "example_sentences": [
+        "I think they seriously overcharged me for the repair work.",
+        "Always check your bill carefully — restaurants sometimes overcharge.",
+        "We discovered we had been overcharged by 20 euros."
+      ],
+      "pronunciation_tip": "oh-ver-CHARJ — stress on second syllable.",
+      "common_mistake": "Don't say 'they took too much money from me' — say 'they overcharged me'.",
+      "collocations": "['overcharge for', 'been overcharged', 'accidentally overcharge']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-06-w-011",
+      "word": "haggle",
+      "part_of_speech": "verb",
+      "definition": "to argue or negotiate about the price to try to pay less",
+      "example_sentences": [
+        "You can easily haggle at the market but not in a supermarket.",
+        "She managed to haggle the price down by 30 percent.",
+        "Don't be afraid to haggle — the asking price is never final here."
+      ],
+      "pronunciation_tip": "HAG-ul — two syllables, stress on first.",
+      "common_mistake": "Don't say 'I negotiated the price' for informal situations — say 'I haggled'.",
+      "collocations": "['haggle over the price', 'haggle at the market', 'enjoy haggling']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-06-w-012",
+      "word": "splurge",
+      "part_of_speech": "verb/noun",
+      "definition": "to spend a lot of money on something special as a treat",
+      "example_sentences": [
+        "We splurged on a luxury hotel for our anniversary.",
+        "She rarely splurges but tonight she really felt like celebrating.",
+        "This expensive meal was a real once-in-a-while splurge."
+      ],
+      "pronunciation_tip": "SPLURJ — one syllable.",
+      "common_mistake": "Don't say 'I spent a lot of money' casually — say 'I splurged' for a deliberate treat.",
+      "collocations": "['splurge on', 'have a splurge', 'occasionally splurge']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-06-w-013",
+      "word": "surcharge",
+      "part_of_speech": "noun",
+      "definition": "an additional charge added on top of the basic price",
+      "example_sentences": [
+        "There's a 3% surcharge for paying by credit card.",
+        "A fuel surcharge was automatically added to the airline ticket.",
+        "Please note the additional surcharge for next-day delivery."
+      ],
+      "pronunciation_tip": "SUR-charj — two syllables, stress on first.",
+      "common_mistake": "Don't say 'extra fee' every time — say 'surcharge' in more formal contexts.",
+      "collocations": "['add a surcharge', 'credit card surcharge', 'hidden surcharge']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-06-w-014",
+      "word": "invoice",
+      "part_of_speech": "noun",
+      "definition": "a formal document requesting payment for goods or services provided",
+      "example_sentences": [
+        "Please send me a proper invoice for all the work you've done.",
+        "The invoice included every item purchased with full details.",
+        "She always pays invoices immediately on receipt."
+      ],
+      "pronunciation_tip": "IN-voyss — two syllables, stress on first.",
+      "common_mistake": "Don't say 'bill' and 'invoice' interchangeably. Invoice is between businesses; bill is for consumers.",
+      "collocations": "['send an invoice', 'pay an invoice', 'issue an invoice']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-06-w-015",
+      "word": "loyalty card",
+      "part_of_speech": "noun",
+      "definition": "a card that earns points or rewards for regular purchases",
+      "example_sentences": [
+        "I collect loyalty points on my supermarket loyalty card every week.",
+        "The loyalty card saves me a significant amount of money.",
+        "She has loyalty cards for all of her favourite regular shops."
+      ],
+      "pronunciation_tip": "LOY-ul-tee KARD.",
+      "common_mistake": "Don't say 'points card' — say 'loyalty card'.",
+      "collocations": "['collect points on loyalty card', 'use a loyalty card', 'loyalty card scheme']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-06-w-016",
+      "word": "counterfeit",
+      "part_of_speech": "adjective",
+      "definition": "a fake copy made to look exactly like the genuine original",
+      "example_sentences": [
+        "The market was full of obvious counterfeit designer handbags.",
+        "She accidentally purchased a counterfeit watch at a tourist market.",
+        "Producing and selling counterfeit money is a very serious crime."
+      ],
+      "pronunciation_tip": "KOWN-ter-fit — three syllables, stress on first.",
+      "common_mistake": "Don't say 'fake' in formal or legal contexts — say 'counterfeit'.",
+      "collocations": "['counterfeit goods', 'counterfeit money', 'counterfeit products']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-06-w-017",
+      "word": "vendor",
+      "part_of_speech": "noun",
+      "definition": "a person or company that sells goods or services",
+      "example_sentences": [
+        "Several vendors had set up colourful stalls at the market.",
+        "The software vendor offered a free 30-day demo version.",
+        "Always choose your vendor very carefully when making a major purchase."
+      ],
+      "pronunciation_tip": "VEN-der — two syllables, stress on first.",
+      "common_mistake": "Don't say 'seller' in professional business contexts — say 'vendor'.",
+      "collocations": "['trusted vendor', 'choose a vendor', 'street vendor']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-06-w-018",
+      "word": "cashback",
+      "part_of_speech": "noun",
+      "definition": "money returned to a buyer as a reward for their purchase",
+      "example_sentences": [
+        "I always use a credit card that offers cashback on purchases.",
+        "She earned significant cashback by shopping at partner stores.",
+        "The cashback promotion is only valid for this current month."
+      ],
+      "pronunciation_tip": "KASH-bak — stress on first syllable.",
+      "common_mistake": "Don't confuse cashback (a reward) with a refund (money back for returning something).",
+      "collocations": "['earn cashback', 'cashback offer', 'cashback rewards']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-06-w-019",
+      "word": "outstanding",
+      "part_of_speech": "adjective",
+      "definition": "(of a payment) not yet paid or settled",
+      "example_sentences": [
+        "There is still a significant outstanding balance on the account.",
+        "The invoice has been outstanding and unpaid for over 30 days.",
+        "Please settle any outstanding amounts by the end of this month."
+      ],
+      "pronunciation_tip": "owt-STAN-ding — three syllables, stress on second.",
+      "common_mistake": "Don't confuse outstanding (excellent) with outstanding (unpaid) — context makes the meaning clear.",
+      "collocations": "['outstanding balance', 'outstanding payment', 'still outstanding']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-06-w-020",
+      "word": "consignment",
+      "part_of_speech": "noun",
+      "definition": "a quantity of goods sent to a buyer or retailer for sale",
+      "example_sentences": [
+        "The new consignment of winter shoes arrived this morning.",
+        "We are still waiting for a large consignment from the supplier.",
+        "Unfortunately the consignment was seriously damaged in transit."
+      ],
+      "pronunciation_tip": "kun-SYN-ment — three syllables, stress on second.",
+      "common_mistake": "Don't say 'delivery of products' in business contexts — say 'consignment'.",
+      "collocations": "['receive a consignment', 'consignment of goods', 'consignment note']",
+      "difficulty": 3
+    }
+  ]
+}

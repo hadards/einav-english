@@ -1,0 +1,104 @@
+{
+  "id": "G-04",
+  "title": "Present continuous",
+  "level": "A2",
+  "order": 4,
+  "explain": {
+    "rule": "The present continuous describes actions happening right now, at this moment, or around this period of time. Form: subject + am/is/are + verb-ing. For negatives: am/is/are + not + verb-ing. For questions: Am/Is/Are + subject + verb-ing?",
+    "full_explanation": "The present continuous has two main uses. First, it describes what is happening at this exact moment: 'I am writing this sentence.' Second, it describes temporary situations around now, even if not at this precise second: 'I am studying English this year.' The key contrast is with present simple: 'I drink coffee every morning' (habit, always true) vs 'I am drinking coffee' (right now, at this moment).",
+    "form_table": {
+      "positive": [
+        "I + am + verb-ing → I am working, I am eating",
+        "He/She/It + is + verb-ing → She is working, It is raining",
+        "You/We/They + are + verb-ing → They are working, We are eating"
+      ],
+      "negative": [
+        "I + am not + verb-ing → I am not working (I'm not working)",
+        "He/She/It + is not + verb-ing → She isn't working / She's not working",
+        "You/We/They + are not + verb-ing → They aren't working / They're not working"
+      ],
+      "question": [
+        "Am + I + verb-ing? → Am I speaking too fast?",
+        "Is + he/she/it + verb-ing? → Is she working late tonight?",
+        "Are + you/we/they + verb-ing? → Are they coming to the party?"
+      ],
+      "short_answers": [
+        "Yes, I am. / No, I'm not. (NEVER: No, I amn't)",
+        "Yes, she is. / No, she isn't.",
+        "Yes, they are. / No, they aren't."
+      ]
+    },
+    "spelling_rules_ing": [
+      "Most verbs: add -ing → work→working, eat→eating, read→reading, sleep→sleeping",
+      "Verbs ending in -e: remove -e, add -ing → come→coming, make→making, write→writing, live→living",
+      "Short verbs ending in one vowel + one consonant: double the consonant, add -ing → run→running, sit→sitting, swim→swimming, get→getting",
+      "Verbs ending in -ie: change -ie to -y, add -ing → lie→lying, die→dying, tie→tying",
+      "Verbs ending in -y: just add -ing → study→studying, play→playing, try→trying"
+    ],
+    "stative_verbs_warning": "Some verbs are almost never used in continuous form. These are called stative verbs — they describe states, not actions. The most common: know, understand, believe, think (opinion), want, need, like, love, hate, prefer, remember, forget, seem, appear, belong, contain, have (possession), hear, see, smell, taste. Say: 'I know the answer' NOT 'I am knowing the answer'. Say: 'She loves music' NOT 'She is loving music'.",
+    "present_vs_continuous": [
+      "I work in a hospital. (permanent fact — present simple) vs I am working from home today. (temporary — present continuous)",
+      "She drinks coffee every morning. (habit — present simple) vs She is drinking coffee right now. (at this moment — present continuous)",
+      "He plays football on weekends. (regular activity — present simple) vs He is playing football now. (happening now — present continuous)"
+    ],
+    "why_matters": "The present continuous is essential for describing what is happening around you, making plans, and talking about temporary situations. Without it, you cannot describe any action in progress.",
+    "hebrew_note": "Hebrew does not have a continuous tense — 'אני עובד' means both 'I work' and 'I am working'. Context tells you which one. In English you MUST choose: if it is happening right now or is temporary, use present continuous with is/are + -ing. If it is a habit or fact, use present simple. Also important: stative verbs (like, know, want, understand) almost never use continuous in English even when they would in Hebrew.",
+    "tip": "Ask yourself: is this happening right NOW or is it a HABIT? Right now = continuous (is/are + -ing). Habit or fact = simple. If you can say 'at this moment' before the verb, use continuous.",
+    "good_examples": [
+      { "id": "G-04-ge-001", "sentence": "I am studying for my exams this week.", "audio_text": "I am studying for my exams this week.", "note": "Temporary situation around now — not permanent" },
+      { "id": "G-04-ge-002", "sentence": "She is talking on the phone right now.", "audio_text": "She is talking on the phone right now.", "note": "Action at this exact moment" },
+      { "id": "G-04-ge-003", "sentence": "Are they coming to the party tonight?", "audio_text": "Are they coming to the party tonight?", "note": "Question about a planned future arrangement" },
+      { "id": "G-04-ge-004", "sentence": "He isn't feeling well today.", "audio_text": "He isn't feeling well today.", "note": "Temporary state — different from his normal state" },
+      { "id": "G-04-ge-005", "sentence": "Look! It is snowing outside.", "audio_text": "Look! It is snowing outside.", "note": "Action in progress at this moment" },
+      { "id": "G-04-ge-006", "sentence": "We are living in my parents' house until we find a flat.", "audio_text": "We are living in my parents' house until we find a flat.", "note": "Temporary situation, not permanent" },
+      { "id": "G-04-ge-007", "sentence": "What are you doing this evening?", "audio_text": "What are you doing this evening?", "note": "Asking about a near future arrangement" },
+      { "id": "G-04-ge-008", "sentence": "The children are getting better at English.", "audio_text": "The children are getting better at English.", "note": "Gradual change or development happening over time" }
+    ],
+    "bad_examples": [
+      { "id": "G-04-be-001", "wrong": "I am knowing the answer.", "correct": "I know the answer.", "reason": "'Know' is a stative verb — it describes a state, not an action. Never use it in continuous form" },
+      { "id": "G-04-be-002", "wrong": "She is wanting a new phone.", "correct": "She wants a new phone.", "reason": "'Want' is a stative verb — use present simple" },
+      { "id": "G-04-be-003", "wrong": "He is work from home today.", "correct": "He is working from home today.", "reason": "Present continuous needs -ing on the verb: work→working" },
+      { "id": "G-04-be-004", "wrong": "Are you understanding me?", "correct": "Do you understand me?", "reason": "'Understand' is a stative verb — use present simple with do/does" },
+      { "id": "G-04-be-005", "wrong": "I am usually eat lunch at one.", "correct": "I usually eat lunch at one.", "reason": "'Usually' signals a habit → use present simple, not continuous" }
+    ]
+  },
+  "exercises": [
+    { "id": "G-04-ex-001", "type": "fill_blank", "question": "She ___ (talk) on the phone at the moment.", "answer": "is talking", "hint": "She = is + verb-ing", "explanation": "Present continuous for an action happening right now: She + is + talking.", "hebrew_note": "בעברית 'היא מדברת' — אין הבחנה. באנגלית 'at the moment' מחייב continuous: is talking" },
+    { "id": "G-04-ex-002", "type": "fill_blank", "question": "I ___ (not / watch) TV right now — I'm working.", "answer": "am not watching", "hint": "I + am not + verb-ing", "explanation": "Present continuous negative with I: am not + -ing. Am not watching.", "hebrew_note": null },
+    { "id": "G-04-ex-003", "type": "fill_blank", "question": "___ (they / come) to the meeting tomorrow?", "answer": "Are they coming", "hint": "They + are + verb-ing for a planned future event", "explanation": "Present continuous can express future arrangements. Are + they + coming.", "hebrew_note": null },
+    { "id": "G-04-ex-004", "type": "fill_blank", "question": "The baby ___ (sleep) right now, so please be quiet.", "answer": "is sleeping", "hint": "The baby = it → is + verb-ing", "explanation": "The baby = it, so use is + sleeping. Right now confirms we need continuous.", "hebrew_note": null },
+    { "id": "G-04-ex-005", "type": "fill_blank", "question": "We ___ (stay) at a hotel near the beach this week.", "answer": "are staying", "hint": "We → are + verb-ing. Temporary situation.", "explanation": "We + are + staying. This is temporary (this week only), so continuous is correct.", "hebrew_note": null },
+    { "id": "G-04-ex-006", "type": "fill_blank", "question": "___ (you / listen) to music or can I talk to you?", "answer": "Are you listening", "hint": "Question with you → Are + you + verb-ing", "explanation": "Are + you + listening? Present continuous question about a current action.", "hebrew_note": null },
+    { "id": "G-04-ex-007", "type": "fill_blank", "question": "He ___ (run) in the park. I can see him from the window.", "answer": "is running", "hint": "run ends in one vowel + one consonant → double the n before -ing", "explanation": "He + is + running. Run → running (double the n because it ends in one vowel + one consonant).", "hebrew_note": null },
+    { "id": "G-04-ex-008", "type": "fill_blank", "question": "My parents ___ (not / enjoy) living in the city.", "answer": "are not enjoying / aren't enjoying", "hint": "My parents = they → are not + verb-ing", "explanation": "They + are not + enjoying. Temporary state around now.", "hebrew_note": null },
+    { "id": "G-04-ex-009", "type": "fill_blank", "question": "What ___ (you / do) these days?", "answer": "are you doing", "hint": "'These days' suggests a temporary ongoing situation", "explanation": "What + are + you + doing? 'These days' signals a temporary current situation.", "hebrew_note": null },
+    { "id": "G-04-ex-010", "type": "fill_blank", "question": "She ___ (sit) next to me in the meeting right now.", "answer": "is sitting", "hint": "sit ends in one vowel + one consonant → double the t", "explanation": "She + is + sitting. Sit → sitting (double the t).", "hebrew_note": null },
+    { "id": "G-04-ex-011", "type": "fill_blank", "question": "The economy ___ (improve) slowly but steadily.", "answer": "is improving", "hint": "improve ends in -e → remove e, add -ing", "explanation": "The economy = it → is + improving. Improve → improving (remove -e).", "hebrew_note": null },
+    { "id": "G-04-ex-012", "type": "fill_blank", "question": "I ___ (not / feel) very well today. I think I have a cold.", "answer": "am not feeling", "hint": "I + am not + feeling. Temporary state.", "explanation": "I + am not + feeling. This is a temporary state (today only).", "hebrew_note": null },
+    { "id": "G-04-ex-013", "type": "mcq", "question": "Which sentence is correct?", "answer": "She is studying medicine at university.", "hint": "Which option uses the correct form for a temporary ongoing situation?", "explanation": "'Is studying' is correct — this is a temporary situation (studying for a degree). 'Studies medicine' would mean it's a permanent fact/habit, which is less natural here.", "distractors": ["She studying medicine at university.", "She study medicine at university.", "She does studying medicine at university."] },
+    { "id": "G-04-ex-014", "type": "mcq", "question": "I ___ you — can you repeat that?", "answer": "don't understand", "hint": "Understand is a stative verb — which tense do you use?", "explanation": "Understand is a stative verb — it describes a mental state, not an action in progress. Use present simple: don't understand.", "distractors": ["am not understanding", "isn't understanding", "not am understanding"] },
+    { "id": "G-04-ex-015", "type": "mcq", "question": "Look at those clouds! It ___ to rain.", "answer": "is going to start", "hint": "Evidence happening now → continuous to describe the developing situation", "explanation": "'Is going to start' — we use present continuous with 'going to' for predictions with evidence. The clouds are visible evidence.", "distractors": ["is starting to rain (possible but incomplete)", "starts to rain", "will be starting"] },
+    { "id": "G-04-ex-016", "type": "mcq", "question": "Why ___ so fast? Please slow down.", "answer": "are you driving", "hint": "Question about an action happening right now → present continuous", "explanation": "Are + you + driving? Action happening at this moment, addressed directly.", "distractors": ["do you drive", "you are driving", "is you driving"] },
+    { "id": "G-04-ex-017", "type": "mcq", "question": "She ___ coffee — she prefers tea.", "answer": "doesn't drink", "hint": "This is a general habit/preference — which tense?", "explanation": "A general preference/habit uses present simple: doesn't drink. This is not about right now.", "distractors": ["isn't drinking", "not drink", "doesn't drinking"] },
+    { "id": "G-04-ex-018", "type": "mcq", "question": "My company ___ very quickly at the moment.", "answer": "is growing", "hint": "Temporary ongoing change → present continuous", "explanation": "Is growing — a temporary ongoing development happening over a period of time now.", "distractors": ["grows", "grow", "is grow"] },
+    { "id": "G-04-ex-019", "type": "error_correction", "question": "Find and fix the mistake: 'I am knowing how to drive.'", "answer": "I know how to drive.", "hint": "'Know' is a stative verb — which tense does it use?", "explanation": "Know is a stative verb describing a mental state. Never use continuous form. Use present simple: I know.", "hebrew_note": "בעברית 'אני יודע' — פשוט. באנגלית גם כן: I know — לעולם לא 'I am knowing'" },
+    { "id": "G-04-ex-020", "type": "error_correction", "question": "Find and fix the mistake: 'He is work very hard this week.'", "answer": "He is working very hard this week.", "hint": "What is missing from the verb?", "explanation": "Present continuous needs -ing on the main verb. Work → working.", "hebrew_note": null },
+    { "id": "G-04-ex-021", "type": "error_correction", "question": "Find and fix the mistake: 'Are you understanding the question?'", "answer": "Do you understand the question?", "hint": "'Understand' is a stative verb", "explanation": "Understand is a stative verb. Use present simple: Do you understand?", "hebrew_note": null },
+    { "id": "G-04-ex-022", "type": "error_correction", "question": "Find and fix the mistake: 'She is usually taking the bus to work.'", "answer": "She usually takes the bus to work.", "hint": "'Usually' signals a habit — which tense handles habits?", "explanation": "'Usually' indicates a regular habit → present simple. She + takes (third person -s).", "hebrew_note": null },
+    { "id": "G-04-ex-023", "type": "sentence_builder", "question": "Put the words in the correct order:", "words": ["outside", "is", "it", "raining", "heavily"], "answer": "It is raining heavily outside.", "hint": "It (weather) + is + verb-ing + adverb + place", "explanation": "It + is + raining + heavily + outside. Weather is always 'it'." },
+    { "id": "G-04-ex-024", "type": "sentence_builder", "question": "Put the words in the correct order:", "words": ["doing", "you", "are", "this", "what", "evening"], "answer": "What are you doing this evening?", "hint": "Wh-question: what + are + you + verb-ing + time", "explanation": "What + are + you + doing + this evening? Asking about a near future plan." },
+    { "id": "G-04-ex-025", "type": "sentence_builder", "question": "Put the words in the correct order:", "words": ["not", "television", "watching", "I", "am", "right", "now"], "answer": "I am not watching television right now.", "hint": "I + am not + verb-ing + object + time", "explanation": "I + am not + watching + television + right now." },
+    { "id": "G-04-ex-026", "type": "sentence_builder", "question": "Put the words in the correct order:", "words": ["his", "improving", "English", "he", "is", "rapidly"], "answer": "His English is improving rapidly.", "hint": "Subject (his English) + is + verb-ing + adverb", "explanation": "His English (subject) + is + improving + rapidly. A gradual ongoing change." },
+    { "id": "G-04-ex-027", "type": "sentence_builder", "question": "Put the words in the correct order:", "words": ["are", "coffee", "the", "drinking", "they", "kitchen", "in"], "answer": "They are drinking coffee in the kitchen.", "hint": "Subject + are + verb-ing + object + place", "explanation": "They + are + drinking + coffee + in the kitchen." }
+  ],
+  "speak": [
+    { "id": "G-04-sp-001", "sentence": "I am currently studying English and I am really enjoying it.", "chunks": ["I am currently studying English", "and I am really enjoying it."], "phonetic_hints": "'Currently' = KUR-unt-lee. Three syllables, stress on first. 'Enjoying' = en-JOY-ing. Stress on second syllable.", "pass_threshold": 0.70 },
+    { "id": "G-04-sp-002", "sentence": "What are you doing at the moment? Are you busy?", "chunks": ["What are you doing at the moment?", "Are you busy?"], "phonetic_hints": "'Moment' = MOH-munt. Stress on first syllable. 'Busy' = BIZ-ee. The S sounds like Z. Don't say BOO-zee.", "pass_threshold": 0.75 },
+    { "id": "G-04-sp-003", "sentence": "She isn't working today because she isn't feeling well.", "chunks": ["She isn't working today", "because she isn't feeling well."], "phonetic_hints": "'Isn't' = IZ-unt. Say quickly. 'Because' = bih-KOZ. Stress on second syllable. In natural speech, 'because' is often reduced to 'cos'.", "pass_threshold": 0.70 },
+    { "id": "G-04-sp-004", "sentence": "Look, it is starting to rain — you had better take an umbrella.", "chunks": ["Look, it is starting to rain", "you had better take an umbrella."], "phonetic_hints": "'Starting' = STAR-ting. 'Umbrella' = um-BREL-uh. Three syllables, stress on second. 'Better' = BET-er.", "pass_threshold": 0.65 },
+    { "id": "G-04-sp-005", "sentence": "We are staying in a lovely hotel right on the beach this week.", "chunks": ["We are staying in a lovely hotel", "right on the beach", "this week."], "phonetic_hints": "'Lovely' = LUV-lee. 'Hotel' = hoh-TEL. Stress on second syllable. 'Beach' — long EE sound. Don't say 'bitch' — make sure the EE is long.", "pass_threshold": 0.65 },
+    { "id": "G-04-sp-006", "sentence": "My company is growing very fast and we are hiring new people.", "chunks": ["My company is growing very fast", "and we are hiring new people."], "phonetic_hints": "'Company' = KUM-puh-nee. Three syllables, stress on first. 'Hiring' = HY-er-ing. 'Growing' = GROH-ing.", "pass_threshold": 0.65 },
+    { "id": "G-04-sp-007", "sentence": "Are they coming to visit next weekend or the one after?", "chunks": ["Are they coming to visit", "next weekend", "or the one after?"], "phonetic_hints": "'Visit' = VIZ-it. Stress on first syllable. 'Weekend' = WEEK-end. Both syllables fairly even, slight stress on first.", "pass_threshold": 0.70 },
+    { "id": "G-04-sp-008", "sentence": "I am not watching the news much these days — it is too depressing.", "chunks": ["I am not watching the news much these days", "it is too depressing."], "phonetic_hints": "'Depressing' = dih-PRES-ing. Stress on second syllable. 'These' — the TH is voiced (tongue between teeth + voice). 'Days' = DAYZ.", "pass_threshold": 0.65 }
+  ]
+}

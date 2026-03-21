@@ -1,0 +1,307 @@
+{
+  "id": "V-02",
+  "theme": "Food & eating",
+  "level": "A2",
+  "words": [
+    {
+      "id": "V-02-w-001",
+      "word": "ingredient",
+      "part_of_speech": "noun",
+      "definition": "one of the foods used to make a dish",
+      "example_sentences": [
+        "The main ingredient in hummus is chickpeas.",
+        "Check the ingredients list on the label.",
+        "I don't have all the ingredients for this recipe."
+      ],
+      "pronunciation_tip": "in-GREE-dee-unt — four syllables, stress on second.",
+      "common_mistake": "Don't say 'components of food' — say 'ingredients'.",
+      "collocations": "['main ingredient', 'fresh ingredients', 'check the ingredients']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-02-w-002",
+      "word": "recipe",
+      "part_of_speech": "noun",
+      "definition": "a set of instructions for preparing a dish",
+      "example_sentences": [
+        "This is my grandmother's recipe for apple cake.",
+        "I found a simple recipe online and followed it.",
+        "Always read the recipe carefully before you start cooking."
+      ],
+      "pronunciation_tip": "RES-ih-pee — three syllables, stress on first.",
+      "common_mistake": "Don't say 'instruction for cooking' — say 'recipe'. The final e is pronounced: RES-ih-pee.",
+      "collocations": "['follow a recipe', 'traditional recipe', 'try a new recipe']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-02-w-003",
+      "word": "cuisine",
+      "part_of_speech": "noun",
+      "definition": "the style of cooking typical of a country or region",
+      "example_sentences": [
+        "Italian cuisine is popular all over the world.",
+        "She loves trying different cuisines when she travels.",
+        "The restaurant specialises in Moroccan cuisine."
+      ],
+      "pronunciation_tip": "kwih-ZEEN — stress on second syllable.",
+      "common_mistake": "Don't say 'the food of Italy' in formal contexts — say 'Italian cuisine'.",
+      "collocations": "['Italian cuisine', 'local cuisine', 'traditional cuisine']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-02-w-004",
+      "word": "portion",
+      "part_of_speech": "noun",
+      "definition": "the amount of food served to or eaten by one person",
+      "example_sentences": [
+        "The portions at that restaurant are enormous.",
+        "A healthy portion of pasta is about 80 grams dried.",
+        "Can I have a smaller portion of chips, please?"
+      ],
+      "pronunciation_tip": "PAWR-shun — stress on first syllable.",
+      "common_mistake": "Don't say 'a piece of food' — say 'a portion' for a serving.",
+      "collocations": "['large portion', 'small portion', 'portion size']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-02-w-005",
+      "word": "seasoning",
+      "part_of_speech": "noun",
+      "definition": "salt, pepper, herbs, or spices added to food to improve flavour",
+      "example_sentences": [
+        "The soup needs a little more seasoning.",
+        "She rubbed seasoning onto the chicken before roasting.",
+        "Taste the food and adjust the seasoning as needed."
+      ],
+      "pronunciation_tip": "SEE-zun-ing — three syllables.",
+      "common_mistake": "Don't say 'I add taste' — say 'I add seasoning' or 'I season the food'.",
+      "collocations": "['add seasoning', 'adjust seasoning', 'seasoning to taste']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-02-w-006",
+      "word": "marinate",
+      "part_of_speech": "verb",
+      "definition": "to soak food in a liquid mixture to add flavour or make it tender",
+      "example_sentences": [
+        "Marinate the chicken in lemon juice overnight.",
+        "The beef was marinated in red wine and garlic.",
+        "You need to marinate it for at least two hours."
+      ],
+      "pronunciation_tip": "MAIR-ih-nayt — three syllables, stress on first.",
+      "common_mistake": "Don't say 'I put the meat in sauce for a long time' — say 'I marinate the meat'.",
+      "collocations": "['marinate in', 'marinate overnight', 'marinate for hours']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-02-w-007",
+      "word": "texture",
+      "part_of_speech": "noun",
+      "definition": "how food feels in your mouth",
+      "example_sentences": [
+        "The texture of the ice cream was perfectly smooth.",
+        "I don't like the soft texture of overcooked vegetables.",
+        "The dish had a lovely creamy, velvety texture."
+      ],
+      "pronunciation_tip": "TEKS-cher — stress on first syllable.",
+      "common_mistake": "Don't say 'how the food feels' — say 'the texture of the food'.",
+      "collocations": "['smooth texture', 'creamy texture', 'firm texture']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-02-w-008",
+      "word": "nutritious",
+      "part_of_speech": "adjective",
+      "definition": "containing substances your body needs to stay healthy",
+      "example_sentences": [
+        "A salad with protein and vegetables is very nutritious.",
+        "It's important to eat nutritious meals every day.",
+        "This smoothie is almost as nutritious as a full meal."
+      ],
+      "pronunciation_tip": "nyoo-TRISH-us — three syllables, stress on second.",
+      "common_mistake": "Don't say 'food that is healthy' — say 'nutritious food' or 'a nutritious meal'.",
+      "collocations": "['nutritious meal', 'nutritious diet', 'highly nutritious']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-02-w-009",
+      "word": "appetite",
+      "part_of_speech": "noun",
+      "definition": "the feeling of wanting to eat",
+      "example_sentences": [
+        "Exercise always gives me a good appetite.",
+        "She completely lost her appetite when she was stressed.",
+        "The smell of fresh bread really increases the appetite."
+      ],
+      "pronunciation_tip": "AP-ih-tyt — three syllables, stress on first.",
+      "common_mistake": "Don't say 'I don't want to eat' — say 'I have no appetite' or 'I've lost my appetite'.",
+      "collocations": "['good appetite', 'lose appetite', 'suppress appetite']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-02-w-010",
+      "word": "allergic",
+      "part_of_speech": "adjective",
+      "definition": "having a medical reaction to a particular food or substance",
+      "example_sentences": [
+        "I'm allergic to nuts — even a small amount is dangerous.",
+        "She has an allergic reaction to all dairy products.",
+        "Are you allergic to anything I should know about?"
+      ],
+      "pronunciation_tip": "uh-LUR-jik — stress on second syllable.",
+      "common_mistake": "Don't say 'I can't eat nuts because of my health' — say 'I'm allergic to nuts'.",
+      "collocations": "['allergic to', 'allergic reaction', 'severely allergic']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-02-w-011",
+      "word": "savoury",
+      "part_of_speech": "adjective",
+      "definition": "having a salty or spicy taste rather than sweet",
+      "example_sentences": [
+        "I prefer savoury snacks to sweet ones at parties.",
+        "This is a savoury pie filled with cheese and vegetables.",
+        "Hummus has a wonderful savoury, nutty flavour."
+      ],
+      "pronunciation_tip": "SAY-vuh-ree — three syllables, stress on first.",
+      "common_mistake": "Don't say 'not sweet food' — say 'savoury food'.",
+      "collocations": "['savoury dish', 'savoury flavour', 'sweet or savoury']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-02-w-012",
+      "word": "bland",
+      "part_of_speech": "adjective",
+      "definition": "having very little taste or flavour",
+      "example_sentences": [
+        "This soup is completely bland — it desperately needs salt.",
+        "The diet food tasted bland and completely uninteresting.",
+        "He prefers bland food because spicy things hurt his stomach."
+      ],
+      "pronunciation_tip": "BLAND — rhymes with 'hand'.",
+      "common_mistake": "Don't say 'food without taste' — say 'bland food'.",
+      "collocations": "['bland food', 'taste bland', 'rather bland']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-02-w-013",
+      "word": "crave",
+      "part_of_speech": "verb",
+      "definition": "to have a very strong desire for a particular food",
+      "example_sentences": [
+        "I always crave chocolate when I'm feeling stressed.",
+        "She craved salty food throughout her pregnancy.",
+        "Do you ever crave food in the middle of the night?"
+      ],
+      "pronunciation_tip": "KRAYV — rhymes with 'cave'.",
+      "common_mistake": "Don't say 'I really want to eat something' — say 'I crave it' or 'I have a craving'.",
+      "collocations": "['crave chocolate', 'craving for', 'food cravings']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-02-w-014",
+      "word": "indulge",
+      "part_of_speech": "verb",
+      "definition": "to allow yourself to enjoy something you normally avoid",
+      "example_sentences": [
+        "She occasionally indulges in a piece of chocolate cake.",
+        "We indulged in an enormous seafood dinner to celebrate.",
+        "It's perfectly fine to indulge once in a while."
+      ],
+      "pronunciation_tip": "in-DULJ — stress on second syllable.",
+      "common_mistake": "Don't say 'I allow myself to eat bad things' — say 'I indulge occasionally'.",
+      "collocations": "['indulge in', 'occasionally indulge', 'allow yourself to indulge']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-02-w-015",
+      "word": "wholesome",
+      "part_of_speech": "adjective",
+      "definition": "good for your health and made from simple, natural foods",
+      "example_sentences": [
+        "She prefers wholesome home-cooked meals to takeaways.",
+        "The restaurant serves simple, wholesome, honest food.",
+        "A wholesome diet based on vegetables and wholegrains is ideal."
+      ],
+      "pronunciation_tip": "HOHL-sum — stress on first syllable.",
+      "common_mistake": "Don't say 'natural and healthy food' every time — say 'wholesome food'.",
+      "collocations": "['wholesome meal', 'wholesome ingredients', 'wholesome diet']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-02-w-016",
+      "word": "simmer",
+      "part_of_speech": "verb",
+      "definition": "to cook food slowly in liquid just below boiling point",
+      "example_sentences": [
+        "Let the soup simmer for twenty minutes on a low heat.",
+        "Simmer the sauce very gently — don't let it boil.",
+        "She left the stew simmering all afternoon."
+      ],
+      "pronunciation_tip": "SIM-er — stress on first syllable.",
+      "common_mistake": "Don't confuse with 'boil' — simmer is gentler and slower.",
+      "collocations": "['simmer for', 'simmer on low heat', 'leave to simmer']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-02-w-017",
+      "word": "garnish",
+      "part_of_speech": "noun/verb",
+      "definition": "a small amount of food used to decorate a dish",
+      "example_sentences": [
+        "The chef added a fresh parsley garnish to the soup.",
+        "Garnish the plate with a thin slice of lemon.",
+        "The dessert was garnished with a sprig of mint."
+      ],
+      "pronunciation_tip": "GAR-nish — stress on first syllable.",
+      "common_mistake": "Don't say 'decoration on food' — say 'garnish'.",
+      "collocations": "['add a garnish', 'garnish with', 'simple garnish']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-02-w-018",
+      "word": "substitute",
+      "part_of_speech": "noun/verb",
+      "definition": "something used in place of another ingredient",
+      "example_sentences": [
+        "I used yoghurt as a substitute for cream in the sauce.",
+        "You can substitute honey for sugar in most recipes.",
+        "Low-fat cheese makes a good substitute here."
+      ],
+      "pronunciation_tip": "SUB-stih-tyoot — stress on first syllable.",
+      "common_mistake": "Don't say 'I used something instead' — say 'I used X as a substitute for Y'.",
+      "collocations": "['healthy substitute', 'use as a substitute', 'substitute for']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-02-w-019",
+      "word": "nibble",
+      "part_of_speech": "verb/noun",
+      "definition": "to eat small amounts of food by taking small bites",
+      "example_sentences": [
+        "She was nibbling on crackers while she worked.",
+        "Don't nibble all afternoon or you won't eat dinner.",
+        "We had some nibbles with drinks before the main course."
+      ],
+      "pronunciation_tip": "NIB-ul — stress on first syllable.",
+      "common_mistake": "Don't say 'I eat a little bit' — say 'I nibble on something'.",
+      "collocations": "['nibble on', 'just nibbling', 'party nibbles']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-02-w-020",
+      "word": "portion control",
+      "part_of_speech": "noun",
+      "definition": "managing how much you eat to maintain a healthy diet",
+      "example_sentences": [
+        "Portion control is one of the keys to a healthy weight.",
+        "She practises portion control by using smaller plates.",
+        "Good portion control means eating the right amount."
+      ],
+      "pronunciation_tip": "PAWR-shun kun-TROHL.",
+      "common_mistake": "Don't say 'I control how much I eat' — say 'I practise portion control'.",
+      "collocations": "['practise portion control', 'portion control tips', 'importance of portion control']",
+      "difficulty": 2
+    }
+  ]
+}

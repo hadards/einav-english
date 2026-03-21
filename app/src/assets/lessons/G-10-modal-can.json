@@ -1,0 +1,84 @@
+{
+  "id": "G-10",
+  "title": "Modal verbs: can / can't",
+  "level": "A2",
+  "order": 10,
+  "explain": {
+    "rule": "Can is a modal verb used to express: (1) ability — something you know how to do, (2) possibility — something that is possible, (3) permission — asking or giving permission to do something, (4) requests — politely asking someone to do something. Modal verbs are special: they do NOT add -s for he/she/it (she can, not she cans), they are always followed by a base verb (can go, not can to go, not can going), and they make negatives and questions WITHOUT do/does (can't, not doesn't can).",
+    "why_matters": "Can and can't are among the most frequently used words in English. You use them every day — to talk about what you are able to do, to ask for help, to give or ask for permission, and to talk about possibilities. Getting the structure right is essential.",
+    "hebrew_note": "In Hebrew, ability is expressed with יכול (yakhol) + infinitive with ל: 'אני יכול לדבר'. In English, can is simpler — it directly precedes the base verb with NO 'to': 'I can speak' (not 'I can to speak'). Also: 'יכול' changes for gender in Hebrew (יכול/יכולה) but 'can' NEVER changes — it is the same for all subjects: I can, she can, they can.",
+    "tip": "Can sentences follow this pattern: subject + can/can't + BASE verb (no to, no -ing, no -s). Test yourself: Can she sings? NO → Can she sing? YES. She can to drive? NO → She can drive? YES. Think of 'can' as taking the verb back to its purest, simplest form.",
+    "form": {
+      "positive": "Subject + can + base verb: I can swim. She can drive. They can speak French.",
+      "negative": "Subject + can't/cannot + base verb: I can't swim. He can't drive. Cannot is more formal than can't.",
+      "question": "Can + subject + base verb?: Can you swim? Can she drive? Can they help?",
+      "short_answer": "Yes, I can. / No, I can't."
+    },
+    "uses": [
+      { "use": "Ability", "example": "I can play the guitar.", "hebrew": "יכולת/מיומנות" },
+      { "use": "Possibility", "example": "It can get very cold here in winter.", "hebrew": "אפשרות" },
+      { "use": "Permission (giving)", "example": "You can leave early today.", "hebrew": "נתינת רשות" },
+      { "use": "Permission (asking)", "example": "Can I open the window?", "hebrew": "בקשת רשות" },
+      { "use": "Request", "example": "Can you help me with this?", "hebrew": "בקשה" }
+    ],
+    "good_examples": [
+      { "id": "G-10-ge-001", "sentence": "I can speak three languages.", "audio_text": "I can speak three languages.", "note": "Ability — something I know how to do" },
+      { "id": "G-10-ge-002", "sentence": "She can't drive — she never learned.", "audio_text": "She can't drive — she never learned.", "note": "Inability — she/he/it still uses can't, no -s" },
+      { "id": "G-10-ge-003", "sentence": "Can you help me carry this?", "audio_text": "Can you help me carry this?", "note": "Request — polite, informal" },
+      { "id": "G-10-ge-004", "sentence": "Can I use your phone?", "audio_text": "Can I use your phone?", "note": "Asking for permission" },
+      { "id": "G-10-ge-005", "sentence": "You can park here for free.", "audio_text": "You can park here for free.", "note": "Giving permission" },
+      { "id": "G-10-ge-006", "sentence": "This city can be very busy in summer.", "audio_text": "This city can be very busy in summer.", "note": "Possibility — something that sometimes happens" },
+      { "id": "G-10-ge-007", "sentence": "He can't be serious!", "audio_text": "He can't be serious!", "note": "Expressing disbelief — can't be = it is impossible that he is" },
+      { "id": "G-10-ge-008", "sentence": "Can she swim?", "audio_text": "Can she swim?", "note": "Question about ability — no does, no -s on swim" },
+      { "id": "G-10-ge-009", "sentence": "Dogs can hear sounds that humans can't.", "audio_text": "Dogs can hear sounds that humans can't.", "note": "Comparing abilities — both follow the same pattern" },
+      { "id": "G-10-ge-010", "sentence": "I can't find my keys anywhere.", "audio_text": "I can't find my keys anywhere.", "note": "Inability — can't + base verb" }
+    ],
+    "bad_examples": [
+      { "id": "G-10-be-001", "wrong": "She cans speak French.", "correct": "She can speak French.", "reason": "Modal verbs NEVER add -s for he/she/it. Can stays as can for all subjects." },
+      { "id": "G-10-be-002", "wrong": "I can to swim.", "correct": "I can swim.", "reason": "After modal verbs, the following verb is ALWAYS base form — NO 'to'. Can swim, not can to swim." },
+      { "id": "G-10-be-003", "wrong": "Does she can drive?", "correct": "Can she drive?", "reason": "Modal verbs don't use do/does to make questions. Just invert the modal: Can she...?" },
+      { "id": "G-10-be-004", "wrong": "She doesn't can come.", "correct": "She can't come.", "reason": "Modal verbs don't use don't/doesn't for negatives. Use can't or cannot directly." },
+      { "id": "G-10-be-005", "wrong": "Can you to open the window?", "correct": "Can you open the window?", "reason": "No 'to' after can. Can + base verb, always." }
+    ]
+  },
+  "exercises": [
+    { "id": "G-10-ex-001", "type": "fill_blank", "question": "She ___ (can / speak) four languages fluently.", "answer": "can speak", "hint": "Modal + base verb. No -s on the modal or the main verb.", "explanation": "can + base verb. She can speak — can never changes, speak stays in base form.", "hebrew_note": "יכולה לדבר = can speak. אין -s, אין to" },
+    { "id": "G-10-ex-002", "type": "fill_blank", "question": "I ___ (can / not) find my glasses anywhere.", "answer": "can't", "hint": "Can + not = can't (or cannot)", "explanation": "can't or cannot — both correct. Can't is the contracted, everyday form.", "hebrew_note": null },
+    { "id": "G-10-ex-003", "type": "fill_blank", "question": "___ you help me move this table?", "answer": "Can", "hint": "Making a request — which modal?", "explanation": "Can you...? = polite request. The modal goes first in questions.", "hebrew_note": null },
+    { "id": "G-10-ex-004", "type": "fill_blank", "question": "___ I leave early today? I have an appointment.", "answer": "Can", "hint": "Asking permission — which word goes first?", "explanation": "Can I...? = asking for permission. Informal and common in everyday English.", "hebrew_note": null },
+    { "id": "G-10-ex-005", "type": "fill_blank", "question": "He ___ (can) run 10km without stopping — he trains every day.", "answer": "can", "hint": "Ability — just the modal, followed by run", "explanation": "He can run — ability. No -s on can for he.", "hebrew_note": null },
+    { "id": "G-10-ex-006", "type": "fill_blank", "question": "This restaurant ___ (can / be) very noisy at the weekend.", "answer": "can be", "hint": "Possibility — sometimes it is noisy", "explanation": "can be = possibility, it sometimes happens. This city can be busy = it is sometimes busy.", "hebrew_note": null },
+    { "id": "G-10-ex-007", "type": "fill_blank", "question": "___ she drive, or does she take the bus?", "answer": "Can", "hint": "Question about ability → modal first", "explanation": "Can she drive? = question about ability. Invert modal and subject.", "hebrew_note": null },
+    { "id": "G-10-ex-008", "type": "fill_blank", "question": "You ___ (can) use my laptop if you want.", "answer": "can", "hint": "Giving permission to someone", "explanation": "You can use... = giving permission. Can + base verb.", "hebrew_note": null },
+    { "id": "G-10-ex-009", "type": "fill_blank", "question": "I ___ (can / not) believe how expensive that hotel was.", "answer": "can't", "hint": "Expressing disbelief / surprise", "explanation": "can't believe = expressing that something is surprising or shocking.", "hebrew_note": null },
+    { "id": "G-10-ex-010", "type": "fill_blank", "question": "Children ___ (can) enter the museum for free.", "answer": "can", "hint": "Permission for a group — they are allowed to", "explanation": "can = they are allowed/permitted to. Children can enter free.", "hebrew_note": null },
+    { "id": "G-10-ex-011", "type": "fill_blank", "question": "___ you speak more slowly, please?", "answer": "Can", "hint": "Polite request — asking someone to do something", "explanation": "Can you speak more slowly? = polite request. Very common in real English.", "hebrew_note": null },
+    { "id": "G-10-ex-012", "type": "fill_blank", "question": "I ___ (can / not) come to the meeting tomorrow — I'm travelling.", "answer": "can't", "hint": "Unable to attend = negative ability/possibility", "explanation": "can't come = not able to / not going to be able to.", "hebrew_note": null },
+    { "id": "G-10-ex-013", "type": "mcq", "question": "Which sentence is correct?", "answer": "She can drive but she can't park.", "hint": "Modal verb rules: no -s, no to, no do/does", "explanation": "She can drive — no -s on can. She can't park — can't + base verb. Both correct.", "distractors": ["She cans drive but she can't park.", "She can to drive but she can't parking.", "She can drive but she doesn't can park."] },
+    { "id": "G-10-ex-014", "type": "mcq", "question": "How do you ask permission to use someone's pen?", "answer": "Can I use your pen?", "hint": "Asking permission — modal first", "explanation": "Can I use your pen? = informal but polite permission request.", "distractors": ["Do I can use your pen?", "I can use your pen?", "Can I to use your pen?"] },
+    { "id": "G-10-ex-015", "type": "mcq", "question": "My grandfather ___ remember the names of all his grandchildren.", "answer": "can't", "hint": "He is not able to remember — inability", "explanation": "can't remember = not able to remember. No doesn't, no -s.", "distractors": ["doesn't can", "cans't", "not can"] },
+    { "id": "G-10-ex-016", "type": "mcq", "question": "___ he cook, or does he always eat out?", "answer": "Can", "hint": "Question about ability — modal inverts with subject", "explanation": "Can he cook? = question about ability. Does not use 'Does'.", "distractors": ["Does", "Is", "Do"] },
+    { "id": "G-10-ex-017", "type": "mcq", "question": "This medicine ___ cause drowsiness.", "answer": "can", "hint": "Possibility — it is possible that this happens", "explanation": "can cause = it is possible / it sometimes happens. Common in instructions and warnings.", "distractors": ["cans", "is able to", "does"] },
+    { "id": "G-10-ex-018", "type": "mcq", "question": "You ___ sit anywhere you like.", "answer": "can", "hint": "Giving permission — you are free to sit anywhere", "explanation": "You can sit anywhere = I give you permission / you are free to.", "distractors": ["are can", "could to", "do can"] },
+    { "id": "G-10-ex-019", "type": "error_correction", "question": "Find and fix the mistake: 'She cans play the piano very well.'", "answer": "She can play the piano very well.", "hint": "Do modal verbs ever add -s?", "explanation": "Modal verbs NEVER add -s. Can stays as can for all subjects — she can, he can.", "hebrew_note": "can אף פעם לא מקבל s — אפילו ל-she/he/it" },
+    { "id": "G-10-ex-020", "type": "error_correction", "question": "Find and fix the mistake: 'I can to speak a little French.'", "answer": "I can speak a little French.", "hint": "What comes after a modal verb?", "explanation": "After modal verbs: always base verb, never 'to + verb'. Can speak, not can to speak.", "hebrew_note": null },
+    { "id": "G-10-ex-021", "type": "error_correction", "question": "Find and fix the mistake: 'Does she can drive?'", "answer": "Can she drive?", "hint": "How do you form questions with modal verbs?", "explanation": "Modal verbs make questions by inverting with the subject. No 'does'. Can she drive? NOT Does she can drive?", "hebrew_note": null },
+    { "id": "G-10-ex-022", "type": "error_correction", "question": "Find and fix the mistake: 'He doesn't can swim.'", "answer": "He can't swim.", "hint": "How do you make a negative with modal verbs?", "explanation": "Negatives with modals: can + not = can't/cannot. Never 'doesn't can'.", "hebrew_note": null },
+    { "id": "G-10-ex-023", "type": "error_correction", "question": "Find and fix the mistake: 'Can you to help me?'", "answer": "Can you help me?", "hint": "After can — base verb or to + verb?", "explanation": "Can you help me? — no 'to' after can. Base verb directly.", "hebrew_note": null },
+    { "id": "G-10-ex-024", "type": "sentence_builder", "question": "Put the words in the correct order:", "words": ["can", "she", "four", "speak", "languages"], "answer": "She can speak four languages.", "hint": "Subject + modal + base verb", "explanation": "She can speak — modal + base verb, no -s on can or speak." },
+    { "id": "G-10-ex-025", "type": "sentence_builder", "question": "Put the words in the correct order:", "words": ["you", "can", "help", "carry", "me", "this"], "answer": "Can you help me carry this?", "hint": "Request: modal first, then subject, then base verb", "explanation": "Can you help me carry this? — request. Can + subject + base verb." },
+    { "id": "G-10-ex-026", "type": "sentence_builder", "question": "Put the words in the correct order:", "words": ["tonight", "can't", "she", "come"], "answer": "She can't come tonight.", "hint": "Negative: subject + can't + base verb", "explanation": "She can't come tonight — negative modal, base verb after can't." },
+    { "id": "G-10-ex-027", "type": "sentence_builder", "question": "Put the words in the correct order:", "words": ["use", "can", "I", "your", "charger"], "answer": "Can I use your charger?", "hint": "Asking permission: modal first", "explanation": "Can I use your charger? — permission request." },
+    { "id": "G-10-ex-028", "type": "sentence_builder", "question": "Put the words in the correct order:", "words": ["dogs", "things", "hear", "humans", "can", "that", "can't"], "answer": "Dogs can hear things that humans can't.", "hint": "Both affirmative and negative modal in same sentence", "explanation": "Dogs can hear (ability) + that humans can't (short negative — 'can't hear' with 'hear' omitted)." }
+  ],
+  "speak": [
+    { "id": "G-10-sp-001", "sentence": "Can you speak more slowly, please? I don't understand everything.", "chunks": ["Can you speak more slowly, please?", "I don't understand everything."], "phonetic_hints": "'Slowly' = SLOH-lee. 'Understand' = un-der-STAND — stress on last syllable. 'Everything' = EV-ree-thing — three syllables.", "pass_threshold": 0.70 },
+    { "id": "G-10-sp-002", "sentence": "I can speak English and Hebrew but I can't speak Arabic.", "chunks": ["I can speak English and Hebrew", "but I can't speak Arabic."], "phonetic_hints": "'Arabic' = AIR-uh-bik — stress on first syllable. 'Hebrew' = HEE-broo. 'Can't' = KANT — short 'a' sound.", "pass_threshold": 0.70 },
+    { "id": "G-10-sp-003", "sentence": "She can't come to the meeting tomorrow — she has a doctor's appointment.", "chunks": ["She can't come to the meeting tomorrow —", "she has a doctor's appointment."], "phonetic_hints": "'Tomorrow' = tuh-MOR-oh — stress on second syllable. 'Appointment' = uh-POINT-ment — stress on second syllable.", "pass_threshold": 0.65 },
+    { "id": "G-10-sp-004", "sentence": "Can I ask you a question about the project?", "chunks": ["Can I ask you a question", "about the project?"], "phonetic_hints": "'Question' = KWES-chun — two syllables. 'Project' = PROJ-ekt — stress on first syllable.", "pass_threshold": 0.75 },
+    { "id": "G-10-sp-005", "sentence": "He can run really fast but he can't swim very well.", "chunks": ["He can run really fast", "but he can't swim very well."], "phonetic_hints": "'Really' = REE-uh-lee — three syllables. 'Swim' — the short 'i' sound. 'Fast' = FAST.", "pass_threshold": 0.70 },
+    { "id": "G-10-sp-006", "sentence": "Can you tell me where the nearest bus stop is?", "chunks": ["Can you tell me", "where the nearest bus stop is?"], "phonetic_hints": "'Nearest' = NEER-ist — two syllables, stress on first. 'Where' — the 'wh' sound, not 'v'.", "pass_threshold": 0.70 },
+    { "id": "G-10-sp-007", "sentence": "I can't believe how expensive everything is in this city.", "chunks": ["I can't believe", "how expensive everything is", "in this city."], "phonetic_hints": "'Believe' = bih-LEEV — stress on second syllable. 'Expensive' = ik-SPEN-siv — stress on second.", "pass_threshold": 0.65 },
+    { "id": "G-10-sp-008", "sentence": "Babies can recognise their mother's voice from the day they are born.", "chunks": ["Babies can recognise their mother's voice", "from the day they are born."], "phonetic_hints": "'Recognise' = REK-ug-nyz — three syllables. 'Voice' = VOYSS. 'Born' = BAWN.", "pass_threshold": 0.60 }
+  ]
+}

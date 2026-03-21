@@ -1,0 +1,307 @@
+{
+  "id": "V-12",
+  "theme": "News & media",
+  "level": "B1",
+  "words": [
+    {
+      "id": "V-12-w-001",
+      "word": "headline",
+      "part_of_speech": "noun",
+      "definition": "the title at the top of a newspaper article",
+      "example_sentences": [
+        "The story made the front page headlines.",
+        "She always reads the headlines over breakfast.",
+        "The headline was misleading — the article told a different story."
+      ],
+      "pronunciation_tip": "HED-lyn — two syllables, stress on first.",
+      "common_mistake": "Don't say 'the title of the news' — say 'the headline'.",
+      "collocations": "['make headlines', 'front-page headline', 'read the headlines']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-12-w-002",
+      "word": "broadcast",
+      "part_of_speech": "verb/noun",
+      "definition": "to transmit a programme on radio or television",
+      "example_sentences": [
+        "The speech was broadcast live on national TV.",
+        "The documentary was first broadcast in 2022.",
+        "A live broadcast reaches millions simultaneously."
+      ],
+      "pronunciation_tip": "BRAWD-kast — two syllables, stress on first.",
+      "common_mistake": "Don't say 'send on TV' — say 'broadcast'.",
+      "collocations": "['live broadcast', 'broadcast on', 'television broadcast']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-12-w-003",
+      "word": "censorship",
+      "part_of_speech": "noun",
+      "definition": "the suppression of parts of communication deemed unacceptable",
+      "example_sentences": [
+        "Press censorship is a sign of an authoritarian government.",
+        "Many journalists have been imprisoned for avoiding censorship.",
+        "Internet censorship is practised in several countries."
+      ],
+      "pronunciation_tip": "SEN-ser-ship — three syllables, stress on first.",
+      "common_mistake": "Don't say 'the government controls the news' as a noun — say 'censorship'.",
+      "collocations": "['press censorship', 'internet censorship', 'government censorship']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-12-w-004",
+      "word": "circulation",
+      "part_of_speech": "noun",
+      "definition": "the number of copies of a newspaper sold",
+      "example_sentences": [
+        "The newspaper has a daily circulation of 200,000.",
+        "Print circulation has fallen dramatically in the digital age.",
+        "High circulation means more advertising revenue."
+      ],
+      "pronunciation_tip": "sur-kyoo-LAY-shun — four syllables, stress on third.",
+      "common_mistake": "Don't say 'number of newspapers sold' every time — say 'circulation'.",
+      "collocations": "['newspaper circulation', 'daily circulation', 'drop in circulation']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-12-w-005",
+      "word": "editorial",
+      "part_of_speech": "noun/adjective",
+      "definition": "an article expressing the opinion of the newspaper's editor",
+      "example_sentences": [
+        "The editorial criticised the government's decision.",
+        "She wrote an editorial demanding action on climate.",
+        "The editorial board decides the newspaper's position."
+      ],
+      "pronunciation_tip": "ed-ih-TAW-ree-ul — five syllables, stress on third.",
+      "common_mistake": "Don't say 'the opinion article from the editor' — say 'the editorial'.",
+      "collocations": "['write an editorial', 'editorial opinion', 'editorial board']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-12-w-006",
+      "word": "impartial",
+      "part_of_speech": "adjective",
+      "definition": "treating all sides fairly without favouritism",
+      "example_sentences": [
+        "A journalist must be impartial and report all sides.",
+        "The BBC aims to be impartial in its reporting.",
+        "An impartial investigation is essential for trust."
+      ],
+      "pronunciation_tip": "im-PAR-shul — three syllables, stress on second.",
+      "common_mistake": "Don't say 'fair and balanced' always — say 'impartial'.",
+      "collocations": "['impartial reporting', 'remain impartial', 'impartial journalist']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-12-w-007",
+      "word": "viral",
+      "part_of_speech": "adjective",
+      "definition": "spreading very quickly to many people online",
+      "example_sentences": [
+        "The video went viral and got 10 million views overnight.",
+        "A viral post can reach more people than a TV ad.",
+        "Her accidental viral moment changed her life completely."
+      ],
+      "pronunciation_tip": "VY-rul — two syllables, stress on first.",
+      "common_mistake": "Don't say 'the video became popular everywhere quickly' — say 'it went viral'.",
+      "collocations": "['go viral', 'viral video', 'viral post']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-12-w-008",
+      "word": "disinformation",
+      "part_of_speech": "noun",
+      "definition": "deliberately false information spread to deceive people",
+      "example_sentences": [
+        "Disinformation about vaccines spread rapidly online.",
+        "Governments have struggled to combat disinformation.",
+        "Disinformation campaigns can undermine democracy."
+      ],
+      "pronunciation_tip": "dis-in-fawr-MAY-shun — six syllables, stress on fourth.",
+      "common_mistake": "Don't confuse disinformation (deliberate) with misinformation (accidental). Both are wrong info.",
+      "collocations": "['spread disinformation', 'combat disinformation', 'disinformation campaign']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-12-w-009",
+      "word": "press freedom",
+      "part_of_speech": "noun",
+      "definition": "the right of journalists to report without government control",
+      "example_sentences": [
+        "Press freedom is under threat in many countries.",
+        "Reporters Without Borders ranks countries by press freedom.",
+        "Without press freedom, corruption goes unchallenged."
+      ],
+      "pronunciation_tip": "PRESS FREE-dum.",
+      "common_mistake": "Don't say 'freedom to write in newspapers' — say 'press freedom'.",
+      "collocations": "['protect press freedom', 'threats to press freedom', 'press freedom index']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-12-w-010",
+      "word": "scoop",
+      "part_of_speech": "noun",
+      "definition": "an exclusive news story obtained before other media",
+      "example_sentences": [
+        "The journalist got the scoop on the resignation.",
+        "It was the biggest scoop of her career.",
+        "Every reporter wants to get the scoop."
+      ],
+      "pronunciation_tip": "SKOOP — one syllable.",
+      "common_mistake": "Don't say 'an exclusive news story' every time — say 'a scoop'.",
+      "collocations": "['get a scoop', 'big scoop', 'exclusive scoop']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-12-w-011",
+      "word": "source",
+      "part_of_speech": "noun",
+      "definition": "a person who gives a journalist information",
+      "example_sentences": [
+        "The journalist protected her source even when pressured.",
+        "Always verify information from multiple sources.",
+        "The source requested anonymity."
+      ],
+      "pronunciation_tip": "SAWSS — one syllable.",
+      "common_mistake": "Don't say 'the person who told the journalist' — say 'the source'.",
+      "collocations": "['reliable source', 'protect a source', 'anonymous source']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-12-w-012",
+      "word": "subscription",
+      "part_of_speech": "noun",
+      "definition": "a payment for regular access to a publication or service",
+      "example_sentences": [
+        "She has a digital subscription to two newspapers.",
+        "The subscription model has replaced single-copy sales.",
+        "Netflix is a subscription streaming service."
+      ],
+      "pronunciation_tip": "sub-SKRIP-shun — three syllables, stress on second.",
+      "common_mistake": "Don't say 'I pay monthly for the newspaper' — say 'I have a subscription'.",
+      "collocations": "['digital subscription', 'cancel subscription', 'monthly subscription']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-12-w-013",
+      "word": "clickbait",
+      "part_of_speech": "noun",
+      "definition": "online content designed to attract clicks using sensational titles",
+      "example_sentences": [
+        "The article was pure clickbait — the headline was misleading.",
+        "Clickbait undermines trust in online journalism.",
+        "Don't be fooled by clickbait headlines."
+      ],
+      "pronunciation_tip": "KLIK-bayt — stress on first syllable.",
+      "common_mistake": "Don't say 'a fake exciting title' — say 'clickbait'.",
+      "collocations": "['clickbait headline', 'avoid clickbait', 'use clickbait']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-12-w-014",
+      "word": "algorithm",
+      "part_of_speech": "noun",
+      "definition": "a set of rules that determines what content you see online",
+      "example_sentences": [
+        "Social media algorithms favour emotionally charged content.",
+        "The algorithm changes mean fewer people see organic posts.",
+        "Understanding the algorithm is key to social media success."
+      ],
+      "pronunciation_tip": "AL-guh-rith-um — four syllables, stress on first.",
+      "common_mistake": "Don't say 'the computer decides what I see' — say 'the algorithm'.",
+      "collocations": "['social media algorithm', 'algorithm change', 'beat the algorithm']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-12-w-015",
+      "word": "paparazzi",
+      "part_of_speech": "noun",
+      "definition": "photographers who follow celebrities to take pictures for sale",
+      "example_sentences": [
+        "The paparazzi were waiting outside the hotel.",
+        "She was followed by paparazzi everywhere she went.",
+        "Being constantly followed by paparazzi is exhausting."
+      ],
+      "pronunciation_tip": "pap-uh-RAT-see — four syllables, stress on third. Plural form even when one.",
+      "common_mistake": "Don't say 'celebrity photographers' in casual speech — say 'paparazzi'.",
+      "collocations": "['followed by paparazzi', 'avoid paparazzi', 'paparazzi photographer']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-12-w-016",
+      "word": "influencer",
+      "part_of_speech": "noun",
+      "definition": "a person with a large social media following who promotes products",
+      "example_sentences": [
+        "She became a major influencer after her cooking videos went viral.",
+        "Brands pay influencers millions to promote their products.",
+        "The rise of the influencer has changed marketing."
+      ],
+      "pronunciation_tip": "IN-floo-un-ser — four syllables, stress on first.",
+      "common_mistake": "Don't say 'famous person on social media' — say 'influencer'.",
+      "collocations": "['social media influencer', 'become an influencer', 'influencer marketing']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-12-w-017",
+      "word": "correspondent",
+      "part_of_speech": "noun",
+      "definition": "a journalist who reports from a specific location or on a topic",
+      "example_sentences": [
+        "The foreign correspondent reported from Kyiv.",
+        "She is the BBC's Middle East correspondent.",
+        "He worked as a war correspondent for twenty years."
+      ],
+      "pronunciation_tip": "kor-ih-SPON-dunt — four syllables, stress on third.",
+      "common_mistake": "Don't say 'the journalist who is in another country' — say 'the correspondent'.",
+      "collocations": "['foreign correspondent', 'war correspondent', 'political correspondent']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-12-w-018",
+      "word": "satire",
+      "part_of_speech": "noun",
+      "definition": "the use of humour or irony to criticise people or events",
+      "example_sentences": [
+        "The show uses satire to mock political figures.",
+        "Political satire has a long history in journalism.",
+        "The article was meant as satire but many readers missed the irony."
+      ],
+      "pronunciation_tip": "SAT-yr — two syllables, stress on first.",
+      "common_mistake": "Don't say 'funny criticism of important people' every time — say 'satire'.",
+      "collocations": "['political satire', 'use satire', 'social satire']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-12-w-019",
+      "word": "byline",
+      "part_of_speech": "noun",
+      "definition": "the name of the journalist who wrote the article",
+      "example_sentences": [
+        "Check the byline to see who wrote the story.",
+        "She got her first byline in a national newspaper at 24.",
+        "The byline was missing — it was an anonymous piece."
+      ],
+      "pronunciation_tip": "BY-lyn — two syllables, stress on first.",
+      "common_mistake": "Don't say 'the name of the journalist' every time — say 'the byline'.",
+      "collocations": "['article byline', 'get a byline', 'byline credit']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-12-w-020",
+      "word": "narrative",
+      "part_of_speech": "noun",
+      "definition": "the story or explanation given about events",
+      "example_sentences": [
+        "The government tried to control the narrative.",
+        "Different media outlets presented very different narratives.",
+        "The documentary challenges the official narrative."
+      ],
+      "pronunciation_tip": "NAIR-uh-tiv — three syllables, stress on first.",
+      "common_mistake": "Don't say 'the story people tell about something' every time — say 'the narrative'.",
+      "collocations": "['control the narrative', 'dominant narrative', 'official narrative']",
+      "difficulty": 2
+    }
+  ]
+}

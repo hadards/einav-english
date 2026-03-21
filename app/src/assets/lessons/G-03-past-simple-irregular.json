@@ -1,0 +1,101 @@
+{
+  "id": "G-03",
+  "title": "Past simple — irregular verbs",
+  "level": "A2",
+  "order": 3,
+  "explain": {
+    "rule": "Irregular verbs do not follow the -ed rule. Each one has its own unique past form that you must learn by memory. Questions and negatives work exactly the same as regular verbs: use did/didn't + base verb. Only the positive form is irregular.",
+    "full_explanation": "About 200 of the most common English verbs are irregular. The good news is that the top 40 irregular verbs cover the vast majority of everyday conversation. Questions and negatives are easy: you always use did or didn't + the base (present) form of the verb, never the irregular past form. The irregular form only appears in positive sentences.",
+    "most_common_irregular_verbs": [
+      "be → was/were", "have → had", "do → did", "go → went", "get → got",
+      "make → made", "say → said", "see → saw", "come → came", "know → knew",
+      "take → took", "give → gave", "find → found", "think → thought", "tell → told",
+      "become → became", "show → showed/shown", "leave → left", "feel → felt", "put → put",
+      "bring → brought", "begin → began", "keep → kept", "hold → held", "write → wrote",
+      "stand → stood", "hear → heard", "let → let", "mean → meant", "set → set",
+      "meet → met", "run → ran", "pay → paid", "sit → sat", "speak → spoke",
+      "lie → lay", "lead → led", "read → read (pronounced 'red')", "grow → grew", "lose → lost",
+      "fall → fell", "send → sent", "build → built", "buy → bought", "eat → ate",
+      "sleep → slept", "drive → drove", "break → broke", "forget → forgot", "choose → chose"
+    ],
+    "form_table": {
+      "positive": [
+        "Subject + irregular past form → I went, she had, they made, he saw"
+      ],
+      "negative": [
+        "Subject + didn't + BASE VERB (not the irregular form!) → I didn't go, she didn't have"
+      ],
+      "question": [
+        "Did + subject + BASE VERB (not the irregular form!) → Did you go? Did she have?"
+      ],
+      "short_answers": [
+        "Yes, I did. / No, I didn't.",
+        "Yes, he did. / No, he didn't."
+      ]
+    },
+    "key_warning": "The most important rule: irregular past forms ONLY appear in positive sentences. In questions and negatives, ALWAYS use did/didn't + the base (present) form. Never say 'Did you went?' or 'She didn't went'. Say 'Did you go?' and 'She didn't go'.",
+    "when_to_use": [
+      "Exactly the same situations as regular past simple — completed actions in the past",
+      "The only difference is the form of the positive verb"
+    ],
+    "why_matters": "The top 40 irregular verbs are the most frequently used verbs in English. Go, have, get, make, say, see, come, know, take, give — these appear in almost every conversation. Learning them gives you immediate fluency gains.",
+    "hebrew_note": "Hebrew also has irregular verbs — verbs that don't follow the standard binyan patterns, like 'הלך' (went) which is very different from its root. So the concept of irregular verbs is not new. The key difference: in English, irregular past forms ONLY appear in positive statements. Questions and negatives always use did/didn't + the base form. Hebrew doesn't have this distinction because it doesn't use 'did' as a helper verb.",
+    "tip": "Learn irregular verbs in groups by their pattern. Many follow similar sound changes: run-ran, come-came, begin-began (vowel change from i/u to a). Others end in -ught: bring-brought, buy-bought, think-thought. Others double as present and past: put-put, let-let, set-set, cut-cut. Grouping by pattern makes memorisation much faster.",
+    "good_examples": [
+      { "id": "G-03-ge-001", "sentence": "I went to the market this morning.", "audio_text": "I went to the market this morning.", "note": "go → went (positive: use irregular form)" },
+      { "id": "G-03-ge-002", "sentence": "She told me about her new job.", "audio_text": "She told me about her new job.", "note": "tell → told" },
+      { "id": "G-03-ge-003", "sentence": "Did you see the football match last night?", "audio_text": "Did you see the football match last night?", "note": "Question: did + BASE VERB 'see', not 'saw'" },
+      { "id": "G-03-ge-004", "sentence": "They didn't know about the meeting.", "audio_text": "They didn't know about the meeting.", "note": "Negative: didn't + BASE VERB 'know', not 'knew'" },
+      { "id": "G-03-ge-005", "sentence": "He took the wrong train by mistake.", "audio_text": "He took the wrong train by mistake.", "note": "take → took (positive: irregular form)" },
+      { "id": "G-03-ge-006", "sentence": "We had a wonderful holiday in Greece.", "audio_text": "We had a wonderful holiday in Greece.", "note": "have → had" },
+      { "id": "G-03-ge-007", "sentence": "Did you buy anything at the market?", "audio_text": "Did you buy anything at the market?", "note": "Question: did + BASE VERB 'buy', not 'bought'" },
+      { "id": "G-03-ge-008", "sentence": "She made a delicious cake for the party.", "audio_text": "She made a delicious cake for the party.", "note": "make → made" }
+    ],
+    "bad_examples": [
+      { "id": "G-03-be-001", "wrong": "Did you went to school yesterday?", "correct": "Did you go to school yesterday?", "reason": "In questions, always use the base verb after did — never the irregular past form" },
+      { "id": "G-03-be-002", "wrong": "She didn't came to the party.", "correct": "She didn't come to the party.", "reason": "After didn't, always use the base verb — 'come', not 'came'" },
+      { "id": "G-03-be-003", "wrong": "I buyed a new phone last week.", "correct": "I bought a new phone last week.", "reason": "Buy is irregular — buy→bought, not buyed" },
+      { "id": "G-03-be-004", "wrong": "We seed a great film at the cinema.", "correct": "We saw a great film at the cinema.", "reason": "See is irregular — see→saw, not seed" },
+      { "id": "G-03-be-005", "wrong": "Did she told you the news?", "correct": "Did she tell you the news?", "reason": "After did, use the base verb — 'tell', not 'told'" }
+    ]
+  },
+  "exercises": [
+    { "id": "G-03-ex-001", "type": "fill_blank", "question": "I ___ (go) to the gym three times last week.", "answer": "went", "hint": "go → ??? (one of the most common irregular verbs)", "explanation": "Go → went. This is one of the most important irregular verbs to memorise.", "hebrew_note": "הלך — went. לשים לב: went הוא צורת העבר הבלתי-סדירה של go" },
+    { "id": "G-03-ex-002", "type": "fill_blank", "question": "She ___ (not / come) to the party last Friday.", "answer": "didn't come", "hint": "Negative: didn't + BASE VERB. Use 'come', not 'came'.", "explanation": "In negatives, always use didn't + base verb. Come is the base — not 'came'.", "hebrew_note": null },
+    { "id": "G-03-ex-003", "type": "fill_blank", "question": "___ (you / see) the news this morning?", "answer": "Did you see", "hint": "Question: Did + subject + BASE VERB. Use 'see', not 'saw'.", "explanation": "In questions, always use did + base verb. See is the base form — 'saw' is only used in positive sentences.", "hebrew_note": null },
+    { "id": "G-03-ex-004", "type": "fill_blank", "question": "He ___ (take) his umbrella because it was raining.", "answer": "took", "hint": "take → ??? (positive sentence, so use the irregular form)", "explanation": "Take → took. Positive sentence, so use the irregular past form.", "hebrew_note": null },
+    { "id": "G-03-ex-005", "type": "fill_blank", "question": "We ___ (have) a fantastic meal at that new restaurant.", "answer": "had", "hint": "have → ??? (very common irregular verb)", "explanation": "Have → had. One of the most common irregular verbs in English.", "hebrew_note": null },
+    { "id": "G-03-ex-006", "type": "fill_blank", "question": "She ___ (not / know) his phone number.", "answer": "didn't know", "hint": "Negative: didn't + BASE VERB know (not 'knew')", "explanation": "Didn't + base verb. Know is the base — 'knew' only appears in positive sentences.", "hebrew_note": null },
+    { "id": "G-03-ex-007", "type": "fill_blank", "question": "They ___ (make) a huge mistake in their presentation.", "answer": "made", "hint": "make → ??? (positive sentence, use irregular form)", "explanation": "Make → made. Positive sentence, so use the irregular form.", "hebrew_note": null },
+    { "id": "G-03-ex-008", "type": "fill_blank", "question": "___ (she / find) her keys in the end?", "answer": "Did she find", "hint": "Question: Did + subject + BASE VERB find (not 'found')", "explanation": "Did + she + find. Find is the base verb — 'found' only appears in positive sentences.", "hebrew_note": null },
+    { "id": "G-03-ex-009", "type": "fill_blank", "question": "I ___ (buy) these shoes in a sale last month.", "answer": "bought", "hint": "buy → ??? (irregular — rhymes with 'taught')", "explanation": "Buy → bought. One of a group of -ught irregular verbs: buy→bought, bring→brought, think→thought.", "hebrew_note": null },
+    { "id": "G-03-ex-010", "type": "fill_blank", "question": "He ___ (not / tell) anyone about his plans.", "answer": "didn't tell", "hint": "Negative: didn't + BASE VERB tell (not 'told')", "explanation": "Didn't + base verb. Tell is the base — 'told' only appears in positive sentences.", "hebrew_note": null },
+    { "id": "G-03-ex-011", "type": "fill_blank", "question": "We ___ (write) all our notes by hand in those days.", "answer": "wrote", "hint": "write → ??? (rhymes with 'note')", "explanation": "Write → wrote. A vowel-change irregular verb.", "hebrew_note": null },
+    { "id": "G-03-ex-012", "type": "fill_blank", "question": "The children ___ (run) all the way home in the rain.", "answer": "ran", "hint": "run → ??? (short vowel changes)", "explanation": "Run → ran. One of the run/ran/begun vowel-change group.", "hebrew_note": null },
+    { "id": "G-03-ex-013", "type": "mcq", "question": "Which sentence is correct?", "answer": "Did you see the match last night?", "hint": "Remember: in questions, use did + BASE VERB", "explanation": "'Did you see' is correct — 'see' is the base form. 'Did you saw' is wrong because 'saw' is the irregular past — never use it after did.", "distractors": ["Did you saw the match last night?", "You saw the match last night?", "Did you seen the match last night?"] },
+    { "id": "G-03-ex-014", "type": "mcq", "question": "She ___ me a present for my birthday.", "answer": "gave", "hint": "give → ??? (positive sentence, use irregular form)", "explanation": "Give → gave. Positive sentence, so use the irregular past form.", "distractors": ["give", "gived", "has given"] },
+    { "id": "G-03-ex-015", "type": "mcq", "question": "They ___ (not) the answer to the last question.", "answer": "didn't know", "hint": "Negative: didn't + base verb know", "explanation": "'Didn't know' is correct. After didn't, always use the base verb. 'Didn't knew' is a very common mistake.", "distractors": ["didn't knew", "not knew", "don't knew"] },
+    { "id": "G-03-ex-016", "type": "mcq", "question": "He ___ his car to the garage because it was making a strange noise.", "answer": "took", "hint": "take → ??? in the past", "explanation": "Take → took. Positive past statement, so use the irregular form.", "distractors": ["taked", "take", "had taken"] },
+    { "id": "G-03-ex-017", "type": "mcq", "question": "Which is the correct past form of 'think'?", "answer": "thought", "hint": "Think belongs to the -ought group: buy→bought, bring→brought, think→???", "explanation": "Think → thought. Part of the -ought group of irregular verbs.", "distractors": ["thinked", "thank", "thunk"] },
+    { "id": "G-03-ex-018", "type": "mcq", "question": "The plane ___ late because of bad weather.", "answer": "left", "hint": "leave → ??? in the past", "explanation": "Leave → left. Another common irregular verb.", "distractors": ["leaved", "leave", "lefted"] },
+    { "id": "G-03-ex-019", "type": "error_correction", "question": "Find and fix the mistake: 'Did she went to university in Jerusalem?'", "answer": "Did she go to university in Jerusalem?", "hint": "In questions with did, what form does the main verb take?", "explanation": "After did, always use the base verb. Go is the base form. 'Went' is the positive past form — never use it with did.", "hebrew_note": "טעות נפוצה מאוד: 'Did she went' — did כבר מציין עבר, לכן הפועל חוזר לצורת הבסיס: go" },
+    { "id": "G-03-ex-020", "type": "error_correction", "question": "Find and fix the mistake: 'I buyed a new jacket in the sales.'", "answer": "I bought a new jacket in the sales.", "hint": "Buy is an irregular verb — what is its past form?", "explanation": "Buy → bought. Not 'buyed'. Part of the -ought group.", "hebrew_note": null },
+    { "id": "G-03-ex-021", "type": "error_correction", "question": "Find and fix the mistake: 'She didn't came to work yesterday.'", "answer": "She didn't come to work yesterday.", "hint": "After didn't, what form does the verb take?", "explanation": "Didn't + base verb. Come is the base — 'came' is the positive irregular form. Never use irregular past after didn't.", "hebrew_note": null },
+    { "id": "G-03-ex-022", "type": "error_correction", "question": "Find and fix the mistake: 'We seed a beautiful sunset over the sea.'", "answer": "We saw a beautiful sunset over the sea.", "hint": "See is irregular — what is its past form?", "explanation": "See → saw. 'Seed' is not a word in this context. Positive past, so use the irregular form 'saw'.", "hebrew_note": null },
+    { "id": "G-03-ex-023", "type": "sentence_builder", "question": "Put the words in the correct order:", "words": ["the", "took", "wrong", "she", "bus"], "answer": "She took the wrong bus.", "hint": "Subject + irregular past + object", "explanation": "She (subject) + took (take→took, irregular past) + the wrong bus (object)." },
+    { "id": "G-03-ex-024", "type": "sentence_builder", "question": "Put the words in the correct order:", "words": ["tell", "anyone", "he", "didn't", "the", "news"], "answer": "He didn't tell anyone the news.", "hint": "Negative: subject + didn't + BASE VERB + objects", "explanation": "He + didn't + tell (base form, not 'told') + anyone + the news." },
+    { "id": "G-03-ex-025", "type": "sentence_builder", "question": "Put the words in the correct order:", "words": ["you", "where", "buy", "did", "shoes", "those"], "answer": "Where did you buy those shoes?", "hint": "Wh-question: where + did + subject + BASE VERB", "explanation": "Where + did + you + buy (base form, not 'bought') + those shoes?" },
+    { "id": "G-03-ex-026", "type": "sentence_builder", "question": "Put the words in the correct order:", "words": ["fantastic", "we", "the", "time", "had", "party", "at", "a"], "answer": "We had a fantastic time at the party.", "hint": "Subject + had (have→had) + object + place", "explanation": "We + had (irregular past of have) + a fantastic time + at the party." },
+    { "id": "G-03-ex-027", "type": "sentence_builder", "question": "Put the words in the correct order:", "words": ["morning", "find", "she", "this", "her", "did", "wallet"], "answer": "Did she find her wallet this morning?", "hint": "Question: Did + subject + BASE VERB find + object + time", "explanation": "Did + she + find (base form, not 'found') + her wallet + this morning?" }
+  ],
+  "speak": [
+    { "id": "G-03-sp-001", "sentence": "I went to a really interesting exhibition at the museum last week.", "chunks": ["I went to a really interesting exhibition", "at the museum", "last week."], "phonetic_hints": "'Exhibition' = ek-sih-BISH-un. Four syllables, stress on third. 'Museum' = myoo-ZEE-um. Three syllables, stress on second.", "pass_threshold": 0.65 },
+    { "id": "G-03-sp-002", "sentence": "Did you know that she got the job she applied for?", "chunks": ["Did you know", "that she got the job", "she applied for?"], "phonetic_hints": "'Applied' = uh-PLYD. Stress on second syllable. 'Know' — silent K. The 'ow' sounds like the 'o' in 'go'.", "pass_threshold": 0.70 },
+    { "id": "G-03-sp-003", "sentence": "We had such a good time at the wedding.", "chunks": ["We had such a good time", "at the wedding."], "phonetic_hints": "'Such' — short U sound, like in 'cup'. 'Wedding' = WED-ing. Double D sounds like a single light D in natural speech.", "pass_threshold": 0.75 },
+    { "id": "G-03-sp-004", "sentence": "She told me she had already bought all the tickets.", "chunks": ["She told me", "she had already bought", "all the tickets."], "phonetic_hints": "'Already' = awl-RED-ee. Stress on second syllable. 'Bought' = BAWT — rhymes with 'thought' and 'taught'.", "pass_threshold": 0.65 },
+    { "id": "G-03-sp-005", "sentence": "He took the job even though the salary was lower than expected.", "chunks": ["He took the job", "even though the salary was lower", "than expected."], "phonetic_hints": "'Though' = THOH — silent GH. 'Salary' = SAL-uh-ree. 'Expected' = ik-SPEK-tid. Stress on second syllable.", "pass_threshold": 0.60 },
+    { "id": "G-03-sp-006", "sentence": "I didn't know what to say when she told me the news.", "chunks": ["I didn't know what to say", "when she told me the news."], "phonetic_hints": "'News' = NYOOZ (British) or NOOZ (American). Both are acceptable. 'Didn't' = DID-unt. Speak it quickly.", "pass_threshold": 0.70 },
+    { "id": "G-03-sp-007", "sentence": "They made all the decisions without asking anyone else.", "chunks": ["They made all the decisions", "without asking anyone else."], "phonetic_hints": "'Decisions' = dih-SIZ-unz. Stress on second syllable. 'Without' = with-OWT. 'Anyone' = EN-ee-wun.", "pass_threshold": 0.65 },
+    { "id": "G-03-sp-008", "sentence": "Where did you find that beautiful scarf you were wearing yesterday?", "chunks": ["Where did you find", "that beautiful scarf", "you were wearing yesterday?"], "phonetic_hints": "'Beautiful' = BYOO-tih-ful. Three syllables. 'Scarf' = SKARF. 'Wearing' = WAIR-ing. The W sound — lips form a circle.", "pass_threshold": 0.60 }
+  ]
+}

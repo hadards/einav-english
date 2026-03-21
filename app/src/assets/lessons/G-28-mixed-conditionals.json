@@ -1,0 +1,452 @@
+{
+  "id": "G-28",
+  "title": "Mixed conditionals",
+  "level": "B2",
+  "order": 28,
+  "explain": {
+    "rule": "Mixed conditionals combine different conditionals when if-clause and result have different time references. Type 1 (past→present): If + past perfect + would + base verb. A past event has present consequences. Type 2 (present→past): If + past simple + would have + pp. A current state means something would have been different in the past.",
+    "why_matters": "Links past events to present consequences and present states to past results. A sophisticated B2 skill showing mastery of conditional structures.",
+    "hebrew_note": "Mixed conditionals are a purely English structural challenge. Focus on: which part is about the PAST and which is about NOW? Past→present: past perfect if-clause + would + base verb. Present→past: past simple if-clause + would have + pp.",
+    "tip": "Ask: which clause is NOW and which is THEN? Past action → present consequence = past perfect + would + base verb (no have!). Current trait → past consequence = past simple (were) + would have + pp.",
+    "good_examples": [
+      {
+        "id": "G-28-ge-001",
+        "sentence": "If I had studied law, I would be a lawyer now.",
+        "audio_text": "If I had studied law, I would be a lawyer now.",
+        "note": "Past event (didn't study law) → present consequence (not a lawyer)"
+      },
+      {
+        "id": "G-28-ge-002",
+        "sentence": "She would be fluent in French now if she hadn't dropped the classes.",
+        "audio_text": "She would be fluent in French now if she hadn't dropped the classes.",
+        "note": "Past action → present state"
+      },
+      {
+        "id": "G-28-ge-003",
+        "sentence": "If I weren't so disorganised, I would have remembered her birthday.",
+        "audio_text": "If I weren't so disorganised, I would have remembered her birthday.",
+        "note": "Present trait → past consequence"
+      },
+      {
+        "id": "G-28-ge-004",
+        "sentence": "He would have got the promotion if he were more confident.",
+        "audio_text": "He would have got the promotion if he were more confident.",
+        "note": "Present characteristic → past missed result"
+      },
+      {
+        "id": "G-28-ge-005",
+        "sentence": "If we had invested then, we would be very comfortable now.",
+        "audio_text": "If we had invested then, we would be very comfortable now.",
+        "note": "Past missed opportunity → present financial state"
+      },
+      {
+        "id": "G-28-ge-006",
+        "sentence": "I'd be much healthier now if I had quit smoking earlier.",
+        "audio_text": "I'd be much healthier now if I had quit smoking earlier.",
+        "note": "Past decision → present health"
+      },
+      {
+        "id": "G-28-ge-007",
+        "sentence": "If she spoke better English, she would have got the job abroad.",
+        "audio_text": "If she spoke better English, she would have got the job abroad.",
+        "note": "Present ability → past missed opportunity"
+      },
+      {
+        "id": "G-28-ge-008",
+        "sentence": "If he weren't so impatient, he would have waited for a better offer.",
+        "audio_text": "If he weren't so impatient, he would have waited for a better offer.",
+        "note": "Present trait → past decision"
+      },
+      {
+        "id": "G-28-ge-009",
+        "sentence": "She would understand the system better now if she had done the training.",
+        "audio_text": "She would understand the system better now if she had done the training.",
+        "note": "Past skipped step → present knowledge gap"
+      },
+      {
+        "id": "G-28-ge-010",
+        "sentence": "If I hadn't moved to Tel Aviv, I would be living in Haifa now.",
+        "audio_text": "If I hadn't moved to Tel Aviv, I would be living in Haifa now.",
+        "note": "Past move → present location"
+      }
+    ],
+    "bad_examples": [
+      {
+        "id": "G-28-be-001",
+        "wrong": "If I had studied law, I would have been a lawyer now.",
+        "correct": "If I had studied law, I would be a lawyer now.",
+        "reason": "Result is NOW → use would be (not would have been)."
+      },
+      {
+        "id": "G-28-be-002",
+        "wrong": "If I wasn't so shy, I would have talked to her.",
+        "correct": "If I weren't so shy, I would have talked to her.",
+        "reason": "Second conditional with be → use were (not was) for all subjects."
+      },
+      {
+        "id": "G-28-be-003",
+        "wrong": "If she would have stayed, she would be here now.",
+        "correct": "If she had stayed, she would be here now.",
+        "reason": "No would have in the if-clause. Past perfect: if she had stayed."
+      },
+      {
+        "id": "G-28-be-004",
+        "wrong": "She would been a doctor now if she had studied medicine.",
+        "correct": "She would be a doctor now if she had studied medicine.",
+        "reason": "Result: would + base verb (be). Not would been."
+      },
+      {
+        "id": "G-28-be-005",
+        "wrong": "If I have more confidence, I would have got the promotion.",
+        "correct": "If I were more confident, I would have got the promotion.",
+        "reason": "Current trait → past simple (were) in if-clause for mixed type 2."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "G-28-ex-001",
+      "type": "fill_blank",
+      "question": "If I ___ (study) medicine, I ___ (be) a doctor now.",
+      "answer": "had studied / would be",
+      "hint": "Past event → present consequence. Past perfect + would + base verb.",
+      "explanation": "had studied (past perfect) + would be (present consequence).",
+      "hebrew_note": "past perfect → would + base verb (הווה)"
+    },
+    {
+      "id": "G-28-ex-002",
+      "type": "fill_blank",
+      "question": "She ___ (be) fluent now if she ___ (not/drop) the lessons.",
+      "answer": "would be / hadn't dropped",
+      "hint": "Past action → present state",
+      "explanation": "would be (now) + hadn't dropped (past perfect).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-28-ex-003",
+      "type": "fill_blank",
+      "question": "If I ___ (not/be) so disorganised, I ___ (remember) her birthday.",
+      "answer": "weren't / would have remembered",
+      "hint": "Present trait → past consequence",
+      "explanation": "weren't (present) + would have remembered (past).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-28-ex-004",
+      "type": "fill_blank",
+      "question": "He ___ (get) the promotion if he ___ (be) more confident.",
+      "answer": "would have got / were",
+      "hint": "Present characteristic → past result",
+      "explanation": "would have got (past) + if he were (present trait).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-28-ex-005",
+      "type": "fill_blank",
+      "question": "If we ___ (invest) ten years ago, we ___ (be) comfortable now.",
+      "answer": "had invested / would be",
+      "hint": "Past missed opportunity → present state",
+      "explanation": "had invested + would be (now).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-28-ex-006",
+      "type": "fill_blank",
+      "question": "I ___ (be) much healthier now if I ___ (quit) smoking earlier.",
+      "answer": "would be / had quit",
+      "hint": "Past decision → present health",
+      "explanation": "would be healthier now + if I had quit.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-28-ex-007",
+      "type": "fill_blank",
+      "question": "If she ___ (speak) better English, she ___ (get) the job abroad.",
+      "answer": "spoke / would have got",
+      "hint": "Present ability → past missed result",
+      "explanation": "spoke (present simple) + would have got (past).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-28-ex-008",
+      "type": "fill_blank",
+      "question": "If he ___ (not/be) so impatient, he ___ (wait) for a better offer.",
+      "answer": "weren't / would have waited",
+      "hint": "Present trait → past decision",
+      "explanation": "weren't + would have waited.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-28-ex-009",
+      "type": "fill_blank",
+      "question": "If I ___ (take) that offer, I ___ (live) in Paris now.",
+      "answer": "had taken / would be living",
+      "hint": "Past decision → present location",
+      "explanation": "had taken + would be living (now).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-28-ex-010",
+      "type": "fill_blank",
+      "question": "She ___ (understand) better now if she ___ (do) the training.",
+      "answer": "would understand / had done",
+      "hint": "Past training missed → present knowledge",
+      "explanation": "would understand (now) + if she had done (past).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-28-ex-011",
+      "type": "mcq",
+      "question": "If I had saved more money, I ___ be able to retire now.",
+      "answer": "would",
+      "hint": "Past saving → present ability",
+      "explanation": "would be able — present consequence.",
+      "distractors": "would have / had / will",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-28-ex-012",
+      "type": "mcq",
+      "question": "If she ___ more patient, she would have been a better teacher.",
+      "answer": "were",
+      "hint": "Present characteristic in if-clause",
+      "explanation": "were — present trait in mixed type 2.",
+      "distractors": "had been / would be / was being",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-28-ex-013",
+      "type": "mcq",
+      "question": "He ___ be living in New York now if he had accepted the transfer.",
+      "answer": "would",
+      "hint": "Past decision → present living situation",
+      "explanation": "would be living = present consequence.",
+      "distractors": "would have / had / might have",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-28-ex-014",
+      "type": "mcq",
+      "question": "If I weren't so afraid of flying, I ___ have visited them years ago.",
+      "answer": "would have",
+      "hint": "Present fear → past missed opportunity",
+      "explanation": "would have visited = past result of present state.",
+      "distractors": "would / had / should",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-28-ex-015",
+      "type": "mcq",
+      "question": "Which is a mixed conditional?",
+      "answer": "If she had studied harder, she would be a doctor now.",
+      "hint": "Past condition → present result",
+      "explanation": "Past perfect + present result = mixed conditional.",
+      "distractors": "If she studies harder, she will become. / If she studied harder, she would become. / If she had studied, she would have become.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-28-ex-016",
+      "type": "mcq",
+      "question": "If I ___ more disciplined, I would have finished the project on time.",
+      "answer": "were",
+      "hint": "Present trait → past consequence",
+      "explanation": "were — current characteristic in mixed type 2.",
+      "distractors": "had been / would be / was",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-28-ex-017",
+      "type": "mcq",
+      "question": "She ___ fluent in Spanish now if she had kept practising.",
+      "answer": "would be",
+      "hint": "Past inaction → present skill gap",
+      "explanation": "would be — present consequence.",
+      "distractors": "would have been / had been / was",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-28-ex-018",
+      "type": "mcq",
+      "question": "If I knew him better, I ___ have asked for help.",
+      "answer": "would have",
+      "hint": "Present state → past consequence",
+      "explanation": "would have asked — past result of present limitation.",
+      "distractors": "would / will have / had",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-28-ex-019",
+      "type": "error_correction",
+      "question": "Find and fix: 'If I had studied law, I would have been a lawyer now.'",
+      "answer": "If I had studied law, I would be a lawyer now.",
+      "hint": "Result is NOW — use would be",
+      "explanation": "Present consequence → would be. Not would have been.",
+      "hebrew_note": "תוצאה בהווה = would be"
+    },
+    {
+      "id": "G-28-ex-020",
+      "type": "error_correction",
+      "question": "Find and fix: 'If she would have stayed, she would be here now.'",
+      "answer": "If she had stayed, she would be here now.",
+      "hint": "No would have in the if-clause",
+      "explanation": "if she had stayed (past perfect).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-28-ex-021",
+      "type": "error_correction",
+      "question": "Find and fix: 'She would been a doctor now if she had studied medicine.'",
+      "answer": "She would be a doctor now if she had studied medicine.",
+      "hint": "would + base verb (be) — not would been",
+      "explanation": "would be — base verb after would.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-28-ex-022",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "If",
+        "I",
+        "had",
+        "taken",
+        "that",
+        "job",
+        "would",
+        "I",
+        "living",
+        "in",
+        "London",
+        "be",
+        "now"
+      ],
+      "answer": "If I had taken that job, I would be living in London now.",
+      "hint": "Past perfect + would be (present)",
+      "explanation": "had taken + would be living now.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-28-ex-023",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "weren't",
+        "she",
+        "so",
+        "have",
+        "if",
+        "shy",
+        "spoken",
+        "she",
+        "him",
+        "would",
+        "to"
+      ],
+      "answer": "If she weren't so shy, she would have spoken to him.",
+      "hint": "Present trait → past consequence",
+      "explanation": "weren't + would have spoken.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-28-ex-024",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "had",
+        "we",
+        "invested",
+        "then",
+        "rich",
+        "we'd",
+        "be",
+        "now"
+      ],
+      "answer": "If we had invested then, we'd be rich now.",
+      "hint": "Past opportunity → present wealth",
+      "explanation": "had invested + we'd be = we would be (now).",
+      "hebrew_note": null
+    }
+  ],
+  "speak": [
+    {
+      "id": "G-28-sp-001",
+      "sentence": "If I had chosen a different career, I would probably be living somewhere very different now.",
+      "chunks": [
+        "If I had chosen a different career,",
+        "I would probably be living somewhere very different now."
+      ],
+      "phonetic_hints": "'Probably' = PROB-uh-blee. 'Somewhere' = SUM-wair.",
+      "pass_threshold": 0.55
+    },
+    {
+      "id": "G-28-sp-002",
+      "sentence": "She would be much more confident now if she hadn't had such a difficult start.",
+      "chunks": [
+        "She would be much more confident now",
+        "if she hadn't had such a difficult start."
+      ],
+      "phonetic_hints": "'Confident' = KON-fih-dunt.",
+      "pass_threshold": 0.55
+    },
+    {
+      "id": "G-28-sp-003",
+      "sentence": "If he weren't so stubborn, he would have apologised years ago.",
+      "chunks": [
+        "If he weren't so stubborn,",
+        "he would have apologised years ago."
+      ],
+      "phonetic_hints": "'Stubborn' = STUB-urn.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-28-sp-004",
+      "sentence": "If we had started earlier, we wouldn't be in this situation now.",
+      "chunks": [
+        "If we had started earlier,",
+        "we wouldn't be in this situation now."
+      ],
+      "phonetic_hints": "'Situation' = sich-yoo-AY-shun.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-28-sp-005",
+      "sentence": "I would speak much better French now if I hadn't given up the lessons.",
+      "chunks": [
+        "I would speak much better French now",
+        "if I hadn't given up the lessons."
+      ],
+      "phonetic_hints": "'Given up' = stopped. 'French' = FRENCH.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-28-sp-006",
+      "sentence": "If she weren't so afraid of failure, she would have tried much sooner.",
+      "chunks": [
+        "If she weren't so afraid of failure,",
+        "she would have tried much sooner."
+      ],
+      "phonetic_hints": "'Afraid' = uh-FRAYD. 'Failure' = FAYL-yer.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-28-sp-007",
+      "sentence": "He would have more options now if he had stayed in education.",
+      "chunks": [
+        "He would have more options now",
+        "if he had stayed in education."
+      ],
+      "phonetic_hints": "'Options' = OP-shunz. 'Education' = ej-yoo-KAY-shun.",
+      "pass_threshold": 0.55
+    },
+    {
+      "id": "G-28-sp-008",
+      "sentence": "If I weren't so impatient, I would have waited for a much better offer.",
+      "chunks": [
+        "If I weren't so impatient,",
+        "I would have waited for a much better offer."
+      ],
+      "phonetic_hints": "'Impatient' = im-PAY-shunt.",
+      "pass_threshold": 0.6
+    }
+  ]
+}

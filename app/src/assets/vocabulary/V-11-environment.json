@@ -1,0 +1,307 @@
+{
+  "id": "V-11",
+  "theme": "Environment",
+  "level": "B1",
+  "words": [
+    {
+      "id": "V-11-w-001",
+      "word": "sustainability",
+      "part_of_speech": "noun",
+      "definition": "the ability to maintain something over time without damaging the environment",
+      "example_sentences": [
+        "Sustainability is now central to all business decisions.",
+        "She studies sustainability at university.",
+        "We need to move towards greater sustainability in food production."
+      ],
+      "pronunciation_tip": "sus-tayn-uh-BIL-ih-tee — six syllables, stress on fourth.",
+      "common_mistake": "Don't say 'being good for the environment' only — 'sustainability' is broader.",
+      "collocations": "['environmental sustainability', 'corporate sustainability', 'long-term sustainability']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-11-w-002",
+      "word": "carbon footprint",
+      "part_of_speech": "noun",
+      "definition": "the amount of CO2 produced by a person's or organisation's activities",
+      "example_sentences": [
+        "Flying frequently increases your carbon footprint.",
+        "The company has pledged to reduce its carbon footprint by 50%.",
+        "You can offset your carbon footprint by planting trees."
+      ],
+      "pronunciation_tip": "KAR-bun FOOT-print.",
+      "common_mistake": "Don't say 'pollution I cause' — say 'my carbon footprint'.",
+      "collocations": "['reduce carbon footprint', 'calculate carbon footprint', 'carbon footprint offset']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-11-w-003",
+      "word": "renewable energy",
+      "part_of_speech": "noun",
+      "definition": "energy from sources that are naturally replenished, like wind or sun",
+      "example_sentences": [
+        "The country is investing heavily in renewable energy.",
+        "Renewable energy is cheaper than it was ten years ago.",
+        "Solar and wind are the most common forms of renewable energy."
+      ],
+      "pronunciation_tip": "rih-NYOO-uh-bul EN-er-jee.",
+      "common_mistake": "Don't say 'clean energy' and 'renewable energy' interchangeably — they overlap but aren't identical.",
+      "collocations": "['invest in renewable energy', 'switch to renewable energy', 'renewable energy source']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-11-w-004",
+      "word": "deforestation",
+      "part_of_speech": "noun",
+      "definition": "the cutting down of forests on a large scale",
+      "example_sentences": [
+        "Deforestation in the Amazon is destroying biodiversity.",
+        "Deforestation contributes significantly to climate change.",
+        "Stopping deforestation is essential for the planet's health."
+      ],
+      "pronunciation_tip": "dee-for-ih-STAY-shun — five syllables, stress on fourth.",
+      "common_mistake": "Don't say 'cutting trees' — say 'deforestation' for large-scale clearing.",
+      "collocations": "['stop deforestation', 'rate of deforestation', 'deforestation crisis']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-11-w-005",
+      "word": "biodiversity",
+      "part_of_speech": "noun",
+      "definition": "the variety of plant and animal life in a particular habitat",
+      "example_sentences": [
+        "Tropical rainforests contain enormous biodiversity.",
+        "Biodiversity is declining at an alarming rate.",
+        "Protecting biodiversity is essential for ecosystem health."
+      ],
+      "pronunciation_tip": "by-oh-dy-VUR-sih-tee — six syllables, stress on fourth.",
+      "common_mistake": "Don't say 'different types of animals and plants' every time — say 'biodiversity'.",
+      "collocations": "['protect biodiversity', 'loss of biodiversity', 'rich biodiversity']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-11-w-006",
+      "word": "emissions",
+      "part_of_speech": "noun",
+      "definition": "gases released into the atmosphere, especially CO2",
+      "example_sentences": [
+        "The country has pledged to cut emissions by 2030.",
+        "Car emissions contribute significantly to air pollution.",
+        "They measured the factory's emissions carefully."
+      ],
+      "pronunciation_tip": "ih-MISH-unz — three syllables, stress on second.",
+      "common_mistake": "Don't say 'pollution gases' — say 'emissions' in environmental contexts.",
+      "collocations": "['reduce emissions', 'carbon emissions', 'cut emissions']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-11-w-007",
+      "word": "drought",
+      "part_of_speech": "noun",
+      "definition": "a long period with very little rain causing water shortage",
+      "example_sentences": [
+        "The region suffered its worst drought in fifty years.",
+        "Drought threatens food security in many countries.",
+        "Drought conditions have become more frequent with climate change."
+      ],
+      "pronunciation_tip": "DROWT — rhymes with 'out'. One syllable.",
+      "common_mistake": "Don't say 'no rain for a long time' — say 'drought'.",
+      "collocations": "['severe drought', 'drought conditions', 'suffer a drought']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-11-w-008",
+      "word": "ecosystem",
+      "part_of_speech": "noun",
+      "definition": "all the living things in an area and their relationship with each other",
+      "example_sentences": [
+        "The ocean ecosystem is incredibly complex.",
+        "Plastic pollution is damaging marine ecosystems.",
+        "Human activity is disrupting natural ecosystems worldwide."
+      ],
+      "pronunciation_tip": "EE-koh-sis-tum — four syllables, stress on first.",
+      "common_mistake": "Don't say 'nature environment' — say 'ecosystem'.",
+      "collocations": "['protect ecosystem', 'marine ecosystem', 'ecosystem collapse']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-11-w-009",
+      "word": "contaminate",
+      "part_of_speech": "verb",
+      "definition": "to make something impure or harmful by introducing pollutants",
+      "example_sentences": [
+        "Industrial waste contaminated the local river.",
+        "The water supply was contaminated with chemicals.",
+        "Contaminated soil can remain toxic for decades."
+      ],
+      "pronunciation_tip": "kun-TAM-ih-nayt — four syllables, stress on second.",
+      "common_mistake": "Don't say 'make dirty' in environmental contexts — say 'contaminate'.",
+      "collocations": "['contaminate water', 'contaminated soil', 'contaminated with']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-11-w-010",
+      "word": "habitat",
+      "part_of_speech": "noun",
+      "definition": "the natural environment where an animal or plant lives",
+      "example_sentences": [
+        "Polar bears are losing their natural habitat.",
+        "Deforestation destroys the habitat of thousands of species.",
+        "Urban growth encroaches on natural habitats."
+      ],
+      "pronunciation_tip": "HAB-ih-tat — three syllables, stress on first.",
+      "common_mistake": "Don't say 'where animals live' every time — say 'habitat'.",
+      "collocations": "['natural habitat', 'destroy habitat', 'habitat loss']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-11-w-011",
+      "word": "endangered",
+      "part_of_speech": "adjective",
+      "definition": "at risk of dying out completely",
+      "example_sentences": [
+        "The tiger is an endangered species.",
+        "Climate change is making more species endangered.",
+        "Many endangered animals are protected by international law."
+      ],
+      "pronunciation_tip": "en-DAYN-jerd — three syllables, stress on second.",
+      "common_mistake": "Don't say 'nearly extinct' — say 'endangered'. Extinct = already gone. Endangered = at risk.",
+      "collocations": "['endangered species', 'critically endangered', 'protect endangered animals']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-11-w-012",
+      "word": "landfill",
+      "part_of_speech": "noun",
+      "definition": "a large area of land where waste is buried",
+      "example_sentences": [
+        "Most household waste ends up in landfill.",
+        "Reducing landfill is a key environmental goal.",
+        "Plastic in landfill takes hundreds of years to break down."
+      ],
+      "pronunciation_tip": "LAND-fil — two syllables, stress on first.",
+      "common_mistake": "Don't say 'rubbish dump' in formal contexts — say 'landfill'.",
+      "collocations": "['go to landfill', 'reduce landfill', 'landfill site']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-11-w-013",
+      "word": "recycle",
+      "part_of_speech": "verb",
+      "definition": "to process used materials so they can be used again",
+      "example_sentences": [
+        "Always recycle paper, glass, and plastic.",
+        "The factory recycles 90% of its production waste.",
+        "Recycling reduces the amount that goes to landfill."
+      ],
+      "pronunciation_tip": "ree-SY-kul — three syllables, stress on second.",
+      "common_mistake": "Don't say 'use again' — 'recycle' specifically means processing for reuse.",
+      "collocations": "['recycle paper', 'recycle waste', 'recycling scheme']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-11-w-014",
+      "word": "solar panel",
+      "part_of_speech": "noun",
+      "definition": "a device that converts sunlight into electricity",
+      "example_sentences": [
+        "They installed solar panels on the roof last year.",
+        "Solar panels can power an entire household.",
+        "The cost of solar panels has fallen dramatically."
+      ],
+      "pronunciation_tip": "SOH-ler PAN-ul.",
+      "common_mistake": "Don't say 'sun electricity machine' — say 'solar panel'.",
+      "collocations": "['install solar panels', 'solar panel system', 'solar panel energy']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-11-w-015",
+      "word": "flood",
+      "part_of_speech": "noun/verb",
+      "definition": "an overflow of water onto normally dry land",
+      "example_sentences": [
+        "The village was devastated by the worst flood in living memory.",
+        "Climate change is making floods more frequent.",
+        "Heavy rain flooded the underground car park."
+      ],
+      "pronunciation_tip": "FLUD — one syllable.",
+      "common_mistake": "Don't say 'the water came over the land' — say 'there was a flood'.",
+      "collocations": "['flash flood', 'flood risk', 'flood damage']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-11-w-016",
+      "word": "offset",
+      "part_of_speech": "verb/noun",
+      "definition": "to compensate for something negative, such as carbon emissions",
+      "example_sentences": [
+        "The airline offers passengers the chance to offset their emissions.",
+        "They offset carbon by investing in reforestation projects.",
+        "Carbon offsetting is controversial but widely used."
+      ],
+      "pronunciation_tip": "OFF-set — stress on first syllable.",
+      "common_mistake": "Don't say 'compensate for my pollution' — say 'offset my carbon footprint'.",
+      "collocations": "['carbon offset', 'offset emissions', 'offset scheme']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-11-w-017",
+      "word": "conservation",
+      "part_of_speech": "noun",
+      "definition": "the protection and careful management of the environment",
+      "example_sentences": [
+        "Wildlife conservation is vital for future generations.",
+        "She works for a marine conservation organisation.",
+        "Conservation efforts have saved several species from extinction."
+      ],
+      "pronunciation_tip": "kon-ser-VAY-shun — four syllables, stress on third.",
+      "common_mistake": "Don't say 'protecting nature' as a noun — say 'conservation'.",
+      "collocations": "['wildlife conservation', 'conservation efforts', 'conservation project']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-11-w-018",
+      "word": "erosion",
+      "part_of_speech": "noun",
+      "definition": "the gradual wearing away of land or rock by water or wind",
+      "example_sentences": [
+        "Coastal erosion is threatening several seaside towns.",
+        "Soil erosion leads to loss of fertile farmland.",
+        "Tree roots help to prevent soil erosion."
+      ],
+      "pronunciation_tip": "ih-ROH-zhun — three syllables, stress on second.",
+      "common_mistake": "Don't say 'the land is washed away' as a noun — say 'erosion'.",
+      "collocations": "['coastal erosion', 'soil erosion', 'prevent erosion']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-11-w-019",
+      "word": "global warming",
+      "part_of_speech": "noun",
+      "definition": "the gradual increase in the Earth's average temperature",
+      "example_sentences": [
+        "Global warming is the result of greenhouse gas emissions.",
+        "The effects of global warming include rising sea levels.",
+        "Limiting global warming to 1.5°C is the key target."
+      ],
+      "pronunciation_tip": "GLOH-bul WAWM-ing.",
+      "common_mistake": "Don't say 'the world is getting hot' — say 'global warming'. The formal term is 'climate change'.",
+      "collocations": "['cause global warming', 'effects of global warming', 'limit global warming']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-11-w-020",
+      "word": "zero-carbon",
+      "part_of_speech": "adjective",
+      "definition": "producing no net carbon dioxide emissions",
+      "example_sentences": [
+        "The company has committed to being zero-carbon by 2040.",
+        "Zero-carbon buildings use no fossil fuels.",
+        "Achieving a zero-carbon economy will take decades."
+      ],
+      "pronunciation_tip": "ZEER-oh KAR-bun.",
+      "common_mistake": "Don't say 'no pollution' — say 'zero-carbon' for no CO2 emissions.",
+      "collocations": "['zero-carbon target', 'zero-carbon economy', 'achieve zero-carbon']",
+      "difficulty": 2
+    }
+  ]
+}

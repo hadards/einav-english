@@ -1,0 +1,459 @@
+{
+  "id": "G-27",
+  "title": "Third conditional",
+  "level": "B2",
+  "order": 27,
+  "explain": {
+    "rule": "The third conditional talks about imaginary situations in the PAST — things that did NOT happen. Structure: If + past perfect (had + pp), would have + past participle. Used for regrets, alternative past scenarios, and criticism of past decisions. Both clauses refer to the past.",
+    "why_matters": "Lets you express regrets, missed opportunities, and alternative histories. A key B2 structure that makes English sound sophisticated.",
+    "hebrew_note": "Hebrew uses אילו/לו + past: 'לו הייתי לומד יותר, הייתי עובר'. English requires past perfect in the if-clause and 'would have + pp' in the result. NEVER use 'would have' in the if-clause.",
+    "tip": "Memory aid: If I HAD DONE X, I WOULD HAVE DONE Y. Both sides have 'have'. Contractions: 'd = would or had: 'If she'd known' = if she had known. 'She'd have called' = she would have called.",
+    "good_examples": [
+      {
+        "id": "G-27-ge-001",
+        "sentence": "If I had studied harder, I would have passed the exam.",
+        "audio_text": "If I had studied harder, I would have passed the exam.",
+        "note": "Past regret — I didn't study hard, so I didn't pass"
+      },
+      {
+        "id": "G-27-ge-002",
+        "sentence": "She wouldn't have been late if she had left earlier.",
+        "audio_text": "She wouldn't have been late if she had left earlier.",
+        "note": "She was late because she didn't leave early"
+      },
+      {
+        "id": "G-27-ge-003",
+        "sentence": "If you had told me, I would have helped you.",
+        "audio_text": "If you had told me, I would have helped you.",
+        "note": "You didn't tell me, so I didn't help"
+      },
+      {
+        "id": "G-27-ge-004",
+        "sentence": "He might have got the job if he hadn't been so nervous.",
+        "audio_text": "He might have got the job if he hadn't been so nervous.",
+        "note": "might have = less certain past result"
+      },
+      {
+        "id": "G-27-ge-005",
+        "sentence": "If we hadn't taken that shortcut, we wouldn't have got lost.",
+        "audio_text": "If we hadn't taken that shortcut, we wouldn't have got lost.",
+        "note": "Negative if-clause + negative result"
+      },
+      {
+        "id": "G-27-ge-006",
+        "sentence": "Would you have accepted the job if they had offered it?",
+        "audio_text": "Would you have accepted the job if they had offered it?",
+        "note": "Question form of third conditional"
+      },
+      {
+        "id": "G-27-ge-007",
+        "sentence": "I could have finished earlier if I hadn't had so many meetings.",
+        "audio_text": "I could have finished earlier if I hadn't had so many meetings.",
+        "note": "could have = possible alternative that didn't happen"
+      },
+      {
+        "id": "G-27-ge-008",
+        "sentence": "If the weather had been better, we'd have had a wonderful holiday.",
+        "audio_text": "If the weather had been better, we'd have had a wonderful holiday.",
+        "note": "Contracted: 'd have = would have"
+      },
+      {
+        "id": "G-27-ge-009",
+        "sentence": "She'd have called if she'd had your number.",
+        "audio_text": "She'd have called if she'd had your number.",
+        "note": "Both contracted: she'd = she would / she had"
+      },
+      {
+        "id": "G-27-ge-010",
+        "sentence": "If I had known you were in town, I would have met you.",
+        "audio_text": "If I had known you were in town, I would have met you.",
+        "note": "Missed connection in the past"
+      }
+    ],
+    "bad_examples": [
+      {
+        "id": "G-27-be-001",
+        "wrong": "If I would have studied, I would have passed.",
+        "correct": "If I had studied, I would have passed.",
+        "reason": "NEVER use 'would have' in the if-clause. Use past perfect: if I had studied."
+      },
+      {
+        "id": "G-27-be-002",
+        "wrong": "If I had studied, I would pass.",
+        "correct": "If I had studied, I would have passed.",
+        "reason": "Result clause needs 'would HAVE + pp' — not just 'would'."
+      },
+      {
+        "id": "G-27-be-003",
+        "wrong": "If she had known, she would told me.",
+        "correct": "If she had known, she would have told me.",
+        "reason": "'would + pp' needs 'have' between them: would have told."
+      },
+      {
+        "id": "G-27-be-004",
+        "wrong": "She would have told me if she would have known.",
+        "correct": "She would have told me if she had known.",
+        "reason": "No 'would have' in the if-clause — ever."
+      },
+      {
+        "id": "G-27-be-005",
+        "wrong": "If he didn't leave early, he would have missed the train.",
+        "correct": "If he hadn't left early, he would have missed the train.",
+        "reason": "If-clause must be past perfect (hadn't + pp), not past simple."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "G-27-ex-001",
+      "type": "fill_blank",
+      "question": "If I ___ (study) harder, I ___ (pass) the exam.",
+      "answer": "had studied / would have passed",
+      "hint": "If + past perfect, would have + pp",
+      "explanation": "Third conditional: had studied + would have passed.",
+      "hebrew_note": "past perfect + would have + pp"
+    },
+    {
+      "id": "G-27-ex-002",
+      "type": "fill_blank",
+      "question": "She ___ (not/be) late if she ___ (leave) earlier.",
+      "answer": "wouldn't have been / had left",
+      "hint": "Negative result + past perfect",
+      "explanation": "wouldn't have been + if she had left.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-27-ex-003",
+      "type": "fill_blank",
+      "question": "If you ___ (tell) me, I ___ (help) you.",
+      "answer": "had told / would have helped",
+      "hint": "Past missed opportunity",
+      "explanation": "had told + would have helped.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-27-ex-004",
+      "type": "fill_blank",
+      "question": "___ you ___ (accept) if they ___ (offer) it?",
+      "answer": "Would / have accepted / had offered",
+      "hint": "Question: Would + have + pp + if + past perfect",
+      "explanation": "Would you have accepted if they had offered.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-27-ex-005",
+      "type": "fill_blank",
+      "question": "If we ___ (not/take) that shortcut, we ___ (not/get) lost.",
+      "answer": "hadn't taken / wouldn't have got",
+      "hint": "Negative both sides",
+      "explanation": "hadn't taken + wouldn't have got.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-27-ex-006",
+      "type": "fill_blank",
+      "question": "He ___ (might/get) the job if he ___ (not/be) so nervous.",
+      "answer": "might have got / hadn't been",
+      "hint": "might have for uncertain past result",
+      "explanation": "might have got + if he hadn't been.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-27-ex-007",
+      "type": "fill_blank",
+      "question": "I ___ (could/finish) earlier if I ___ (not/have) so many meetings.",
+      "answer": "could have finished / hadn't had",
+      "hint": "could have = alternative past possibility",
+      "explanation": "could have finished + if I hadn't had.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-27-ex-008",
+      "type": "fill_blank",
+      "question": "If the weather ___ (be) better, we ___ (have) a great holiday.",
+      "answer": "had been / would have had",
+      "hint": "Past condition affecting past result",
+      "explanation": "had been + would have had.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-27-ex-009",
+      "type": "fill_blank",
+      "question": "What ___ you ___ (do) if you ___ (not/get) this job?",
+      "answer": "would / have done / hadn't got",
+      "hint": "Hypothetical question about past",
+      "explanation": "What would you have done if you hadn't got.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-27-ex-010",
+      "type": "fill_blank",
+      "question": "They ___ (not/miss) the flight if they ___ (arrive) on time.",
+      "answer": "wouldn't have missed / had arrived",
+      "hint": "Negative result + condition",
+      "explanation": "wouldn't have missed + had arrived.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-27-ex-011",
+      "type": "mcq",
+      "question": "If she ___ earlier, she wouldn't have missed the meeting.",
+      "answer": "had arrived",
+      "hint": "Past perfect in if-clause",
+      "explanation": "had arrived — past perfect.",
+      "distractors": "arrived / would have arrived / has arrived",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-27-ex-012",
+      "type": "mcq",
+      "question": "He would have called if he ___ your number.",
+      "answer": "had known",
+      "hint": "Past perfect in if-clause",
+      "explanation": "had known — past perfect.",
+      "distractors": "would have known / knew / knows",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-27-ex-013",
+      "type": "mcq",
+      "question": "If I had known, I ___ you.",
+      "answer": "would have told",
+      "hint": "would have + pp in result",
+      "explanation": "would have told — result clause.",
+      "distractors": "would tell / had told / will tell",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-27-ex-014",
+      "type": "mcq",
+      "question": "She ___ if she hadn't worked so hard.",
+      "answer": "wouldn't have succeeded",
+      "hint": "Negative would have + pp",
+      "explanation": "wouldn't have succeeded.",
+      "distractors": "wouldn't succeed / didn't succeed / hadn't succeeded",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-27-ex-015",
+      "type": "mcq",
+      "question": "Would you have taken the job if ___ ?",
+      "answer": "the salary had been higher",
+      "hint": "Past perfect condition",
+      "explanation": "had been higher — past perfect.",
+      "distractors": "the salary would have been higher / was higher / were higher",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-27-ex-016",
+      "type": "mcq",
+      "question": "If we had left earlier, we ___ the traffic.",
+      "answer": "could have avoided",
+      "hint": "could have + pp = possible past alternative",
+      "explanation": "could have avoided.",
+      "distractors": "would avoided / could avoid / had avoided",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-27-ex-017",
+      "type": "mcq",
+      "question": "Which sentence is a correct third conditional?",
+      "answer": "If she had called, I would have answered.",
+      "hint": "Past perfect + would have + pp",
+      "explanation": "had called (pp) + would have answered (result).",
+      "distractors": "If she called, I would answer. / If she calls, I will answer. / If she had called, I would answer.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-27-ex-018",
+      "type": "mcq",
+      "question": "He ___ have got the job if he had prepared better.",
+      "answer": "would / might / could",
+      "hint": "Various modals in result clause",
+      "explanation": "would/might/could have — all possible depending on certainty.",
+      "distractors": "will / did / was",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-27-ex-019",
+      "type": "error_correction",
+      "question": "Find and fix: 'If I would have known, I would have told you.'",
+      "answer": "If I had known, I would have told you.",
+      "hint": "Would have in if-clause is always wrong",
+      "explanation": "Never 'would have' in if-clause. Past perfect: had known.",
+      "hebrew_note": "would have אסור אחרי if"
+    },
+    {
+      "id": "G-27-ex-020",
+      "type": "error_correction",
+      "question": "Find and fix: 'If I had studied, I would pass.'",
+      "answer": "If I had studied, I would have passed.",
+      "hint": "Result needs would have + pp",
+      "explanation": "would have passed — have is required.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-27-ex-021",
+      "type": "error_correction",
+      "question": "Find and fix: 'If she had known, she would told me.'",
+      "answer": "If she had known, she would have told me.",
+      "hint": "would + pp needs 'have' between",
+      "explanation": "would have told — have required.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-27-ex-022",
+      "type": "error_correction",
+      "question": "Find and fix: 'She would have told me if she would have known.'",
+      "answer": "She would have told me if she had known.",
+      "hint": "No would have in if-clause",
+      "explanation": "if she had known — past perfect.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-27-ex-023",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "If",
+        "I",
+        "had",
+        "known",
+        "I",
+        "earlier",
+        "left",
+        "would",
+        "have"
+      ],
+      "answer": "If I had known, I would have left earlier.",
+      "hint": "if + past perfect, would have + pp",
+      "explanation": "If I had known + I would have left earlier.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-27-ex-024",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "She",
+        "wouldn't",
+        "have",
+        "failed",
+        "studied",
+        "if",
+        "had",
+        "she",
+        "harder"
+      ],
+      "answer": "She wouldn't have failed if she had studied harder.",
+      "hint": "Negative result + if + past perfect",
+      "explanation": "wouldn't have failed + if she had studied harder.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-27-ex-025",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "Would",
+        "you",
+        "have",
+        "job",
+        "the",
+        "taken",
+        "salary",
+        "the",
+        "higher",
+        "had",
+        "been",
+        "if"
+      ],
+      "answer": "Would you have taken the job if the salary had been higher?",
+      "hint": "Question form",
+      "explanation": "Would you have taken + if + past perfect?",
+      "hebrew_note": null
+    }
+  ],
+  "speak": [
+    {
+      "id": "G-27-sp-001",
+      "sentence": "If I had studied harder at school, I might have become a doctor.",
+      "chunks": [
+        "If I had studied harder at school,",
+        "I might have become a doctor."
+      ],
+      "phonetic_hints": "'Studied' = STUD-eed. 'Doctor' = DOK-ter.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-27-sp-002",
+      "sentence": "She wouldn't have taken the job if she had known how difficult it would be.",
+      "chunks": [
+        "She wouldn't have taken the job",
+        "if she had known how difficult it would be."
+      ],
+      "phonetic_hints": "'Difficult' = DIF-ih-kult. 'Wouldn't' = WOOD-unt.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-27-sp-003",
+      "sentence": "If we hadn't met by chance, we would never have become friends.",
+      "chunks": [
+        "If we hadn't met by chance,",
+        "we would never have become friends."
+      ],
+      "phonetic_hints": "'Chance' = CHANS. 'Become' = bih-KUM.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-27-sp-004",
+      "sentence": "Would you have accepted the offer if they had contacted you sooner?",
+      "chunks": [
+        "Would you have accepted the offer",
+        "if they had contacted you sooner?"
+      ],
+      "phonetic_hints": "'Accepted' = ak-SEP-tid. 'Contacted' = KON-tak-tid.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-27-sp-005",
+      "sentence": "If I had arrived five minutes earlier, I would have got the last ticket.",
+      "chunks": [
+        "If I had arrived five minutes earlier,",
+        "I would have got the last ticket."
+      ],
+      "phonetic_hints": "'Arrived' = uh-RYVD. 'Earlier' = UR-lee-er.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-27-sp-006",
+      "sentence": "He could have avoided the accident if he had been paying attention.",
+      "chunks": [
+        "He could have avoided the accident",
+        "if he had been paying attention."
+      ],
+      "phonetic_hints": "'Avoided' = uh-VOY-did. 'Attention' = uh-TEN-shun.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-27-sp-007",
+      "sentence": "If you had told me you needed help, I would have been there immediately.",
+      "chunks": [
+        "If you had told me you needed help,",
+        "I would have been there immediately."
+      ],
+      "phonetic_hints": "'Immediately' = ih-MEE-dee-ut-lee — five syllables.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-27-sp-008",
+      "sentence": "Things would have been so different if I had made a different choice.",
+      "chunks": [
+        "Things would have been so different",
+        "if I had made a different choice."
+      ],
+      "phonetic_hints": "'Different' = DIF-er-unt. 'Choice' = CHOYS.",
+      "pass_threshold": 0.65
+    }
+  ]
+}

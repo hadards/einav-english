@@ -1,0 +1,307 @@
+{
+  "id": "V-09",
+  "theme": "Emotions",
+  "level": "B1",
+  "words": [
+    {
+      "id": "V-09-w-001",
+      "word": "anxious",
+      "part_of_speech": "adjective",
+      "definition": "worried and nervous about something that might happen",
+      "example_sentences": [
+        "She felt anxious about the job interview all week.",
+        "He gets anxious in large crowds.",
+        "The wait made everyone anxious."
+      ],
+      "pronunciation_tip": "ANGK-shus — two syllables, stress on first.",
+      "common_mistake": "Don't say 'I am nervous always' — 'anxious' implies ongoing worry, not just immediate nerves.",
+      "collocations": "['feel anxious', 'anxious about', 'increasingly anxious']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-09-w-002",
+      "word": "overwhelmed",
+      "part_of_speech": "adjective",
+      "definition": "unable to cope with something because it is too intense",
+      "example_sentences": [
+        "She felt overwhelmed with gratitude when they surprised her.",
+        "He was overwhelmed by the amount of information.",
+        "After the loss, she was completely overwhelmed with grief."
+      ],
+      "pronunciation_tip": "oh-ver-WELMD — stress on third syllable.",
+      "common_mistake": "Don't say 'I have too much emotion' — say 'I feel overwhelmed'.",
+      "collocations": "['feel overwhelmed', 'overwhelmed with emotion', 'completely overwhelmed']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-09-w-003",
+      "word": "relieved",
+      "part_of_speech": "adjective",
+      "definition": "feeling happy because something bad did not happen",
+      "example_sentences": [
+        "She was so relieved when she heard he was safe.",
+        "I'm relieved that the exam is finally over.",
+        "He looked visibly relieved after the announcement."
+      ],
+      "pronunciation_tip": "rih-LEEVD — two syllables, stress on second.",
+      "common_mistake": "Don't say 'I am happy that the problem is finished' — say 'I'm relieved'.",
+      "collocations": "['feel relieved', 'visibly relieved', 'relieved to hear']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-09-w-004",
+      "word": "frustrated",
+      "part_of_speech": "adjective",
+      "definition": "feeling annoyed because you cannot do or achieve something",
+      "example_sentences": [
+        "She was frustrated by the lack of progress.",
+        "He gets frustrated when people don't listen.",
+        "I'm frustrated that nothing seems to be changing."
+      ],
+      "pronunciation_tip": "frus-TRAY-tid — three syllables, stress on second.",
+      "common_mistake": "Don't say 'I am annoyed because I can't do it' — say 'I feel frustrated'.",
+      "collocations": "['feel frustrated', 'deeply frustrated', 'frustrated with']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-09-w-005",
+      "word": "devastated",
+      "part_of_speech": "adjective",
+      "definition": "very shocked and upset because of something terrible",
+      "example_sentences": [
+        "She was devastated when she heard the news.",
+        "He was absolutely devastated by the loss.",
+        "The family was devastated by the accident."
+      ],
+      "pronunciation_tip": "DEV-uh-stay-tid — four syllables, stress on first.",
+      "common_mistake": "Don't say 'she was very sad' for extreme grief — say 'she was devastated'.",
+      "collocations": "['absolutely devastated', 'feel devastated', 'devastated by']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-09-w-006",
+      "word": "content",
+      "part_of_speech": "adjective",
+      "definition": "happy and satisfied with your life or situation",
+      "example_sentences": [
+        "She's perfectly content living in a small flat.",
+        "He seemed content with his decision.",
+        "You don't need a lot of money to feel content."
+      ],
+      "pronunciation_tip": "kun-TENT — stress on second syllable.",
+      "common_mistake": "Don't confuse content (adjective = satisfied, kun-TENT) with content (noun = material, KON-tent).",
+      "collocations": "['feel content', 'perfectly content', 'content with']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-09-w-007",
+      "word": "nostalgic",
+      "part_of_speech": "adjective",
+      "definition": "feeling a warm longing for a happy past",
+      "example_sentences": [
+        "The old song made her feel nostalgic.",
+        "He gets nostalgic whenever he smells fresh bread.",
+        "She felt nostalgic looking at old photographs."
+      ],
+      "pronunciation_tip": "nos-TAL-jik — three syllables, stress on second.",
+      "common_mistake": "Don't say 'I miss the past and feel warm about it' — say 'I feel nostalgic'.",
+      "collocations": "['feel nostalgic', 'nostalgic feeling', 'nostalgic for']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-09-w-008",
+      "word": "resentful",
+      "part_of_speech": "adjective",
+      "definition": "feeling bitter and angry because of unfair treatment",
+      "example_sentences": [
+        "She felt resentful about being passed over for promotion.",
+        "He's grown resentful after years of being underappreciated.",
+        "A resentful employee is unlikely to perform well."
+      ],
+      "pronunciation_tip": "rih-ZENT-ful — three syllables, stress on second.",
+      "common_mistake": "Don't say 'I am angry because it was unfair' — say 'I feel resentful'.",
+      "collocations": "['feel resentful', 'become resentful', 'resentful about']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-09-w-009",
+      "word": "indifferent",
+      "part_of_speech": "adjective",
+      "definition": "having no interest in or concern about something",
+      "example_sentences": [
+        "He was completely indifferent to her opinion.",
+        "She was indifferent to the result — it didn't affect her.",
+        "His indifference to the situation made her angry."
+      ],
+      "pronunciation_tip": "in-DIF-er-unt — four syllables, stress on second.",
+      "common_mistake": "Don't say 'he doesn't care' — say 'he is indifferent' in more formal contexts.",
+      "collocations": "['completely indifferent', 'indifferent to', 'show indifference']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-09-w-010",
+      "word": "apprehensive",
+      "part_of_speech": "adjective",
+      "definition": "slightly afraid or worried about something in the future",
+      "example_sentences": [
+        "She was apprehensive about starting the new job.",
+        "He felt apprehensive before the performance.",
+        "It's natural to feel apprehensive before a big change."
+      ],
+      "pronunciation_tip": "ap-rih-HEN-siv — four syllables, stress on third.",
+      "common_mistake": "Don't say 'afraid' for slight worry about the future — say 'apprehensive'.",
+      "collocations": "['feel apprehensive', 'apprehensive about', 'slightly apprehensive']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-09-w-011",
+      "word": "elated",
+      "part_of_speech": "adjective",
+      "definition": "extremely happy and excited, usually because of success",
+      "example_sentences": [
+        "She was elated when she got the news about her acceptance.",
+        "He was absolutely elated after the team won.",
+        "The whole city felt elated after the victory."
+      ],
+      "pronunciation_tip": "ih-LAY-tid — three syllables, stress on second.",
+      "common_mistake": "Don't say 'very happy' for extreme joy — say 'elated'.",
+      "collocations": "['feel elated', 'absolutely elated', 'elated by']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-09-w-012",
+      "word": "melancholy",
+      "part_of_speech": "noun/adjective",
+      "definition": "a feeling of deep sadness without an obvious reason",
+      "example_sentences": [
+        "There was a melancholy to the autumn evening.",
+        "He fell into a melancholy mood after the holiday ended.",
+        "Her music has a beautiful, melancholy quality."
+      ],
+      "pronunciation_tip": "MEL-un-kol-ee — four syllables, stress on first.",
+      "common_mistake": "Don't say 'a sad feeling about nothing' — say 'a sense of melancholy'.",
+      "collocations": "['feel melancholy', 'sense of melancholy', 'melancholy mood']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-09-w-013",
+      "word": "humiliated",
+      "part_of_speech": "adjective",
+      "definition": "made to feel ashamed or stupid in front of others",
+      "example_sentences": [
+        "She felt completely humiliated by his comment.",
+        "He was humiliated in front of the whole team.",
+        "Public humiliation can have lasting effects."
+      ],
+      "pronunciation_tip": "hyoo-MIL-ee-ay-tid — five syllables, stress on second.",
+      "common_mistake": "Don't say 'she was embarrassed badly' — say 'she felt humiliated'.",
+      "collocations": "['feel humiliated', 'publicly humiliated', 'deeply humiliated']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-09-w-014",
+      "word": "conflicted",
+      "part_of_speech": "adjective",
+      "definition": "having two opposite feelings about something at the same time",
+      "example_sentences": [
+        "She felt conflicted about leaving — excited but also sad.",
+        "He's conflicted about whether to accept the offer.",
+        "I feel conflicted — I want to go but also want to stay."
+      ],
+      "pronunciation_tip": "kun-FLIK-tid — three syllables, stress on second.",
+      "common_mistake": "Don't say 'I have two feelings' — say 'I feel conflicted'.",
+      "collocations": "['feel conflicted', 'deeply conflicted', 'conflicted about']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-09-w-015",
+      "word": "grateful",
+      "part_of_speech": "adjective",
+      "definition": "feeling thankful for something someone did for you",
+      "example_sentences": [
+        "She was deeply grateful for all the support she received.",
+        "He felt grateful to have such loyal friends.",
+        "I'm so grateful you were there when I needed you."
+      ],
+      "pronunciation_tip": "GRAYT-ful — two syllables, stress on first.",
+      "common_mistake": "Don't say 'I say thank you' as an adjective — say 'I feel grateful'.",
+      "collocations": "['feel grateful', 'deeply grateful', 'grateful for']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-09-w-016",
+      "word": "irritable",
+      "part_of_speech": "adjective",
+      "definition": "easily annoyed, especially when tired or unwell",
+      "example_sentences": [
+        "She's been irritable all day — she didn't sleep well.",
+        "Don't talk to him when he's irritable.",
+        "Being hungry makes me very irritable."
+      ],
+      "pronunciation_tip": "IR-ih-tuh-bul — four syllables, stress on first.",
+      "common_mistake": "Don't say 'she is always angry' — 'irritable' means easily annoyed, often temporarily.",
+      "collocations": "['feel irritable', 'become irritable', 'irritable mood']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-09-w-017",
+      "word": "compassionate",
+      "part_of_speech": "adjective",
+      "definition": "showing kindness and concern for people who are suffering",
+      "example_sentences": [
+        "She is one of the most compassionate people I know.",
+        "A good doctor must be compassionate as well as skilled.",
+        "He responded to the tragedy in a compassionate way."
+      ],
+      "pronunciation_tip": "kum-PASH-un-ut — four syllables, stress on second.",
+      "common_mistake": "Don't say 'she is kind to sad people' — say 'she is compassionate'.",
+      "collocations": "['compassionate person', 'compassionate response', 'deeply compassionate']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-09-w-018",
+      "word": "insecure",
+      "part_of_speech": "adjective",
+      "definition": "lacking confidence in yourself or your position",
+      "example_sentences": [
+        "He's very insecure about his abilities.",
+        "She felt insecure in a room full of more experienced people.",
+        "Insecurity can make people behave defensively."
+      ],
+      "pronunciation_tip": "in-sih-KYOOR — three syllables, stress on third.",
+      "common_mistake": "Don't say 'he doesn't have confidence' as an adjective — say 'he feels insecure'.",
+      "collocations": "['feel insecure', 'deeply insecure', 'insecure about']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-09-w-019",
+      "word": "euphoric",
+      "part_of_speech": "adjective",
+      "definition": "feeling extremely happy and excited, almost beyond reason",
+      "example_sentences": [
+        "She felt euphoric when she crossed the finish line.",
+        "The crowd was euphoric after the final goal.",
+        "He described a euphoric feeling after the race."
+      ],
+      "pronunciation_tip": "yoo-FOR-ik — three syllables, stress on second.",
+      "common_mistake": "Don't say 'extremely happy' for intense joy — say 'euphoric'.",
+      "collocations": "['feel euphoric', 'euphoric reaction', 'euphoric state']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-09-w-020",
+      "word": "disheartened",
+      "part_of_speech": "adjective",
+      "definition": "feeling discouraged because something has not gone as hoped",
+      "example_sentences": [
+        "She was disheartened by the lack of progress.",
+        "Don't get disheartened — keep trying.",
+        "He felt disheartened after yet another rejection."
+      ],
+      "pronunciation_tip": "dis-HAR-tend — three syllables, stress on second.",
+      "common_mistake": "Don't say 'she lost hope' — say 'she felt disheartened'.",
+      "collocations": "['feel disheartened', 'become disheartened', 'disheartened by']",
+      "difficulty": 3
+    }
+  ]
+}

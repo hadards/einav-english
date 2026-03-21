@@ -1,0 +1,470 @@
+{
+  "id": "G-17",
+  "title": "Past continuous",
+  "level": "B1",
+  "order": 17,
+  "explain": {
+    "rule": "The past continuous (was/were + verb-ing) describes an action that was in progress at a specific moment in the past. Three main uses: (1) An ongoing action interrupted by a shorter past simple action — I was cooking when the phone rang. (2) Two parallel ongoing actions at the same time — While she was reading, he was watching TV. (3) Setting the scene or background in a story — It was raining and the streets were empty.",
+    "why_matters": "Past continuous makes your storytelling rich and natural. Native speakers use it constantly when telling stories and explaining what was happening when something occurred. Without it, your English sounds flat.",
+    "hebrew_note": "Hebrew uses past simple for all of these situations. 'בישלתי כשהטלפון צלצל' — both verbs in Hebrew past simple. In English you must distinguish: cooking was in progress (was cooking, past continuous) when the phone rang (completed interruption, past simple). This distinction is a clear B1 skill.",
+    "tip": "The key pattern: WHILE/WHEN + was/were + -ing (background) + past simple (event/interruption). The -ing action was already happening. The past simple action happened at a point during it. Also: use WHILE to connect two simultaneous -ing actions: While she was cooking, he was setting the table. Never use stative verbs (know, believe, want, love) in continuous forms.",
+    "form": {
+      "positive": "I/he/she/it + was + verb-ing | you/we/they + were + verb-ing",
+      "negative": "I/he/she/it + wasn't + verb-ing | you/we/they + weren't + verb-ing",
+      "question": "Was + I/he/she/it + verb-ing? | Were + you/we/they + verb-ing?"
+    },
+    "good_examples": [
+      {
+        "id": "G-17-ge-001",
+        "sentence": "I was watching TV when she called.",
+        "audio_text": "I was watching TV when she called.",
+        "note": "Interrupted action: watching (ongoing) + called (interruption)"
+      },
+      {
+        "id": "G-17-ge-002",
+        "sentence": "While he was driving, she was looking at the map.",
+        "audio_text": "While he was driving, she was looking at the map.",
+        "note": "Two parallel actions at the same time"
+      },
+      {
+        "id": "G-17-ge-003",
+        "sentence": "It was snowing when we arrived.",
+        "audio_text": "It was snowing when we arrived.",
+        "note": "Background scene (snowing) + completed event (arrived)"
+      },
+      {
+        "id": "G-17-ge-004",
+        "sentence": "What were you doing at 8 o'clock last night?",
+        "audio_text": "What were you doing at 8 o'clock last night?",
+        "note": "Asking about an ongoing action at a specific past time"
+      },
+      {
+        "id": "G-17-ge-005",
+        "sentence": "I was living in Paris when I met my partner.",
+        "audio_text": "I was living in Paris when I met my partner.",
+        "note": "Background situation + key event"
+      },
+      {
+        "id": "G-17-ge-006",
+        "sentence": "Sorry I missed your call — I was having a shower.",
+        "audio_text": "Sorry I missed your call — I was having a shower.",
+        "note": "Explanation for what was in progress"
+      },
+      {
+        "id": "G-17-ge-007",
+        "sentence": "The children were sleeping when we got home.",
+        "audio_text": "The children were sleeping when we got home.",
+        "note": "Ongoing action when we arrived"
+      },
+      {
+        "id": "G-17-ge-008",
+        "sentence": "While I was waiting, I noticed something strange.",
+        "audio_text": "While I was waiting, I noticed something strange.",
+        "note": "While + past continuous + past simple event during"
+      },
+      {
+        "id": "G-17-ge-009",
+        "sentence": "It was a typical morning: people were rushing to work and the cafés were filling up.",
+        "audio_text": "It was a typical morning.",
+        "note": "Scene-setting description of a past situation"
+      },
+      {
+        "id": "G-17-ge-010",
+        "sentence": "She wasn't paying attention when the teacher explained.",
+        "audio_text": "She wasn't paying attention when the teacher explained.",
+        "note": "Negative past continuous + interrupted by past simple"
+      }
+    ],
+    "bad_examples": [
+      {
+        "id": "G-17-be-001",
+        "wrong": "I cooked when the phone rang.",
+        "correct": "I was cooking when the phone rang.",
+        "reason": "Cooking was already in progress when the phone rang — past continuous needed for the background action."
+      },
+      {
+        "id": "G-17-be-002",
+        "wrong": "It was raining when I was leaving.",
+        "correct": "It was raining when I left.",
+        "reason": "Raining = ongoing background (past continuous). Leaving = completed interruption (past simple)."
+      },
+      {
+        "id": "G-17-be-003",
+        "wrong": "What did you do at 9pm yesterday? (asking about ongoing action)",
+        "correct": "What were you doing at 9pm yesterday?",
+        "reason": "Asking about an action in progress at a specific time → past continuous."
+      },
+      {
+        "id": "G-17-be-004",
+        "wrong": "She was knowing the answer.",
+        "correct": "She knew the answer.",
+        "reason": "Know is a stative verb — it does not use -ing forms in any tense."
+      },
+      {
+        "id": "G-17-be-005",
+        "wrong": "While I walked home, I found a wallet.",
+        "correct": "While I was walking home, I found a wallet.",
+        "reason": "Walking = ongoing action during which the finding happened → past continuous."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "G-17-ex-001",
+      "type": "fill_blank",
+      "question": "I ___ (watch) TV when the lights went out.",
+      "answer": "was watching",
+      "hint": "Ongoing action interrupted → past continuous",
+      "explanation": "was watching (ongoing) + went out (interruption).",
+      "hebrew_note": "פעולה שהייתה בתהליך = was/were + ing"
+    },
+    {
+      "id": "G-17-ex-002",
+      "type": "fill_blank",
+      "question": "While she ___ (read), he ___ (cook) dinner.",
+      "answer": "was reading / was cooking",
+      "hint": "Two parallel ongoing actions → both past continuous",
+      "explanation": "Two simultaneous ongoing actions → both past continuous.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-17-ex-003",
+      "type": "fill_blank",
+      "question": "It ___ (snow) when we ___ (arrive).",
+      "answer": "was snowing / arrived",
+      "hint": "Snow = ongoing background. Arrive = completed action.",
+      "explanation": "was snowing (background) + arrived (completed).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-17-ex-004",
+      "type": "fill_blank",
+      "question": "What ___ you ___ (do) at midnight last night?",
+      "answer": "were / doing",
+      "hint": "Action in progress at a specific past time → past continuous",
+      "explanation": "What were you doing? — ongoing at midnight.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-17-ex-005",
+      "type": "fill_blank",
+      "question": "She ___ (not / pay) attention when the teacher ___ (explain) the rule.",
+      "answer": "wasn't paying / explained",
+      "hint": "Not paying = ongoing. Explained = completed event.",
+      "explanation": "wasn't paying attention (ongoing) + explained (completed).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-17-ex-006",
+      "type": "fill_blank",
+      "question": "Sorry I missed your call — I ___ (have) a shower.",
+      "answer": "was having",
+      "hint": "What was in progress when the call came in",
+      "explanation": "was having a shower — in progress.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-17-ex-007",
+      "type": "fill_blank",
+      "question": "I ___ (live) in London when I ___ (meet) my best friend.",
+      "answer": "was living / met",
+      "hint": "Living = ongoing background. Met = specific event.",
+      "explanation": "was living (background) + met (specific event).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-17-ex-008",
+      "type": "fill_blank",
+      "question": "___ they ___ (wait) long when you arrived?",
+      "answer": "Were / waiting",
+      "hint": "Question about ongoing action in the past",
+      "explanation": "Were they waiting? — ongoing question.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-17-ex-009",
+      "type": "fill_blank",
+      "question": "The sun ___ (shine) and the birds ___ (sing) when I woke up.",
+      "answer": "was shining / were singing",
+      "hint": "Scene-setting in the past — both background actions",
+      "explanation": "Scene-setting: was shining, were singing — both background.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-17-ex-010",
+      "type": "fill_blank",
+      "question": "He ___ (drive) too fast when the accident ___ (happen).",
+      "answer": "was driving / happened",
+      "hint": "Ongoing dangerous action + the event",
+      "explanation": "was driving (ongoing) + happened (event).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-17-ex-011",
+      "type": "fill_blank",
+      "question": "While I ___ (walk) home, I ___ (find) a wallet on the pavement.",
+      "answer": "was walking / found",
+      "hint": "Walking = ongoing. Finding = completed event during the walk.",
+      "explanation": "was walking (ongoing) + found (event during).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-17-ex-012",
+      "type": "fill_blank",
+      "question": "She ___ (not / expect) to get the job but they called her that afternoon.",
+      "answer": "wasn't expecting",
+      "hint": "Ongoing mental state at that time",
+      "explanation": "wasn't expecting — her state of mind at that time.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-17-ex-013",
+      "type": "mcq",
+      "question": "I ___ to music when he knocked on the door.",
+      "answer": "was listening",
+      "hint": "Ongoing action interrupted",
+      "explanation": "was listening (ongoing) + knocked (interruption).",
+      "distractors": [
+        "listened",
+        "am listening",
+        "did listen"
+      ]
+    },
+    {
+      "id": "G-17-ex-014",
+      "type": "mcq",
+      "question": "While I was cooking, the children ___ their homework.",
+      "answer": "were doing",
+      "hint": "Parallel action — both in progress at the same time",
+      "explanation": "Two simultaneous actions → both past continuous.",
+      "distractors": [
+        "did",
+        "have done",
+        "do"
+      ]
+    },
+    {
+      "id": "G-17-ex-015",
+      "type": "mcq",
+      "question": "She ___ a book about grammar when I saw her.",
+      "answer": "was reading",
+      "hint": "Ongoing action at the time of seeing her",
+      "explanation": "was reading — in progress when I saw her.",
+      "distractors": [
+        "read",
+        "reads",
+        "has read"
+      ]
+    },
+    {
+      "id": "G-17-ex-016",
+      "type": "mcq",
+      "question": "She ___ the answer — she just pretended not to.",
+      "answer": "knew",
+      "hint": "know = stative verb. Does it take -ing?",
+      "explanation": "Know is stative — never use -ing. She knew the answer.",
+      "distractors": [
+        "was knowing",
+        "is knowing",
+        "has known"
+      ]
+    },
+    {
+      "id": "G-17-ex-017",
+      "type": "mcq",
+      "question": "The children ___ so loudly that I couldn't concentrate.",
+      "answer": "were talking",
+      "hint": "Ongoing noisy activity in the background",
+      "explanation": "were talking — ongoing background action.",
+      "distractors": [
+        "talked",
+        "have talked",
+        "was talking"
+      ]
+    },
+    {
+      "id": "G-17-ex-018",
+      "type": "mcq",
+      "question": "Which sentence uses past continuous correctly?",
+      "answer": "I was having dinner when she arrived.",
+      "hint": "Which shows a background action interrupted by an event?",
+      "explanation": "was having dinner (ongoing) + arrived (interruption) = correct past continuous use.",
+      "distractors": [
+        "I was having dinner yesterday.",
+        "I having dinner when she arrived.",
+        "I was have dinner when she arrived."
+      ]
+    },
+    {
+      "id": "G-17-ex-019",
+      "type": "error_correction",
+      "question": "Find and fix: 'I cooked when the phone rang.'",
+      "answer": "I was cooking when the phone rang.",
+      "hint": "Which action was already in progress?",
+      "explanation": "Cooking was in progress → past continuous. Rang = interruption → past simple.",
+      "hebrew_note": "פעולה שהייתה בתהליך ונקטעה = was/were + ing"
+    },
+    {
+      "id": "G-17-ex-020",
+      "type": "error_correction",
+      "question": "Find and fix: 'What did you do at 9pm last night? (about ongoing action)'",
+      "answer": "What were you doing at 9pm last night?",
+      "hint": "Asking about an action in progress at a specific time",
+      "explanation": "Ongoing action at a specific time → past continuous.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-17-ex-021",
+      "type": "error_correction",
+      "question": "Find and fix: 'It was raining when I was leaving the house.'",
+      "answer": "It was raining when I left the house.",
+      "hint": "The rain was ongoing — but leaving is the interruption",
+      "explanation": "Raining = background (past continuous). Left = completed action/interruption (past simple).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-17-ex-022",
+      "type": "error_correction",
+      "question": "Find and fix: 'She was knowing the answer all along.'",
+      "answer": "She knew the answer all along.",
+      "hint": "know = stative verb — no -ing forms",
+      "explanation": "Stative verbs never use -ing: know, believe, understand, love, hate, want.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-17-ex-023",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "was",
+        "I",
+        "when",
+        "watching",
+        "called",
+        "TV",
+        "she"
+      ],
+      "answer": "I was watching TV when she called.",
+      "hint": "Past continuous (background) + when + past simple (interruption)",
+      "explanation": "was watching (ongoing) + when + called (interruption)."
+    },
+    {
+      "id": "G-17-ex-024",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "while",
+        "he",
+        "was",
+        "driving",
+        "was",
+        "she",
+        "map",
+        "reading",
+        "the"
+      ],
+      "answer": "While he was driving, she was reading the map.",
+      "hint": "While + past continuous + past continuous",
+      "explanation": "Two simultaneous ongoing actions."
+    },
+    {
+      "id": "G-17-ex-025",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "were",
+        "what",
+        "you",
+        "at",
+        "doing",
+        "yesterday",
+        "noon"
+      ],
+      "answer": "What were you doing at noon yesterday?",
+      "hint": "Question about ongoing action at a specific past time",
+      "explanation": "What were you doing at noon? — ongoing action at specific time."
+    }
+  ],
+  "speak": [
+    {
+      "id": "G-17-sp-001",
+      "sentence": "I was having breakfast when I heard the news.",
+      "chunks": [
+        "I was having breakfast",
+        "when I heard the news."
+      ],
+      "phonetic_hints": "'Having' = HAV-ing. 'Heard' = HURD — irregular, not 'heared'.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-17-sp-002",
+      "sentence": "What were you doing when the earthquake happened?",
+      "chunks": [
+        "What were you doing",
+        "when the earthquake happened?"
+      ],
+      "phonetic_hints": "'Earthquake' = URTH-kwayk. 'Happened' = HAP-end.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-17-sp-003",
+      "sentence": "While she was waiting for the bus, she saw a car accident.",
+      "chunks": [
+        "While she was waiting for the bus,",
+        "she saw a car accident."
+      ],
+      "phonetic_hints": "'Waiting' = WAYT-ing. 'Accident' = AK-sih-dunt — three syllables.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-17-sp-004",
+      "sentence": "It was raining heavily and everyone was rushing to find shelter.",
+      "chunks": [
+        "It was raining heavily",
+        "and everyone was rushing to find shelter."
+      ],
+      "phonetic_hints": "'Heavily' = HEV-ih-lee. 'Rushing' = RUSH-ing. 'Shelter' = SHEL-ter.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-17-sp-005",
+      "sentence": "I was living in a tiny flat when I started my first real job.",
+      "chunks": [
+        "I was living in a tiny flat",
+        "when I started my first real job."
+      ],
+      "phonetic_hints": "'Tiny' = TY-nee. 'Flat' = FLAT. 'Real' = REEL.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-17-sp-006",
+      "sentence": "Sorry, were you trying to say something? I wasn't listening.",
+      "chunks": [
+        "Sorry, were you trying to say something?",
+        "I wasn't listening."
+      ],
+      "phonetic_hints": "'Trying' = TRY-ing. 'Listening' = LIS-un-ing — middle syllable very short.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-17-sp-007",
+      "sentence": "While the manager was talking, everyone was checking their phones.",
+      "chunks": [
+        "While the manager was talking,",
+        "everyone was checking their phones."
+      ],
+      "phonetic_hints": "'Manager' = MAN-ih-jer. 'Checking' = CHEK-ing. 'Everyone' = EV-ree-wun.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-17-sp-008",
+      "sentence": "The whole city was still sleeping when the news broke.",
+      "chunks": [
+        "The whole city was still sleeping",
+        "when the news broke."
+      ],
+      "phonetic_hints": "'Whole' = HOHL — W is silent. 'Sleeping' = SLEEP-ing. 'Broke' = BROHK.",
+      "pass_threshold": 0.65
+    }
+  ]
+}
