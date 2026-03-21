@@ -1,0 +1,8 @@
+.env.local
+.env*.local
+node_modules/
+app/dist/
+app/.angular/
+*.js.map
+design/srs_unpacked/
+design/plan_unpacked/
