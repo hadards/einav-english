@@ -1,0 +1,7 @@
+{
+  "name": "einav-english-learn",
+  "private": true,
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.40.0"
+  }
+}
