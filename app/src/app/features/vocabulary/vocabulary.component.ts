@@ -1,5 +1,7 @@
-import { Component, inject, signal, computed } from '@angular/core';
+import { Component, inject, signal, computed, DestroyRef } from '@angular/core';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { RouterLink } from '@angular/router';
+import { Subscription } from 'rxjs';
 import { SyllabusService } from '../../core/services/syllabus.service';
 import { VocabularyService } from '../../core/services/vocabulary.service';
 import { VocabFlashcardComponent } from './vocab-flashcard.component';
@@ -69,6 +71,7 @@ type ViewState = 'list' | 'flashcard';
 export class VocabularyComponent {
   private syllabusService = inject(SyllabusService);
   private vocabService = inject(VocabularyService);
+  private readonly destroyRef = inject(DestroyRef);
 
   readonly levels: ContentLevel[] = ['A2', 'B1', 'B2'];
   readonly activeLevel = signal<ContentLevel>('A2');
@@ -76,26 +79,32 @@ export class VocabularyComponent {
   readonly activeSet = signal<VocabSet | null>(null);
   readonly loading = signal<string | null>(null);
 
-  readonly allVocabEntries = computed(() =>
-    this.syllabusService.getByType('vocabulary')
-  );
+  private readonly allVocabEntries = this.syllabusService.getByType('vocabulary');
 
   readonly activeEntries = computed(() =>
-    this.allVocabEntries().filter(e => e.level === this.activeLevel())
+    this.allVocabEntries.filter(e => e.level === this.activeLevel())
   );
 
+  private openSetSub: Subscription | null = null;
+
   openSet(id: string) {
+    // Cancel any in-flight request before starting a new one
+    this.openSetSub?.unsubscribe();
     this.loading.set(id);
-    this.vocabService.getVocabSet(id).subscribe({
-      next: set => {
-        this.activeSet.set(set);
-        this.loading.set(null);
-        this.view.set('flashcard');
-      },
-      error: () => {
-        this.loading.set(null);
-      },
-    });
+    this.openSetSub = this.vocabService.getVocabSet(id)
+      .pipe(takeUntilDestroyed(this.destroyRef))
+      .subscribe({
+        next: set => {
+          this.activeSet.set(set);
+          this.loading.set(null);
+          this.view.set('flashcard');
+          this.openSetSub = null;
+        },
+        error: () => {
+          this.loading.set(null);
+          this.openSetSub = null;
+        },
+      });
   }
 
   backToList() {
