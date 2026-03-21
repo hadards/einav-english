@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import Anthropic from '@anthropic-ai/sdk';
+import Groq from 'groq-sdk';
 
 const SYSTEM_PROMPT = `You are an encouraging English tutor for Einav, a Hebrew-speaking adult learner at A2–B2 level.
 
@@ -40,9 +40,9 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(401).json({ error: 'Unauthorized' });
   }
 
-  const apiKey = process.env['ANTHROPIC_API_KEY'];
+  const apiKey = process.env['GROQ_API_KEY'];
   if (!apiKey) {
-    return res.status(500).json({ error: 'ANTHROPIC_API_KEY not configured' });
+    return res.status(500).json({ error: 'GROQ_API_KEY not configured' });
   }
 
   const { messages } = (req.body ?? {}) as RequestBody;
@@ -64,26 +64,27 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   // Cap history to last MAX_MESSAGES to bound token costs
   const trimmedMessages = messages.slice(-MAX_MESSAGES);
 
-  const client = new Anthropic({ apiKey });
+  const client = new Groq({ apiKey });
 
   res.setHeader('Content-Type', 'text/event-stream');
   res.setHeader('Cache-Control', 'no-cache');
   res.setHeader('Connection', 'keep-alive');
 
   try {
-    const stream = await client.messages.stream({
-      model: 'claude-haiku-4-5-20251001',
+    const stream = await client.chat.completions.create({
+      model: 'llama-3.1-8b-instant',
       max_tokens: 512,
-      system: SYSTEM_PROMPT,
-      messages: trimmedMessages,
+      messages: [
+        { role: 'system', content: SYSTEM_PROMPT },
+        ...trimmedMessages,
+      ],
+      stream: true,
     });
 
     for await (const chunk of stream) {
-      if (
-        chunk.type === 'content_block_delta' &&
-        chunk.delta.type === 'text_delta'
-      ) {
-        res.write(`data: ${JSON.stringify({ text: chunk.delta.text })}\n\n`);
+      const text = chunk.choices[0]?.delta?.content;
+      if (text) {
+        res.write(`data: ${JSON.stringify({ text })}\n\n`);
       }
     }
 

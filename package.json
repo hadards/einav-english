@@ -2,6 +2,6 @@
   "name": "einav-english-learn",
   "private": true,
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.40.0"
+    "groq-sdk": "^0.9.0"
   }
 }
