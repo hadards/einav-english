@@ -1,4 +1,4 @@
-import { Component, Input, Output, EventEmitter, signal, computed, OnInit } from '@angular/core';
+import { Component, Input, Output, EventEmitter, signal, computed, OnInit, OnDestroy } from '@angular/core';
 import type { VocabSet, WordEntry } from '@shared/vocabulary.schema';
 
 type CardFace = 'front' | 'back';
@@ -50,9 +50,17 @@ interface CardItem {
         >
           <!-- Front -->
           <div class="flex items-start justify-between">
-            <div>
-              <p class="text-2xl font-bold text-gray-900">{{ current()!.word.word }}</p>
-              <p class="text-sm text-gray-400 italic capitalize">{{ current()!.word.part_of_speech }}</p>
+            <div class="flex items-center gap-2">
+              <div>
+                <p class="text-2xl font-bold text-gray-900">{{ current()!.word.word }}</p>
+                <p class="text-sm text-gray-400 italic capitalize">{{ current()!.word.part_of_speech }}</p>
+              </div>
+              <button
+                (click)="$event.stopPropagation(); speak(current()!.word.word)"
+                class="flex items-center justify-center rounded-full min-w-[36px] min-h-[36px]"
+                style="background:#eef2ff;color:#6366f1;font-size:18px;border:none;cursor:pointer"
+                title="Hear pronunciation"
+              >🔊</button>
             </div>
             <span class="text-xs px-2 py-1 rounded-full bg-gray-100 text-gray-500">
               {{ face() === 'front' ? 'Tap to reveal' : 'Tap to flip' }}
@@ -111,7 +119,7 @@ interface CardItem {
     </div>
   `,
 })
-export class VocabFlashcardComponent implements OnInit {
+export class VocabFlashcardComponent implements OnInit, OnDestroy {
   @Input({ required: true }) vocabSet!: VocabSet;
   @Output('done') done_ = new EventEmitter<void>();
 
@@ -144,6 +152,18 @@ export class VocabFlashcardComponent implements OnInit {
     const total = this.cards().length;
     return total ? Math.round((this.currentIndex() / total) * 100) : 0;
   });
+
+  speak(word: string) {
+    speechSynthesis.cancel();
+    const utt = new SpeechSynthesisUtterance(word);
+    utt.lang = 'en-US';
+    utt.rate = 0.85;
+    speechSynthesis.speak(utt);
+  }
+
+  ngOnDestroy() {
+    speechSynthesis.cancel();
+  }
 
   flip() {
     this.face.update(f => (f === 'front' ? 'back' : 'front'));
