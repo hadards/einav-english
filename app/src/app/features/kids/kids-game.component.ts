@@ -236,17 +236,17 @@ function playVictoryFanfare(): void {
           </p>
           <div class="flex flex-col gap-4 w-full max-w-sm">
             <button (click)="startGame('tap')" class="mode-btn px-6 py-5 rounded-2xl text-white font-black text-left"
-              style="background:#6333ff;border:none;cursor:pointer">
+              style="background:#6333ff;cursor:pointer">
               <p style="font-family:'Press Start 2P',monospace;font-size:12px;margin-bottom:6px">⚡ TAP IT</p>
               <p style="font-family:'Nunito',sans-serif;font-size:14px;opacity:0.85">Hear the word — tap the right picture!</p>
             </button>
             <button (click)="startGame('feed')" class="mode-btn px-6 py-5 rounded-2xl text-white font-black text-left"
-              style="background:#33cc33;border:none;cursor:pointer">
+              style="background:#33cc33;cursor:pointer">
               <p style="font-family:'Press Start 2P',monospace;font-size:11px;margin-bottom:6px">🐲 FEED THE MONSTER</p>
               <p style="font-family:'Nunito',sans-serif;font-size:14px;opacity:0.85">Feed the right emoji!</p>
             </button>
             <button (click)="startGame('speed')" class="mode-btn px-6 py-5 rounded-2xl text-white font-black text-left"
-              style="background:#ff3333;border:none;cursor:pointer">
+              style="background:#ff3333;cursor:pointer">
               <p style="font-family:'Press Start 2P',monospace;font-size:12px;margin-bottom:6px">⏱ SPEED RUN</p>
               <p style="font-family:'Nunito',sans-serif;font-size:14px;opacity:0.85">30 seconds — go fast!</p>
             </button>

@@ -267,12 +267,6 @@ export class KidsStoryComponent implements OnInit, OnDestroy {
     this.collectedLetters().length > 0 && this.collectedLetters().every(Boolean)
   );
 
-  readonly sceneBg = computed(() => {
-    const loc = this.location();
-    if (!loc) return '#1a1a2e';
-    return `linear-gradient(160deg, ${loc.bgFrom}, ${loc.bgTo})`;
-  });
-
   speakPhase(phase: StoryPhase, loc: ReturnType<typeof this.location>, word: KidsWord | null) {
     if (!loc) return;
     switch (phase) {
