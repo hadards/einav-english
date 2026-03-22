@@ -32,5 +32,17 @@ export const routes: Routes = [
     loadComponent: () => import('./features/chat/chat.component').then(m => m.ChatComponent),
     canActivate: [authGuard],
   },
+  {
+    path: 'kids',
+    loadComponent: () => import('./features/kids/kids-home.component').then(m => m.KidsHomeComponent),
+  },
+  {
+    path: 'kids/story/:locationId',
+    loadComponent: () => import('./features/kids/kids-story.component').then(m => m.KidsStoryComponent),
+  },
+  {
+    path: 'kids/game/:locationId/:mode',
+    loadComponent: () => import('./features/kids/kids-game.component').then(m => m.KidsGameComponent),
+  },
   { path: '**', redirectTo: 'login' },
 ];
