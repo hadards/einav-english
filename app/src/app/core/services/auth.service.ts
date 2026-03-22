@@ -25,15 +25,15 @@ export class AuthService {
   constructor() {
     const destroyRef = inject(DestroyRef);
 
-    this.supabase.auth.getSession().then(({ data }) => {
-      this.currentUser$.set(data.session?.user ?? null);
-      this.currentSession$.set(data.session ?? null);
-      this.sessionReady$.set(true);
-    });
-
-    const { data: { subscription } } = this.supabase.auth.onAuthStateChange((_event, session) => {
+    // onAuthStateChange fires with INITIAL_SESSION on page load (including after
+    // OAuth redirect — PKCE code exchange happens inside the SDK before this fires).
+    // We mark sessionReady only after that event so the guard doesn't race.
+    const { data: { subscription } } = this.supabase.auth.onAuthStateChange((event, session) => {
       this.currentUser$.set(session?.user ?? null);
       this.currentSession$.set(session ?? null);
+      if (!this.sessionReady$()) {
+        this.sessionReady$.set(true);
+      }
     });
 
     destroyRef.onDestroy(() => subscription.unsubscribe());

@@ -231,7 +231,7 @@ function playWrongSound(): void {
               </button>
             }
           </div>
-          @if (spellAnswer().some(c => c !== '') && phase() === 'playing') {
+          @if (spellHasInput() && phase() === 'playing') {
             <button (click)="clearSpell()"
               style="font-family:'Nunito',sans-serif;font-size:14px;color:rgba(255,255,255,0.5);background:none;border:none;cursor:pointer">
               ✕ Clear
@@ -314,6 +314,7 @@ export class KidsGameComponent implements OnInit, OnDestroy {
   readonly spellLetters = signal<string[]>([]);
   readonly spellUsed = signal<boolean[]>([]);
   readonly spellAnswer = signal<string[]>([]);
+  readonly spellHasInput = computed(() => this.spellAnswer().some(c => c !== ''));
 
   private readonly locationId = signal('');
   private shuffledWords: WordItem[] = [];
@@ -330,10 +331,10 @@ export class KidsGameComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     this.locationId.set(this.route.snapshot.paramMap.get('locationId') ?? '');
-    const mode = (this.route.snapshot.paramMap.get('mode') ?? 'select') as GameMode;
+    const modeParam = this.route.snapshot.paramMap.get('mode') ?? '';
     this.allWords = KIDS_LOCATIONS.flatMap(l => l.words.map(w => ({ word: w.word, emoji: w.emoji })));
-    if (mode !== 'select') {
-      this.startGame(mode);
+    if (modeParam === 'tap' || modeParam === 'spell' || modeParam === 'speed') {
+      this.startGame(modeParam);
     }
   }
 
