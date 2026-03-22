@@ -333,7 +333,7 @@ export class KidsHomeComponent implements OnInit, OnDestroy, AfterViewInit {
 
   readonly games = [
     { mode: 'tap',   icon: '⚡', label: 'TAP IT',    desc: 'Tap the right picture!', bg: 'linear-gradient(135deg,#6366f1,#8b5cf6)' },
-    { mode: 'spell', icon: '🔤', label: 'SPELL IT',  desc: 'Tap letters in order!',  bg: 'linear-gradient(135deg,#0ea5e9,#0284c7)' },
+    { mode: 'feed',  icon: '🐲', label: 'FEED MONSTER', desc: 'Feed the right emoji!', bg: 'linear-gradient(135deg,#10b981,#059669)' },
     { mode: 'speed', icon: '⏱', label: 'SPEED RUN', desc: '30 seconds — go fast!',  bg: 'linear-gradient(135deg,#f43f5e,#e11d48)' },
   ];
 

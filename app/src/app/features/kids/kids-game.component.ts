@@ -2,7 +2,8 @@ import { Component, signal, computed, effect, OnInit, OnDestroy, inject } from '
 import { ActivatedRoute, Router } from '@angular/router';
 import { KIDS_LOCATIONS, loadKidsProgress, saveKidsProgress } from './kids.data';
 
-type GameMode = 'tap' | 'spell' | 'speed';
+type GameMode = 'tap' | 'feed' | 'speed';
+type MonsterState = 'idle' | 'happy' | 'sad';
 type GamePhase = 'select' | 'playing' | 'correct' | 'wrong' | 'done';
 
 interface WordItem {
@@ -53,6 +54,22 @@ function playWrongSound(): void {
     gain.gain.setValueAtTime(0.15, t);
     gain.gain.exponentialRampToValueAtTime(0.001, t + 0.3);
     osc.start(t); osc.stop(t + 0.3);
+    osc.onended = () => ctx.close();
+  } catch { /* ignore */ }
+}
+
+function playBurpSound(): void {
+  try {
+    const ctx = new AudioContext();
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+    osc.connect(gain); gain.connect(ctx.destination);
+    osc.type = 'sawtooth';
+    osc.frequency.setValueAtTime(180, ctx.currentTime);
+    osc.frequency.exponentialRampToValueAtTime(80, ctx.currentTime + 0.4);
+    gain.gain.setValueAtTime(0.3, ctx.currentTime);
+    gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.4);
+    osc.start(); osc.stop(ctx.currentTime + 0.4);
     osc.onended = () => ctx.close();
   } catch { /* ignore */ }
 }
@@ -151,6 +168,30 @@ function playVictoryFanfare(): void {
       60%  { transform: scale(1.4); opacity:1; }
       100% { transform: scale(1); opacity:1; }
     }
+
+    .monster-happy { animation: monsterBounce 0.5s cubic-bezier(0.34,1.56,0.64,1) both; }
+    @keyframes monsterBounce {
+      0%,100% { transform: translateY(0) scale(1); }
+      40%     { transform: translateY(-18px) scale(1.08); }
+    }
+    .monster-sad { animation: monsterShake 0.45s ease both; }
+    @keyframes monsterShake {
+      0%,100% { transform: translateX(0); }
+      20%     { transform: translateX(-12px); }
+      40%     { transform: translateX(12px); }
+      60%     { transform: translateX(-8px); }
+      80%     { transform: translateX(8px); }
+    }
+    .feed-choice {
+      border: 4px solid #000;
+      box-shadow: 0 6px 0 #000;
+      cursor: pointer;
+      transition: transform 0.12s ease, box-shadow 0.12s ease;
+      background: white;
+      border-radius: 12px;
+    }
+    .feed-choice:hover  { transform: translateY(-4px); box-shadow: 0 10px 0 #000; }
+    .feed-choice:active { transform: translateY(2px);  box-shadow: 0 2px 0 #000; }
   `],
   template: `
     @if (showConfetti()) {
@@ -194,10 +235,10 @@ function playVictoryFanfare(): void {
               <p style="font-family:'Press Start 2P',monospace;font-size:12px;margin-bottom:6px">⚡ TAP IT</p>
               <p style="font-family:'Nunito',sans-serif;font-size:14px;opacity:0.85">Hear the word — tap the right picture!</p>
             </button>
-            <button (click)="startGame('spell')" class="mode-btn px-6 py-5 rounded-2xl text-white font-black text-left"
+            <button (click)="startGame('feed')" class="mode-btn px-6 py-5 rounded-2xl text-white font-black text-left"
               style="background:linear-gradient(135deg,#10b981,#059669);border:none;cursor:pointer">
-              <p style="font-family:'Press Start 2P',monospace;font-size:12px;margin-bottom:6px">🔤 SPELL IT</p>
-              <p style="font-family:'Nunito',sans-serif;font-size:14px;opacity:0.85">Tap the letters in order!</p>
+              <p style="font-family:'Press Start 2P',monospace;font-size:11px;margin-bottom:6px">🐲 FEED THE MONSTER</p>
+              <p style="font-family:'Nunito',sans-serif;font-size:14px;opacity:0.85">Feed the right emoji!</p>
             </button>
             <button (click)="startGame('speed')" class="mode-btn px-6 py-5 rounded-2xl text-white font-black text-left"
               style="background:linear-gradient(135deg,#f43f5e,#e11d48);border:none;cursor:pointer">
@@ -233,38 +274,56 @@ function playVictoryFanfare(): void {
         </div>
       }
 
-      <!-- SPELL IT -->
-      @if (isActiveGame() && currentMode() === 'spell') {
-        <div class="flex-1 flex flex-col items-center justify-center gap-6 px-4">
-          <div class="game-card px-6 py-5 text-center w-full max-w-sm flex flex-col items-center gap-3">
-            <span style="font-size:80px;line-height:1">{{ currentWord()?.emoji }}</span>
-            <p style="font-family:'Nunito',sans-serif;font-size:16px;color:rgba(255,255,255,0.7)">Spell the word!</p>
-            <div class="flex gap-2 justify-center">
-              @for (ch of spellAnswer(); track $index) {
-                <div class="w-12 h-12 rounded-xl flex items-center justify-center"
-                  [style.background]="ch ? '#fbbf24' : 'rgba(255,255,255,0.1)'"
-                  style="font-family:'Press Start 2P',monospace;font-size:16px;color:#1a1a2e;border:2px solid rgba(255,255,255,0.2)">
-                  {{ ch }}
-                </div>
-              }
-            </div>
+      <!-- FEED THE MONSTER -->
+      @if (isActiveGame() && currentMode() === 'feed') {
+        <div class="flex-1 flex flex-col items-center justify-center gap-4 px-4">
+
+          <!-- Word prompt -->
+          <div style="background:#1a1a2e;border:4px solid #000;box-shadow:0 6px 0 #000;border-radius:12px;padding:10px 20px;text-align:center">
+            <p style="font-family:'Press Start 2P',monospace;font-size:10px;color:rgba(255,255,255,0.7);margin-bottom:6px">Feed the monster!</p>
+            <button (click)="speakCurrent()"
+              style="font-family:'Press Start 2P',monospace;font-size:15px;color:#ffcc00;text-shadow:2px 2px 0 #000;background:none;border:none;cursor:pointer">
+              🔊 {{ currentWord()?.word }}
+            </button>
           </div>
-          <div class="flex flex-wrap gap-3 justify-center max-w-xs">
-            @for (letter of spellLetters(); track $index; let i = $index) {
-              <button (click)="tapSpellLetter(i)" [disabled]="spellUsed()[i] || phase() !== 'playing'"
-                class="choice-btn w-14 h-14 rounded-2xl flex items-center justify-center font-black"
-                [style.opacity]="spellUsed()[i] ? '0.3' : '1'"
-                style="background:rgba(255,255,255,0.15);border:3px solid rgba(255,255,255,0.25);cursor:pointer;font-family:'Press Start 2P',monospace;font-size:16px;color:white">
-                {{ letter }}
+
+          <!-- Monster SVG -->
+          <div [class]="monsterState() === 'happy' ? 'monster-happy' : monsterState() === 'sad' ? 'monster-sad' : ''">
+            <svg width="150" height="170" viewBox="0 0 160 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="20" y="60" width="120" height="100" rx="8" fill="#33cc33" stroke="#000" stroke-width="4"/>
+              <rect x="24" y="8"  width="112" height="72" rx="8" fill="#33cc33" stroke="#000" stroke-width="4"/>
+              <polygon points="36,8 50,8 42,-16"   fill="#ff3333" stroke="#000" stroke-width="3"/>
+              <polygon points="110,8 124,8 118,-16" fill="#ff3333" stroke="#000" stroke-width="3"/>
+              <rect x="38" y="24" width="28" height="28" rx="4" fill="white" stroke="#000" stroke-width="3"/>
+              <rect x="94" y="24" width="28" height="28" rx="4" fill="white" stroke="#000" stroke-width="3"/>
+              <rect x="47" y="32" width="12" height="12" rx="2" fill="#000"/>
+              <rect x="103" y="32" width="12" height="12" rx="2" fill="#000"/>
+              <rect x="49" y="33" width="4" height="4" rx="1" fill="white"/>
+              <rect x="105" y="33" width="4" height="4" rx="1" fill="white"/>
+              <path [attr.d]="monsterFaceD()" stroke="#000" stroke-width="4" fill="none" stroke-linecap="round"/>
+              @if (monsterMouthOpen()) {
+                <rect x="62" y="58" width="12" height="10" rx="2" fill="white" stroke="#000" stroke-width="2"/>
+                <rect x="78" y="58" width="12" height="10" rx="2" fill="white" stroke="#000" stroke-width="2"/>
+              }
+              <rect x="-4"  y="70" width="28" height="16" rx="6" fill="#33cc33" stroke="#000" stroke-width="4"/>
+              <rect x="136" y="70" width="28" height="16" rx="6" fill="#33cc33" stroke="#000" stroke-width="4"/>
+              <rect x="36"  y="152" width="32" height="24" rx="6" fill="#1a9a1a" stroke="#000" stroke-width="4"/>
+              <rect x="92"  y="152" width="32" height="24" rx="6" fill="#1a9a1a" stroke="#000" stroke-width="4"/>
+              <rect x="58" y="80" width="16" height="16" rx="4" fill="#22aa22" stroke="#000" stroke-width="2"/>
+              <rect x="86" y="90" width="12" height="12" rx="3" fill="#22aa22" stroke="#000" stroke-width="2"/>
+            </svg>
+          </div>
+
+          <!-- 4 Emoji choices (2x2 grid) -->
+          <div class="grid grid-cols-2 gap-4 w-full max-w-xs">
+            @for (choice of choices(); track choice.word) {
+              <button (click)="tapFeedChoice(choice)" [disabled]="phase() !== 'playing'"
+                class="feed-choice flex flex-col items-center justify-center gap-1 py-4">
+                <span style="font-size:56px;line-height:1">{{ choice.emoji }}</span>
               </button>
             }
           </div>
-          @if (spellHasInput() && phase() === 'playing') {
-            <button (click)="clearSpell()"
-              style="font-family:'Nunito',sans-serif;font-size:14px;color:rgba(255,255,255,0.5);background:none;border:none;cursor:pointer">
-              ✕ Clear
-            </button>
-          }
+
         </div>
       }
 
@@ -345,10 +404,14 @@ export class KidsGameComponent implements OnInit, OnDestroy {
   readonly tappedWrong = signal('');
   readonly showConfetti = signal(false);
   readonly timeLeft = signal(30);
-  readonly spellLetters = signal<string[]>([]);
-  readonly spellUsed = signal<boolean[]>([]);
-  readonly spellAnswer = signal<string[]>([]);
-  readonly spellHasInput = computed(() => this.spellAnswer().some(c => c !== ''));
+  readonly monsterState = signal<MonsterState>('idle');
+  readonly monsterFaceD = computed(() => {
+    const s = this.monsterState();
+    if (s === 'happy') return 'M 22 56 Q 32 70 42 56';
+    if (s === 'sad')   return 'M 22 62 Q 32 50 42 62';
+    return 'M 22 60 L 42 60';
+  });
+  readonly monsterMouthOpen = computed(() => this.monsterState() === 'happy');
 
   private readonly locationId = signal('');
   private shuffledWords: WordItem[] = [];
@@ -375,7 +438,7 @@ export class KidsGameComponent implements OnInit, OnDestroy {
     this.locationId.set(this.route.snapshot.paramMap.get('locationId') ?? '');
     const modeParam = this.route.snapshot.paramMap.get('mode') ?? '';
     this.allWords = KIDS_LOCATIONS.flatMap(l => l.words.map(w => ({ word: w.word, emoji: w.emoji })));
-    if (modeParam === 'tap' || modeParam === 'spell' || modeParam === 'speed') {
+    if (modeParam === 'tap' || modeParam === 'feed' || modeParam === 'speed') {
       this.startGame(modeParam);
     }
   }
@@ -442,13 +505,6 @@ export class KidsGameComponent implements OnInit, OnDestroy {
     const wrong = shuffle(this.allWords.filter(w => w.word !== cur.word)).slice(0, 3);
     this.choices.set(shuffle([{ word: cur.word, emoji: cur.emoji }, ...wrong]));
     this.speak(cur.audioWord);
-    if (this.currentMode() === 'spell') {
-      const letters = cur.word.toUpperCase().split('');
-      const extra = 'AEIOUTRNS'.split('').filter(c => !letters.includes(c)).slice(0, 3);
-      this.spellLetters.set(shuffle([...letters, ...extra]));
-      this.spellUsed.set(new Array(letters.length + extra.length).fill(false));
-      this.spellAnswer.set(new Array(letters.length).fill(''));
-    }
   }
 
   tapChoice(choice: { word: string; emoji: string }) {
@@ -469,41 +525,24 @@ export class KidsGameComponent implements OnInit, OnDestroy {
     }
   }
 
-  tapSpellLetter(idx: number) {
-    if (this.phase() !== 'playing' || this.spellUsed()[idx]) return;
-    const letter = this.spellLetters()[idx];
-    const answerSlot = this.spellAnswer().findIndex(c => c === '');
-    if (answerSlot === -1) return;
-    const newAnswer = [...this.spellAnswer()];
-    newAnswer[answerSlot] = letter;
-    this.spellAnswer.set(newAnswer);
-    const newUsed = [...this.spellUsed()];
-    newUsed[idx] = true;
-    this.spellUsed.set(newUsed);
+  tapFeedChoice(choice: { word: string; emoji: string }) {
+    if (this.phase() !== 'playing') return;
     const cur = this.currentWord();
     if (!cur) return;
-    if (newAnswer.every(c => c !== '')) {
-      if (newAnswer.join('') === cur.word.toUpperCase()) {
-        this.score.update(s => s + 1);
-        playCorrectSound();
-        this.triggerConfetti();
-        this.phase.set('correct');
-        setTimeout(() => this.advanceWord(), 900);
-      } else {
-        playWrongSound();
-        this.phase.set('wrong');
-        setTimeout(() => { this.clearSpell(); this.phase.set('playing'); }, 900);
-      }
+    if (choice.word === cur.word) {
+      this.score.update(s => s + 1);
+      this.monsterState.set('happy');
+      playBurpSound();
+      this.triggerConfetti();
+      this.phase.set('correct');
+      setTimeout(() => { this.monsterState.set('idle'); this.advanceWord(); }, 1000);
+    } else {
+      this.tappedWrong.set(choice.word);
+      playWrongSound();
+      this.monsterState.set('sad');
+      this.phase.set('wrong');
+      setTimeout(() => { this.monsterState.set('idle'); this.advanceWord(); }, 1000);
     }
-  }
-
-  clearSpell() {
-    const cur = this.currentWord();
-    if (!cur) return;
-    const letters = cur.word.toUpperCase().split('');
-    const extra = 'AEIOUTRNS'.split('').filter(c => !letters.includes(c)).slice(0, 3);
-    this.spellUsed.set(new Array(letters.length + extra.length).fill(false));
-    this.spellAnswer.set(new Array(letters.length).fill(''));
   }
 
   private advanceWord() {
