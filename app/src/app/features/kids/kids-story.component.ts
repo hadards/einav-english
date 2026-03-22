@@ -49,11 +49,12 @@ type StoryPhase = 'intro' | 'letter' | 'word' | 'collect' | 'done';
     }
 
     .tap-btn {
+      border: 4px solid #000 !important;
+      box-shadow: 0 6px 0 #000, 0 8px 20px rgba(0,0,0,0.5);
       transition: transform 0.12s ease, box-shadow 0.12s ease;
-      box-shadow: 0 6px 0 rgba(0,0,0,0.25);
     }
-    .tap-btn:hover { transform: translateY(-3px); box-shadow: 0 9px 0 rgba(0,0,0,0.2); }
-    .tap-btn:active { transform: translateY(3px); box-shadow: 0 2px 0 rgba(0,0,0,0.2); }
+    .tap-btn:hover  { transform: translateY(-3px); box-shadow: 0 9px 0 #000; }
+    .tap-btn:active { transform: translateY(4px);  box-shadow: 0 2px 0 #000; }
 
     .xp-float {
       animation: xpFloat 1s ease forwards;
@@ -74,12 +75,12 @@ type StoryPhase = 'intro' | 'letter' | 'word' | 'collect' | 'done';
     }
   `],
   template: `
-    <div class="scene-bg flex flex-col" [style.background]="sceneBg()">
+    <div class="scene-bg flex flex-col" [style.background]="'#1a1a2e'">
 
       <!-- Top bar -->
       <div class="px-4 pt-4 pb-3 flex items-center gap-3">
         <button (click)="goBack()" class="tap-btn flex items-center justify-center rounded-2xl w-12 h-12"
-          style="background:rgba(255,255,255,0.9);font-size:20px;border:none;cursor:pointer">←</button>
+          style="background:rgba(255,255,255,0.9);font-size:20px;border:4px solid #000;cursor:pointer;box-shadow:0 4px 0 #000;border-radius:8px">←</button>
         <div class="flex items-center gap-2 flex-1">
           <span style="font-size:24px">{{ location()?.emoji }}</span>
           <span style="font-family:'Press Start 2P',monospace;font-size:11px;color:white;text-shadow:2px 2px 0 rgba(0,0,0,0.3)">
@@ -95,7 +96,7 @@ type StoryPhase = 'intro' | 'letter' | 'word' | 'collect' | 'done';
       <div class="relative" style="height:0">
         @if (showXp()) {
           <div class="xp-float absolute left-1/2 -translate-x-1/2" style="top:-20px;z-index:50">
-            <span style="font-family:'Press Start 2P',monospace;font-size:14px;color:#fbbf24;text-shadow:2px 2px 0 rgba(0,0,0,0.4)">+10 XP!</span>
+            <span style="font-family:'Press Start 2P',monospace;font-size:14px;color:#ffcc00;text-shadow:2px 2px 0 rgba(0,0,0,0.4)">+10 XP!</span>
           </div>
         }
       </div>
@@ -111,7 +112,7 @@ type StoryPhase = 'intro' | 'letter' | 'word' | 'collect' | 'done';
             Learn letters {{ location()?.letters }} 🎉
           </p>
           <button (click)="startStory()" class="tap-btn px-8 py-4 rounded-2xl font-black text-white"
-            style="background:linear-gradient(135deg,#fbbf24,#f59e0b);font-family:'Nunito',sans-serif;font-size:20px;border:none;cursor:pointer">
+            style="background:#ffcc00;color:#1a1a2e;font-family:'Nunito',sans-serif;font-size:20px;cursor:pointer">
             LET'S GO! 🚀
           </button>
         </div>
@@ -120,9 +121,9 @@ type StoryPhase = 'intro' | 'letter' | 'word' | 'collect' | 'done';
       <!-- LETTER phase -->
       @if (phase() === 'letter' && currentWord()) {
         <div class="flex-1 flex flex-col items-center justify-center gap-6 px-6 text-center">
-          <div class="letter-pop w-40 h-40 rounded-3xl flex items-center justify-center"
-            style="background:rgba(255,255,255,0.95);box-shadow:0 8px 0 rgba(0,0,0,0.2)">
-            <span style="font-family:'Press Start 2P',monospace;font-size:72px;color:#6366f1;line-height:1">
+          <div class="letter-pop w-40 h-40 flex items-center justify-center"
+            style="background:#ffcc00;border:4px solid #000;box-shadow:0 8px 0 #000,0 10px 24px rgba(0,0,0,0.5);border-radius:12px">
+            <span style="font-family:'Press Start 2P',monospace;font-size:72px;color:#1a1a2e;line-height:1">
               {{ currentWord()!.letter }}
             </span>
           </div>
@@ -130,7 +131,7 @@ type StoryPhase = 'intro' | 'letter' | 'word' | 'collect' | 'done';
             {{ currentWord()!.letter }} is for...
           </p>
           <button (click)="advanceToWord()" class="tap-btn px-8 py-4 rounded-2xl text-white font-black"
-            style="background:linear-gradient(135deg,#6366f1,#8b5cf6);font-family:'Nunito',sans-serif;font-size:20px;border:none;cursor:pointer">
+            style="background:#cc33ff;font-family:'Nunito',sans-serif;font-size:20px;cursor:pointer">
             What is it? 👀
           </button>
         </div>
@@ -139,22 +140,22 @@ type StoryPhase = 'intro' | 'letter' | 'word' | 'collect' | 'done';
       <!-- WORD phase -->
       @if (phase() === 'word' && currentWord()) {
         <div class="flex-1 flex flex-col items-center justify-center gap-5 px-6 text-center">
-          <div class="emoji-bounce w-44 h-44 rounded-3xl flex items-center justify-center"
-            style="background:rgba(255,255,255,0.95);box-shadow:0 8px 0 rgba(0,0,0,0.2)">
+          <div class="emoji-bounce w-44 h-44 flex items-center justify-center"
+            style="background:#3399ff;border:4px solid #000;box-shadow:0 8px 0 #000;border-radius:12px">
             <span style="font-size:90px;line-height:1">{{ currentWord()!.emoji }}</span>
           </div>
           <div class="word-spell flex gap-1 justify-center flex-wrap">
             @for (ch of wordChars(); track $index; let i = $index) {
-              <span class="w-12 h-14 rounded-xl flex items-center justify-center font-black"
+              <span class="w-12 h-14 flex items-center justify-center font-black"
                 [style.animation-delay]="i*80+'ms'"
-                [style.background]="ch === currentWord()!.letter ? '#fbbf24' : 'rgba(255,255,255,0.9)'"
-                style="font-family:'Press Start 2P',monospace;font-size:18px;color:#1a1a2e;box-shadow:0 4px 0 rgba(0,0,0,0.2)">
+                [style.background]="ch === currentWord()!.letter ? '#ffcc00' : 'white'"
+                style="font-family:'Press Start 2P',monospace;font-size:18px;color:#1a1a2e;border:3px solid #000;box-shadow:0 4px 0 #000;border-radius:8px">
                 {{ ch }}
               </span>
             }
           </div>
           <button (click)="speakAndAdvance()" class="tap-btn px-8 py-4 rounded-2xl text-white font-black"
-            style="background:linear-gradient(135deg,#10b981,#059669);font-family:'Nunito',sans-serif;font-size:20px;border:none;cursor:pointer">
+            style="background:#33cc33;font-family:'Nunito',sans-serif;font-size:20px;cursor:pointer">
             🔊 {{ currentWord()!.word }}!
           </button>
         </div>
@@ -169,18 +170,18 @@ type StoryPhase = 'intro' | 'letter' | 'word' | 'collect' | 'done';
           <div class="flex gap-3 justify-center flex-wrap">
             @for (ch of wordChars(); track $index; let i = $index) {
               <button (click)="collectLetter(i)"
-                class="collect-chip w-16 h-16 rounded-2xl flex items-center justify-center font-black transition-all"
+                class="collect-chip w-16 h-16 flex items-center justify-center font-black transition-all"
                 [style.animation-delay]="i*60+'ms'"
-                [style.background]="collectedLetters()[i] ? '#fbbf24' : 'rgba(255,255,255,0.9)'"
+                [style.background]="collectedLetters()[i] ? '#ffcc00' : 'white'"
                 [style.transform]="collectedLetters()[i] ? 'scale(1.15)' : 'scale(1)'"
-                style="font-family:'Press Start 2P',monospace;font-size:20px;color:#1a1a2e;border:none;cursor:pointer;box-shadow:0 5px 0 rgba(0,0,0,0.2)">
+                style="font-family:'Press Start 2P',monospace;font-size:20px;color:#1a1a2e;border:4px solid #000;cursor:pointer;box-shadow:0 5px 0 #000;border-radius:8px">
                 {{ ch }}
               </button>
             }
           </div>
           @if (allCollected()) {
             <button (click)="nextWord()" class="tap-btn px-8 py-4 rounded-2xl text-white font-black"
-              style="background:linear-gradient(135deg,#f43f5e,#e11d48);font-family:'Nunito',sans-serif;font-size:20px;border:none;cursor:pointer">
+              style="background:#ff3333;font-family:'Nunito',sans-serif;font-size:20px;cursor:pointer">
               Next! →
             </button>
           }
@@ -205,11 +206,11 @@ type StoryPhase = 'intro' | 'letter' | 'word' | 'collect' | 'done';
           </p>
           <div class="flex gap-3">
             <button (click)="goToGame()" class="tap-btn px-6 py-4 rounded-2xl text-white font-black"
-              style="background:linear-gradient(135deg,#6366f1,#8b5cf6);font-family:'Nunito',sans-serif;font-size:17px;border:none;cursor:pointer">
+              style="background:#6333ff;font-family:'Nunito',sans-serif;font-size:17px;cursor:pointer">
               Play Game! ⚡
             </button>
-            <button (click)="goBack()" class="tap-btn px-6 py-4 rounded-2xl font-black"
-              style="background:rgba(255,255,255,0.9);font-family:'Nunito',sans-serif;font-size:17px;border:none;cursor:pointer;color:#1a1a2e">
+            <button (click)="goBack()" class="tap-btn px-6 py-4 font-black"
+              style="background:white;border:4px solid #000;box-shadow:0 4px 0 #000;border-radius:8px;color:#1a1a2e;font-family:'Nunito',sans-serif;font-size:17px;cursor:pointer">
               Map 🗺️
             </button>
           </div>

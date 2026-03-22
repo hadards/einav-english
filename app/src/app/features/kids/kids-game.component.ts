@@ -105,21 +105,24 @@ function playVictoryFanfare(): void {
     .world-bg { min-height: 100vh; background: linear-gradient(160deg,#1a1a2e,#16213e); }
 
     .game-card {
-      background: rgba(255,255,255,0.08);
-      border: 3px solid rgba(255,255,255,0.15);
-      border-radius: 24px;
-      backdrop-filter: blur(8px);
+      background: #1e2a3a;
+      border: 4px solid #000;
+      box-shadow: 0 6px 0 #000, 0 8px 20px rgba(0,0,0,0.5);
+      border-radius: 12px;
     }
 
     .choice-btn {
+      border: 4px solid #000;
+      box-shadow: 0 6px 0 #000;
+      background: #2a3f5f;
+      border-radius: 12px;
       transition: transform 0.12s ease, box-shadow 0.12s ease;
-      box-shadow: 0 6px 0 rgba(0,0,0,0.4);
       cursor: pointer;
     }
-    .choice-btn:hover { transform: translateY(-4px); box-shadow: 0 10px 0 rgba(0,0,0,0.3); }
-    .choice-btn:active { transform: translateY(3px); box-shadow: 0 2px 0 rgba(0,0,0,0.3); }
-    .choice-correct { background: #22c55e !important; border-color: #16a34a !important; animation: correctPulse 0.4s ease; }
-    .choice-wrong   { background: #ef4444 !important; border-color: #dc2626 !important; animation: wrongShake 0.4s ease; }
+    .choice-btn:hover { transform: translateY(-4px); box-shadow: 0 10px 0 #000; }
+    .choice-btn:active { transform: translateY(3px); box-shadow: 0 2px 0 #000; }
+    .choice-correct { background: #33cc33 !important; border-color: #000 !important; animation: correctPulse 0.4s ease; }
+    .choice-wrong   { background: #ff3333 !important; border-color: #000 !important; animation: wrongShake 0.4s ease; }
 
     @keyframes correctPulse {
       0%,100% { transform: scale(1); }
@@ -154,11 +157,13 @@ function playVictoryFanfare(): void {
     }
 
     .mode-btn {
+      border: 4px solid #000;
+      box-shadow: 0 6px 0 #000;
+      border-radius: 12px;
       transition: transform 0.12s ease, box-shadow 0.12s ease;
-      box-shadow: 0 6px 0 rgba(0,0,0,0.35);
     }
-    .mode-btn:hover { transform: translateY(-3px); }
-    .mode-btn:active { transform: translateY(3px); box-shadow: 0 2px 0 rgba(0,0,0,0.3); }
+    .mode-btn:hover { transform: translateY(-3px); box-shadow: 0 9px 0 #000; }
+    .mode-btn:active { transform: translateY(4px); box-shadow: 0 2px 0 #000; }
 
     .star-reveal {
       animation: starReveal 0.5s cubic-bezier(0.34,1.56,0.64,1) both;
@@ -212,13 +217,13 @@ function playVictoryFanfare(): void {
       <!-- Top bar -->
       <div class="px-4 pt-4 pb-3 flex items-center gap-3">
         <button (click)="goBack()" class="flex items-center justify-center rounded-2xl w-12 h-12"
-          style="background:rgba(255,255,255,0.12);color:white;font-size:20px;border:none;cursor:pointer">←</button>
+          style="background:rgba(255,255,255,0.12);color:white;font-size:20px;border:3px solid rgba(255,255,255,0.3);cursor:pointer">←</button>
         <div class="flex-1">
           <span style="font-family:'Press Start 2P',monospace;font-size:10px;color:white">{{ location()?.name }} — GAME</span>
         </div>
         @if (phase() === 'playing' || phase() === 'correct' || phase() === 'wrong') {
-          <div class="flex items-center gap-2 px-3 py-1.5 rounded-xl" style="background:rgba(251,191,36,0.2);border:2px solid #fbbf24">
-            <span style="font-family:'Press Start 2P',monospace;font-size:10px;color:#fbbf24">{{ score() }}/{{ totalWords() }}</span>
+          <div class="flex items-center gap-2 px-3 py-1.5 rounded-xl" style="background:#ffcc00;border:3px solid #000;box-shadow:0 4px 0 #000;border-radius:8px">
+            <span style="font-family:'Press Start 2P',monospace;font-size:10px;color:#1a1a2e">{{ score() }}/{{ totalWords() }}</span>
           </div>
         }
       </div>
@@ -231,17 +236,17 @@ function playVictoryFanfare(): void {
           </p>
           <div class="flex flex-col gap-4 w-full max-w-sm">
             <button (click)="startGame('tap')" class="mode-btn px-6 py-5 rounded-2xl text-white font-black text-left"
-              style="background:linear-gradient(135deg,#6366f1,#8b5cf6);border:none;cursor:pointer">
+              style="background:#6333ff;border:none;cursor:pointer">
               <p style="font-family:'Press Start 2P',monospace;font-size:12px;margin-bottom:6px">⚡ TAP IT</p>
               <p style="font-family:'Nunito',sans-serif;font-size:14px;opacity:0.85">Hear the word — tap the right picture!</p>
             </button>
             <button (click)="startGame('feed')" class="mode-btn px-6 py-5 rounded-2xl text-white font-black text-left"
-              style="background:linear-gradient(135deg,#10b981,#059669);border:none;cursor:pointer">
+              style="background:#33cc33;border:none;cursor:pointer">
               <p style="font-family:'Press Start 2P',monospace;font-size:11px;margin-bottom:6px">🐲 FEED THE MONSTER</p>
               <p style="font-family:'Nunito',sans-serif;font-size:14px;opacity:0.85">Feed the right emoji!</p>
             </button>
             <button (click)="startGame('speed')" class="mode-btn px-6 py-5 rounded-2xl text-white font-black text-left"
-              style="background:linear-gradient(135deg,#f43f5e,#e11d48);border:none;cursor:pointer">
+              style="background:#ff3333;border:none;cursor:pointer">
               <p style="font-family:'Press Start 2P',monospace;font-size:12px;margin-bottom:6px">⏱ SPEED RUN</p>
               <p style="font-family:'Nunito',sans-serif;font-size:14px;opacity:0.85">30 seconds — go fast!</p>
             </button>
@@ -254,19 +259,18 @@ function playVictoryFanfare(): void {
         <div class="flex-1 flex flex-col items-center justify-center gap-6 px-4">
           <div class="game-card px-6 py-5 text-center w-full max-w-sm">
             <p style="font-family:'Nunito',sans-serif;font-size:16px;color:rgba(255,255,255,0.7);margin-bottom:8px">Tap the correct picture!</p>
-            <button (click)="speakCurrent()" class="px-6 py-3 rounded-2xl font-black text-white"
-              style="background:linear-gradient(135deg,#fbbf24,#f59e0b);font-family:'Nunito',sans-serif;font-size:22px;border:none;cursor:pointer;box-shadow:0 4px 0 rgba(0,0,0,0.3)">
+            <button (click)="speakCurrent()" class="px-6 py-3 rounded-2xl font-black"
+              style="background:#ffcc00;font-family:'Nunito',sans-serif;font-size:22px;border:4px solid #000;box-shadow:0 4px 0 #000;border-radius:8px;color:#1a1a2e;cursor:pointer">
               🔊 {{ currentWord()?.word }}
             </button>
           </div>
           <div class="grid grid-cols-2 gap-4 w-full max-w-sm">
             @for (choice of choices(); track choice.word) {
               <button (click)="tapChoice(choice)" [disabled]="phase() !== 'playing'"
-                class="choice-btn rounded-2xl flex flex-col items-center justify-center gap-2 py-5"
+                class="choice-btn flex flex-col items-center justify-center gap-2 py-5"
                 [class.choice-correct]="phase() !== 'playing' && choice.word === currentWord()!.word"
-                [class.choice-wrong]="phase() === 'wrong' && choice.word === tappedWrong()"
-                style="background:rgba(255,255,255,0.1);border:3px solid rgba(255,255,255,0.2);cursor:pointer">
-                <span style="font-size:52px;line-height:1">{{ choice.emoji }}</span>
+                [class.choice-wrong]="phase() === 'wrong' && choice.word === tappedWrong()">
+                <span style="font-size:62px;line-height:1">{{ choice.emoji }}</span>
                 <span style="font-family:'Nunito',sans-serif;font-size:14px;color:white;font-weight:800">{{ choice.word }}</span>
               </button>
             }
@@ -333,7 +337,7 @@ function playVictoryFanfare(): void {
           <div class="flex items-center gap-3">
             <span style="font-size:28px">⏱</span>
             <span style="font-family:'Press Start 2P',monospace;font-size:28px"
-              [style.color]="timeLeft() <= 10 ? '#f43f5e' : '#fbbf24'">
+              [style.color]="timeLeft() <= 10 ? '#ff3333' : '#ffcc00'">
               {{ timeLeft() }}
             </span>
           </div>
@@ -348,8 +352,7 @@ function playVictoryFanfare(): void {
               <button (click)="tapChoice(choice)" [disabled]="phase() !== 'playing'"
                 class="choice-btn rounded-2xl py-4 flex flex-col items-center gap-1"
                 [class.choice-correct]="phase() !== 'playing' && choice.word === currentWord()!.word"
-                [class.choice-wrong]="phase() === 'wrong' && choice.word === tappedWrong()"
-                style="background:rgba(255,255,255,0.1);border:3px solid rgba(255,255,255,0.2);cursor:pointer">
+                [class.choice-wrong]="phase() === 'wrong' && choice.word === tappedWrong()">
                 <span style="font-size:44px;line-height:1">{{ choice.emoji }}</span>
                 <span style="font-family:'Nunito',sans-serif;font-size:13px;color:white;font-weight:800">{{ choice.word }}</span>
               </button>
@@ -378,7 +381,7 @@ function playVictoryFanfare(): void {
           </p>
           <div class="flex gap-3">
             <button (click)="phase.set('select')" class="mode-btn px-6 py-4 rounded-2xl text-white font-black"
-              style="background:linear-gradient(135deg,#6366f1,#8b5cf6);font-family:'Nunito',sans-serif;font-size:16px;border:none;cursor:pointer">
+              style="background:#6333ff;font-family:'Nunito',sans-serif;font-size:16px;border:none;cursor:pointer">
               Play Again
             </button>
             <button (click)="goBack()" class="mode-btn px-6 py-4 rounded-2xl font-black"

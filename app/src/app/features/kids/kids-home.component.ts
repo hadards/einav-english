@@ -46,11 +46,12 @@ import { KIDS_LOCATIONS, loadKidsProgress, KidsProgress } from './kids.data';
     }
 
     .node-circle {
-      border-radius: 50%;
+      border-radius: 12px;
       display: flex; align-items: center; justify-content: center;
       position: relative;
+      border: 4px solid #000;
+      box-shadow: 0 6px 0 #000, 0 8px 20px rgba(0,0,0,0.4);
       transition: transform .18s cubic-bezier(.34,1.56,.64,1), filter .18s;
-      filter: drop-shadow(0 6px 18px rgba(0,0,0,.55));
     }
     .node-circle:hover  { transform: scale(1.14); }
     .node-circle:active { transform: scale(.93); }
@@ -68,7 +69,7 @@ import { KIDS_LOCATIONS, loadKidsProgress, KidsProgress } from './kids.data';
 
     /* Lock veil */
     .lock-veil {
-      position: absolute; inset:0; border-radius:50%;
+      position: absolute; inset:0; border-radius:12px;
       background: rgba(0,0,0,.52);
       display: flex; align-items: center; justify-content: center;
     }
@@ -82,8 +83,8 @@ import { KIDS_LOCATIONS, loadKidsProgress, KidsProgress } from './kids.data';
       white-space: nowrap;
     }
     .node-stars { display:flex; gap:2px; justify-content:center; margin-top:3px; }
-    .sf { color:#fbbf24; text-shadow:0 0 6px rgba(251,191,36,.8); font-size:10px; }
-    .se { color:rgba(255,255,255,.18); font-size:10px; }
+    .sf { color:#ffcc00; text-shadow:1px 1px 0 #000, -1px -1px 0 #000; font-size:10px; }
+    .se { color:rgba(255,255,255,.2); font-size:10px; }
 
     /* Popup */
     .pop-backdrop {
@@ -97,7 +98,9 @@ import { KIDS_LOCATIONS, loadKidsProgress, KidsProgress } from './kids.data';
     @keyframes bdin { from{opacity:0} to{opacity:1} }
 
     .pop-card {
-      width:100%; max-width:340px; border-radius:28px;
+      width:100%; max-width:340px; border-radius:12px;
+      border: 4px solid #000;
+      box-shadow: 0 8px 0 #000, 0 12px 30px rgba(0,0,0,0.7);
       overflow:hidden; position:relative;
       animation: popin .28s cubic-bezier(.34,1.56,.64,1);
     }
@@ -107,15 +110,15 @@ import { KIDS_LOCATIONS, loadKidsProgress, KidsProgress } from './kids.data';
     }
 
     .act-btn {
-      width:100%; border:none; cursor:pointer; border-radius:18px;
+      width:100%; border:4px solid #000; cursor:pointer; border-radius:10px;
       padding: 14px 18px;
       display:flex; align-items:center; gap:14px;
       font-family:'Nunito',sans-serif;
       transition: transform .12s ease, box-shadow .12s ease;
-      box-shadow: 0 5px 0 rgba(0,0,0,.3);
+      box-shadow: 0 6px 0 #000;
     }
-    .act-btn:hover:not(:disabled)  { transform:translateY(-3px); box-shadow:0 8px 0 rgba(0,0,0,.25); }
-    .act-btn:active:not(:disabled) { transform:translateY(2px);  box-shadow:0 2px 0 rgba(0,0,0,.25); }
+    .act-btn:hover:not(:disabled)  { transform:translateY(-3px); box-shadow:0 9px 0 #000; }
+    .act-btn:active:not(:disabled) { transform:translateY(4px);  box-shadow:0 2px 0 #000; }
     .act-btn:disabled { opacity:.38; cursor:not-allowed; box-shadow:none; }
 
     /* XP bar */
@@ -162,10 +165,10 @@ import { KIDS_LOCATIONS, loadKidsProgress, KidsProgress } from './kids.data';
         <div class="flex flex-col gap-1 flex-1">
           <div class="flex justify-between">
             <span style="font-family:'Press Start 2P',monospace;font-size:7px;color:rgba(255,255,255,.7)">LVL {{progress().level}}</span>
-            <span style="font-family:'Press Start 2P',monospace;font-size:7px;color:#fbbf24">{{progress().xp}} XP</span>
+            <span style="font-family:'Press Start 2P',monospace;font-size:7px;color:#ffcc00">{{progress().xp}} XP</span>
           </div>
-          <div style="height:8px;background:rgba(255,255,255,.12);border-radius:99px;overflow:hidden;border:1px solid rgba(255,255,255,.15)">
-            <div class="xp-fill h-full rounded-full" style="background:linear-gradient(90deg,#fbbf24,#f59e0b)" [style.width]="xpPct()+'%'"></div>
+          <div style="height:14px;background:rgba(255,255,255,.12);border-radius:4px;overflow:hidden;border:3px solid #000">
+            <div class="xp-fill h-full" style="background:#ffcc00;border-radius:2px" [style.width]="xpPct()+'%'"></div>
           </div>
         </div>
         <span style="font-family:'Press Start 2P',monospace;font-size:8px;color:white;letter-spacing:-0.5px">ENGLISH<br>WORLD</span>
@@ -184,7 +187,7 @@ import { KIDS_LOCATIONS, loadKidsProgress, KidsProgress } from './kids.data';
             <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
           </filter>
           <marker id="dot" viewBox="0 0 6 6" refX="3" refY="3" markerWidth="4" markerHeight="4">
-            <circle cx="3" cy="3" r="2.5" fill="#fbbf24" opacity=".8"/>
+            <circle cx="3" cy="3" r="2.5" fill="#ffcc00" opacity=".8"/>
           </marker>
         </defs>
         <!-- Glow backing -->
@@ -192,7 +195,7 @@ import { KIDS_LOCATIONS, loadKidsProgress, KidsProgress } from './kids.data';
           fill="none" stroke="rgba(251,191,36,.12)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
         <!-- Dotted gold path -->
         <polyline [attr.points]="pathPoints"
-          fill="none" stroke="#fbbf24" stroke-width="3"
+          fill="none" stroke="#ffcc00" stroke-width="3"
           stroke-dasharray="6 8" stroke-linecap="round" stroke-linejoin="round"
           opacity=".65" filter="url(#glow2)"/>
       </svg>
@@ -232,6 +235,8 @@ import { KIDS_LOCATIONS, loadKidsProgress, KidsProgress } from './kids.data';
         </div>
       }
 
+      <!-- Terrain strip -->
+      <div style="position:absolute;bottom:0;left:0;right:0;height:36px;background:#2d5a27;border-top:4px solid #000;z-index:2;pointer-events:none"></div>
     </div>
 
     <!-- Popup -->
@@ -241,14 +246,14 @@ import { KIDS_LOCATIONS, loadKidsProgress, KidsProgress } from './kids.data';
 
           <!-- Header -->
           <div class="flex flex-col items-center gap-2 pt-6 pb-5 px-6 text-center"
-            [style.background]="'linear-gradient(135deg,'+selected()!.bgFrom+','+selected()!.bgTo+')'">
+            [style.background]="selected()!.color">
             <span style="font-size:60px;line-height:1;filter:drop-shadow(0 4px 10px rgba(0,0,0,.35))">{{selected()!.emoji}}</span>
-            <p style="font-family:'Press Start 2P',monospace;font-size:13px;color:white;text-shadow:2px 2px 0 rgba(0,0,0,.3)">{{selected()!.name}}</p>
+            <p style="font-family:'Press Start 2P',monospace;font-size:13px;color:white;text-shadow:2px 2px 0 #000">{{selected()!.name}}</p>
             <p style="font-family:'Nunito',sans-serif;font-size:12px;color:rgba(255,255,255,.85);font-weight:800">Letters {{selected()!.letters}}</p>
             <div style="display:flex;gap:6px">
               @for (s of [1,2,3]; track s) {
-                <span [style.color]="getStars(selected()!.id)>=s?'#fbbf24':'rgba(255,255,255,.25)'"
-                  [style.text-shadow]="getStars(selected()!.id)>=s?'0 0 8px rgba(251,191,36,.8)':'none'"
+                <span [style.color]="getStars(selected()!.id)>=s?'#ffcc00':'rgba(255,255,255,.25)'"
+                  [style.text-shadow]="getStars(selected()!.id)>=s?'0 0 8px rgba(255,204,0,.8)':'none'"
                   style="font-size:22px">★</span>
               }
             </div>
@@ -257,7 +262,7 @@ import { KIDS_LOCATIONS, loadKidsProgress, KidsProgress } from './kids.data';
           <!-- Buttons -->
           <div class="flex flex-col gap-3 p-5" style="background:#111827">
             <button class="act-btn text-white"
-              style="background:linear-gradient(135deg,#22c55e,#16a34a)"
+              style="background:#33cc33"
               (click)="go('story')">
               <span style="font-size:26px">📖</span>
               <div style="text-align:left;flex:1">
@@ -332,9 +337,9 @@ export class KidsHomeComponent implements OnInit, OnDestroy, AfterViewInit {
   }));
 
   readonly games = [
-    { mode: 'tap',   icon: '⚡', label: 'TAP IT',    desc: 'Tap the right picture!', bg: 'linear-gradient(135deg,#6366f1,#8b5cf6)' },
-    { mode: 'feed',  icon: '🐲', label: 'FEED MONSTER', desc: 'Feed the right emoji!', bg: 'linear-gradient(135deg,#10b981,#059669)' },
-    { mode: 'speed', icon: '⏱', label: 'SPEED RUN', desc: '30 seconds — go fast!',  bg: 'linear-gradient(135deg,#f43f5e,#e11d48)' },
+    { mode: 'tap',   icon: '⚡', label: 'TAP IT',       desc: 'Tap the right picture!', bg: '#6333ff' },
+    { mode: 'feed',  icon: '🐲', label: 'FEED MONSTER', desc: 'Feed the right emoji!',  bg: '#33cc33' },
+    { mode: 'speed', icon: '⏱', label: 'SPEED RUN',     desc: '30 seconds — go fast!', bg: '#ff3333' },
   ];
 
   ngOnInit() {
