@@ -315,6 +315,8 @@ export class KidsStoryComponent implements OnInit, OnDestroy {
     updated[i] = true;
     this.collectedLetters.set(updated);
     this.playCollectSound();
+    const letter = this.wordChars()[i];
+    if (letter) this.speak(letter);
   }
 
   nextWord() {
