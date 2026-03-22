@@ -137,7 +137,11 @@ import { KIDS_LOCATIONS, loadKidsProgress, KidsProgress } from './kids.data';
               <span style="font-size:40px">{{ loc.emoji }}</span>
             </div>
             <p style="font-family:'Press Start 2P',monospace;font-size:9px;color:#1a1a2e;margin-bottom:6px">{{ loc.name }}</p>
-            <p style="font-family:'Nunito',sans-serif;font-size:11px;color:#6b7280;margin-bottom:8px">Letters {{ loc.letters }}</p>
+            <p style="font-family:'Nunito',sans-serif;font-size:11px;color:#6b7280;margin-bottom:6px">Letters {{ loc.letters }}</p>
+            <p style="font-family:'Nunito',sans-serif;font-size:11px;font-weight:800;margin-bottom:4px"
+              [style.color]="isCompleted(loc.id) ? '#6366f1' : '#f59e0b'">
+              {{ isCompleted(loc.id) ? '⚡ Play Games' : '📖 Learn' }}
+            </p>
             <div class="flex gap-0.5">
               @for (s of [1,2,3]; track s) {
                 <span [class]="getStars(loc.id) >= s ? 'star' : 'star-empty'" style="font-size:14px">★</span>
@@ -188,6 +192,10 @@ export class KidsHomeComponent implements OnInit {
 
   selectLocation(loc: typeof KIDS_LOCATIONS[0], index: number) {
     if (this.isLocked(index)) return;
-    this.router.navigate(['/kids/story', loc.id]);
+    if (this.isCompleted(loc.id)) {
+      this.router.navigate(['/kids/game', loc.id, 'select']);
+    } else {
+      this.router.navigate(['/kids/story', loc.id]);
+    }
   }
 }
