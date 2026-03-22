@@ -289,7 +289,7 @@ function playVictoryFanfare(): void {
 
           <!-- Monster SVG -->
           <div [class]="monsterState() === 'happy' ? 'monster-happy' : monsterState() === 'sad' ? 'monster-sad' : ''">
-            <svg width="150" height="170" viewBox="0 0 160 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="154" height="170" viewBox="-8 -22 176 210" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect x="20" y="60" width="120" height="100" rx="8" fill="#33cc33" stroke="#000" stroke-width="4"/>
               <rect x="24" y="8"  width="112" height="72" rx="8" fill="#33cc33" stroke="#000" stroke-width="4"/>
               <polygon points="36,8 50,8 42,-16"   fill="#ff3333" stroke="#000" stroke-width="3"/>
@@ -417,6 +417,7 @@ export class KidsGameComponent implements OnInit, OnDestroy {
   private shuffledWords: WordItem[] = [];
   private allWords: { word: string; emoji: string }[] = [];
   private timerInterval: ReturnType<typeof setInterval> | null = null;
+  private timeouts: ReturnType<typeof setTimeout>[] = [];
 
   readonly confettiPieces = Array.from({ length: 40 }, (_, i) => ({
     id: i,
@@ -443,7 +444,12 @@ export class KidsGameComponent implements OnInit, OnDestroy {
     }
   }
 
-  ngOnDestroy() { this.clearTimer(); speechSynthesis.cancel(); }
+  ngOnDestroy() {
+    this.clearTimer();
+    this.timeouts.forEach(t => clearTimeout(t));
+    this.timeouts = [];
+    speechSynthesis.cancel();
+  }
 
   private onGameDone() {
     playVictoryFanfare();
@@ -451,9 +457,9 @@ export class KidsGameComponent implements OnInit, OnDestroy {
     const total = this.shuffledWords.length || this.totalWords();
     const stars = this.starsEarned();
     const praise = stars === 3 ? 'Amazing, you\'re a star!' : stars === 2 ? 'Well done!' : 'Keep practicing!';
-    setTimeout(() => {
+    this.timeouts.push(setTimeout(() => {
       this.speak(`You scored ${score} out of ${total}! ${praise}`);
-    }, 800);
+    }, 800));
   }
 
   readonly location = computed(() =>
@@ -516,12 +522,12 @@ export class KidsGameComponent implements OnInit, OnDestroy {
       playCorrectSound();
       this.triggerConfetti();
       this.phase.set('correct');
-      setTimeout(() => this.advanceWord(), 900);
+      this.timeouts.push(setTimeout(() => this.advanceWord(), 900));
     } else {
       this.tappedWrong.set(choice.word);
       playWrongSound();
       this.phase.set('wrong');
-      setTimeout(() => this.advanceWord(), 1000);
+      this.timeouts.push(setTimeout(() => this.advanceWord(), 1000));
     }
   }
 
@@ -535,13 +541,13 @@ export class KidsGameComponent implements OnInit, OnDestroy {
       playBurpSound();
       this.triggerConfetti();
       this.phase.set('correct');
-      setTimeout(() => { this.monsterState.set('idle'); this.advanceWord(); }, 1000);
+      this.timeouts.push(setTimeout(() => { this.monsterState.set('idle'); this.advanceWord(); }, 1000));
     } else {
       this.tappedWrong.set(choice.word);
       playWrongSound();
       this.monsterState.set('sad');
       this.phase.set('wrong');
-      setTimeout(() => { this.monsterState.set('idle'); this.advanceWord(); }, 1000);
+      this.timeouts.push(setTimeout(() => { this.monsterState.set('idle'); this.advanceWord(); }, 1000));
     }
   }
 
@@ -579,7 +585,7 @@ export class KidsGameComponent implements OnInit, OnDestroy {
 
   private triggerConfetti() {
     this.showConfetti.set(true);
-    setTimeout(() => this.showConfetti.set(false), 1500);
+    this.timeouts.push(setTimeout(() => this.showConfetti.set(false), 1500));
   }
 
   private saveStars() {
