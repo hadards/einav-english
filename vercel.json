@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "cd app && ng build --configuration=production",
+  "buildCommand": "cd app && npm install && npx ng build --configuration=production",
   "outputDirectory": "app/dist/app/browser",
   "routes": [
     {
