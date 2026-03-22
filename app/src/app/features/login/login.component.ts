@@ -1,11 +1,13 @@
 import { Component, inject } from '@angular/core';
+import { RouterLink } from '@angular/router';
 import { AuthService } from '../../core/services/auth.service';
 
 @Component({
   selector: 'app-login',
   standalone: true,
+  imports: [RouterLink],
   styles: [`
-    @import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=DM+Sans:wght@400;500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=DM+Sans:wght@400;500&family=Nunito:wght@700;800;900&display=swap');
 
     :host { font-family: 'DM Sans', sans-serif; }
 
@@ -46,6 +48,18 @@ import { AuthService } from '../../core/services/auth.service';
       box-shadow: 0 10px 28px rgba(99,102,241,0.45);
     }
     .google-btn:active { transform: translateY(0); }
+
+    .kids-btn {
+      transition: transform 0.12s ease, box-shadow 0.12s ease;
+    }
+    .kids-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 9px 0 #15803d, 0 12px 28px rgba(34,197,94,0.4);
+    }
+    .kids-btn:active {
+      transform: translateY(3px);
+      box-shadow: 0 2px 0 #15803d;
+    }
 
     .level-badge {
       animation: pop 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) both;
@@ -129,6 +143,15 @@ import { AuthService } from '../../core/services/auth.service';
             Continue with Google
           </button>
           <p class="text-center text-xs mt-3" style="color:#c4b5fd">Free to use · No credit card</p>
+
+          <!-- Kids Mode -->
+          <div class="mt-3">
+            <a routerLink="/kids"
+              class="kids-btn flex items-center justify-center gap-3 w-full rounded-2xl py-4 font-black"
+              style="background:linear-gradient(135deg,#22c55e,#16a34a);color:white;text-decoration:none;font-family:'Nunito',sans-serif;font-size:18px;box-shadow:0 6px 0 #15803d,0 8px 20px rgba(34,197,94,0.35)">
+              🎮 Kids Mode
+            </a>
+          </div>
         </div>
 
       </div>
