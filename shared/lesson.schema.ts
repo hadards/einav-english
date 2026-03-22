@@ -45,8 +45,11 @@ export const LessonSchema = z.object({
     hebrew_note: z.string(),
     tip: z.string(),
     form: z.record(z.string(), z.string()).optional(),
-    spelling_rules: z.array(z.object({ rule: z.string(), examples: z.array(z.string()) })).optional(),
-    frequency_adverbs: z.array(z.object({ word: z.string(), meaning: z.string(), example: z.string() })).optional(),
+    spelling_rules: z.array(z.object({ rule: z.string(), examples: z.string() })).optional(),
+    frequency_adverbs: z.object({
+      note: z.string(),
+      list: z.array(z.object({ word: z.string(), meaning: z.string(), example: z.string() })),
+    }).optional(),
     good_examples: z.array(GoodExampleSchema).min(3),
     bad_examples: z.array(BadExampleSchema).min(3),
   }),

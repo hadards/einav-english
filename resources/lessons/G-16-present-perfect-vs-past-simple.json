@@ -1,0 +1,496 @@
+{
+  "id": "G-16",
+  "title": "Present perfect vs. past simple",
+  "level": "B1",
+  "order": 16,
+  "explain": {
+    "rule": "Both tenses talk about the past but differently. Past simple: use when you know WHEN something happened — a specific, finished time. Present perfect: use when the time is not specified, when the event is still relevant now, or when the focus is on experience/result rather than time. The key question: IS A SPECIFIC TIME MENTIONED? If yes → past simple. If no → present perfect.",
+    "why_matters": "This is the most common tense confusion in English for Hebrew speakers. Getting this right marks the difference between intermediate and advanced English. Every natural English conversation switches between these two tenses constantly.",
+    "hebrew_note": "Hebrew uses only past simple (עבר) for both situations. 'I went to Paris' and 'I have been to Paris' both translate to 'הלכתי לפריז' or 'הייתי בפריז' in Hebrew. The difference only exists in English. Rule: specific past time mentioned → past simple. No specific time, or result still relevant → present perfect.",
+    "tip": "Look for these signals. PAST SIMPLE: yesterday, last week/month/year, in 2018, at 3pm, ago, when I was young, on Monday. PRESENT PERFECT: ever, never, already, yet, just, recently, so far, for + duration, since + point, today/this week/this year (if period unfinished). NEVER mix them: 'I have seen him yesterday' = wrong. 'I saw him yesterday' = correct.",
+    "comparison": [
+      {
+        "situation": "Specific finished time mentioned",
+        "tense": "Past simple",
+        "example": "I went to Paris last year."
+      },
+      {
+        "situation": "Time not specified, focus on experience",
+        "tense": "Present perfect",
+        "example": "I've been to Paris. (sometime in my life)"
+      },
+      {
+        "situation": "Recent event, result still relevant now",
+        "tense": "Present perfect",
+        "example": "I've lost my phone. (I still don't have it)"
+      },
+      {
+        "situation": "Finished event at specific time",
+        "tense": "Past simple",
+        "example": "I lost my phone last Tuesday."
+      },
+      {
+        "situation": "Unfinished time period (today, this year)",
+        "tense": "Present perfect",
+        "example": "I've had three meetings today."
+      },
+      {
+        "situation": "With 'when' (asking for specific time)",
+        "tense": "Past simple",
+        "example": "When did you arrive?"
+      }
+    ],
+    "good_examples": [
+      {
+        "id": "G-16-ge-001",
+        "sentence": "I've met her before but I can't remember where.",
+        "audio_text": "I've met her before but I can't remember where.",
+        "note": "No specific time + current relevance → present perfect"
+      },
+      {
+        "id": "G-16-ge-002",
+        "sentence": "I met her at a conference in Berlin in 2019.",
+        "audio_text": "I met her at a conference in Berlin in 2019.",
+        "note": "Specific time (in 2019) → past simple"
+      },
+      {
+        "id": "G-16-ge-003",
+        "sentence": "Have you read this book? It's brilliant.",
+        "audio_text": "Have you read this book? It's brilliant.",
+        "note": "Experience question, no specific time → present perfect"
+      },
+      {
+        "id": "G-16-ge-004",
+        "sentence": "I read it last summer — I loved it.",
+        "audio_text": "I read it last summer — I loved it.",
+        "note": "Specific time (last summer) → past simple"
+      },
+      {
+        "id": "G-16-ge-005",
+        "sentence": "Sales have increased this month.",
+        "audio_text": "Sales have increased this month.",
+        "note": "This month = unfinished period → present perfect"
+      },
+      {
+        "id": "G-16-ge-006",
+        "sentence": "Sales increased a lot last month.",
+        "audio_text": "Sales increased a lot last month.",
+        "note": "Last month = finished period → past simple"
+      },
+      {
+        "id": "G-16-ge-007",
+        "sentence": "I've known her since we were at university.",
+        "audio_text": "I've known her since we were at university.",
+        "note": "since + point in time to now → present perfect"
+      },
+      {
+        "id": "G-16-ge-008",
+        "sentence": "When did you graduate?",
+        "audio_text": "When did you graduate?",
+        "note": "'When' asks for specific time → past simple always"
+      },
+      {
+        "id": "G-16-ge-009",
+        "sentence": "We've eaten at that restaurant a few times.",
+        "audio_text": "We've eaten at that restaurant a few times.",
+        "note": "Experience (number of times, no specific time) → present perfect"
+      },
+      {
+        "id": "G-16-ge-010",
+        "sentence": "We ate there on our anniversary last year.",
+        "audio_text": "We ate there on our anniversary last year.",
+        "note": "Specific occasion → past simple"
+      }
+    ],
+    "bad_examples": [
+      {
+        "id": "G-16-be-001",
+        "wrong": "I have seen her yesterday.",
+        "correct": "I saw her yesterday.",
+        "reason": "Yesterday = specific past time → past simple."
+      },
+      {
+        "id": "G-16-be-002",
+        "wrong": "Did you ever eat at that new place?",
+        "correct": "Have you ever eaten at that new place?",
+        "reason": "Life experience with 'ever' → present perfect."
+      },
+      {
+        "id": "G-16-be-003",
+        "wrong": "I know her since school.",
+        "correct": "I've known her since school.",
+        "reason": "Since = from a point in time up to NOW → present perfect."
+      },
+      {
+        "id": "G-16-be-004",
+        "wrong": "When have you graduated?",
+        "correct": "When did you graduate?",
+        "reason": "'When' always asks for a specific time → past simple."
+      },
+      {
+        "id": "G-16-be-005",
+        "wrong": "This year the company made a big profit.",
+        "correct": "This year the company has made a big profit.",
+        "reason": "This year = unfinished period → present perfect (unless the year is clearly over)."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "G-16-ex-001",
+      "type": "fill_blank",
+      "question": "I ___ (see) that film last week — it was amazing.",
+      "answer": "saw",
+      "hint": "Last week = specific finished time → past simple",
+      "explanation": "last week = specific past time → past simple.",
+      "hebrew_note": "last week = past simple תמיד"
+    },
+    {
+      "id": "G-16-ex-002",
+      "type": "fill_blank",
+      "question": "___ you ever ___ (ride) a horse?",
+      "answer": "Have / ridden",
+      "hint": "Ever + life experience → present perfect",
+      "explanation": "Have you ever ridden? — ever + experience = present perfect.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-16-ex-003",
+      "type": "fill_blank",
+      "question": "She ___ (work) here since 2016.",
+      "answer": "has worked",
+      "hint": "Since + point in time to now → present perfect",
+      "explanation": "has worked since — from 2016 to now, still working.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-16-ex-004",
+      "type": "fill_blank",
+      "question": "When ___ you ___ (arrive)?",
+      "answer": "did / arrive",
+      "hint": "'When' asks for specific time → past simple always",
+      "explanation": "When = asking for specific time → past simple.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-16-ex-005",
+      "type": "fill_blank",
+      "question": "We ___ (eat) at this restaurant twice before.",
+      "answer": "have eaten",
+      "hint": "Twice before — counting experiences, no specific time → present perfect",
+      "explanation": "have eaten — experience, no specific time.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-16-ex-006",
+      "type": "fill_blank",
+      "question": "I ___ (start) learning English three years ago.",
+      "answer": "started",
+      "hint": "Three years ago = specific past time → past simple",
+      "explanation": "three years ago = specific point in the past → past simple.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-16-ex-007",
+      "type": "fill_blank",
+      "question": "Sales ___ (increase) by 20% this year.",
+      "answer": "have increased",
+      "hint": "This year = unfinished period → present perfect",
+      "explanation": "this year = unfinished period → present perfect.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-16-ex-008",
+      "type": "fill_blank",
+      "question": "I ___ (not / speak) to her since last month.",
+      "answer": "haven't spoken",
+      "hint": "Since + point in time → present perfect",
+      "explanation": "haven't spoken since — from that point to now.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-16-ex-009",
+      "type": "fill_blank",
+      "question": "___ the weather nice when you ___ (visit) Barcelona?",
+      "answer": "Was / visited",
+      "hint": "Asking about a specific past trip → past simple for both",
+      "explanation": "Specific past trip → both verbs past simple.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-16-ex-010",
+      "type": "fill_blank",
+      "question": "I ___ (just / send) you the documents — check your email.",
+      "answer": "have just sent",
+      "hint": "just + present perfect for very recent actions",
+      "explanation": "have just sent — very recent, current relevance.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-16-ex-011",
+      "type": "fill_blank",
+      "question": "She ___ (not / finish) the project yet.",
+      "answer": "hasn't finished",
+      "hint": "yet in negatives → present perfect",
+      "explanation": "hasn't finished yet — not done so far.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-16-ex-012",
+      "type": "fill_blank",
+      "question": "He ___ (travel) to over 30 countries during his career.",
+      "answer": "has travelled",
+      "hint": "Career ongoing + counting experiences → present perfect",
+      "explanation": "has travelled — ongoing career, counting experiences.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-16-ex-013",
+      "type": "mcq",
+      "question": "Choose the correct sentence:",
+      "answer": "I went to Paris last year.",
+      "hint": "Last year = specific finished time",
+      "explanation": "last year = specific past time → past simple.",
+      "distractors": [
+        "I have gone to Paris last year.",
+        "I've been to Paris last year.",
+        "I have went to Paris last year."
+      ]
+    },
+    {
+      "id": "G-16-ex-014",
+      "type": "mcq",
+      "question": "Choose the correct sentence:",
+      "answer": "Have you been to Paris?",
+      "hint": "No specific time — asking about life experience",
+      "explanation": "No specific time → present perfect for life experience.",
+      "distractors": [
+        "Did you go to Paris?",
+        "Were you in Paris?",
+        "Have you gone in Paris?"
+      ]
+    },
+    {
+      "id": "G-16-ex-015",
+      "type": "mcq",
+      "question": "___ you ___ with Tom yesterday?",
+      "answer": "Did / speak",
+      "hint": "Yesterday = specific time → past simple",
+      "explanation": "Yesterday = specific time → past simple.",
+      "distractors": [
+        "Have / spoken",
+        "Have / speak",
+        "Did / spoken"
+      ]
+    },
+    {
+      "id": "G-16-ex-016",
+      "type": "mcq",
+      "question": "This is the best film I ___ ever ___.",
+      "answer": "have / seen",
+      "hint": "Superlative + ever → present perfect always",
+      "explanation": "The best I have ever seen — superlative + ever = present perfect.",
+      "distractors": [
+        "did / see",
+        "had / seen",
+        "was / seen"
+      ]
+    },
+    {
+      "id": "G-16-ex-017",
+      "type": "mcq",
+      "question": "When ___ she ___ the company?",
+      "answer": "did / join",
+      "hint": "'When' questions always use past simple",
+      "explanation": "When asks for specific time → past simple.",
+      "distractors": [
+        "has / joined",
+        "did / joined",
+        "has / join"
+      ]
+    },
+    {
+      "id": "G-16-ex-018",
+      "type": "mcq",
+      "question": "I ___ three cups of coffee this morning.",
+      "answer": "have had",
+      "hint": "This morning = is the morning finished? If not → present perfect",
+      "explanation": "this morning (day not over) → present perfect typically.",
+      "distractors": [
+        "had",
+        "did have",
+        "was having"
+      ]
+    },
+    {
+      "id": "G-16-ex-019",
+      "type": "error_correction",
+      "question": "Find and fix: 'I have seen her yesterday.'",
+      "answer": "I saw her yesterday.",
+      "hint": "Yesterday = specific past time",
+      "explanation": "yesterday = specific past time → past simple.",
+      "hebrew_note": "yesterday = past simple. לא present perfect"
+    },
+    {
+      "id": "G-16-ex-020",
+      "type": "error_correction",
+      "question": "Find and fix: 'Did you ever travel to Asia?'",
+      "answer": "Have you ever travelled to Asia?",
+      "hint": "Life experience + ever → which tense?",
+      "explanation": "ever + life experience → present perfect.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-16-ex-021",
+      "type": "error_correction",
+      "question": "Find and fix: 'When have you started working here?'",
+      "answer": "When did you start working here?",
+      "hint": "'When' always signals specific time → which tense?",
+      "explanation": "When = specific time → past simple.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-16-ex-022",
+      "type": "error_correction",
+      "question": "Find and fix: 'I know her since we were at school.'",
+      "answer": "I've known her since we were at school.",
+      "hint": "Since + point in time to now → which tense?",
+      "explanation": "since = from a point to NOW → present perfect.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-16-ex-023",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "in",
+        "he",
+        "to",
+        "Rome",
+        "went",
+        "2019"
+      ],
+      "answer": "He went to Rome in 2019.",
+      "hint": "Specific year → past simple",
+      "explanation": "In 2019 = specific past time → past simple."
+    },
+    {
+      "id": "G-16-ex-024",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "been",
+        "three",
+        "she",
+        "has",
+        "Rome",
+        "times",
+        "to"
+      ],
+      "answer": "She has been to Rome three times.",
+      "hint": "Number of times, no specific date → present perfect",
+      "explanation": "Three times (experience, no specific time) → present perfect."
+    },
+    {
+      "id": "G-16-ex-025",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "since",
+        "worked",
+        "she",
+        "has",
+        "here",
+        "company",
+        "the",
+        "was",
+        "founded"
+      ],
+      "answer": "She has worked here since the company was founded.",
+      "hint": "Since + past event to now → present perfect",
+      "explanation": "has worked since = from that point to now."
+    }
+  ],
+  "speak": [
+    {
+      "id": "G-16-sp-001",
+      "sentence": "I've been to London twice but I went last time in 2019.",
+      "chunks": [
+        "I've been to London twice",
+        "but I went last time in 2019."
+      ],
+      "phonetic_hints": "'Twice' = TWYS. Notice both tenses in one sentence.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-16-sp-002",
+      "sentence": "Have you ever eaten at that place? I went there last month and it was amazing.",
+      "chunks": [
+        "Have you ever eaten at that place?",
+        "I went there last month and it was amazing."
+      ],
+      "phonetic_hints": "'Eaten' = EE-tun. 'Amazing' = uh-MAY-zing.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-16-sp-003",
+      "sentence": "She worked at the company for ten years and then she left last summer.",
+      "chunks": [
+        "She worked at the company for ten years",
+        "and then she left last summer."
+      ],
+      "phonetic_hints": "'Worked' = WURKT. 'Left' = past of leave. Both in past simple — specific finished period.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-16-sp-004",
+      "sentence": "When did you learn to drive? I learned three years ago.",
+      "chunks": [
+        "When did you learn to drive?",
+        "I learned three years ago."
+      ],
+      "phonetic_hints": "'Learn' = LURN. 'Drive' = DRYV. 'Ago' = uh-GOH.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-16-sp-005",
+      "sentence": "I've already finished the report but I sent it an hour ago.",
+      "chunks": [
+        "I've already finished the report",
+        "but I sent it an hour ago."
+      ],
+      "phonetic_hints": "'Already' = awl-RED-ee. 'Finished' = FIN-isht. 'Sent' = SENT — past of send.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-16-sp-006",
+      "sentence": "This year has been really difficult for the whole team.",
+      "chunks": [
+        "This year has been really difficult",
+        "for the whole team."
+      ],
+      "phonetic_hints": "'Difficult' = DIF-ih-kult. 'Whole' = HOHL — the W is silent.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-16-sp-007",
+      "sentence": "How long have you known each other?",
+      "chunks": [
+        "How long have you known",
+        "each other?"
+      ],
+      "phonetic_hints": "'Known' = NOHN — silent K. 'Each other' — link: EEch-UH-ther.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-16-sp-008",
+      "sentence": "I haven't spoken to him since we had an argument last spring.",
+      "chunks": [
+        "I haven't spoken to him",
+        "since we had an argument last spring."
+      ],
+      "phonetic_hints": "'Spoken' = SPOH-kun. 'Argument' = AR-gyoo-ment.",
+      "pass_threshold": 0.6
+    }
+  ]
+}

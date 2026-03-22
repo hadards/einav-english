@@ -1,0 +1,429 @@
+{
+  "id": "G-34",
+  "title": "Noun clauses",
+  "level": "B2",
+  "order": 34,
+  "explain": {
+    "rule": "A noun clause is a clause that functions as a noun — as a subject, object, or complement of a sentence. Types: (1) That-clauses: I know that she is right. (2) Wh-clauses: I don't know what she wants. Where he lives is a mystery. (3) Whether/if clauses: She asked whether I was coming. (4) Nominalised wh-clauses as subjects: What matters most is honesty. The fact that she lied was shocking.",
+    "why_matters": "Noun clauses are the foundation of complex, sophisticated English — for expressing thoughts, beliefs, questions, and facts. They appear in formal writing, academic work, and professional communication constantly.",
+    "hebrew_note": "Hebrew uses similar clause structures (מה ש-, העובדה ש-, אם). The main challenge for Hebrew speakers is the word order within noun clauses — there is no inversion even in embedded questions: 'I don't know WHERE HE LIVES' (not 'where does he live'). The noun clause uses statement word order, not question order.",
+    "tip": "Key rule: noun clauses do NOT use question word order. 'I wonder where she is going' (not 'where is she going'). 'I know what time it is' (not 'what time is it'). Test: if you can replace the clause with 'it' or 'something', it is a noun clause.",
+    "good_examples": [
+      {
+        "id": "G-34-ge-001",
+        "sentence": "I believe that she is telling the truth.",
+        "audio_text": "I believe that she is telling the truth.",
+        "note": "that-clause as object of believe"
+      },
+      {
+        "id": "G-34-ge-002",
+        "sentence": "What surprises me most is her confidence.",
+        "audio_text": "What surprises me most is her confidence.",
+        "note": "Wh-clause as subject"
+      },
+      {
+        "id": "G-34-ge-003",
+        "sentence": "I don't know what he wants.",
+        "audio_text": "I don't know what he wants.",
+        "note": "Wh-clause as object — statement word order"
+      },
+      {
+        "id": "G-34-ge-004",
+        "sentence": "The fact that she lied was very upsetting.",
+        "audio_text": "The fact that she lied was very upsetting.",
+        "note": "The fact that + clause as subject"
+      },
+      {
+        "id": "G-34-ge-005",
+        "sentence": "She asked whether I would be coming.",
+        "audio_text": "She asked whether I would be coming.",
+        "note": "whether-clause as object of ask"
+      },
+      {
+        "id": "G-34-ge-006",
+        "sentence": "Where he went that night remains unknown.",
+        "audio_text": "Where he went that night remains unknown.",
+        "note": "Wh-clause as subject"
+      },
+      {
+        "id": "G-34-ge-007",
+        "sentence": "The problem is that nobody warned us.",
+        "audio_text": "The problem is that nobody warned us.",
+        "note": "that-clause as complement"
+      },
+      {
+        "id": "G-34-ge-008",
+        "sentence": "It is important that you attend the meeting.",
+        "audio_text": "It is important that you attend the meeting.",
+        "note": "It + that-clause — formal structure"
+      },
+      {
+        "id": "G-34-ge-009",
+        "sentence": "What I like about this city is the food.",
+        "audio_text": "What I like about this city is the food.",
+        "note": "Wh-cleft as subject + complement"
+      },
+      {
+        "id": "G-34-ge-010",
+        "sentence": "I wonder whether she knows about the change.",
+        "audio_text": "I wonder whether she knows about the change.",
+        "note": "wonder + whether-clause"
+      }
+    ],
+    "bad_examples": [
+      {
+        "id": "G-34-be-001",
+        "wrong": "I don't know where does he live.",
+        "correct": "I don't know where he lives.",
+        "reason": "Noun clauses use statement word order, not question order."
+      },
+      {
+        "id": "G-34-be-002",
+        "wrong": "What she said me was surprising.",
+        "correct": "What she said to me was surprising.",
+        "reason": "said + to + person OR told + person. Not 'said me'."
+      },
+      {
+        "id": "G-34-be-003",
+        "wrong": "The fact what she lied was upsetting.",
+        "correct": "The fact that she lied was upsetting.",
+        "reason": "The fact + that (not what). That introduces a fact clause."
+      },
+      {
+        "id": "G-34-be-004",
+        "wrong": "I wonder that she knows about it.",
+        "correct": "I wonder whether/if she knows about it.",
+        "reason": "wonder is followed by whether/if (not that) for yes/no questions."
+      },
+      {
+        "id": "G-34-be-005",
+        "wrong": "Is important that you study hard.",
+        "correct": "It is important that you study hard.",
+        "reason": "Sentences need a grammatical subject. Use 'It is important that'."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "G-34-ex-001",
+      "type": "fill_blank",
+      "question": "I believe ___ she is telling the truth.",
+      "answer": "that",
+      "hint": "that-clause as object",
+      "explanation": "I believe that — that introduces the noun clause.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-34-ex-002",
+      "type": "fill_blank",
+      "question": "___ surprises me most is her patience.",
+      "answer": "What",
+      "hint": "Wh-clause as subject",
+      "explanation": "What surprises me = the thing that surprises me.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-34-ex-003",
+      "type": "fill_blank",
+      "question": "I don't know ___ he wants.",
+      "answer": "what",
+      "hint": "Wh-clause object — statement word order",
+      "explanation": "what he wants (not what does he want).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-34-ex-004",
+      "type": "fill_blank",
+      "question": "The fact ___ she won is incredible.",
+      "answer": "that",
+      "hint": "The fact + that",
+      "explanation": "The fact that — introduces a fact noun clause.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-34-ex-005",
+      "type": "fill_blank",
+      "question": "She asked ___ I was coming.",
+      "answer": "whether / if",
+      "hint": "Whether/if for embedded yes/no question",
+      "explanation": "whether or if — embedded yes/no question.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-34-ex-006",
+      "type": "fill_blank",
+      "question": "___ he went that night remains a mystery.",
+      "answer": "Where",
+      "hint": "Wh-clause as subject",
+      "explanation": "Where he went = that destination is unknown.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-34-ex-007",
+      "type": "fill_blank",
+      "question": "The problem is ___ nobody told us.",
+      "answer": "that",
+      "hint": "that-clause as complement",
+      "explanation": "The problem is that — that-clause.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-34-ex-008",
+      "type": "fill_blank",
+      "question": "It is essential ___ you arrive on time.",
+      "answer": "that",
+      "hint": "It is + adjective + that-clause",
+      "explanation": "It is essential that — formal structure.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-34-ex-009",
+      "type": "fill_blank",
+      "question": "I wonder ___ she will accept the offer.",
+      "answer": "whether / if",
+      "hint": "whether/if for yes/no embedded question",
+      "explanation": "whether/if — yes/no question embedded.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-34-ex-010",
+      "type": "fill_blank",
+      "question": "___ they decide to do is their business.",
+      "answer": "What(ever) / Whatever",
+      "hint": "Wh-clause as subject",
+      "explanation": "What they decide = the thing they decide.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-34-ex-011",
+      "type": "mcq",
+      "question": "Nobody knows ___ she left.",
+      "answer": "why",
+      "hint": "Wh-clause — asking about reason",
+      "explanation": "why she left (statement order).",
+      "distractors": [
+        "why did she leave / the reason that / because"
+      ],
+      "hebrew_note": null
+    },
+    {
+      "id": "G-34-ex-012",
+      "type": "mcq",
+      "question": "What impressed me most ___ her preparation.",
+      "answer": "was",
+      "hint": "Wh-clause subject + verb agreement",
+      "explanation": "What impressed me = subject (singular) → was.",
+      "distractors": [
+        "were / is / had been"
+      ],
+      "hebrew_note": null
+    },
+    {
+      "id": "G-34-ex-013",
+      "type": "mcq",
+      "question": "I'm not sure ___ to believe.",
+      "answer": "what",
+      "hint": "Wh-clause after sure",
+      "explanation": "what to believe — embedded question.",
+      "distractors": [
+        "that / if / whether"
+      ],
+      "hebrew_note": null
+    },
+    {
+      "id": "G-34-ex-014",
+      "type": "mcq",
+      "question": "The news ___ she had been selected was wonderful.",
+      "answer": "that",
+      "hint": "The fact/news/idea + that",
+      "explanation": "the news that — noun + that clause.",
+      "distractors": [
+        "which / what / of"
+      ],
+      "hebrew_note": null
+    },
+    {
+      "id": "G-34-ex-015",
+      "type": "mcq",
+      "question": "It is crucial ___ this information stays confidential.",
+      "answer": "that",
+      "hint": "It is + adjective + that",
+      "explanation": "It is crucial that.",
+      "distractors": [
+        "what / which / if"
+      ],
+      "hebrew_note": null
+    },
+    {
+      "id": "G-34-ex-016",
+      "type": "error_correction",
+      "question": "Find and fix: 'I don't know where does he live.'",
+      "answer": "I don't know where he lives.",
+      "hint": "Noun clauses use statement word order",
+      "explanation": "where he lives — no inversion in noun clause.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-34-ex-017",
+      "type": "error_correction",
+      "question": "Find and fix: 'The fact what she lied was upsetting.'",
+      "answer": "The fact that she lied was upsetting.",
+      "hint": "The fact + that (not what)",
+      "explanation": "the fact that — not what.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-34-ex-018",
+      "type": "error_correction",
+      "question": "Find and fix: 'I wonder that she knows.'",
+      "answer": "I wonder whether/if she knows.",
+      "hint": "wonder + whether/if for yes/no embedded question",
+      "explanation": "wonder whether/if — not that.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-34-ex-019",
+      "type": "error_correction",
+      "question": "Find and fix: 'Is important that you attend.'",
+      "answer": "It is important that you attend.",
+      "hint": "Sentences need a subject — use dummy 'It'",
+      "explanation": "It is important that.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-34-ex-020",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "know",
+        "I",
+        "don't",
+        "what",
+        "she",
+        "wants"
+      ],
+      "answer": "I don't know what she wants.",
+      "hint": "Wh-clause as object — statement word order",
+      "explanation": "what she wants — no inversion.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-34-ex-021",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "What",
+        "me",
+        "surprises",
+        "most",
+        "is",
+        "her",
+        "dedication"
+      ],
+      "answer": "What surprises me most is her dedication.",
+      "hint": "Wh-clause as subject",
+      "explanation": "What surprises me = subject.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-34-ex-022",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "The",
+        "fact",
+        "that",
+        "won",
+        "she",
+        "everyone",
+        "surprised"
+      ],
+      "answer": "The fact that she won surprised everyone.",
+      "hint": "The fact that + clause",
+      "explanation": "the fact that she won = subject.",
+      "hebrew_note": null
+    }
+  ],
+  "speak": [
+    {
+      "id": "G-34-sp-001",
+      "sentence": "What I find most interesting about this city is how different it is from what I expected.",
+      "chunks": [
+        "What I find most interesting about this city",
+        "is how different it is from what I expected."
+      ],
+      "phonetic_hints": "'Interesting' = IN-trest-ing. 'Expected' = ik-SPEK-tid.",
+      "pass_threshold": 0.55
+    },
+    {
+      "id": "G-34-sp-002",
+      "sentence": "The fact that she managed to finish everything on time was remarkable.",
+      "chunks": [
+        "The fact that she managed to finish everything on time",
+        "was remarkable."
+      ],
+      "phonetic_hints": "'Remarkable' = rih-MAR-kuh-bul.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-34-sp-003",
+      "sentence": "I don't understand why he made that decision without consulting anyone.",
+      "chunks": [
+        "I don't understand why he made that decision",
+        "without consulting anyone."
+      ],
+      "phonetic_hints": "'Consulting' = kun-SULT-ing. 'Decision' = dih-SIH-zhun.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-34-sp-004",
+      "sentence": "Whether she accepts the offer or not is entirely up to her.",
+      "chunks": [
+        "Whether she accepts the offer or not",
+        "is entirely up to her."
+      ],
+      "phonetic_hints": "'Entirely' = en-TYR-lee. 'Accepts' = ak-SEPTS.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-34-sp-005",
+      "sentence": "What matters most in this situation is that everyone remains calm.",
+      "chunks": [
+        "What matters most in this situation",
+        "is that everyone remains calm."
+      ],
+      "phonetic_hints": "'Remains' = rih-MAYNZ. 'Calm' = KAHM — silent L.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-34-sp-006",
+      "sentence": "She asked whether I would be available for a meeting next week.",
+      "chunks": [
+        "She asked whether I would be available",
+        "for a meeting next week."
+      ],
+      "phonetic_hints": "'Available' = uh-VAY-luh-bul.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-34-sp-007",
+      "sentence": "It is essential that all team members attend the briefing tomorrow morning.",
+      "chunks": [
+        "It is essential that all team members attend",
+        "the briefing tomorrow morning."
+      ],
+      "phonetic_hints": "'Essential' = ih-SEN-shul. 'Briefing' = BREEF-ing.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-34-sp-008",
+      "sentence": "Nobody could explain what had happened or why the system had failed.",
+      "chunks": [
+        "Nobody could explain what had happened",
+        "or why the system had failed."
+      ],
+      "phonetic_hints": "'Explain' = ik-SPLAYN. 'System' = SIS-tum.",
+      "pass_threshold": 0.6
+    }
+  ]
+}

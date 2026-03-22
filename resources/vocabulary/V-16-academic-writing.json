@@ -1,0 +1,307 @@
+{
+  "id": "V-16",
+  "theme": "Academic writing",
+  "level": "B2",
+  "words": [
+    {
+      "id": "V-16-w-001",
+      "word": "hypothesis",
+      "part_of_speech": "noun",
+      "definition": "a proposed explanation that can be tested",
+      "example_sentences": [
+        "The hypothesis was supported by the experimental data.",
+        "She formulated a clear hypothesis before beginning the research.",
+        "A good hypothesis is specific, measurable, and testable."
+      ],
+      "pronunciation_tip": "hy-POTH-ih-sis — four syllables, stress on second.",
+      "common_mistake": "Don't say 'my idea to test' — say 'my hypothesis'.",
+      "collocations": "['test a hypothesis', 'formulate a hypothesis', 'support a hypothesis']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-16-w-002",
+      "word": "methodology",
+      "part_of_speech": "noun",
+      "definition": "the system of methods used in a particular field of study",
+      "example_sentences": [
+        "The report describes the research methodology in detail.",
+        "Different methodologies lead to different results.",
+        "The methodology section explains how data was collected."
+      ],
+      "pronunciation_tip": "meth-uh-DOL-uh-jee — five syllables, stress on third.",
+      "common_mistake": "Don't say 'how I did the research' — say 'my methodology' or 'the research methodology'.",
+      "collocations": "['research methodology', 'explain methodology', 'qualitative methodology']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-16-w-003",
+      "word": "citation",
+      "part_of_speech": "noun",
+      "definition": "a reference to a published work used as evidence",
+      "example_sentences": [
+        "Every claim must be supported by a citation.",
+        "The essay included over thirty citations.",
+        "She forgot to include a citation for the statistic."
+      ],
+      "pronunciation_tip": "sy-TAY-shun — three syllables, stress on second.",
+      "common_mistake": "Don't say 'a reference to another book' — say 'a citation'.",
+      "collocations": "['include a citation', 'in-text citation', 'citation style']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-16-w-004",
+      "word": "abstract",
+      "part_of_speech": "noun",
+      "definition": "a short summary of a research paper at the beginning",
+      "example_sentences": [
+        "Read the abstract before deciding to read the full paper.",
+        "Her abstract clearly explained the purpose and findings.",
+        "An abstract should be no longer than 250 words."
+      ],
+      "pronunciation_tip": "AB-strakt — stress on first syllable when used as a noun.",
+      "common_mistake": "Don't say 'the summary of the paper' every time — say 'the abstract'.",
+      "collocations": "['write an abstract', 'read the abstract', 'executive abstract']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-16-w-005",
+      "word": "peer review",
+      "part_of_speech": "noun",
+      "definition": "evaluation of research by other experts in the same field",
+      "example_sentences": [
+        "The article was published after passing peer review.",
+        "Peer review ensures quality in academic publishing.",
+        "The study was criticised for not being peer reviewed."
+      ],
+      "pronunciation_tip": "PEER rih-VYOO.",
+      "common_mistake": "Don't say 'checked by other scientists' — say 'peer reviewed'.",
+      "collocations": "['peer review process', 'pass peer review', 'peer-reviewed journal']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-16-w-006",
+      "word": "empirical",
+      "part_of_speech": "adjective",
+      "definition": "based on observation and experiment rather than theory",
+      "example_sentences": [
+        "The empirical evidence strongly supports the theory.",
+        "Her research is based on empirical data from 500 participants.",
+        "Without empirical evidence, a theory remains speculative."
+      ],
+      "pronunciation_tip": "em-PIR-ih-kul — four syllables, stress on second.",
+      "common_mistake": "Don't say 'based on real evidence' — say 'empirical evidence' or 'empirical research'.",
+      "collocations": "['empirical evidence', 'empirical research', 'empirical data']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-16-w-007",
+      "word": "findings",
+      "part_of_speech": "noun",
+      "definition": "the results or conclusions of a piece of research",
+      "example_sentences": [
+        "The findings suggest a strong link between stress and illness.",
+        "Her findings contradicted the previous study.",
+        "The report presents the key findings clearly."
+      ],
+      "pronunciation_tip": "FYN-dingz — two syllables, stress on first.",
+      "common_mistake": "Don't say 'the results' every time in academic writing — say 'the findings'.",
+      "collocations": "['research findings', 'key findings', 'present findings']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-16-w-008",
+      "word": "significant",
+      "part_of_speech": "adjective",
+      "definition": "important or large enough to have an effect or be noticed",
+      "example_sentences": [
+        "There was a significant improvement in test scores.",
+        "The difference between the two groups was statistically significant.",
+        "This is a significant development in the field."
+      ],
+      "pronunciation_tip": "sig-NIF-ih-kunt — four syllables, stress on second.",
+      "common_mistake": "Don't say 'big' or 'important' in academic writing — say 'significant'.",
+      "collocations": "['statistically significant', 'significant difference', 'significant finding']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-16-w-009",
+      "word": "acknowledge",
+      "part_of_speech": "verb",
+      "definition": "to recognise or admit the existence of something",
+      "example_sentences": [
+        "The paper acknowledges several limitations.",
+        "She acknowledged the contribution of her research team.",
+        "Good academic writing acknowledges opposing views."
+      ],
+      "pronunciation_tip": "ak-NOL-ij — three syllables, stress on second.",
+      "common_mistake": "Don't say 'say that something exists' — say 'acknowledge'.",
+      "collocations": "['acknowledge limitations', 'acknowledge contribution', 'acknowledge that']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-16-w-010",
+      "word": "refute",
+      "part_of_speech": "verb",
+      "definition": "to prove that something is wrong or incorrect",
+      "example_sentences": [
+        "The new data refutes the previous theory.",
+        "She refuted the claims made in the earlier study.",
+        "It is difficult to refute empirical evidence."
+      ],
+      "pronunciation_tip": "rih-FYOOT — two syllables, stress on second.",
+      "common_mistake": "Don't say 'prove wrong' always — say 'refute' in academic contexts.",
+      "collocations": "['refute a claim', 'refute evidence', 'hard to refute']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-16-w-011",
+      "word": "correlation",
+      "part_of_speech": "noun",
+      "definition": "a relationship between two variables that tend to change together",
+      "example_sentences": [
+        "There is a strong correlation between poverty and poor health.",
+        "Correlation does not prove causation.",
+        "The study found a negative correlation between the two factors."
+      ],
+      "pronunciation_tip": "kor-ih-LAY-shun — four syllables, stress on third.",
+      "common_mistake": "Don't confuse correlation (relationship) with causation (cause). Correlation ≠ causation.",
+      "collocations": "['positive correlation', 'strong correlation', 'correlation between']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-16-w-012",
+      "word": "paraphrase",
+      "part_of_speech": "verb",
+      "definition": "to express someone else's idea in your own words",
+      "example_sentences": [
+        "She paraphrased the original source rather than quoting directly.",
+        "Learn to paraphrase effectively to avoid plagiarism.",
+        "It's better to paraphrase than to copy directly."
+      ],
+      "pronunciation_tip": "PAIR-uh-frayz — three syllables, stress on first.",
+      "common_mistake": "Don't say 'I wrote the same thing in different words' — say 'I paraphrased'.",
+      "collocations": "['paraphrase a source', 'learn to paraphrase', 'paraphrase effectively']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-16-w-013",
+      "word": "thesis",
+      "part_of_speech": "noun",
+      "definition": "the main argument of an essay, or a major piece of original research",
+      "example_sentences": [
+        "State your thesis clearly in the introduction.",
+        "She spent three years writing her doctoral thesis.",
+        "A strong thesis statement sets up the whole essay."
+      ],
+      "pronunciation_tip": "THEE-sis — two syllables, stress on first.",
+      "common_mistake": "Don't confuse thesis (main argument of an essay) with thesis (doctoral research paper) — both are correct uses.",
+      "collocations": "['thesis statement', 'doctoral thesis', 'develop your thesis']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-16-w-014",
+      "word": "synthesis",
+      "part_of_speech": "noun",
+      "definition": "the combination of different ideas or sources to create a new understanding",
+      "example_sentences": [
+        "Good academic writing involves synthesis of multiple sources.",
+        "The conclusion synthesises the key findings.",
+        "Her synthesis of the literature was impressive."
+      ],
+      "pronunciation_tip": "SIN-thuh-sis — three syllables, stress on first.",
+      "common_mistake": "Don't say 'combining ideas' as a noun — say 'synthesis'.",
+      "collocations": "['synthesis of sources', 'literature synthesis', 'critical synthesis']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-16-w-015",
+      "word": "quantitative",
+      "part_of_speech": "adjective",
+      "definition": "relating to the measurement of quantity using numbers",
+      "example_sentences": [
+        "The quantitative data showed a 30% improvement.",
+        "She used quantitative methods to analyse the results.",
+        "Quantitative research is based on statistics and measurement."
+      ],
+      "pronunciation_tip": "KWON-tih-tuh-tiv — five syllables, stress on first.",
+      "common_mistake": "Don't confuse quantitative (numbers-based) with qualitative (qualities-based).",
+      "collocations": "['quantitative data', 'quantitative research', 'quantitative analysis']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-16-w-016",
+      "word": "coherent",
+      "part_of_speech": "adjective",
+      "definition": "logically consistent and clearly expressed",
+      "example_sentences": [
+        "The essay was well-organised and highly coherent.",
+        "A coherent argument flows logically from beginning to end.",
+        "Her ideas became more coherent as the research developed."
+      ],
+      "pronunciation_tip": "koh-HEER-unt — three syllables, stress on second.",
+      "common_mistake": "Don't say 'clear and well-organised' every time — say 'coherent'.",
+      "collocations": "['coherent argument', 'coherent structure', 'remain coherent']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-16-w-017",
+      "word": "critical analysis",
+      "part_of_speech": "noun",
+      "definition": "a detailed examination and evaluation of something",
+      "example_sentences": [
+        "The essay requires a critical analysis of three texts.",
+        "She performed a thorough critical analysis of the policy.",
+        "Critical analysis means evaluating strengths and weaknesses."
+      ],
+      "pronunciation_tip": "KRIT-ih-kul uh-NAL-ih-sis.",
+      "common_mistake": "Don't say 'looking at something carefully' — say 'critical analysis'.",
+      "collocations": "['perform critical analysis', 'critical analysis of', 'requires critical analysis']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-16-w-018",
+      "word": "counterargument",
+      "part_of_speech": "noun",
+      "definition": "a reason offered against a claim or argument",
+      "example_sentences": [
+        "She addressed every counterargument in her thesis.",
+        "Acknowledging counterarguments makes your essay stronger.",
+        "What is the strongest counterargument to your position?"
+      ],
+      "pronunciation_tip": "KOWN-ter-ar-gyoo-ment — five syllables, stress on first.",
+      "common_mistake": "Don't say 'the other side's argument' — say 'the counterargument'.",
+      "collocations": "['address counterargument', 'acknowledge counterargument', 'main counterargument']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-16-w-019",
+      "word": "plagiarise",
+      "part_of_speech": "verb",
+      "definition": "to use someone else's work or ideas without acknowledgement",
+      "example_sentences": [
+        "He was caught plagiarising entire paragraphs from another study.",
+        "Students who plagiarise face serious academic consequences.",
+        "Never plagiarise — always cite your sources."
+      ],
+      "pronunciation_tip": "PLAY-juh-ryz — three syllables, stress on first.",
+      "common_mistake": "Don't say 'he copied' in academic contexts — say 'he plagiarised'.",
+      "collocations": "['accused of plagiarising', 'plagiarise work', 'unknowingly plagiarise']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-16-w-020",
+      "word": "imply",
+      "part_of_speech": "verb",
+      "definition": "to suggest something without stating it directly",
+      "example_sentences": [
+        "The data implies a link between the two factors.",
+        "Are you implying that I'm wrong?",
+        "The tone of the report implies serious concern."
+      ],
+      "pronunciation_tip": "im-PLY — two syllables, stress on second.",
+      "common_mistake": "Don't confuse imply (speaker suggests) with infer (listener concludes). 'I imply; you infer'.",
+      "collocations": "['imply a connection', 'the data implies', 'imply that']",
+      "difficulty": 2
+    }
+  ]
+}

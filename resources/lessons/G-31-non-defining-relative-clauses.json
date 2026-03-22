@@ -1,0 +1,422 @@
+{
+  "id": "G-31",
+  "title": "Non-defining relative clauses",
+  "level": "B2",
+  "order": 31,
+  "explain": {
+    "rule": "Non-defining relative clauses add EXTRA information about a noun — the information is not essential to identify which one. They are separated by COMMAS. Use who (people), which (things), where (places), when (times), whose (possession). CANNOT use 'that' in non-defining clauses. If you remove the clause, the sentence still makes complete sense. Compare: defining (no commas, essential info) vs non-defining (commas, extra info).",
+    "why_matters": "Non-defining clauses are common in formal writing, journalism, and sophisticated speech. They let you add extra information smoothly without starting a new sentence.",
+    "hebrew_note": "Hebrew uses ש with relative clauses regardless of type. In English the distinction between defining (no commas, that/who/which) and non-defining (commas, who/which — NO that) is a B2 skill that marks formal educated English.",
+    "tip": "Comma test: if the clause is in commas and you could remove it without losing the main point → non-defining. No commas and the sentence needs the clause to make sense → defining. Also: non-defining = which (never that), who (never that for people). Written English only — in speech the pause indicates it.",
+    "good_examples": [
+      {
+        "id": "G-31-ge-001",
+        "sentence": "My sister, who lives in London, is visiting next week.",
+        "audio_text": "My sister, who lives in London, is visiting next week.",
+        "note": "Extra info about my sister — I only have one sister"
+      },
+      {
+        "id": "G-31-ge-002",
+        "sentence": "The Eiffel Tower, which was built in 1889, attracts millions of tourists.",
+        "audio_text": "The Eiffel Tower, which was built in 1889, attracts millions of tourists.",
+        "note": "Extra fact about the Eiffel Tower — we already know which tower"
+      },
+      {
+        "id": "G-31-ge-003",
+        "sentence": "Tel Aviv, where I grew up, has changed enormously.",
+        "audio_text": "Tel Aviv, where I grew up, has changed enormously.",
+        "note": "Extra info about Tel Aviv"
+      },
+      {
+        "id": "G-31-ge-004",
+        "sentence": "My manager, whose opinion I respect greatly, agreed with my proposal.",
+        "audio_text": "My manager, whose opinion I respect greatly, agreed with my proposal.",
+        "note": "Possession — extra info about the manager"
+      },
+      {
+        "id": "G-31-ge-005",
+        "sentence": "The meeting, which lasted three hours, was exhausting.",
+        "audio_text": "The meeting, which lasted three hours, was exhausting.",
+        "note": "Extra info about the meeting"
+      },
+      {
+        "id": "G-31-ge-006",
+        "sentence": "She moved to Berlin in 2015, when she started her PhD.",
+        "audio_text": "She moved to Berlin in 2015, when she started her PhD.",
+        "note": "Extra info about 2015"
+      },
+      {
+        "id": "G-31-ge-007",
+        "sentence": "My car, which I bought two years ago, is already having problems.",
+        "audio_text": "My car, which I bought two years ago, is already having problems.",
+        "note": "Extra info — we know which car (my car)"
+      },
+      {
+        "id": "G-31-ge-008",
+        "sentence": "Professor Cohen, who teaches economics, has just won an award.",
+        "audio_text": "Professor Cohen, who teaches economics, has just won an award.",
+        "note": "We already know who Professor Cohen is"
+      },
+      {
+        "id": "G-31-ge-009",
+        "sentence": "The company's CEO, whose name I can't remember, resigned yesterday.",
+        "audio_text": "The company's CEO, whose name I can't remember, resigned yesterday.",
+        "note": "Possession — extra information"
+      },
+      {
+        "id": "G-31-ge-010",
+        "sentence": "We visited Athens, where the Olympic Games originally began.",
+        "audio_text": "We visited Athens, where the Olympic Games originally began.",
+        "note": "Extra historical fact about Athens"
+      }
+    ],
+    "bad_examples": [
+      {
+        "id": "G-31-be-001",
+        "wrong": "My sister that lives in London is visiting.",
+        "correct": "My sister, who lives in London, is visiting.",
+        "reason": "Non-defining clauses cannot use 'that'. Use 'who' for people + add commas."
+      },
+      {
+        "id": "G-31-be-002",
+        "wrong": "The Eiffel Tower, that was built in 1889, is beautiful.",
+        "correct": "The Eiffel Tower, which was built in 1889, is beautiful.",
+        "reason": "Non-defining clauses use 'which' for things, never 'that'."
+      },
+      {
+        "id": "G-31-be-003",
+        "wrong": "My car which I bought last year has problems.",
+        "correct": "My car, which I bought last year, has problems.",
+        "reason": "Non-defining clauses need commas — both before and after."
+      },
+      {
+        "id": "G-31-be-004",
+        "wrong": "She moved to Berlin in 2015, that was when she started her PhD.",
+        "correct": "She moved to Berlin in 2015, when she started her PhD.",
+        "reason": "'That' cannot be used in non-defining clauses. Use 'when' for time."
+      },
+      {
+        "id": "G-31-be-005",
+        "wrong": "Professor Cohen, which teaches economics, won an award.",
+        "correct": "Professor Cohen, who teaches economics, won an award.",
+        "reason": "'which' is for things, 'who' is for people — even in non-defining clauses."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "G-31-ex-001",
+      "type": "fill_blank",
+      "question": "My brother, ___ is a doctor, works in a hospital in Haifa.",
+      "answer": "who",
+      "hint": "Person in non-defining clause → who (not that)",
+      "explanation": "who — non-defining clause for people.",
+      "hebrew_note": "non-defining = who/which + פסיקים, לא that"
+    },
+    {
+      "id": "G-31-ex-002",
+      "type": "fill_blank",
+      "question": "The Colosseum, ___ was built in 70 AD, is still standing.",
+      "answer": "which",
+      "hint": "Thing in non-defining clause → which (not that)",
+      "explanation": "which — non-defining clause for things.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-31-ex-003",
+      "type": "fill_blank",
+      "question": "We visited Kyoto, ___ we spent most of our time.",
+      "answer": "where",
+      "hint": "Place → where in non-defining clause",
+      "explanation": "where — place.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-31-ex-004",
+      "type": "fill_blank",
+      "question": "My boss, ___ car is always the newest model, loves technology.",
+      "answer": "whose",
+      "hint": "Possession in non-defining clause",
+      "explanation": "whose — possession.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-31-ex-005",
+      "type": "fill_blank",
+      "question": "The company was founded in 1952, ___ was just after the war.",
+      "answer": "which",
+      "hint": "Referring to the whole situation → which",
+      "explanation": "which — referring back to the whole clause.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-31-ex-006",
+      "type": "fill_blank",
+      "question": "She won her first championship in 2018, ___ she was only 19.",
+      "answer": "when",
+      "hint": "Time reference → when",
+      "explanation": "when — time.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-31-ex-007",
+      "type": "fill_blank",
+      "question": "My parents, ___ both retired now, travel a lot.",
+      "answer": "who are",
+      "hint": "People in non-defining clause — include the verb too",
+      "explanation": "who are — both retired.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-31-ex-008",
+      "type": "fill_blank",
+      "question": "This book, ___ I read years ago, is now a film.",
+      "answer": "which",
+      "hint": "Thing in non-defining clause",
+      "explanation": "which — book (thing).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-31-ex-009",
+      "type": "mcq",
+      "question": "My sister, ___ works as a nurse, has just had a baby.",
+      "answer": "who",
+      "hint": "Person → who in non-defining clause",
+      "explanation": "who — person, non-defining.",
+      "distractors": "which / that / whose",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-31-ex-010",
+      "type": "mcq",
+      "question": "The new library, ___ was designed by a famous architect, opens next month.",
+      "answer": "which",
+      "hint": "Thing → which (not that) in non-defining",
+      "explanation": "which — thing, non-defining. That is not used in non-defining clauses.",
+      "distractors": "that / who / where",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-31-ex-011",
+      "type": "mcq",
+      "question": "Which sentence is correct?",
+      "answer": "The president, who gave a speech yesterday, flies to Paris today.",
+      "hint": "Non-defining: commas + who (not that)",
+      "explanation": "commas + who for person = non-defining.",
+      "distractors": "The president that gave a speech yesterday flies to Paris. / The president, that gave a speech yesterday, flies to Paris today. / The president who gave a speech yesterday flies to Paris.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-31-ex-012",
+      "type": "mcq",
+      "question": "Which is a non-defining relative clause?",
+      "answer": "The Taj Mahal, which is in India, was built in the 17th century.",
+      "hint": "Commas + extra info = non-defining",
+      "explanation": "commas around the clause = non-defining.",
+      "distractors": "The book that I bought is interesting. / I know a woman who speaks six languages. / She lives in the house that was built in 1900.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-31-ex-013",
+      "type": "mcq",
+      "question": "They moved to Barcelona in 2010, ___ they met for the first time.",
+      "answer": "when",
+      "hint": "Time → when",
+      "explanation": "when — 2010 is a time.",
+      "distractors": "which / that / who",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-31-ex-014",
+      "type": "mcq",
+      "question": "My laptop, ___ I've had for three years, is starting to slow down.",
+      "answer": "which",
+      "hint": "Thing in non-defining clause",
+      "explanation": "which — laptop (thing), commas.",
+      "distractors": "that / who / whose",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-31-ex-015",
+      "type": "error_correction",
+      "question": "Find and fix: 'My sister that lives in London is visiting.'",
+      "answer": "My sister, who lives in London, is visiting.",
+      "hint": "Non-defining needs commas + who not that",
+      "explanation": "commas + who for person.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-31-ex-016",
+      "type": "error_correction",
+      "question": "Find and fix: 'The Eiffel Tower, that was built in 1889, is beautiful.'",
+      "answer": "The Eiffel Tower, which was built in 1889, is beautiful.",
+      "hint": "Non-defining needs which not that",
+      "explanation": "which — things in non-defining clauses.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-31-ex-017",
+      "type": "error_correction",
+      "question": "Find and fix: 'My car which I bought last year has problems.'",
+      "answer": "My car, which I bought last year, has problems.",
+      "hint": "Non-defining needs commas",
+      "explanation": "commas before and after non-defining clause.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-31-ex-018",
+      "type": "error_correction",
+      "question": "Find and fix: 'Professor Smith, which teaches physics, won an award.'",
+      "answer": "Professor Smith, who teaches physics, won an award.",
+      "hint": "which is for things, who is for people",
+      "explanation": "who — Professor Smith is a person.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-31-ex-019",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "My",
+        "brother",
+        "who",
+        "is",
+        "a",
+        "pilot",
+        "travels",
+        "constantly",
+        ",",
+        ","
+      ],
+      "answer": "My brother, who is a pilot, travels constantly.",
+      "hint": "Person + non-defining clause + commas",
+      "explanation": "My brother, who is a pilot, — commas around the extra info.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-31-ex-020",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "The",
+        "meeting",
+        "which",
+        "lasted",
+        "hours",
+        "three",
+        "was",
+        "exhausting",
+        ",",
+        ","
+      ],
+      "answer": "The meeting, which lasted three hours, was exhausting.",
+      "hint": "Thing + non-defining clause",
+      "explanation": "which lasted three hours — non-defining, commas.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-31-ex-021",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "We",
+        "moved",
+        "to",
+        "2019",
+        "in",
+        "when",
+        "started",
+        "we",
+        "project",
+        "the",
+        ","
+      ],
+      "answer": "We moved in 2019, when we started the project.",
+      "hint": "Time + when",
+      "explanation": "2019, when — time reference + non-defining.",
+      "hebrew_note": null
+    }
+  ],
+  "speak": [
+    {
+      "id": "G-31-sp-001",
+      "sentence": "My colleague, who has been with the company for twenty years, is retiring next month.",
+      "chunks": [
+        "My colleague, who has been with the company for twenty years,",
+        "is retiring next month."
+      ],
+      "phonetic_hints": "'Colleague' = KOL-eeg. 'Retiring' = rih-TY-ring.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-31-sp-002",
+      "sentence": "The hotel, which we stayed in last summer, has been completely refurbished.",
+      "chunks": [
+        "The hotel, which we stayed in last summer,",
+        "has been completely refurbished."
+      ],
+      "phonetic_hints": "'Refurbished' = ree-FUR-bisht.",
+      "pass_threshold": 0.55
+    },
+    {
+      "id": "G-31-sp-003",
+      "sentence": "My father, whose advice I always follow, told me to take the job.",
+      "chunks": [
+        "My father, whose advice I always follow,",
+        "told me to take the job."
+      ],
+      "phonetic_hints": "'Advice' = ad-VYS. 'Follow' = FOL-oh.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-31-sp-004",
+      "sentence": "She graduated in 2015, when she was just twenty-two years old.",
+      "chunks": [
+        "She graduated in 2015,",
+        "when she was just twenty-two years old."
+      ],
+      "phonetic_hints": "'Graduated' = GRAD-yoo-ay-tid.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-31-sp-005",
+      "sentence": "The city centre, where most of the shops are located, is always very busy.",
+      "chunks": [
+        "The city centre, where most of the shops are located,",
+        "is always very busy."
+      ],
+      "phonetic_hints": "'Located' = loh-KAY-tid. 'Centre' = SEN-tuh.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-31-sp-006",
+      "sentence": "The prime minister, who gave a press conference this morning, denied the allegations.",
+      "chunks": [
+        "The prime minister, who gave a press conference this morning,",
+        "denied the allegations."
+      ],
+      "phonetic_hints": "'Conference' = KON-fer-unss. 'Allegations' = al-ih-GAY-shunz.",
+      "pass_threshold": 0.55
+    },
+    {
+      "id": "G-31-sp-007",
+      "sentence": "My laptop, which I only bought last year, has already stopped working.",
+      "chunks": [
+        "My laptop, which I only bought last year,",
+        "has already stopped working."
+      ],
+      "phonetic_hints": "'Laptop' = LAP-top. 'Stopped' = STOPT.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-31-sp-008",
+      "sentence": "We visited Athens, where the ancient Olympic Games originally took place.",
+      "chunks": [
+        "We visited Athens,",
+        "where the ancient Olympic Games originally took place."
+      ],
+      "phonetic_hints": "'Ancient' = AYN-shunt. 'Originally' = uh-RIJ-ih-nuh-lee.",
+      "pass_threshold": 0.6
+    }
+  ]
+}

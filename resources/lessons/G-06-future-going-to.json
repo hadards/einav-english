@@ -1,0 +1,499 @@
+{
+  "id": "G-06",
+  "title": "Future: going to",
+  "level": "A2",
+  "order": 6,
+  "explain": {
+    "rule": "Use 'going to' for plans and intentions already decided before speaking, and for predictions based on present evidence. Form: subject + am/is/are + going to + base verb.",
+    "why_matters": "Going to is essential for talking about your plans and things you can see are about to happen.",
+    "hebrew_note": "Hebrew has one future tense for all future meanings. English separates: will for spontaneous decisions, going to for pre-planned intentions and evidence-based predictions.",
+    "tip": "Already decided or can see the evidence right now? Use going to. Just your opinion or a spontaneous decision? Use will.",
+    "good_examples": [
+      {
+        "id": "G-06-ge-001",
+        "sentence": "I am going to visit my aunt next month — I already bought the ticket.",
+        "audio_text": "I am going to visit my aunt next month — I already bought the ticket.",
+        "note": "Planned intention — ticket already bought"
+      },
+      {
+        "id": "G-06-ge-002",
+        "sentence": "Watch out! That car is going to hit the wall!",
+        "audio_text": "Watch out! That car is going to hit the wall!",
+        "note": "Prediction with visible evidence"
+      },
+      {
+        "id": "G-06-ge-003",
+        "sentence": "Are you going to apply for that job?",
+        "audio_text": "Are you going to apply for that job?",
+        "note": "Question about plans"
+      },
+      {
+        "id": "G-06-ge-004",
+        "sentence": "They are not going to finish on time — they are too far behind.",
+        "audio_text": "They are not going to finish on time — they are too far behind.",
+        "note": "Evidence-based prediction"
+      },
+      {
+        "id": "G-06-ge-005",
+        "sentence": "She is going to have a baby in March.",
+        "audio_text": "She is going to have a baby in March.",
+        "note": "Future event already arranged"
+      },
+      {
+        "id": "G-06-ge-006",
+        "sentence": "We are going to redecorate the flat this summer — we have already chosen the colours.",
+        "audio_text": "We are going to redecorate the flat this summer — we have already chosen the colours.",
+        "note": "Planned intention with prior decision"
+      },
+      {
+        "id": "G-06-ge-007",
+        "sentence": "Look at him — he is going to fall off that ladder!",
+        "audio_text": "Look at him — he is going to fall off that ladder!",
+        "note": "Immediate prediction from visible evidence"
+      },
+      {
+        "id": "G-06-ge-008",
+        "sentence": "Is it going to be a long meeting? I need to be home by six.",
+        "audio_text": "Is it going to be a long meeting? I need to be home by six.",
+        "note": "Question about anticipated future event"
+      }
+    ],
+    "bad_examples": [
+      {
+        "id": "G-06-be-001",
+        "wrong": "I am going to to visit Paris.",
+        "correct": "I am going to visit Paris.",
+        "reason": "Never 'going to to' — going to is followed directly by the base verb"
+      },
+      {
+        "id": "G-06-be-002",
+        "wrong": "She is going visit her parents.",
+        "correct": "She is going to visit her parents.",
+        "reason": "Don't forget 'to' — the full form is going to + base verb"
+      },
+      {
+        "id": "G-06-be-003",
+        "wrong": "They going to arrive soon.",
+        "correct": "They are going to arrive soon.",
+        "reason": "Don't forget am/is/are — going to needs the auxiliary verb"
+      },
+      {
+        "id": "G-06-be-004",
+        "wrong": "Is she going to comes?",
+        "correct": "Is she going to come?",
+        "reason": "After going to, the verb must be base form"
+      },
+      {
+        "id": "G-06-be-005",
+        "wrong": "'The phone is ringing.' 'I am going to answer it!'",
+        "correct": "'The phone is ringing.' 'I will answer it!'",
+        "reason": "Spontaneous decision made at the moment → use will, not going to"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "G-06-ex-001",
+      "type": "fill_blank",
+      "question": "I ___ (visit) my doctor next week — I already have an appointment.",
+      "answer": "am going to visit",
+      "hint": "Already planned → going to",
+      "explanation": "Am + going to + visit. The appointment confirms a prior plan.",
+      "hebrew_note": "כבר תכננת מראש — am going to visit"
+    },
+    {
+      "id": "G-06-ex-002",
+      "type": "fill_blank",
+      "question": "Look at those dark clouds! It ___ (rain).",
+      "answer": "is going to rain",
+      "hint": "Visible evidence → going to for prediction",
+      "explanation": "Is + going to + rain. The evidence (dark clouds) is visible right now.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-06-ex-003",
+      "type": "fill_blank",
+      "question": "___ (you / apply) for the new manager position?",
+      "answer": "Are you going to apply",
+      "hint": "Question about plans → Are + you + going to + base verb",
+      "explanation": "Are + you + going to + apply.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-06-ex-004",
+      "type": "fill_blank",
+      "question": "She ___ (not / take) the job — the salary is too low.",
+      "answer": "is not going to take",
+      "hint": "Negative plan → is not going to + base verb",
+      "explanation": "Is not going to + take. She has already decided.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-06-ex-005",
+      "type": "fill_blank",
+      "question": "They ___ (get) married in June — they've booked the venue.",
+      "answer": "are going to get",
+      "hint": "Already arranged → going to",
+      "explanation": "Are + going to + get. Venue booked = prior arrangement.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-06-ex-006",
+      "type": "fill_blank",
+      "question": "Watch out — he ___ (drop) those glasses!",
+      "answer": "is going to drop",
+      "hint": "You can see it about to happen → going to",
+      "explanation": "Is + going to + drop. Immediate prediction from visible evidence.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-06-ex-007",
+      "type": "fill_blank",
+      "question": "We ___ (not / be) in the office on Friday — we have a team event.",
+      "answer": "are not going to be",
+      "hint": "Planned absence → are not going to + base verb",
+      "explanation": "Are not going to + be.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-06-ex-008",
+      "type": "fill_blank",
+      "question": "___ (it / be) a long journey?",
+      "answer": "Is it going to be",
+      "hint": "Question about anticipated situation",
+      "explanation": "Is + it + going to + be.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-06-ex-009",
+      "type": "fill_blank",
+      "question": "I ___ (start) learning Spanish — I enrolled in a course yesterday.",
+      "answer": "am going to start",
+      "hint": "Already enrolled = prior plan → going to",
+      "explanation": "Am + going to + start.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-06-ex-010",
+      "type": "fill_blank",
+      "question": "The company ___ (launch) its new product in the spring.",
+      "answer": "is going to launch",
+      "hint": "Company = it, planned event → is going to",
+      "explanation": "Is + going to + launch.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-06-ex-011",
+      "type": "fill_blank",
+      "question": "___ (your parents / sell) their house and move to the coast?",
+      "answer": "Are your parents going to sell",
+      "hint": "Question about plan",
+      "explanation": "Are + your parents + going to + sell.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-06-ex-012",
+      "type": "fill_blank",
+      "question": "He ___ (not / pass) the exam — he hasn't studied at all.",
+      "answer": "is not going to pass",
+      "hint": "Evidence-based negative prediction",
+      "explanation": "Is not going to + pass. Evidence: no studying.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-06-ex-013",
+      "type": "mcq",
+      "question": "Look at the sky! Choose the best sentence:",
+      "answer": "It is going to snow — the clouds are very low.",
+      "hint": "Visible evidence → going to",
+      "explanation": "Going to is for predictions with visible evidence. The clouds are the evidence.",
+      "hebrew_note": null,
+      "distractors": [
+        "It will snow — the clouds are very low.",
+        "It snows.",
+        "It is snowing tomorrow."
+      ]
+    },
+    {
+      "id": "G-06-ex-014",
+      "type": "mcq",
+      "question": "'I've just remembered — it's my mother's birthday tomorrow.' Choose the best response:",
+      "answer": "Oh no! I'll buy her some flowers on the way home.",
+      "hint": "Spontaneous decision made right now → which form?",
+      "explanation": "Will — spontaneous decision just made. Going to would mean you had already planned to buy flowers.",
+      "hebrew_note": null,
+      "distractors": [
+        "Oh no! I am going to buy her some flowers.",
+        "Oh no! I buy her some flowers.",
+        "Oh no! I am buying her some flowers."
+      ]
+    },
+    {
+      "id": "G-06-ex-015",
+      "type": "mcq",
+      "question": "She ___ (not) the presentation — she looks terrible.",
+      "answer": "is not going to give",
+      "hint": "Evidence-based prediction",
+      "explanation": "Is not going to + give. Her appearance is the evidence.",
+      "hebrew_note": null,
+      "distractors": [
+        "won't give",
+        "doesn't give",
+        "isn't give"
+      ]
+    },
+    {
+      "id": "G-06-ex-016",
+      "type": "mcq",
+      "question": "When ___ the new office?",
+      "answer": "are they going to open",
+      "hint": "Question about plan with are...going to",
+      "explanation": "Are + they + going to + open. Planned future event.",
+      "hebrew_note": null,
+      "distractors": [
+        "will they open",
+        "they going to open",
+        "are they going open"
+      ]
+    },
+    {
+      "id": "G-06-ex-017",
+      "type": "mcq",
+      "question": "Which sentence shows a plan made BEFORE speaking?",
+      "answer": "We are going to spend two weeks in Japan — we bought the tickets in January.",
+      "hint": "Evidence of prior decision?",
+      "explanation": "Buying tickets in January proves the plan existed before speaking. Going to is correct.",
+      "hebrew_note": null,
+      "distractors": [
+        "'I'm hungry.' 'I'll make some pasta!'",
+        "I think it'll be cold tomorrow.",
+        "Will you help me with this?"
+      ]
+    },
+    {
+      "id": "G-06-ex-018",
+      "type": "mcq",
+      "question": "Is the form 'gonna' correct in formal English?",
+      "answer": "No — 'gonna' is informal spoken English only",
+      "hint": "Register awareness",
+      "explanation": "'Gonna' is an informal spoken reduction of 'going to'. Never use it in formal writing or examinations.",
+      "hebrew_note": null,
+      "distractors": [
+        "Yes, it is perfectly standard",
+        "Yes, in questions only",
+        "Yes, with is/are only"
+      ]
+    },
+    {
+      "id": "G-06-ex-019",
+      "type": "error_correction",
+      "question": "Find and fix the mistake: 'She is going to to leave at five.'",
+      "answer": "She is going to leave at five.",
+      "hint": "Look at the double 'to'",
+      "explanation": "Never 'going to to' — going to is followed directly by the base verb.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-06-ex-020",
+      "type": "error_correction",
+      "question": "Find and fix the mistake: 'They going to arrive next week.'",
+      "answer": "They are going to arrive next week.",
+      "hint": "What is missing before 'going to'?",
+      "explanation": "Are is missing. Need am/is/are before going to.",
+      "hebrew_note": "חסר הפועל העזר are"
+    },
+    {
+      "id": "G-06-ex-021",
+      "type": "error_correction",
+      "question": "Find and fix: 'Are you going to comes to the party?'",
+      "answer": "Are you going to come to the party?",
+      "hint": "What form does the verb take after 'going to'?",
+      "explanation": "Base verb after going to: come — not comes.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-06-ex-022",
+      "type": "error_correction",
+      "question": "Find and fix: 'Look — he is going to fell!'",
+      "answer": "Look — he is going to fall!",
+      "hint": "After going to, use the base verb",
+      "explanation": "Going to + base verb. Fall — not fell (past form).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-06-ex-023",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "answer": "I am going to retire next year.",
+      "hint": "I + am going to + base verb + time",
+      "explanation": "I + am going to + retire + next year.",
+      "hebrew_note": null,
+      "words": [
+        "next",
+        "I",
+        "to",
+        "going",
+        "am",
+        "year",
+        "retire"
+      ]
+    },
+    {
+      "id": "G-06-ex-024",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "answer": "She isn't going to pass the exam.",
+      "hint": "Subject + isn't going to + base verb + object",
+      "explanation": "She + isn't going to + pass + the exam.",
+      "hebrew_note": null,
+      "words": [
+        "she",
+        "the",
+        "pass",
+        "isn't",
+        "exam",
+        "to",
+        "going"
+      ]
+    },
+    {
+      "id": "G-06-ex-025",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "answer": "When are you going to move?",
+      "hint": "Wh-question: when + are + you + going to + base verb",
+      "explanation": "When + are + you + going to + move?",
+      "hebrew_note": null,
+      "words": [
+        "are",
+        "when",
+        "to",
+        "you",
+        "move",
+        "going"
+      ]
+    },
+    {
+      "id": "G-06-ex-026",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "answer": "Look, it is going to rain.",
+      "hint": "Prediction with evidence: it + is going to + base verb",
+      "explanation": "Look + it + is going to + rain.",
+      "hebrew_note": null,
+      "words": [
+        "it",
+        "rain",
+        "look",
+        "going",
+        "is",
+        "to"
+      ]
+    },
+    {
+      "id": "G-06-ex-027",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "answer": "They are going to open a new restaurant.",
+      "hint": "Subject + are going to + base verb + object",
+      "explanation": "They + are going to + open + a new restaurant.",
+      "hebrew_note": null,
+      "words": [
+        "a",
+        "they",
+        "new",
+        "open",
+        "going",
+        "restaurant",
+        "to",
+        "are"
+      ]
+    }
+  ],
+  "speak": [
+    {
+      "id": "G-06-sp-001",
+      "sentence": "I am going to apply for a new job next month.",
+      "chunks": [
+        "I am going to apply",
+        "for a new job",
+        "next month."
+      ],
+      "phonetic_hints": "'Apply' = uh-PLY. Stress on second syllable. 'Month' = MUNTH.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-06-sp-002",
+      "sentence": "Watch out! That child is going to run into the road!",
+      "chunks": [
+        "Watch out!",
+        "That child is going to run",
+        "into the road!"
+      ],
+      "phonetic_hints": "Watch — round your lips for W. 'Road' = ROHD. 'Child' = CHYLD — one syllable.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-06-sp-003",
+      "sentence": "Are you going to tell her what happened, or should I?",
+      "chunks": [
+        "Are you going to tell her",
+        "what happened",
+        "or should I?"
+      ],
+      "phonetic_hints": "'Happened' = HAP-und. 'Should' = SHUD — the L is silent. Stress: ARE you going to.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-06-sp-004",
+      "sentence": "We are going to spend our holiday in Portugal this year.",
+      "chunks": [
+        "We are going to spend our holiday",
+        "in Portugal this year."
+      ],
+      "phonetic_hints": "'Portugal' = POR-chuh-gul. Three syllables. 'Holiday' = HOL-ih-day.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-06-sp-005",
+      "sentence": "She isn't going to accept that offer — the conditions are terrible.",
+      "chunks": [
+        "She isn't going to accept that offer",
+        "the conditions are terrible."
+      ],
+      "phonetic_hints": "'Accept' = ak-SEPT. Stress second syllable. 'Conditions' = kun-DISH-unz. Stress second syllable.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-06-sp-006",
+      "sentence": "Look at those clouds — it is definitely going to snow tonight.",
+      "chunks": [
+        "Look at those clouds",
+        "it is definitely going to snow tonight."
+      ],
+      "phonetic_hints": "'Definitely' = DEF-in-it-lee. Four syllables. 'Snow' = SNOH. 'Tonight' = tuh-NYT.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-06-sp-007",
+      "sentence": "When are you going to make a decision about the house?",
+      "chunks": [
+        "When are you going to make a decision",
+        "about the house?"
+      ],
+      "phonetic_hints": "'Decision' = dih-SIZ-un. Stress second syllable. 'About' = uh-BOWT.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-06-sp-008",
+      "sentence": "They are going to completely redesign their website next quarter.",
+      "chunks": [
+        "They are going to completely redesign",
+        "their website",
+        "next quarter."
+      ],
+      "phonetic_hints": "'Completely' = kum-PLEET-lee. 'Redesign' = ree-dih-ZYN. 'Quarter' = KWOR-ter.",
+      "pass_threshold": 0.6
+    }
+  ]
+}

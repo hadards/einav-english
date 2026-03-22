@@ -1,0 +1,500 @@
+{
+  "id": "G-18",
+  "title": "Comparatives and superlatives",
+  "level": "B1",
+  "order": 18,
+  "explain": {
+    "rule": "Comparatives compare two things. Superlatives describe the extreme in a group. Short adjectives (1 syllable): add -er/-est. Long adjectives (3+ syllables): use more/most. Two-syllable adjectives: usually more/most, but adjectives ending in -y, -er, -ow, -le often take -er/-est. Irregulars: good→better→best, bad→worse→worst, far→farther→farthest, many/much→more→most, little→less→least. Use 'than' after comparatives. Use 'the' before superlatives. NEVER combine: never say 'more taller' or 'the most best'.",
+    "why_matters": "Comparatives and superlatives appear in almost every conversation involving choices, opinions, descriptions, and decisions. Essential for everyday English.",
+    "hebrew_note": "Hebrew uses יותר for all comparatives and הכי for all superlatives — always the same pattern regardless of adjective length. In English you must choose: -er or more? The most common mistake is 'more tall' instead of 'taller'. Also remember: irregular forms (good/better/best) must be memorised — there is no equivalent of 'gooder' or 'most good'.",
+    "tip": "Count syllables: 1 syllable → -er/-est always (tall→taller, big→bigger). 3+ syllables → more/most always (expensive→more expensive). 2 syllables: mostly more/most is safe, but -y endings use -er/-est (easy→easier, heavy→heavier). Irregulars must be memorised. Test yourself: can you put 'more' in front of it? good → more good? NO → best. tall → more tall? NO → taller.",
+    "spelling": [
+      {
+        "rule": "1 syllable CVC: double final consonant + er/est",
+        "examples": "big→bigger→biggest, hot→hotter→hottest"
+      },
+      {
+        "rule": "Ending in -e: add r/st only",
+        "examples": "nice→nicer→nicest, large→larger→largest"
+      },
+      {
+        "rule": "Ending in consonant+y: change y to i + er/est",
+        "examples": "heavy→heavier→heaviest, easy→easier→easiest"
+      },
+      {
+        "rule": "3+ syllables: more/most",
+        "examples": "expensive→more expensive→most expensive"
+      },
+      {
+        "rule": "Irregular",
+        "examples": "good/better/best, bad/worse/worst, far/farther/farthest"
+      }
+    ],
+    "good_examples": [
+      {
+        "id": "G-18-ge-001",
+        "sentence": "This bag is heavier than that one.",
+        "audio_text": "This bag is heavier than that one.",
+        "note": "heavy → heavier (y→ier). 'than' after comparative."
+      },
+      {
+        "id": "G-18-ge-002",
+        "sentence": "She is more experienced than the other candidates.",
+        "audio_text": "She is more experienced than the other candidates.",
+        "note": "experienced = 4 syllables → more experienced"
+      },
+      {
+        "id": "G-18-ge-003",
+        "sentence": "This is the best coffee I've ever had.",
+        "audio_text": "This is the best coffee I've ever had.",
+        "note": "good → best (irregular superlative)"
+      },
+      {
+        "id": "G-18-ge-004",
+        "sentence": "The north is colder than the south.",
+        "audio_text": "The north is colder than the south.",
+        "note": "cold → colder (1 syllable + er)"
+      },
+      {
+        "id": "G-18-ge-005",
+        "sentence": "It's the most beautiful city I've visited.",
+        "audio_text": "It's the most beautiful city I've visited.",
+        "note": "beautiful = 3 syllables → the most beautiful"
+      },
+      {
+        "id": "G-18-ge-006",
+        "sentence": "The situation is worse than we expected.",
+        "audio_text": "The situation is worse than we expected.",
+        "note": "bad → worse (irregular)"
+      },
+      {
+        "id": "G-18-ge-007",
+        "sentence": "This hotel is not as expensive as the one in the centre.",
+        "audio_text": "This hotel is not as expensive as the one in the centre.",
+        "note": "not as...as = expressing inequality"
+      },
+      {
+        "id": "G-18-ge-008",
+        "sentence": "The more you practise, the better you get.",
+        "audio_text": "The more you practise, the better you get.",
+        "note": "Double comparative: the more... the better"
+      },
+      {
+        "id": "G-18-ge-009",
+        "sentence": "He runs faster than anyone else on the team.",
+        "audio_text": "He runs faster than anyone else on the team.",
+        "note": "fast → faster (adverb comparative)"
+      },
+      {
+        "id": "G-18-ge-010",
+        "sentence": "She works less efficiently under pressure.",
+        "audio_text": "She works less efficiently under pressure.",
+        "note": "less + adjective = lower degree comparison"
+      }
+    ],
+    "bad_examples": [
+      {
+        "id": "G-18-be-001",
+        "wrong": "She is more tall than her sister.",
+        "correct": "She is taller than her sister.",
+        "reason": "tall = 1 syllable → use -er. Never combine more + -er."
+      },
+      {
+        "id": "G-18-be-002",
+        "wrong": "This is the most good solution.",
+        "correct": "This is the best solution.",
+        "reason": "good is irregular → best. Never 'most good'."
+      },
+      {
+        "id": "G-18-be-003",
+        "wrong": "He is more better at maths.",
+        "correct": "He is better at maths.",
+        "reason": "better is already the comparative of good. Never add more to an irregular comparative."
+      },
+      {
+        "id": "G-18-be-004",
+        "wrong": "This is the expensivest hotel.",
+        "correct": "This is the most expensive hotel.",
+        "reason": "expensive = 3 syllables → the most expensive. Never add -est to long adjectives."
+      },
+      {
+        "id": "G-18-be-005",
+        "wrong": "She is taller as her brother.",
+        "correct": "She is taller than her brother.",
+        "reason": "Use 'than' after comparatives. 'As...as' is for equal comparisons only."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "G-18-ex-001",
+      "type": "fill_blank",
+      "question": "This bag is ___ (heavy) than that one.",
+      "answer": "heavier",
+      "hint": "heavy ends in y → change y to i + er",
+      "explanation": "heavy → heavier (consonant + y → ier).",
+      "hebrew_note": "תואר שמסתיים ב-y: שנה ל-i + er"
+    },
+    {
+      "id": "G-18-ex-002",
+      "type": "fill_blank",
+      "question": "This is the ___ (good) pizza I have ever tasted.",
+      "answer": "best",
+      "hint": "good → superlative (irregular)",
+      "explanation": "good → better → best. Irregular.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-18-ex-003",
+      "type": "fill_blank",
+      "question": "The new office is ___ (modern) than the old one.",
+      "answer": "more modern",
+      "hint": "modern = 2 syllables → use more",
+      "explanation": "modern → more modern.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-18-ex-004",
+      "type": "fill_blank",
+      "question": "This is the ___ (bad) traffic I have ever seen.",
+      "answer": "worst",
+      "hint": "bad → superlative (irregular)",
+      "explanation": "bad → worse → worst. Irregular.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-18-ex-005",
+      "type": "fill_blank",
+      "question": "It was the ___ (hot) day of the year.",
+      "answer": "hottest",
+      "hint": "hot = 1 syllable, CVC → double t + est",
+      "explanation": "hot → hottest. CVC rule: double the final consonant.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-18-ex-006",
+      "type": "fill_blank",
+      "question": "He is not ___ (tall) ___ his father.",
+      "answer": "as tall as",
+      "hint": "Expressing inequality: not as...as",
+      "explanation": "not as tall as = he is shorter than his father.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-18-ex-007",
+      "type": "fill_blank",
+      "question": "Which country is ___ (far) from Israel — Australia or Brazil?",
+      "answer": "farther / further",
+      "hint": "far → comparative (irregular)",
+      "explanation": "far → farther/further. Both are correct.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-18-ex-008",
+      "type": "fill_blank",
+      "question": "The ___ you practise, the ___ (good) you become.",
+      "answer": "more / better",
+      "hint": "Double comparative: the more..., the + comparative",
+      "explanation": "The more..., the better — double comparative structure.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-18-ex-009",
+      "type": "fill_blank",
+      "question": "She is ___ (experienced) than the other candidates.",
+      "answer": "more experienced",
+      "hint": "experienced = 4 syllables → more",
+      "explanation": "Long adjectives → more. more experienced.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-18-ex-010",
+      "type": "fill_blank",
+      "question": "This is ___ (expensive) option but also ___ (reliable).",
+      "answer": "the most expensive / the most reliable",
+      "hint": "Both are superlatives of long adjectives",
+      "explanation": "expensive, reliable → the most expensive, the most reliable.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-18-ex-011",
+      "type": "fill_blank",
+      "question": "She is ___ (old) of the three sisters.",
+      "answer": "the oldest",
+      "hint": "old = 1 syllable → -est. Superlative with the.",
+      "explanation": "old → oldest. The oldest of the three.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-18-ex-012",
+      "type": "fill_blank",
+      "question": "This coffee is ___ (strong) than the one I had this morning.",
+      "answer": "stronger",
+      "hint": "strong = 1 syllable → -er",
+      "explanation": "strong → stronger. 1 syllable + er.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-18-ex-013",
+      "type": "mcq",
+      "question": "This exercise is ___ than the last one.",
+      "answer": "more difficult",
+      "hint": "difficult = 3 syllables → more/most",
+      "explanation": "difficult (3 syllables) → more difficult.",
+      "distractors": [
+        "difficulter",
+        "more difficultly",
+        "the most difficult"
+      ]
+    },
+    {
+      "id": "G-18-ex-014",
+      "type": "mcq",
+      "question": "She is ___ player on the team.",
+      "answer": "the best",
+      "hint": "Superlative of good → irregular",
+      "explanation": "good → best. + the before superlatives.",
+      "distractors": [
+        "the most good",
+        "the better",
+        "the goodest"
+      ]
+    },
+    {
+      "id": "G-18-ex-015",
+      "type": "mcq",
+      "question": "His new flat is ___ than his old one.",
+      "answer": "bigger",
+      "hint": "big = 1 syllable, CVC → double g + er",
+      "explanation": "big → bigger. CVC: double final consonant + er.",
+      "distractors": [
+        "more big",
+        "biger",
+        "more bigger"
+      ]
+    },
+    {
+      "id": "G-18-ex-016",
+      "type": "mcq",
+      "question": "Which sentence is correct?",
+      "answer": "This film is worse than I expected.",
+      "hint": "bad → worse (irregular)",
+      "explanation": "bad → worse → worst. Worse than = comparative.",
+      "distractors": [
+        "This film is more bad than I expected.",
+        "This film is badder than I expected.",
+        "This film is more worse than I expected."
+      ]
+    },
+    {
+      "id": "G-18-ex-017",
+      "type": "mcq",
+      "question": "He's not ___ his brother.",
+      "answer": "as tall as",
+      "hint": "Equal comparison structure",
+      "explanation": "not as tall as = he is shorter.",
+      "distractors": [
+        "taller than",
+        "as tall than",
+        "more tall than"
+      ]
+    },
+    {
+      "id": "G-18-ex-018",
+      "type": "mcq",
+      "question": "She speaks English ___ anyone else in the class.",
+      "answer": "better than",
+      "hint": "good → better (irregular comparative)",
+      "explanation": "good → better than. Irregular.",
+      "distractors": [
+        "more good than",
+        "gooder than",
+        "more better than"
+      ]
+    },
+    {
+      "id": "G-18-ex-019",
+      "type": "error_correction",
+      "question": "Find and fix: 'She is more tall than her sister.'",
+      "answer": "She is taller than her sister.",
+      "hint": "tall = 1 syllable → which form?",
+      "explanation": "1 syllable → -er. tall → taller. Never 'more tall'.",
+      "hebrew_note": "תואר חד-הברתי = er, לא more"
+    },
+    {
+      "id": "G-18-ex-020",
+      "type": "error_correction",
+      "question": "Find and fix: 'This is the most good restaurant in town.'",
+      "answer": "This is the best restaurant in town.",
+      "hint": "good → superlative (irregular)",
+      "explanation": "good → best. Never 'most good'.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-18-ex-021",
+      "type": "error_correction",
+      "question": "Find and fix: 'He is more better at chess than me.'",
+      "answer": "He is better at chess than me.",
+      "hint": "better is already a comparative — can you add more?",
+      "explanation": "better = comparative of good. Never add more to irregular comparatives.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-18-ex-022",
+      "type": "error_correction",
+      "question": "Find and fix: 'This is the expensivest hotel.'",
+      "answer": "This is the most expensive hotel.",
+      "hint": "expensive = 3 syllables → which superlative form?",
+      "explanation": "Long adjectives → the most. Never -est with long adjectives.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-18-ex-023",
+      "type": "error_correction",
+      "question": "Find and fix: 'She is taller as her mother.'",
+      "answer": "She is taller than her mother.",
+      "hint": "Which word follows a comparative?",
+      "explanation": "Use 'than' after comparatives. As...as = equal comparisons only.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-18-ex-024",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "the",
+        "this",
+        "is",
+        "city",
+        "expensive",
+        "most",
+        "in",
+        "hotel",
+        "the"
+      ],
+      "answer": "This is the most expensive hotel in the city.",
+      "hint": "Superlative of expensive: the most expensive",
+      "explanation": "the + most + long adjective = superlative."
+    },
+    {
+      "id": "G-18-ex-025",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "as",
+        "not",
+        "is",
+        "the",
+        "original",
+        "good",
+        "as",
+        "film",
+        "the",
+        "sequel"
+      ],
+      "answer": "The sequel is not as good as the original film.",
+      "hint": "not as...as = unequal comparison",
+      "explanation": "not as good as = expressing inferiority."
+    },
+    {
+      "id": "G-18-ex-026",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "the",
+        "more",
+        "practise",
+        "you",
+        "the",
+        "get",
+        "better",
+        "you"
+      ],
+      "answer": "The more you practise, the better you get.",
+      "hint": "Double comparative: The more..., the better...",
+      "explanation": "The more + clause, the + comparative."
+    }
+  ],
+  "speak": [
+    {
+      "id": "G-18-sp-001",
+      "sentence": "This is the most interesting book I've read in years.",
+      "chunks": [
+        "This is the most interesting book",
+        "I've read in years."
+      ],
+      "phonetic_hints": "'Interesting' = IN-trest-ing (3 syllables, not 4). 'Years' = YEERZ.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-18-sp-002",
+      "sentence": "She's much better at maths than I am.",
+      "chunks": [
+        "She's much better at maths",
+        "than I am."
+      ],
+      "phonetic_hints": "'Better' = BET-er. 'Maths' = MATHS — don't forget the final S (British English).",
+      "pass_threshold": 0.75
+    },
+    {
+      "id": "G-18-sp-003",
+      "sentence": "The weather here is not as hot as it is at home in the summer.",
+      "chunks": [
+        "The weather here is not as hot",
+        "as it is at home in the summer."
+      ],
+      "phonetic_hints": "'Weather' = WETH-er — th sound between teeth. 'Summer' = SUM-er.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-18-sp-004",
+      "sentence": "The situation is getting worse and worse every day.",
+      "chunks": [
+        "The situation is getting worse and worse",
+        "every day."
+      ],
+      "phonetic_hints": "'Situation' = sich-yoo-AY-shun — four syllables. 'Worse' = WURSS.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-18-sp-005",
+      "sentence": "Which is the cheapest way to get to the airport from here?",
+      "chunks": [
+        "Which is the cheapest way",
+        "to get to the airport from here?"
+      ],
+      "phonetic_hints": "'Cheapest' = CHEEP-ist. 'Airport' = AIR-port — stress on first syllable.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-18-sp-006",
+      "sentence": "He's more experienced than the other applicants.",
+      "chunks": [
+        "He's more experienced",
+        "than the other applicants."
+      ],
+      "phonetic_hints": "'Experienced' = ik-SPEER-ee-unst — four syllables. 'Applicants' = AP-lih-kunts.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-18-sp-007",
+      "sentence": "The more you sleep, the better you feel.",
+      "chunks": [
+        "The more you sleep,",
+        "the better you feel."
+      ],
+      "phonetic_hints": "'Sleep' = SLEEP. 'Better' = BET-er. 'Feel' = FEEL.",
+      "pass_threshold": 0.75
+    },
+    {
+      "id": "G-18-sp-008",
+      "sentence": "This is the worst traffic I've seen in years.",
+      "chunks": [
+        "This is the worst traffic",
+        "I've seen in years."
+      ],
+      "phonetic_hints": "'Worst' = WURST. 'Traffic' = TRAF-ik.",
+      "pass_threshold": 0.7
+    }
+  ]
+}

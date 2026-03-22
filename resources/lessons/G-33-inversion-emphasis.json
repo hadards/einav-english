@@ -1,0 +1,418 @@
+{
+  "id": "G-33",
+  "title": "Inversion and emphasis",
+  "level": "B2",
+  "order": 33,
+  "explain": {
+    "rule": "Inversion means putting the auxiliary verb before the subject — the opposite of normal order. Used for: (1) Negative adverbials at the start: Never have I seen, Not only did she win, Rarely does he complain, Hardly had we arrived when... (2) Cleft sentences for emphasis: It was John who broke the window. What I need is a holiday. (3) So/such + inversion: So tired was she that she fell asleep immediately. All of these add emphasis and are common in formal English and writing.",
+    "why_matters": "Inversion creates emphasis and variety. It is extremely common in formal writing, journalism, speeches, and literature. Recognising and using it marks B2 competence and sophisticated style.",
+    "hebrew_note": "Hebrew word order is relatively flexible and can create emphasis by moving elements. English normally has fixed word order, but these inversion structures are a formal way of creating emphasis. The challenge is remembering to ALSO invert the subject and auxiliary when starting with a negative adverbial.",
+    "tip": "Rule for negative adverbials: when you start a sentence with Never/Rarely/Hardly/Not only/No sooner — you MUST invert subject and auxiliary: 'Never have I...' (not 'Never I have'). This is like a question structure without the question mark.",
+    "good_examples": [
+      {
+        "id": "G-33-ge-001",
+        "sentence": "Never have I seen such dedication.",
+        "audio_text": "Never have I seen such dedication.",
+        "note": "Inverted: Never + have + I (auxiliary before subject)"
+      },
+      {
+        "id": "G-33-ge-002",
+        "sentence": "Not only did she win the race, but she also broke the record.",
+        "audio_text": "Not only did she win the race, but she also broke the record.",
+        "note": "Not only + did (inversion) + but also"
+      },
+      {
+        "id": "G-33-ge-003",
+        "sentence": "Rarely does he complain about anything.",
+        "audio_text": "Rarely does he complain about anything.",
+        "note": "Rarely + does (inversion)"
+      },
+      {
+        "id": "G-33-ge-004",
+        "sentence": "It was John who broke the window.",
+        "audio_text": "It was John who broke the window.",
+        "note": "Cleft sentence — emphasising who did it"
+      },
+      {
+        "id": "G-33-ge-005",
+        "sentence": "What I need is a long holiday.",
+        "audio_text": "What I need is a long holiday.",
+        "note": "Wh-cleft sentence — emphasising what"
+      },
+      {
+        "id": "G-33-ge-006",
+        "sentence": "Hardly had we arrived when it started to rain.",
+        "audio_text": "Hardly had we arrived when it started to rain.",
+        "note": "Hardly + had (inversion) + when"
+      },
+      {
+        "id": "G-33-ge-007",
+        "sentence": "So tired was she that she fell asleep at the table.",
+        "audio_text": "So tired was she that she fell asleep at the table.",
+        "note": "So + adjective + inversion for emphasis"
+      },
+      {
+        "id": "G-33-ge-008",
+        "sentence": "Under no circumstances should you share this information.",
+        "audio_text": "Under no circumstances should you share this information.",
+        "note": "Under no circumstances + inversion"
+      },
+      {
+        "id": "G-33-ge-009",
+        "sentence": "Not until she read the email did she understand the problem.",
+        "audio_text": "Not until she read the email did she understand the problem.",
+        "note": "Not until + inversion"
+      },
+      {
+        "id": "G-33-ge-010",
+        "sentence": "It is the quality of work that matters most.",
+        "audio_text": "It is the quality of work that matters most.",
+        "note": "Cleft emphasising what matters"
+      }
+    ],
+    "bad_examples": [
+      {
+        "id": "G-33-be-001",
+        "wrong": "Never I have seen such a beautiful view.",
+        "correct": "Never have I seen such a beautiful view.",
+        "reason": "After negative adverbials, invert: auxiliary + subject."
+      },
+      {
+        "id": "G-33-be-002",
+        "wrong": "Not only she won the race, but she also broke the record.",
+        "correct": "Not only did she win the race, but she also broke the record.",
+        "reason": "Not only + inversion: did + subject."
+      },
+      {
+        "id": "G-33-be-003",
+        "wrong": "Rarely he complains about anything.",
+        "correct": "Rarely does he complain about anything.",
+        "reason": "Rarely + inversion: does + subject."
+      },
+      {
+        "id": "G-33-be-004",
+        "wrong": "It was John that broke the window. (referring to a person)",
+        "correct": "It was John who broke the window.",
+        "reason": "Cleft sentences: use who for people, that for things."
+      },
+      {
+        "id": "G-33-be-005",
+        "wrong": "So tired she was that she fell asleep.",
+        "correct": "So tired was she that she fell asleep.",
+        "reason": "So + adjective + inversion: was + she (not she was)."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "G-33-ex-001",
+      "type": "fill_blank",
+      "question": "Never ___ I seen such a beautiful sunset.",
+      "answer": "have",
+      "hint": "Negative adverbial inversion: Never + auxiliary + subject",
+      "explanation": "Never have I — auxiliary before subject.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-33-ex-002",
+      "type": "fill_blank",
+      "question": "Not only ___ she win, but she also set a new record.",
+      "answer": "did",
+      "hint": "Not only + did + subject",
+      "explanation": "Not only did she.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-33-ex-003",
+      "type": "fill_blank",
+      "question": "Rarely ___ he take a day off.",
+      "answer": "does",
+      "hint": "Rarely + does + subject",
+      "explanation": "Rarely does he.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-33-ex-004",
+      "type": "fill_blank",
+      "question": "It was her dedication ___ made the difference.",
+      "answer": "that / which",
+      "hint": "Cleft sentence — thing → that/which",
+      "explanation": "It was X that/which — cleft.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-33-ex-005",
+      "type": "fill_blank",
+      "question": "What I really need ___ a long holiday.",
+      "answer": "is",
+      "hint": "Wh-cleft: What + clause + is/are",
+      "explanation": "What I need is — cleft with wh.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-33-ex-006",
+      "type": "fill_blank",
+      "question": "Hardly ___ we sat down when the phone rang.",
+      "answer": "had",
+      "hint": "Hardly + had + subject",
+      "explanation": "Hardly had we — past perfect inversion.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-33-ex-007",
+      "type": "fill_blank",
+      "question": "So impressed ___ the judges that they gave her top marks.",
+      "answer": "were",
+      "hint": "So + adjective + were + subject",
+      "explanation": "So impressed were the judges.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-33-ex-008",
+      "type": "fill_blank",
+      "question": "Under no circumstances ___ you reveal this to anyone.",
+      "answer": "should",
+      "hint": "Under no circumstances + should + subject",
+      "explanation": "Under no circumstances should you.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-33-ex-009",
+      "type": "mcq",
+      "question": "Never ___ such a talented musician.",
+      "answer": "have I heard",
+      "hint": "Negative adverbial inversion: Never + have + I",
+      "explanation": "Never have I heard.",
+      "distractors": [
+        "I have heard / I heard / have I been hearing"
+      ],
+      "hebrew_note": null
+    },
+    {
+      "id": "G-33-ex-010",
+      "type": "mcq",
+      "question": "It was the manager ___ made the final decision.",
+      "answer": "who",
+      "hint": "Cleft sentence — person → who",
+      "explanation": "It was X who (person).",
+      "distractors": [
+        "that / which / whose"
+      ],
+      "hebrew_note": null
+    },
+    {
+      "id": "G-33-ex-011",
+      "type": "mcq",
+      "question": "Not only ___ the exam, but he also won a scholarship.",
+      "answer": "did he pass",
+      "hint": "Not only + did + subject + base verb",
+      "explanation": "Not only did he pass.",
+      "distractors": [
+        "he passed / he did pass / had he passed"
+      ],
+      "hebrew_note": null
+    },
+    {
+      "id": "G-33-ex-012",
+      "type": "mcq",
+      "question": "Rarely ___ I find a book I can't put down.",
+      "answer": "do",
+      "hint": "Rarely + do + subject (first person)",
+      "explanation": "Rarely do I.",
+      "distractors": [
+        "I do / I have / have I"
+      ],
+      "hebrew_note": null
+    },
+    {
+      "id": "G-33-ex-013",
+      "type": "mcq",
+      "question": "___ she read the letter that she finally understood.",
+      "answer": "Not until",
+      "hint": "Not until + inversion",
+      "explanation": "Not until she read + did she understand.",
+      "distractors": [
+        "Only when / However / Despite"
+      ],
+      "hebrew_note": null
+    },
+    {
+      "id": "G-33-ex-014",
+      "type": "error_correction",
+      "question": "Find and fix: 'Never I have seen such courage.'",
+      "answer": "Never have I seen such courage.",
+      "hint": "After Never: invert auxiliary and subject",
+      "explanation": "Never have I — auxiliary before subject.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-33-ex-015",
+      "type": "error_correction",
+      "question": "Find and fix: 'Not only she won, but she also broke the record.'",
+      "answer": "Not only did she win, but she also broke the record.",
+      "hint": "Not only + inversion",
+      "explanation": "Not only did she win.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-33-ex-016",
+      "type": "error_correction",
+      "question": "Find and fix: 'So tired she was that she fell asleep.'",
+      "answer": "So tired was she that she fell asleep.",
+      "hint": "So + adjective + inversion",
+      "explanation": "So tired was she — invert.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-33-ex-017",
+      "type": "error_correction",
+      "question": "Find and fix: 'It was the report that he wrote that impressed everyone.' (referring to a thing)",
+      "answer": "It was the report which he wrote that impressed everyone.",
+      "hint": "Cleft with a thing — that or which",
+      "explanation": "It was the report which/that he wrote.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-33-ex-018",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "have",
+        "Never",
+        "I",
+        "seen",
+        "a",
+        "view",
+        "beautiful",
+        "more"
+      ],
+      "answer": "Never have I seen a more beautiful view.",
+      "hint": "Never + inversion",
+      "explanation": "Never have I seen — auxiliary before subject.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-33-ex-019",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "Not",
+        "only",
+        "did",
+        "she",
+        "win",
+        "but",
+        "also",
+        "broke",
+        "she",
+        "record",
+        "the"
+      ],
+      "answer": "Not only did she win, but she also broke the record.",
+      "hint": "Not only + inversion + but also",
+      "explanation": "Not only did she + but she also.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-33-ex-020",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "It",
+        "was",
+        "dedication",
+        "her",
+        "that",
+        "the",
+        "made",
+        "difference"
+      ],
+      "answer": "It was her dedication that made the difference.",
+      "hint": "Cleft sentence for emphasis",
+      "explanation": "It was X that — cleft.",
+      "hebrew_note": null
+    }
+  ],
+  "speak": [
+    {
+      "id": "G-33-sp-001",
+      "sentence": "Never have I seen such an impressive performance in all my years of teaching.",
+      "chunks": [
+        "Never have I seen such an impressive performance",
+        "in all my years of teaching."
+      ],
+      "phonetic_hints": "'Impressive' = im-PRES-iv. 'Performance' = per-FAWR-munss.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-33-sp-002",
+      "sentence": "Not only did she arrive late, but she also forgot all her materials.",
+      "chunks": [
+        "Not only did she arrive late,",
+        "but she also forgot all her materials."
+      ],
+      "phonetic_hints": "'Materials' = muh-TEER-ee-ulz.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-33-sp-003",
+      "sentence": "It was her passion for the subject that made her such an inspiring teacher.",
+      "chunks": [
+        "It was her passion for the subject",
+        "that made her such an inspiring teacher."
+      ],
+      "phonetic_hints": "'Passion' = PASH-un. 'Inspiring' = in-SPY-ring.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-33-sp-004",
+      "sentence": "Rarely does a day go by without some new development in this story.",
+      "chunks": [
+        "Rarely does a day go by",
+        "without some new development in this story."
+      ],
+      "phonetic_hints": "'Rarely' = RAIR-lee. 'Development' = dih-VEL-up-ment.",
+      "pass_threshold": 0.55
+    },
+    {
+      "id": "G-33-sp-005",
+      "sentence": "What I find most extraordinary is how quickly she adapted to the role.",
+      "chunks": [
+        "What I find most extraordinary",
+        "is how quickly she adapted to the role."
+      ],
+      "phonetic_hints": "'Extraordinary' = ik-STRAWR-dih-ner-ee — five syllables.",
+      "pass_threshold": 0.55
+    },
+    {
+      "id": "G-33-sp-006",
+      "sentence": "Hardly had they begun the meeting when the fire alarm went off.",
+      "chunks": [
+        "Hardly had they begun the meeting",
+        "when the fire alarm went off."
+      ],
+      "phonetic_hints": "'Begun' = bih-GUN (past participle of begin). 'Alarm' = uh-LARM.",
+      "pass_threshold": 0.55
+    },
+    {
+      "id": "G-33-sp-007",
+      "sentence": "Under no circumstances should you give your password to anyone.",
+      "chunks": [
+        "Under no circumstances should you give your password",
+        "to anyone."
+      ],
+      "phonetic_hints": "'Circumstances' = SUR-kum-stanss-iz.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-33-sp-008",
+      "sentence": "So difficult was the exam that only five percent of students passed.",
+      "chunks": [
+        "So difficult was the exam",
+        "that only five percent of students passed."
+      ],
+      "phonetic_hints": "'Difficult' = DIF-ih-kult. 'Percent' = per-SENT.",
+      "pass_threshold": 0.6
+    }
+  ]
+}

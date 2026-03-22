@@ -4,23 +4,133 @@ import { AuthService } from '../../core/services/auth.service';
 @Component({
   selector: 'app-login',
   standalone: true,
+  styles: [`
+    @import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=DM+Sans:wght@400;500&display=swap');
+
+    :host { font-family: 'DM Sans', sans-serif; }
+
+    .bg-mesh {
+      background-color: #f5f3ff;
+      background-image:
+        radial-gradient(at 20% 20%, rgba(139,92,246,0.18) 0px, transparent 50%),
+        radial-gradient(at 80% 10%, rgba(99,102,241,0.15) 0px, transparent 50%),
+        radial-gradient(at 60% 80%, rgba(167,139,250,0.12) 0px, transparent 50%);
+    }
+
+    .card {
+      animation: rise 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+    }
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(24px) scale(0.97); }
+      to   { opacity: 1; transform: translateY(0) scale(1); }
+    }
+
+    .feature-item {
+      animation: fadeIn 0.4s ease both;
+    }
+    .feature-item:nth-child(1) { animation-delay: 0.15s; }
+    .feature-item:nth-child(2) { animation-delay: 0.25s; }
+    .feature-item:nth-child(3) { animation-delay: 0.35s; }
+    .feature-item:nth-child(4) { animation-delay: 0.45s; }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateX(-8px); }
+      to   { opacity: 1; transform: translateX(0); }
+    }
+
+    .google-btn {
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+      background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    }
+    .google-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 28px rgba(99,102,241,0.45);
+    }
+    .google-btn:active { transform: translateY(0); }
+
+    .level-badge {
+      animation: pop 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+    }
+    .level-badge:nth-child(1) { animation-delay: 0.05s; }
+    .level-badge:nth-child(2) { animation-delay: 0.15s; }
+    .level-badge:nth-child(3) { animation-delay: 0.25s; }
+    @keyframes pop {
+      from { opacity: 0; transform: scale(0.6); }
+      to   { opacity: 1; transform: scale(1); }
+    }
+  `],
   template: `
-    <div class="min-h-screen bg-blue-50 flex items-center justify-center">
-      <div class="bg-white rounded-2xl shadow-lg p-10 flex flex-col items-center gap-6 w-full max-w-sm">
-        <h1 class="text-2xl font-bold text-gray-800">English Learning App</h1>
-        <p class="text-gray-500 text-center">Learn English with personalised lessons</p>
-        <button
-          (click)="signIn()"
-          class="w-full flex items-center justify-center gap-3 bg-white border border-gray-300 rounded-xl px-6 py-3 text-gray-700 font-medium hover:bg-gray-50 transition min-h-[44px]"
-        >
-          <svg class="w-5 h-5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
-            <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
-            <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/>
-            <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
-          </svg>
-          Continue with Google
-        </button>
+    <div class="min-h-screen bg-mesh flex items-center justify-center px-4 py-12">
+      <div class="card w-full max-w-sm flex flex-col gap-0 rounded-3xl overflow-hidden shadow-2xl" style="border:1.5px solid #e0e7ff">
+
+        <!-- Header band -->
+        <div class="px-7 pt-8 pb-6" style="background:linear-gradient(135deg,#6366f1,#8b5cf6)">
+          <div class="flex items-center gap-2 mb-4">
+            <span class="text-3xl">🇬🇧</span>
+            <span class="text-white font-bold text-lg" style="font-family:'Sora',sans-serif;opacity:0.9">EnglishApp</span>
+          </div>
+          <h1 class="text-2xl font-black text-white leading-tight mb-2" style="font-family:'Sora',sans-serif">
+            Learn English.<br>The smart way.
+          </h1>
+          <p class="text-sm" style="color:rgba(255,255,255,0.75)">
+            Personalised lessons built for Hebrew speakers
+          </p>
+
+          <!-- Level badges -->
+          <div class="flex gap-2 mt-4">
+            <span class="level-badge text-xs font-bold px-3 py-1 rounded-full" style="background:rgba(255,255,255,0.2);color:white">A2</span>
+            <span class="level-badge text-xs font-bold px-3 py-1 rounded-full" style="background:rgba(255,255,255,0.2);color:white">B1</span>
+            <span class="level-badge text-xs font-bold px-3 py-1 rounded-full" style="background:rgba(255,255,255,0.2);color:white">B2</span>
+          </div>
+        </div>
+
+        <!-- Features list -->
+        <div class="px-7 py-6 flex flex-col gap-3" style="background:white">
+          <div class="feature-item flex items-center gap-3">
+            <span class="text-xl w-8 text-center">⚡</span>
+            <div>
+              <p class="text-sm font-semibold text-gray-800">Grammar lessons</p>
+              <p class="text-xs text-gray-400">36 structured lessons from A2 to B2</p>
+            </div>
+          </div>
+          <div class="feature-item flex items-center gap-3">
+            <span class="text-xl w-8 text-center">🎤</span>
+            <div>
+              <p class="text-sm font-semibold text-gray-800">Speaking practice</p>
+              <p class="text-xs text-gray-400">Real-time pronunciation feedback</p>
+            </div>
+          </div>
+          <div class="feature-item flex items-center gap-3">
+            <span class="text-xl w-8 text-center">🃏</span>
+            <div>
+              <p class="text-sm font-semibold text-gray-800">Vocabulary flashcards</p>
+              <p class="text-xs text-gray-400">360 words with spaced repetition</p>
+            </div>
+          </div>
+          <div class="feature-item flex items-center gap-3">
+            <span class="text-xl w-8 text-center">🤖</span>
+            <div>
+              <p class="text-sm font-semibold text-gray-800">AI conversation chat</p>
+              <p class="text-xs text-gray-400">Practice freely with an AI tutor</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- CTA -->
+        <div class="px-7 pb-8" style="background:white">
+          <div style="height:1px;background:#f0eeff;margin-bottom:20px"></div>
+          <button (click)="signIn()" class="google-btn w-full flex items-center justify-center gap-3 text-white font-bold py-4 rounded-2xl min-h-[52px]"
+            style="font-family:'Sora',sans-serif;font-size:15px">
+            <svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="white" opacity="0.9"/>
+              <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="white" opacity="0.9"/>
+              <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="white" opacity="0.9"/>
+              <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="white" opacity="0.9"/>
+            </svg>
+            Continue with Google
+          </button>
+          <p class="text-center text-xs mt-3" style="color:#c4b5fd">Free to use · No credit card</p>
+        </div>
+
       </div>
     </div>
   `,

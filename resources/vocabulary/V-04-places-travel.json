@@ -1,0 +1,307 @@
+{
+  "id": "V-04",
+  "theme": "Places & travel",
+  "level": "A2",
+  "words": [
+    {
+      "id": "V-04-w-001",
+      "word": "destination",
+      "part_of_speech": "noun",
+      "definition": "the place you are travelling to",
+      "example_sentences": [
+        "Paris is one of the world's most popular tourist destinations.",
+        "Our final destination is Rome — we arrive on Thursday.",
+        "She always researches her destination carefully before travelling."
+      ],
+      "pronunciation_tip": "des-tih-NAY-shun — four syllables, stress on third.",
+      "common_mistake": "Don't say 'the place I'm going to' — say 'my destination'.",
+      "collocations": "['tourist destination', 'final destination', 'holiday destination']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-04-w-002",
+      "word": "departure",
+      "part_of_speech": "noun",
+      "definition": "the act of leaving a place, especially to start a journey",
+      "example_sentences": [
+        "The departure was delayed by two hours because of technical issues.",
+        "Please check the departure board for your gate number.",
+        "What time is your departure tomorrow morning?"
+      ],
+      "pronunciation_tip": "dih-PAR-cher — three syllables, stress on second.",
+      "common_mistake": "Don't say 'the leaving time' — say 'the departure time'.",
+      "collocations": "['departure time', 'departure lounge', 'delay departure']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-04-w-003",
+      "word": "itinerary",
+      "part_of_speech": "noun",
+      "definition": "a detailed plan or schedule of places to visit on a trip",
+      "example_sentences": [
+        "She planned an extremely detailed itinerary for the holiday.",
+        "Can you send me the itinerary for the conference please?",
+        "We had a packed itinerary with activities every single day."
+      ],
+      "pronunciation_tip": "eye-TIN-er-air-ee — five syllables, stress on second.",
+      "common_mistake": "Don't say 'programme of travel' — say 'itinerary'.",
+      "collocations": "['detailed itinerary', 'follow an itinerary', 'holiday itinerary']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-04-w-004",
+      "word": "transfer",
+      "part_of_speech": "noun/verb",
+      "definition": "to change from one form of transport to another",
+      "example_sentences": [
+        "We had a two-hour transfer between our connecting flights.",
+        "I need to transfer to the red line at the next station.",
+        "The transfer from the airport to the hotel takes about 30 minutes."
+      ],
+      "pronunciation_tip": "TRANS-fer (noun) / trans-FUR (verb) — stress shifts between noun and verb.",
+      "common_mistake": "Don't say 'I change trains' in formal contexts — say 'I transfer' or 'make a connection'.",
+      "collocations": "['make a transfer', 'transfer to', 'bus transfer']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-04-w-005",
+      "word": "layover",
+      "part_of_speech": "noun",
+      "definition": "a stop during a journey, especially between two flights",
+      "example_sentences": [
+        "We had a four-hour layover in Istanbul airport.",
+        "The layover gave us just enough time to explore the terminal.",
+        "A long layover can be a great opportunity to see a new city."
+      ],
+      "pronunciation_tip": "LAY-oh-ver — three syllables, stress on first.",
+      "common_mistake": "Don't say 'I stop in Istanbul' — say 'I have a layover in Istanbul'.",
+      "collocations": "['long layover', 'overnight layover', 'have a layover']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-04-w-006",
+      "word": "customs",
+      "part_of_speech": "noun",
+      "definition": "the place at an airport where officials check bags and travel documents",
+      "example_sentences": [
+        "We waited a very long time at customs on the way in.",
+        "I had to declare several items at customs on arrival.",
+        "Going through customs is always slow during peak travel periods."
+      ],
+      "pronunciation_tip": "KUS-tumz — two syllables, stress on first.",
+      "common_mistake": "Don't say 'immigration' for the bag check — customs checks goods; immigration checks passports.",
+      "collocations": "['go through customs', 'pass customs', 'customs declaration']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-04-w-007",
+      "word": "landmark",
+      "part_of_speech": "noun",
+      "definition": "a famous building or place that is very easy to recognise",
+      "example_sentences": [
+        "The Eiffel Tower is Paris's most famous and recognisable landmark.",
+        "We visited all the major landmarks of the ancient city.",
+        "Use the church tower as a landmark — turn left when you see it."
+      ],
+      "pronunciation_tip": "LAND-mark — stress on first syllable.",
+      "common_mistake": "Don't say 'famous building' every time — say 'landmark'.",
+      "collocations": "['famous landmark', 'historic landmark', 'city landmark']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-04-w-008",
+      "word": "accommodation",
+      "part_of_speech": "noun",
+      "definition": "a place to stay, such as a hotel, hostel, or holiday apartment",
+      "example_sentences": [
+        "Have you booked your accommodation for the trip yet?",
+        "The accommodation was extremely comfortable and very clean.",
+        "We're looking for affordable accommodation close to the city centre."
+      ],
+      "pronunciation_tip": "uh-kom-uh-DAY-shun — five syllables, stress on fourth.",
+      "common_mistake": "Don't say 'hotel' every time — 'accommodation' is more general.",
+      "collocations": "['book accommodation', 'find accommodation', 'holiday accommodation']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-04-w-009",
+      "word": "scenic",
+      "part_of_speech": "adjective",
+      "definition": "having beautiful natural landscapes or attractive views",
+      "example_sentences": [
+        "We deliberately took the longer scenic route along the coast.",
+        "The train journey offers breathtaking scenic views of the mountains.",
+        "It was a wonderfully scenic drive through the rolling vineyards."
+      ],
+      "pronunciation_tip": "SEE-nik — two syllables, stress on first.",
+      "common_mistake": "Don't say 'beautiful nature view' — say 'scenic view' or 'scenic route'.",
+      "collocations": "['scenic route', 'scenic view', 'scenic landscape']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-04-w-010",
+      "word": "souvenir",
+      "part_of_speech": "noun",
+      "definition": "a small object bought to remember a place you visited",
+      "example_sentences": [
+        "She always buys a small souvenir from every country she visits.",
+        "I picked up a few souvenirs at the old city market.",
+        "A fridge magnet is the classic tourist souvenir."
+      ],
+      "pronunciation_tip": "soo-vuh-NEER — three syllables, stress on last syllable.",
+      "common_mistake": "Don't say 'present from the trip' — say 'souvenir'. It specifically means a reminder object.",
+      "collocations": "['buy a souvenir', 'tourist souvenir', 'souvenir shop']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-04-w-011",
+      "word": "backpack",
+      "part_of_speech": "noun/verb",
+      "definition": "a large bag carried on your back, or to travel cheaply with one",
+      "example_sentences": [
+        "She travelled across Europe with just one small backpack.",
+        "He backpacked through Southeast Asia for six whole months.",
+        "A backpacker's hostel is much cheaper than a proper hotel."
+      ],
+      "pronunciation_tip": "BAK-pak — stress on first syllable.",
+      "common_mistake": "Don't say 'rucksack travel' — say 'backpacking' for budget travel style.",
+      "collocations": "['travel with a backpack', 'backpack through', 'backpacker hostel']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-04-w-012",
+      "word": "jet lag",
+      "part_of_speech": "noun",
+      "definition": "extreme tiredness caused by travelling across several time zones",
+      "example_sentences": [
+        "I always get terrible jet lag after flying to Asia or America.",
+        "It took me a full week to recover from the jet lag.",
+        "Coffee and willpower don't cure jet lag — only time does."
+      ],
+      "pronunciation_tip": "JET-lag — two words, equal stress.",
+      "common_mistake": "Don't say 'I'm tired because of the time difference' — say 'I have jet lag'.",
+      "collocations": "['suffer from jet lag', 'recover from jet lag', 'bad jet lag']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-04-w-013",
+      "word": "navigate",
+      "part_of_speech": "verb",
+      "definition": "to plan and find the correct route to a destination",
+      "example_sentences": [
+        "She navigated the winding mountain roads perfectly.",
+        "I used my phone to navigate through the unfamiliar city.",
+        "It's very hard to navigate without any kind of map."
+      ],
+      "pronunciation_tip": "NAV-ih-gayt — three syllables, stress on first.",
+      "common_mistake": "Don't say 'I found the way' formally — say 'I navigated' or 'I used GPS to navigate'.",
+      "collocations": "['navigate to', 'navigate through', 'navigate using']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-04-w-014",
+      "word": "overbooked",
+      "part_of_speech": "adjective",
+      "definition": "having sold more reservations than there are available spaces",
+      "example_sentences": [
+        "Our flight was overbooked and two passengers were bumped.",
+        "The hotel was completely overbooked during the music festival.",
+        "We were offered compensation because our flight was overbooked."
+      ],
+      "pronunciation_tip": "oh-ver-BOOKT — stress on second syllable.",
+      "common_mistake": "Don't say 'they sold too many tickets' — say 'the flight was overbooked'.",
+      "collocations": "['flight is overbooked', 'hotel overbooked', 'bumped because overbooked']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-04-w-015",
+      "word": "trek",
+      "part_of_speech": "noun/verb",
+      "definition": "a long, physically challenging walk usually in nature",
+      "example_sentences": [
+        "We went on a memorable two-day trek through the national park.",
+        "It was a very tough trek to reach the mountain summit.",
+        "She trekked all the way across the Sahara Desert."
+      ],
+      "pronunciation_tip": "TREK — one syllable.",
+      "common_mistake": "Don't say 'a long walk' only — 'trek' implies something challenging in nature.",
+      "collocations": "['go trekking', 'a tough trek', 'trek through']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-04-w-016",
+      "word": "currency",
+      "part_of_speech": "noun",
+      "definition": "the system of money used in a particular country",
+      "example_sentences": [
+        "What currency do they use in Japan?",
+        "I need to exchange some currency before I leave for the trip.",
+        "The local currency is the Thai baht."
+      ],
+      "pronunciation_tip": "KUR-un-see — three syllables, stress on first.",
+      "common_mistake": "Don't say 'money of the country' — say 'local currency'.",
+      "collocations": "['local currency', 'exchange currency', 'foreign currency']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-04-w-017",
+      "word": "off the beaten track",
+      "part_of_speech": "phrase",
+      "definition": "in a remote or less visited location away from tourists",
+      "example_sentences": [
+        "We discovered a wonderful village completely off the beaten track.",
+        "She always prefers to explore places off the beaten track.",
+        "The best local restaurants are often found off the beaten track."
+      ],
+      "pronunciation_tip": "off the BEAT-un track.",
+      "common_mistake": "Don't say 'in a hidden place' — say 'off the beaten track'.",
+      "collocations": "['completely off the beaten track', 'find somewhere off the beaten track', 'travel off the beaten track']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-04-w-018",
+      "word": "culture shock",
+      "part_of_speech": "noun phrase",
+      "definition": "confusion or difficulty experienced when encountering a very different culture",
+      "example_sentences": [
+        "She experienced real culture shock when she moved to Japan.",
+        "Culture shock can take several months to properly overcome.",
+        "The food, language, and customs all contributed to his culture shock."
+      ],
+      "pronunciation_tip": "KUL-cher SHOK.",
+      "common_mistake": "Don't say 'I was confused by the different culture' — say 'I experienced culture shock'.",
+      "collocations": "['experience culture shock', 'overcome culture shock', 'culture shock can be']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-04-w-019",
+      "word": "sightseeing",
+      "part_of_speech": "noun",
+      "definition": "the activity of visiting famous or interesting places as a tourist",
+      "example_sentences": [
+        "We spent the first day sightseeing around the historic old city.",
+        "Are you interested in doing some sightseeing while you're here?",
+        "There is so much incredible sightseeing to do in Rome."
+      ],
+      "pronunciation_tip": "SYT-see-ing — three syllables, stress on first.",
+      "common_mistake": "Don't say 'visiting tourist places' — say 'sightseeing'.",
+      "collocations": "['go sightseeing', 'do some sightseeing', 'sightseeing tour']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-04-w-020",
+      "word": "package holiday",
+      "part_of_speech": "noun",
+      "definition": "a holiday where flights and accommodation are included in one price",
+      "example_sentences": [
+        "We booked a cheap package holiday to Turkey last minute.",
+        "Package holidays are often significantly cheaper than booking separately.",
+        "She prefers independent travel to pre-arranged package holidays."
+      ],
+      "pronunciation_tip": "PAK-ij HOL-ih-day.",
+      "common_mistake": "Don't say 'all-in-one holiday' — say 'package holiday'.",
+      "collocations": "['book a package holiday', 'cheap package holiday', 'go on a package holiday']",
+      "difficulty": 1
+    }
+  ]
+}

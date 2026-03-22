@@ -1,0 +1,543 @@
+{
+  "id": "G-15",
+  "title": "Present perfect",
+  "level": "B1",
+  "order": 15,
+  "explain": {
+    "rule": "The present perfect (have/has + past participle) connects the past to the present. Use it for: (1) life experiences with no specific time (Have you ever been to Japan?), (2) recent events with a present result (I've lost my keys — I can't get in), (3) unfinished time periods (I've drunk three coffees today — today isn't over), (4) with for + duration and since + starting point. Key signal words: ever, never, already, yet, just, recently, for, since, so far.",
+    "why_matters": "Present perfect is one of the most important tenses in English and one of the hardest for Hebrew speakers. It appears constantly in natural conversation. Getting it right is a clear sign of moving from A2 to B1.",
+    "hebrew_note": "Hebrew has no present perfect. Where English uses it, Hebrew uses past simple (עבר). 'I have been to Paris' = 'הייתי בפריז' in Hebrew — both look like past simple. The difference: if the time is NOT specified and the event is still relevant now → present perfect. If a specific past time is mentioned (yesterday, last year, in 2019) → past simple. This is the single biggest tense mistake Hebrew speakers make.",
+    "tip": "Think of present perfect as a bridge: the action happened in the past but it matters NOW. Test: can you answer 'when exactly'? If you have a specific time → past simple. If the time is unknown, unimportant, or up to now → present perfect. Also remember: NEVER use present perfect with yesterday, last week, in 2019, ago — those are past simple signals.",
+    "form": {
+      "positive": "I/you/we/they + have + past participle | he/she/it + has + past participle",
+      "negative": "I/you/we/they + haven't + past participle | he/she/it + hasn't + past participle",
+      "question": "Have + I/you/we/they + past participle? | Has + he/she/it + past participle?",
+      "short_answer": "Yes, I have. / No, I haven't. | Yes, she has. / No, she hasn't."
+    },
+    "key_words": [
+      {
+        "word": "ever",
+        "use": "questions about life experience",
+        "example": "Have you ever tried sushi?"
+      },
+      {
+        "word": "never",
+        "use": "zero experience",
+        "example": "I've never been to Japan."
+      },
+      {
+        "word": "already",
+        "use": "done before expected",
+        "example": "I've already eaten."
+      },
+      {
+        "word": "yet",
+        "use": "negatives (not yet) and questions",
+        "example": "Have you finished yet? / I haven't finished yet."
+      },
+      {
+        "word": "just",
+        "use": "very recently",
+        "example": "She's just arrived."
+      },
+      {
+        "word": "for",
+        "use": "duration up to now",
+        "example": "I've lived here for five years."
+      },
+      {
+        "word": "since",
+        "use": "point in time to now",
+        "example": "I've worked here since 2019."
+      },
+      {
+        "word": "recently",
+        "use": "in the recent past",
+        "example": "I've recently started exercising."
+      }
+    ],
+    "good_examples": [
+      {
+        "id": "G-15-ge-001",
+        "sentence": "I've been to London twice.",
+        "audio_text": "I've been to London twice.",
+        "note": "Life experience — no specific time mentioned"
+      },
+      {
+        "id": "G-15-ge-002",
+        "sentence": "Have you ever tried Japanese food?",
+        "audio_text": "Have you ever tried Japanese food?",
+        "note": "Life experience question with ever"
+      },
+      {
+        "id": "G-15-ge-003",
+        "sentence": "She's just finished the report.",
+        "audio_text": "She's just finished the report.",
+        "note": "just = very recently, result is relevant now"
+      },
+      {
+        "id": "G-15-ge-004",
+        "sentence": "I haven't seen that film yet.",
+        "audio_text": "I haven't seen that film yet.",
+        "note": "yet in negatives — not done so far"
+      },
+      {
+        "id": "G-15-ge-005",
+        "sentence": "Have you finished yet?",
+        "audio_text": "Have you finished yet?",
+        "note": "yet in questions — expecting it to happen"
+      },
+      {
+        "id": "G-15-ge-006",
+        "sentence": "He's lived in Tel Aviv for ten years.",
+        "audio_text": "He's lived in Tel Aviv for ten years.",
+        "note": "for + period — started in past, still true now"
+      },
+      {
+        "id": "G-15-ge-007",
+        "sentence": "I've worked here since 2018.",
+        "audio_text": "I've worked here since 2018.",
+        "note": "since + point in time — started then, still continuing"
+      },
+      {
+        "id": "G-15-ge-008",
+        "sentence": "We've already booked the hotel.",
+        "audio_text": "We've already booked the hotel.",
+        "note": "already = done before expected or before being asked"
+      },
+      {
+        "id": "G-15-ge-009",
+        "sentence": "She's never eaten meat in her life.",
+        "audio_text": "She's never eaten meat in her life.",
+        "note": "never = zero times in whole life up to now"
+      },
+      {
+        "id": "G-15-ge-010",
+        "sentence": "I've lost my keys — has anyone seen them?",
+        "audio_text": "I've lost my keys — has anyone seen them?",
+        "note": "Recent event + present result: keys still missing NOW"
+      },
+      {
+        "id": "G-15-ge-011",
+        "sentence": "This is the best meal I've ever had.",
+        "audio_text": "This is the best meal I've ever had.",
+        "note": "Superlative + ever → always present perfect"
+      },
+      {
+        "id": "G-15-ge-012",
+        "sentence": "Sales have increased a lot this year.",
+        "audio_text": "Sales have increased a lot this year.",
+        "note": "This year = unfinished period → present perfect"
+      }
+    ],
+    "bad_examples": [
+      {
+        "id": "G-15-be-001",
+        "wrong": "I have been to Paris last year.",
+        "correct": "I went to Paris last year.",
+        "reason": "'Last year' is a specific past time → past simple. Present perfect CANNOT be used with specific past times."
+      },
+      {
+        "id": "G-15-be-002",
+        "wrong": "Did you ever try sushi?",
+        "correct": "Have you ever tried sushi?",
+        "reason": "Life experience questions with 'ever' always use present perfect: Have you ever...?"
+      },
+      {
+        "id": "G-15-be-003",
+        "wrong": "I live here since 2019.",
+        "correct": "I have lived here since 2019.",
+        "reason": "'Since' with a starting point going up to NOW = present perfect, not present simple."
+      },
+      {
+        "id": "G-15-be-004",
+        "wrong": "She has went to the shop.",
+        "correct": "She has gone to the shop.",
+        "reason": "go → went (past simple) → gone (past participle). has gone, not has went."
+      },
+      {
+        "id": "G-15-be-005",
+        "wrong": "Have you seen him last week?",
+        "correct": "Did you see him last week?",
+        "reason": "'Last week' = specific past time → past simple always."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "G-15-ex-001",
+      "type": "fill_blank",
+      "question": "I ___ (never / try) Indian food — is it spicy?",
+      "answer": "have never tried",
+      "hint": "never + life experience → present perfect. never goes between have and the past participle.",
+      "explanation": "have never tried — never sits between have and the past participle.",
+      "hebrew_note": "מעולם לא + ניסיון בחיים = have never + past participle"
+    },
+    {
+      "id": "G-15-ex-002",
+      "type": "fill_blank",
+      "question": "She ___ (just / finish) her presentation — she looks relieved.",
+      "answer": "has just finished",
+      "hint": "just + present perfect for very recent events. she → has.",
+      "explanation": "She has just finished — has for she/he/it, just between has and participle.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-15-ex-003",
+      "type": "fill_blank",
+      "question": "___ you ever ___ (be) to Morocco?",
+      "answer": "Have / been",
+      "hint": "Ever + life experience question → present perfect",
+      "explanation": "Have you ever been? — life experience question with ever.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-15-ex-004",
+      "type": "fill_blank",
+      "question": "I ___ (not / see) that film yet.",
+      "answer": "haven't seen",
+      "hint": "yet in negatives → present perfect",
+      "explanation": "haven't seen yet — not done so far.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-15-ex-005",
+      "type": "fill_blank",
+      "question": "He ___ (live) in this city ___ he was born.",
+      "answer": "has lived / since",
+      "hint": "since + point in time + present perfect. he → has.",
+      "explanation": "has lived since — started at birth, still living here now.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-15-ex-006",
+      "type": "fill_blank",
+      "question": "We ___ (already / book) the restaurant — don't worry.",
+      "answer": "have already booked",
+      "hint": "already = done before expected. Already goes between have and the participle.",
+      "explanation": "have already booked — already in the middle.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-15-ex-007",
+      "type": "fill_blank",
+      "question": "I ___ (work) here ___ three years.",
+      "answer": "have worked / for",
+      "hint": "for + period of time to present → present perfect",
+      "explanation": "have worked for — duration from past to now.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-15-ex-008",
+      "type": "fill_blank",
+      "question": "She looks upset. What ___ (happen)?",
+      "answer": "has happened",
+      "hint": "Recent event with current result (she looks upset NOW) → present perfect",
+      "explanation": "What has happened? — current relevance.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-15-ex-009",
+      "type": "fill_blank",
+      "question": "___ the postman ___ (come) yet?",
+      "answer": "Has / come",
+      "hint": "yet in questions. postman = he → has.",
+      "explanation": "Has the postman come yet? — expecting the postman.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-15-ex-010",
+      "type": "fill_blank",
+      "question": "I ___ (break) my phone — I need to buy a new one.",
+      "answer": "have broken",
+      "hint": "Recent event + present result (need a new one NOW)",
+      "explanation": "have broken — result is present: I need a new one now.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-15-ex-011",
+      "type": "fill_blank",
+      "question": "They ___ (not / decide) where to go on holiday yet.",
+      "answer": "haven't decided",
+      "hint": "Not yet = haven't done it so far → present perfect negative",
+      "explanation": "haven't decided yet — not done so far.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-15-ex-012",
+      "type": "fill_blank",
+      "question": "It is the best film I ___ (ever / see).",
+      "answer": "have ever seen",
+      "hint": "Superlative + ever → present perfect always",
+      "explanation": "The best I have ever seen — superlative + ever = present perfect.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-15-ex-013",
+      "type": "fill_blank",
+      "question": "How long ___ you ___ (know) each other?",
+      "answer": "have / known",
+      "hint": "How long + from past to now → present perfect",
+      "explanation": "How long have you known = asking about duration up to now.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-15-ex-014",
+      "type": "mcq",
+      "question": "Choose the correct sentence:",
+      "answer": "I've never been to the USA.",
+      "hint": "Life experience + never → present perfect",
+      "explanation": "I've never been — present perfect for life experience.",
+      "distractors": [
+        "I never went to the USA.",
+        "I never been to the USA.",
+        "I didn't never go to the USA."
+      ]
+    },
+    {
+      "id": "G-15-ex-015",
+      "type": "mcq",
+      "question": "___ you ___ the news today?",
+      "answer": "Have / heard",
+      "hint": "Recent event today with present relevance → present perfect",
+      "explanation": "Have you heard the news today? — unfinished day, current relevance.",
+      "distractors": [
+        "Did / hear",
+        "Have / hear",
+        "Did / heard"
+      ]
+    },
+    {
+      "id": "G-15-ex-016",
+      "type": "mcq",
+      "question": "I ___ in this company since I graduated.",
+      "answer": "have worked",
+      "hint": "Since + point in time to NOW → present perfect",
+      "explanation": "since I graduated = from that point to now → present perfect.",
+      "distractors": [
+        "worked",
+        "am working",
+        "work"
+      ]
+    },
+    {
+      "id": "G-15-ex-017",
+      "type": "mcq",
+      "question": "Which sentence is correct?",
+      "answer": "I went to Paris last summer.",
+      "hint": "Last summer = specific past time → which tense?",
+      "explanation": "'Last summer' = specific finished time → past simple. Never use present perfect with past time expressions.",
+      "distractors": [
+        "I have gone to Paris last summer.",
+        "I have been to Paris last summer.",
+        "I've went to Paris last summer."
+      ]
+    },
+    {
+      "id": "G-15-ex-018",
+      "type": "mcq",
+      "question": "She ___ already ___ the problem.",
+      "answer": "has / solved",
+      "hint": "already between has and past participle. she → has.",
+      "explanation": "has already solved — already in the middle.",
+      "distractors": [
+        "has / solve",
+        "did / solve",
+        "is / solved"
+      ]
+    },
+    {
+      "id": "G-15-ex-019",
+      "type": "error_correction",
+      "question": "Find and fix: 'I have seen him yesterday.'",
+      "answer": "I saw him yesterday.",
+      "hint": "Yesterday = specific past time → which tense?",
+      "explanation": "yesterday = specific past time → past simple always.",
+      "hebrew_note": "yesterday תמיד = past simple, לעולם לא present perfect"
+    },
+    {
+      "id": "G-15-ex-020",
+      "type": "error_correction",
+      "question": "Find and fix: 'Did you ever visit Japan?'",
+      "answer": "Have you ever visited Japan?",
+      "hint": "Life experience question with ever → which tense?",
+      "explanation": "ever + life experience → present perfect: Have you ever visited?",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-15-ex-021",
+      "type": "error_correction",
+      "question": "Find and fix: 'I live here since five years.'",
+      "answer": "I have lived here for five years.",
+      "hint": "Two things to fix: the tense and the preposition before the number.",
+      "explanation": "Duration (five years) uses FOR. Since point in time to now → present perfect.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-15-ex-022",
+      "type": "error_correction",
+      "question": "Find and fix: 'She has went to the shop.'",
+      "answer": "She has gone to the shop.",
+      "hint": "go → past simple = went. go → past participle = ?",
+      "explanation": "go → gone (past participle). has gone, never has went.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-15-ex-023",
+      "type": "error_correction",
+      "question": "Find and fix: 'Have you seen him last week?'",
+      "answer": "Did you see him last week?",
+      "hint": "Last week = specific past time → which tense?",
+      "explanation": "last week = specific past time → past simple.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-15-ex-024",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "ever",
+        "you",
+        "have",
+        "sushi",
+        "tried"
+      ],
+      "answer": "Have you ever tried sushi?",
+      "hint": "Life experience question: Have + subject + ever + past participle?",
+      "explanation": "Have you ever tried? — ever between subject and past participle."
+    },
+    {
+      "id": "G-15-ex-025",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "just",
+        "she",
+        "has",
+        "the",
+        "finished",
+        "report"
+      ],
+      "answer": "She has just finished the report.",
+      "hint": "just goes between has and the past participle",
+      "explanation": "She has just finished — just in the middle."
+    },
+    {
+      "id": "G-15-ex-026",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "for",
+        "haven't",
+        "weeks",
+        "I",
+        "him",
+        "two",
+        "seen"
+      ],
+      "answer": "I haven't seen him for two weeks.",
+      "hint": "Negative present perfect + for + duration",
+      "explanation": "I haven't seen him for two weeks — duration since last seeing him."
+    },
+    {
+      "id": "G-15-ex-027",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "the",
+        "best",
+        "is",
+        "this",
+        "meal",
+        "I've",
+        "had",
+        "ever"
+      ],
+      "answer": "This is the best meal I've ever had.",
+      "hint": "Superlative + present perfect + ever",
+      "explanation": "The best meal I've ever had — superlative triggers present perfect."
+    }
+  ],
+  "speak": [
+    {
+      "id": "G-15-sp-001",
+      "sentence": "Have you ever been to a country where you didn't speak the language?",
+      "chunks": [
+        "Have you ever been to a country",
+        "where you didn't speak the language?"
+      ],
+      "phonetic_hints": "'Country' = KUN-tree. 'Language' = LANG-gwij — two syllables.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-15-sp-002",
+      "sentence": "I've lived in this city for most of my life.",
+      "chunks": [
+        "I've lived in this city",
+        "for most of my life."
+      ],
+      "phonetic_hints": "'I've' = eyv — contracted, one smooth syllable. 'Most' = MOHST.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-15-sp-003",
+      "sentence": "She's just heard the news and she can't believe it.",
+      "chunks": [
+        "She's just heard the news",
+        "and she can't believe it."
+      ],
+      "phonetic_hints": "'She's' = SHEEZ. 'Heard' = HURD — irregular past participle. 'Believe' = bih-LEEV.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-15-sp-004",
+      "sentence": "I haven't seen that film yet — is it any good?",
+      "chunks": [
+        "I haven't seen that film yet —",
+        "is it any good?"
+      ],
+      "phonetic_hints": "'Haven't' = HAV-unt — two syllables. 'Yet' = YET.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-15-sp-005",
+      "sentence": "We've already decided where to go — we're going to Greece.",
+      "chunks": [
+        "We've already decided where to go —",
+        "we're going to Greece."
+      ],
+      "phonetic_hints": "'Already' = awl-RED-ee — stress on second syllable. 'Greece' = GREES — long ee sound.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-15-sp-006",
+      "sentence": "How long have you been working at your current company?",
+      "chunks": [
+        "How long have you been working",
+        "at your current company?"
+      ],
+      "phonetic_hints": "'Current' = KUR-unt. 'Company' = KUM-puh-nee — three syllables.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-15-sp-007",
+      "sentence": "I've never tried scuba diving but I'd really like to one day.",
+      "chunks": [
+        "I've never tried scuba diving",
+        "but I'd really like to one day."
+      ],
+      "phonetic_hints": "'Scuba' = SKOO-buh. 'Diving' = DYV-ing. 'I'd' = eyed — contracted I would.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-15-sp-008",
+      "sentence": "Has anyone seen my glasses? I've looked everywhere.",
+      "chunks": [
+        "Has anyone seen my glasses?",
+        "I've looked everywhere."
+      ],
+      "phonetic_hints": "'Anyone' = EN-ee-wun — three syllables. 'Glasses' = GLAS-iz. 'Everywhere' = EV-ree-wair.",
+      "pass_threshold": 0.65
+    }
+  ]
+}

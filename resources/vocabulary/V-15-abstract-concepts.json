@@ -1,0 +1,307 @@
+{
+  "id": "V-15",
+  "theme": "Abstract concepts",
+  "level": "B2",
+  "words": [
+    {
+      "id": "V-15-w-001",
+      "word": "ambiguity",
+      "part_of_speech": "noun",
+      "definition": "the quality of having more than one possible meaning",
+      "example_sentences": [
+        "The ambiguity of the law caused confusion.",
+        "Her statement was full of ambiguity — nobody knew what she meant.",
+        "Ambiguity in a contract can lead to disputes."
+      ],
+      "pronunciation_tip": "am-bih-GYOO-ih-tee — five syllables, stress on third.",
+      "common_mistake": "Don't say 'it has two meanings' — say 'it is ambiguous' or 'there is ambiguity'.",
+      "collocations": "['cause ambiguity', 'deliberate ambiguity', 'ambiguity in']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-15-w-002",
+      "word": "autonomy",
+      "part_of_speech": "noun",
+      "definition": "the freedom to govern yourself or make your own decisions",
+      "example_sentences": [
+        "She values her autonomy and doesn't like being micromanaged.",
+        "The region fought for greater autonomy from the central government.",
+        "Employees perform better when given autonomy."
+      ],
+      "pronunciation_tip": "aw-TON-uh-mee — four syllables, stress on second.",
+      "common_mistake": "Don't say 'freedom to decide' as a noun — say 'autonomy'.",
+      "collocations": "['personal autonomy', 'give autonomy', 'sense of autonomy']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-15-w-003",
+      "word": "integrity",
+      "part_of_speech": "noun",
+      "definition": "the quality of being honest and having strong moral principles",
+      "example_sentences": [
+        "She is a person of absolute integrity.",
+        "Integrity is the most important quality in a leader.",
+        "He acted with complete integrity throughout the process."
+      ],
+      "pronunciation_tip": "in-TEG-rih-tee — four syllables, stress on second.",
+      "common_mistake": "Don't say 'he is honest' as a noun — say 'he has integrity'.",
+      "collocations": "['personal integrity', 'act with integrity', 'lack integrity']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-15-w-004",
+      "word": "perception",
+      "part_of_speech": "noun",
+      "definition": "the way you understand or interpret something",
+      "example_sentences": [
+        "Her perception of the situation was completely wrong.",
+        "Perception is often more important than reality in business.",
+        "Public perception of the company has improved."
+      ],
+      "pronunciation_tip": "per-SEP-shun — three syllables, stress on second.",
+      "common_mistake": "Don't say 'what she thinks' always — say 'her perception of'.",
+      "collocations": "['public perception', 'change perception', 'perception of reality']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-15-w-005",
+      "word": "paradigm",
+      "part_of_speech": "noun",
+      "definition": "a typical example or model; a framework for thinking",
+      "example_sentences": [
+        "The internet created a new paradigm for communication.",
+        "Her research challenged the existing scientific paradigm.",
+        "A paradigm shift happens when old ideas are replaced."
+      ],
+      "pronunciation_tip": "PAIR-uh-dym — three syllables, stress on first.",
+      "common_mistake": "Don't say 'a new way of thinking' every time — say 'a paradigm' or 'a paradigm shift'.",
+      "collocations": "['paradigm shift', 'new paradigm', 'challenge the paradigm']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-15-w-006",
+      "word": "resilience",
+      "part_of_speech": "noun",
+      "definition": "the ability to recover quickly from difficulties",
+      "example_sentences": [
+        "Children who develop resilience cope better with setbacks.",
+        "Economic resilience helped the country recover quickly.",
+        "Resilience is built through facing and overcoming challenges."
+      ],
+      "pronunciation_tip": "rih-ZIL-ee-unss — four syllables, stress on second.",
+      "common_mistake": "Don't say 'she recovers quickly from problems' as a noun — say 'she has resilience'.",
+      "collocations": "['build resilience', 'show resilience', 'psychological resilience']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-15-w-007",
+      "word": "accountability",
+      "part_of_speech": "noun",
+      "definition": "the fact of being responsible and expected to explain your actions",
+      "example_sentences": [
+        "Accountability is essential in public office.",
+        "There must be greater accountability in the banking sector.",
+        "She holds her team to a high standard of accountability."
+      ],
+      "pronunciation_tip": "uh-kown-tuh-BIL-ih-tee — six syllables, stress on fourth.",
+      "common_mistake": "Don't say 'responsibility to explain' as a noun — say 'accountability'.",
+      "collocations": "['personal accountability', 'lack of accountability', 'hold accountable']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-15-w-008",
+      "word": "perspective",
+      "part_of_speech": "noun",
+      "definition": "a particular way of thinking about something based on experience",
+      "example_sentences": [
+        "Try to see it from her perspective.",
+        "A different perspective can lead to a better solution.",
+        "Travel broadens your perspective."
+      ],
+      "pronunciation_tip": "per-SPEK-tiv — three syllables, stress on second.",
+      "common_mistake": "Don't say 'her point of view' every time — say 'her perspective'.",
+      "collocations": "['from a different perspective', 'broaden your perspective', 'change perspective']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-15-w-009",
+      "word": "contradiction",
+      "part_of_speech": "noun",
+      "definition": "a situation where two things cannot both be true at the same time",
+      "example_sentences": [
+        "His actions were in direct contradiction to his words.",
+        "There are several contradictions in the report.",
+        "The contradiction between freedom and security is ancient."
+      ],
+      "pronunciation_tip": "kon-truh-DIK-shun — four syllables, stress on third.",
+      "common_mistake": "Don't say 'two things that are opposite and can't be true' — say 'a contradiction'.",
+      "collocations": "['direct contradiction', 'full of contradictions', 'contradiction between']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-15-w-010",
+      "word": "consensus",
+      "part_of_speech": "noun",
+      "definition": "a general agreement among a group of people",
+      "example_sentences": [
+        "There is no consensus on the best way forward.",
+        "The committee reached consensus after three hours of discussion.",
+        "The scientific consensus on climate change is clear."
+      ],
+      "pronunciation_tip": "kun-SEN-sus — three syllables, stress on second.",
+      "common_mistake": "Don't say 'everyone agrees' as a noun — say 'there is consensus'.",
+      "collocations": "['reach a consensus', 'scientific consensus', 'build consensus']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-15-w-011",
+      "word": "transparency",
+      "part_of_speech": "noun",
+      "definition": "openness and honesty so people can see what is happening",
+      "example_sentences": [
+        "The public demands greater transparency from government.",
+        "She manages her team with complete transparency.",
+        "Financial transparency is required by law."
+      ],
+      "pronunciation_tip": "trans-PAIR-un-see — four syllables, stress on second.",
+      "common_mistake": "Don't say 'being open and honest' as a noun — say 'transparency'.",
+      "collocations": "['greater transparency', 'financial transparency', 'lack of transparency']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-15-w-012",
+      "word": "ideology",
+      "part_of_speech": "noun",
+      "definition": "a set of beliefs or principles held by a group or organisation",
+      "example_sentences": [
+        "The two parties are driven by very different ideologies.",
+        "Religious ideology played a major role in the conflict.",
+        "She questioned the underlying ideology of the movement."
+      ],
+      "pronunciation_tip": "eye-dee-OL-uh-jee — five syllables, stress on third.",
+      "common_mistake": "Don't say 'set of beliefs' every time — say 'ideology'.",
+      "collocations": "['political ideology', 'question ideology', 'driven by ideology']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-15-w-013",
+      "word": "bias",
+      "part_of_speech": "noun",
+      "definition": "an unfair preference for or against something or someone",
+      "example_sentences": [
+        "The study's results show a clear bias towards younger participants.",
+        "She tried to remove any personal bias from her research.",
+        "Unconscious bias affects decisions even when we don't realise it."
+      ],
+      "pronunciation_tip": "BY-us — two syllables, stress on first.",
+      "common_mistake": "Don't say 'unfair preference' every time — say 'bias'.",
+      "collocations": "['unconscious bias', 'show bias', 'bias towards']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-15-w-014",
+      "word": "stereotype",
+      "part_of_speech": "noun",
+      "definition": "a fixed oversimplified idea about a type of person or thing",
+      "example_sentences": [
+        "She challenged the stereotype that women aren't good at maths.",
+        "Stereotypes can be harmful even when well-intentioned.",
+        "Not all stereotypes are negative but they are always reductive."
+      ],
+      "pronunciation_tip": "STEER-ee-uh-typ — three syllables, stress on first.",
+      "common_mistake": "Don't say 'a fixed idea about a group' every time — say 'a stereotype'.",
+      "collocations": "['challenge a stereotype', 'reinforce stereotypes', 'gender stereotypes']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-15-w-015",
+      "word": "paradox",
+      "part_of_speech": "noun",
+      "definition": "a situation that seems self-contradictory but may be true",
+      "example_sentences": [
+        "It's a paradox — working less can actually increase productivity.",
+        "The freedom paradox: too many choices lead to less happiness.",
+        "She found the paradox of fame difficult to deal with."
+      ],
+      "pronunciation_tip": "PAIR-uh-doks — three syllables, stress on first.",
+      "common_mistake": "Don't say 'a strange contradiction that is actually true' — say 'a paradox'.",
+      "collocations": "['a paradox', 'interesting paradox', 'the paradox of']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-15-w-016",
+      "word": "nuance",
+      "part_of_speech": "noun",
+      "definition": "a subtle difference in meaning, feeling, or understanding",
+      "example_sentences": [
+        "The translation lost the nuance of the original poem.",
+        "She handled the situation with great nuance.",
+        "Political issues rarely have simple answers — nuance is essential."
+      ],
+      "pronunciation_tip": "NYOO-anss — two syllables, stress on first.",
+      "common_mistake": "Don't say 'a small difference' always — say 'nuance' or 'nuanced approach'.",
+      "collocations": "['subtle nuance', 'lose the nuance', 'handle with nuance']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-15-w-017",
+      "word": "precedent",
+      "part_of_speech": "noun",
+      "definition": "an earlier event or decision that guides future decisions",
+      "example_sentences": [
+        "The ruling set a precedent for all future cases.",
+        "There is no precedent for this kind of situation.",
+        "She was reluctant to set a precedent."
+      ],
+      "pronunciation_tip": "PRES-ih-dunt — three syllables, stress on first.",
+      "common_mistake": "Don't say 'example that guides future decisions' every time — say 'precedent'.",
+      "collocations": "['set a precedent', 'legal precedent', 'break with precedent']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-15-w-018",
+      "word": "implication",
+      "part_of_speech": "noun",
+      "definition": "a possible consequence or conclusion suggested by something",
+      "example_sentences": [
+        "The implications of the decision are serious.",
+        "She didn't fully consider the implications.",
+        "What are the implications for small businesses?"
+      ],
+      "pronunciation_tip": "im-plih-KAY-shun — four syllables, stress on third.",
+      "common_mistake": "Don't say 'the result that might happen' — say 'the implication' or 'the implications'.",
+      "collocations": "['implications of', 'serious implication', 'consider the implications']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-15-w-019",
+      "word": "dilemma",
+      "part_of_speech": "noun",
+      "definition": "a situation in which a difficult choice must be made",
+      "example_sentences": [
+        "She faced a dilemma: stay loyal or tell the truth.",
+        "The ethical dilemma had no easy answer.",
+        "The doctor was caught in a moral dilemma."
+      ],
+      "pronunciation_tip": "dih-LEM-uh — three syllables, stress on second.",
+      "common_mistake": "Don't say 'a difficult choice' every time — say 'a dilemma'.",
+      "collocations": "['face a dilemma', 'moral dilemma', 'ethical dilemma']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-15-w-020",
+      "word": "rationale",
+      "part_of_speech": "noun",
+      "definition": "the set of reasons behind a decision or belief",
+      "example_sentences": [
+        "She explained the rationale for her decision.",
+        "The report outlined the rationale behind the new policy.",
+        "Without a clear rationale, the decision seemed arbitrary."
+      ],
+      "pronunciation_tip": "rash-uh-NAL — three syllables, stress on last.",
+      "common_mistake": "Don't say 'the reason for the decision' every time — say 'the rationale'.",
+      "collocations": "['explain the rationale', 'rationale behind', 'provide a rationale']",
+      "difficulty": 3
+    }
+  ]
+}

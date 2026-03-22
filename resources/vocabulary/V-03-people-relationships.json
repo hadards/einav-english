@@ -1,0 +1,307 @@
+{
+  "id": "V-03",
+  "theme": "People & relationships",
+  "level": "A2",
+  "words": [
+    {
+      "id": "V-03-w-001",
+      "word": "acquaintance",
+      "part_of_speech": "noun",
+      "definition": "someone you know slightly but not well",
+      "example_sentences": [
+        "He's just an acquaintance, not a close friend.",
+        "She has many acquaintances through work.",
+        "I ran into an old acquaintance at the supermarket."
+      ],
+      "pronunciation_tip": "uh-KWAYN-tunss — four syllables, stress on second.",
+      "common_mistake": "Don't say 'I know him a little' — say 'He's an acquaintance'.",
+      "collocations": "['mutual acquaintance', 'old acquaintance', 'more than an acquaintance']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-03-w-002",
+      "word": "bond",
+      "part_of_speech": "noun/verb",
+      "definition": "a strong emotional connection between people",
+      "example_sentences": [
+        "There's a very strong bond between the two sisters.",
+        "They bonded over their shared love of music.",
+        "The experience created a lasting bond between them."
+      ],
+      "pronunciation_tip": "BOND — short 'o'.",
+      "common_mistake": "Don't say 'connection' always — 'bond' is stronger and more emotional.",
+      "collocations": "['form a bond', 'strong bond', 'bond with someone']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-03-w-003",
+      "word": "trustworthy",
+      "part_of_speech": "adjective",
+      "definition": "reliable, honest, and can be depended on",
+      "example_sentences": [
+        "She is completely trustworthy — I'd tell her anything.",
+        "He's looking for a trustworthy business partner.",
+        "A trustworthy friend is genuinely hard to find."
+      ],
+      "pronunciation_tip": "TRUST-wur-thee — three syllables, stress on first.",
+      "common_mistake": "Don't say 'I can trust him' as an adjective — say 'he is trustworthy'.",
+      "collocations": "['trustworthy person', 'completely trustworthy', 'reliable and trustworthy']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-03-w-004",
+      "word": "empathy",
+      "part_of_speech": "noun",
+      "definition": "the ability to understand and share another person's feelings",
+      "example_sentences": [
+        "She showed great empathy for her colleague's difficult situation.",
+        "Empathy is essential in nursing and teaching.",
+        "He genuinely lacks empathy — he never understands others."
+      ],
+      "pronunciation_tip": "EM-puh-thee — three syllables, stress on first.",
+      "common_mistake": "Don't confuse empathy (feeling with someone) with sympathy (feeling sorry for them).",
+      "collocations": "['show empathy', 'lack empathy', 'empathy and understanding']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-03-w-005",
+      "word": "supportive",
+      "part_of_speech": "adjective",
+      "definition": "giving help, encouragement, or emotional support",
+      "example_sentences": [
+        "Her family was incredibly supportive during her illness.",
+        "He's a supportive manager who really listens to his team.",
+        "Having a supportive partner makes an enormous difference."
+      ],
+      "pronunciation_tip": "suh-PAWR-tiv — three syllables, stress on second.",
+      "common_mistake": "Don't say 'He helps me a lot' as an adjective — say 'He is very supportive'.",
+      "collocations": "['supportive partner', 'supportive friend', 'be supportive of']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-03-w-006",
+      "word": "conflict",
+      "part_of_speech": "noun/verb",
+      "definition": "a serious disagreement or argument between people",
+      "example_sentences": [
+        "There was a significant conflict between the two colleagues.",
+        "She tries to avoid conflict wherever possible.",
+        "The conflict was eventually resolved through honest discussion."
+      ],
+      "pronunciation_tip": "KON-flikt — stress on first syllable.",
+      "common_mistake": "Don't say 'they have a fight' for every disagreement — 'conflict' is more neutral.",
+      "collocations": "['resolve a conflict', 'avoid conflict', 'in conflict with']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-03-w-007",
+      "word": "reconcile",
+      "part_of_speech": "verb",
+      "definition": "to become friendly again after a disagreement",
+      "example_sentences": [
+        "They had a terrible argument but eventually reconciled.",
+        "It took many months to reconcile after the dispute.",
+        "She reconciled with her brother after years of silence."
+      ],
+      "pronunciation_tip": "REK-un-syl — stress on first syllable.",
+      "common_mistake": "Don't say 'they became friends again' — say 'they reconciled'.",
+      "collocations": "['reconcile with', 'eventually reconcile', 'reconcile differences']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-03-w-008",
+      "word": "loyal",
+      "part_of_speech": "adjective",
+      "definition": "always supporting and being faithful to someone",
+      "example_sentences": [
+        "She has been completely loyal to the company for twenty years.",
+        "A loyal friend stands by you in the most difficult times.",
+        "He is fiercely loyal to his family above everything else."
+      ],
+      "pronunciation_tip": "LOY-ul — two syllables, stress on first.",
+      "common_mistake": "Don't say 'She always supports him' as an adjective — say 'She is loyal to him'.",
+      "collocations": "['loyal friend', 'loyal employee', 'remain loyal']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-03-w-009",
+      "word": "colleague",
+      "part_of_speech": "noun",
+      "definition": "a person you work with in the same organisation",
+      "example_sentences": [
+        "She gets along very well with all her colleagues.",
+        "I'm meeting a former colleague for lunch today.",
+        "My colleagues were extremely supportive during my illness."
+      ],
+      "pronunciation_tip": "KOL-eeg — stress on first syllable.",
+      "common_mistake": "Don't say 'my work friends' in professional contexts — say 'my colleagues'.",
+      "collocations": "['work colleague', 'former colleague', 'get on with colleagues']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-03-w-010",
+      "word": "sibling",
+      "part_of_speech": "noun",
+      "definition": "a brother or sister",
+      "example_sentences": [
+        "She has two siblings — an older brother and a younger sister.",
+        "Sibling relationships can be wonderfully complex.",
+        "Do you have any siblings?"
+      ],
+      "pronunciation_tip": "SIB-ling — stress on first syllable.",
+      "common_mistake": "Don't say 'brother/sister' when you want to refer to both — 'sibling' covers both.",
+      "collocations": "['older sibling', 'younger sibling', 'sibling relationship']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-03-w-011",
+      "word": "admire",
+      "part_of_speech": "verb",
+      "definition": "to respect and feel great appreciation for someone",
+      "example_sentences": [
+        "I really admire her dedication and incredibly hard work.",
+        "He is widely admired throughout the company for his honesty.",
+        "She has always admired her mother's strength and patience."
+      ],
+      "pronunciation_tip": "ad-MYR — stress on second syllable.",
+      "common_mistake": "Don't say 'I like him very much' for deep respect — say 'I admire him'.",
+      "collocations": "['admire someone for', 'greatly admire', 'widely admired']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-03-w-012",
+      "word": "mentor",
+      "part_of_speech": "noun/verb",
+      "definition": "an experienced person who gives guidance and support",
+      "example_sentences": [
+        "She had a wonderful mentor when she first started her career.",
+        "He mentored several young doctors during his career.",
+        "Having a good mentor can completely transform your career trajectory."
+      ],
+      "pronunciation_tip": "MEN-tawr — stress on first syllable.",
+      "common_mistake": "Don't say 'teacher' for a personal career guide — say 'mentor'.",
+      "collocations": "['have a mentor', 'act as mentor', 'mentor someone']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-03-w-013",
+      "word": "jealous",
+      "part_of_speech": "adjective",
+      "definition": "feeling unhappy because someone else has something you want",
+      "example_sentences": [
+        "She was jealous of her friend's rapid career success.",
+        "Don't be jealous — focus on your own achievements instead.",
+        "He felt jealous when he saw how happy they seemed together."
+      ],
+      "pronunciation_tip": "JEL-us — two syllables, stress on first.",
+      "common_mistake": "Don't confuse jealous (wanting what others have) with envious (similar, slightly weaker).",
+      "collocations": "['feel jealous', 'jealous of', 'madly jealous']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-03-w-014",
+      "word": "genuine",
+      "part_of_speech": "adjective",
+      "definition": "truly sincere, honest, and not pretending",
+      "example_sentences": [
+        "She's a completely genuine person — what you see is what you get.",
+        "His concern for others always seems completely genuine.",
+        "I appreciated her genuine interest in my personal problem."
+      ],
+      "pronunciation_tip": "JEN-yoo-in — three syllables, stress on first.",
+      "common_mistake": "Don't say 'real friend' — say 'genuine friend' for someone truly sincere.",
+      "collocations": "['genuine person', 'genuine interest', 'seem genuine']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-03-w-015",
+      "word": "appreciate",
+      "part_of_speech": "verb",
+      "definition": "to recognise and be grateful for the value of something",
+      "example_sentences": [
+        "I really appreciate everything you've done for me.",
+        "She doesn't fully appreciate how incredibly lucky she is.",
+        "He greatly appreciates honesty and directness in others."
+      ],
+      "pronunciation_tip": "uh-PREE-shee-ayt — four syllables, stress on second.",
+      "common_mistake": "Don't say 'I am thankful for' always — 'appreciate' is broader and more natural.",
+      "collocations": "['really appreciate', 'appreciate your help', 'appreciate the value of']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-03-w-016",
+      "word": "stubborn",
+      "part_of_speech": "adjective",
+      "definition": "determined not to change your opinion or behaviour",
+      "example_sentences": [
+        "She's incredibly stubborn — she absolutely never admits she's wrong.",
+        "He stubbornly refused to apologise even though he knew he was wrong.",
+        "Being stubborn can be both a strength and a significant weakness."
+      ],
+      "pronunciation_tip": "STUB-urn — two syllables, stress on first.",
+      "common_mistake": "Don't say 'she is too strong in her opinion' — say 'she is stubborn'.",
+      "collocations": "['incredibly stubborn', 'be stubborn about', 'stubborn person']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-03-w-017",
+      "word": "argument",
+      "part_of_speech": "noun",
+      "definition": "an angry disagreement between two or more people",
+      "example_sentences": [
+        "They had a big argument about money and expenses.",
+        "The argument lasted for several hours without resolution.",
+        "She tries hard to avoid arguments in the workplace."
+      ],
+      "pronunciation_tip": "AR-gyoo-ment — three syllables, stress on first.",
+      "common_mistake": "Don't say 'they had a fight' — 'fight' implies physical conflict. Use 'argument' for verbal.",
+      "collocations": "['have an argument', 'argument about', 'settle an argument']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-03-w-018",
+      "word": "tolerance",
+      "part_of_speech": "noun",
+      "definition": "willingness to accept behaviour or opinions different from your own",
+      "example_sentences": [
+        "She shows remarkable tolerance for different cultures and customs.",
+        "The job requires a very high tolerance for stress and pressure.",
+        "Tolerance and respect for others are core human values."
+      ],
+      "pronunciation_tip": "TOL-er-unss — three syllables, stress on first.",
+      "common_mistake": "Don't say 'she accepts differences' as a noun — say 'she shows great tolerance'.",
+      "collocations": "['show tolerance', 'tolerance for', 'mutual tolerance']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-03-w-019",
+      "word": "interfere",
+      "part_of_speech": "verb",
+      "definition": "to involve yourself in a situation that does not concern you",
+      "example_sentences": [
+        "Stop interfering in my personal relationship!",
+        "His parents interfere far too much in his adult life.",
+        "I don't want to interfere but I'm genuinely worried about her wellbeing."
+      ],
+      "pronunciation_tip": "in-ter-FEER — three syllables, stress on last.",
+      "common_mistake": "Don't say 'don't enter in my problems' — say 'don't interfere in my problems'.",
+      "collocations": "['interfere in', 'stop interfering', 'tend to interfere']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-03-w-020",
+      "word": "awkward",
+      "part_of_speech": "adjective",
+      "definition": "causing or feeling social embarrassment or difficulty",
+      "example_sentences": [
+        "There was a horribly awkward silence when he walked in.",
+        "It was really awkward running into my ex at the party.",
+        "She felt deeply awkward being the only person who knew nobody."
+      ],
+      "pronunciation_tip": "AWK-werd — two syllables, stress on first.",
+      "common_mistake": "Don't say 'I felt strange and uncomfortable' — say 'I felt awkward'.",
+      "collocations": "['awkward silence', 'feel awkward', 'awkward situation']",
+      "difficulty": 1
+    }
+  ]
+}

@@ -1,0 +1,481 @@
+{
+  "id": "G-20",
+  "title": "Second conditional",
+  "level": "B1",
+  "order": 20,
+  "explain": {
+    "rule": "The second conditional is for imaginary, hypothetical, or unlikely situations in the present or future. Structure: If + past simple, would + base verb. Even though the if-clause uses past simple tense, it refers to the PRESENT or FUTURE — it is not about the past. It just imagines a different reality from now. Compare: First conditional (If it rains, I'll cancel) = real and possible. Second conditional (If I were a bird, I would fly) = imaginary or very unlikely.",
+    "why_matters": "Second conditional lets you talk about hypothetical situations, daydreams, giving advice (If I were you, I would...), and polite requests. It is essential for expressing wishes, dreams, and opinions about how things could be different.",
+    "hebrew_note": "Hebrew conditional mood uses אילו/לו + past for hypothetical situations: 'אילו הייתי ציפור, הייתי עפה'. This maps closely to English second conditional. The key difference: in English, 'were' is used for ALL subjects in formal/written English (If I were you, If she were here) even though 'was' is also acceptable in informal speech. In everyday speech 'If I was you' is heard but 'If I were you' is grammatically preferred.",
+    "tip": "Second conditional = imaginary present/future. The past tense in the if-clause is NOT about the past — it is a grammatical trick to show we are imagining something unreal. Also: 'I were' (not 'I was') in the if-clause is more correct in formal English: 'If I were you, I would apologise.' Special use: giving advice always uses second conditional — 'If I were you, I'd...'",
+    "comparison": [
+      {
+        "conditional": "First",
+        "structure": "If + present simple + will",
+        "meaning": "Real, possible",
+        "example": "If it rains, I'll stay home. (It might rain)"
+      },
+      {
+        "conditional": "Second",
+        "structure": "If + past simple + would",
+        "meaning": "Imaginary, unlikely",
+        "example": "If I had a million dollars, I'd travel the world. (I don't have a million)"
+      }
+    ],
+    "good_examples": [
+      {
+        "id": "G-20-ge-001",
+        "sentence": "If I had more time, I would learn to play the piano.",
+        "audio_text": "If I had more time, I would learn to play the piano.",
+        "note": "Imaginary: I don't have more time now"
+      },
+      {
+        "id": "G-20-ge-002",
+        "sentence": "She would be happier if she changed her job.",
+        "audio_text": "She would be happier if she changed her job.",
+        "note": "Hypothetical advice — she hasn't changed jobs"
+      },
+      {
+        "id": "G-20-ge-003",
+        "sentence": "If I were you, I would talk to him directly.",
+        "audio_text": "If I were you, I would talk to him directly.",
+        "note": "Giving advice — I am not you (imaginary)"
+      },
+      {
+        "id": "G-20-ge-004",
+        "sentence": "What would you do if you won the lottery?",
+        "audio_text": "What would you do if you won the lottery?",
+        "note": "Hypothetical question — unlikely scenario"
+      },
+      {
+        "id": "G-20-ge-005",
+        "sentence": "If he spoke better English, he'd get the job.",
+        "audio_text": "If he spoke better English, he'd get the job.",
+        "note": "Imaginary: he doesn't speak better English now"
+      },
+      {
+        "id": "G-20-ge-006",
+        "sentence": "I'd move to Italy if I could work remotely.",
+        "audio_text": "I'd move to Italy if I could work remotely.",
+        "note": "Dream/wish — currently not possible"
+      },
+      {
+        "id": "G-20-ge-007",
+        "sentence": "If I were the manager, I'd change a few things.",
+        "audio_text": "If I were the manager, I'd change a few things.",
+        "note": "Hypothetical role — I am not the manager"
+      },
+      {
+        "id": "G-20-ge-008",
+        "sentence": "Would you accept the offer if they gave it to you?",
+        "audio_text": "Would you accept the offer if they gave it to you?",
+        "note": "Hypothetical question about a possible scenario"
+      },
+      {
+        "id": "G-20-ge-009",
+        "sentence": "If she didn't work so hard, she'd have more time for herself.",
+        "audio_text": "If she didn't work so hard, she'd have more time for herself.",
+        "note": "Imaginary change to current situation"
+      },
+      {
+        "id": "G-20-ge-010",
+        "sentence": "Life would be so boring if everything was perfect.",
+        "audio_text": "Life would be so boring if everything was perfect.",
+        "note": "General philosophical hypothetical"
+      }
+    ],
+    "bad_examples": [
+      {
+        "id": "G-20-be-001",
+        "wrong": "If I would have more time, I'd learn piano.",
+        "correct": "If I had more time, I'd learn piano.",
+        "reason": "NEVER use would in the if-clause. Use past simple: if I had."
+      },
+      {
+        "id": "G-20-be-002",
+        "wrong": "If I were you, I will talk to him.",
+        "correct": "If I were you, I would talk to him.",
+        "reason": "Second conditional result clause uses would, not will. Will = first conditional."
+      },
+      {
+        "id": "G-20-be-003",
+        "wrong": "What would you do if you will win the lottery?",
+        "correct": "What would you do if you won the lottery?",
+        "reason": "If-clause: past simple (won), not will. This is second conditional."
+      },
+      {
+        "id": "G-20-be-004",
+        "wrong": "She would be happy if she would change her job.",
+        "correct": "She would be happy if she changed her job.",
+        "reason": "Only ONE would — in the result clause. The if-clause uses past simple."
+      },
+      {
+        "id": "G-20-be-005",
+        "wrong": "If I am you, I would apologise.",
+        "correct": "If I were you, I would apologise.",
+        "reason": "Second conditional if-clause with be: use 'were' for all subjects, not 'am/is/are'."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "G-20-ex-001",
+      "type": "fill_blank",
+      "question": "If I ___ (have) more money, I ___ (travel) more.",
+      "answer": "had / would travel",
+      "hint": "Imaginary present: if-clause = past simple, result = would",
+      "explanation": "If I had (past simple) + would travel (result).",
+      "hebrew_note": "מצב דמיוני בהווה/עתיד: if + עבר פשוט + would"
+    },
+    {
+      "id": "G-20-ex-002",
+      "type": "fill_blank",
+      "question": "If I ___ (be) you, I ___ (apologise) immediately.",
+      "answer": "were / would apologise",
+      "hint": "Giving advice: If I were you... Use were (not was) for I.",
+      "explanation": "If I were you (were for all subjects in formal English) + would apologise.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-20-ex-003",
+      "type": "fill_blank",
+      "question": "She ___ (get) the job if she ___ (speak) better English.",
+      "answer": "would get / spoke",
+      "hint": "Imaginary: she doesn't speak better English now",
+      "explanation": "would get (result) + if she spoke (if-clause past simple).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-20-ex-004",
+      "type": "fill_blank",
+      "question": "What ___ you ___ (do) if you ___ (win) the lottery?",
+      "answer": "would / do / won",
+      "hint": "Hypothetical question — past simple in if-clause",
+      "explanation": "What would you do (result) + if you won (past simple).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-20-ex-005",
+      "type": "fill_blank",
+      "question": "If he ___ (not / be) so stubborn, they ___ (not / argue) so much.",
+      "answer": "weren't / wouldn't argue",
+      "hint": "Negative imaginary — if he weren't = if he was less stubborn",
+      "explanation": "weren't (negative past of be) + wouldn't argue (negative result).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-20-ex-006",
+      "type": "fill_blank",
+      "question": "I ___ (move) abroad if I ___ (can) work remotely.",
+      "answer": "would move / could",
+      "hint": "Dream/wish about current situation",
+      "explanation": "would move (result) + if I could (past of can).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-20-ex-007",
+      "type": "fill_blank",
+      "question": "___ you ___ (accept) the job if they ___ (offer) it to you?",
+      "answer": "Would / accept / offered",
+      "hint": "Hypothetical question — would in question, past simple in if-clause",
+      "explanation": "Would you accept (result question) + if they offered (past simple).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-20-ex-008",
+      "type": "fill_blank",
+      "question": "If I ___ (know) her number, I ___ (call) her.",
+      "answer": "knew / would call",
+      "hint": "Imaginary: I don't know her number",
+      "explanation": "knew (past simple) + would call (result).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-20-ex-009",
+      "type": "fill_blank",
+      "question": "Life ___ (be) easier if everyone ___ (speak) the same language.",
+      "answer": "would be / spoke",
+      "hint": "General hypothetical — imaginary world",
+      "explanation": "would be (result) + if everyone spoke (past simple).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-20-ex-010",
+      "type": "fill_blank",
+      "question": "If she ___ (not / work) so hard, she ___ (have) more time for herself.",
+      "answer": "didn't work / would have",
+      "hint": "Imaginary change to current situation",
+      "explanation": "didn't work (negative past simple) + would have (result).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-20-ex-011",
+      "type": "fill_blank",
+      "question": "Where ___ you ___ (go) if you ___ (can) live anywhere?",
+      "answer": "would / go / could",
+      "hint": "Dream question — could = past of can for hypothetical",
+      "explanation": "Where would you go (result) + if you could (past of can).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-20-ex-012",
+      "type": "fill_blank",
+      "question": "If he ___ (be) taller, he ___ (become) a professional basketball player.",
+      "answer": "were / would become",
+      "hint": "Imaginary physical attribute",
+      "explanation": "If he were taller (past of be) + would become (result).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-20-ex-013",
+      "type": "mcq",
+      "question": "If I ___ the answer, I would tell you.",
+      "answer": "knew",
+      "hint": "Imaginary: I don't know. If-clause = past simple.",
+      "explanation": "knew = past simple in imaginary if-clause.",
+      "distractors": [
+        "know",
+        "will know",
+        "would know"
+      ]
+    },
+    {
+      "id": "G-20-ex-014",
+      "type": "mcq",
+      "question": "Choose the correct second conditional:",
+      "answer": "If she had more experience, she'd get the job.",
+      "hint": "Past simple in if-clause + would in result",
+      "explanation": "had (past simple) + she'd = she would. Correct second conditional.",
+      "distractors": [
+        "If she has more experience, she'd get the job.",
+        "If she would have more experience, she'd get the job.",
+        "If she had more experience, she will get the job."
+      ]
+    },
+    {
+      "id": "G-20-ex-015",
+      "type": "mcq",
+      "question": "If I ___ you, I'd apologise right away.",
+      "answer": "were",
+      "hint": "If I were you = giving advice. Use were not was.",
+      "explanation": "If I were you — were is used for all subjects in second conditional with be.",
+      "distractors": [
+        "am",
+        "was",
+        "would be"
+      ]
+    },
+    {
+      "id": "G-20-ex-016",
+      "type": "mcq",
+      "question": "What is the difference between these two sentences? (1) If it rains, I'll stay home. (2) If it rained, I'd stay home.",
+      "answer": "Sentence 1 = real possibility. Sentence 2 = unlikely or hypothetical.",
+      "hint": "First vs second conditional",
+      "explanation": "will = first conditional (real). would = second conditional (hypothetical/unlikely).",
+      "distractors": [
+        "Both sentences mean exactly the same thing.",
+        "Sentence 1 is about the past, sentence 2 is about the future.",
+        "Sentence 2 is more polite than sentence 1."
+      ]
+    },
+    {
+      "id": "G-20-ex-017",
+      "type": "mcq",
+      "question": "She ___ if she had the opportunity.",
+      "answer": "would study abroad",
+      "hint": "Result clause of second conditional",
+      "explanation": "would + base verb for the result in second conditional.",
+      "distractors": [
+        "will study abroad",
+        "studied abroad",
+        "had studied abroad"
+      ]
+    },
+    {
+      "id": "G-20-ex-018",
+      "type": "mcq",
+      "question": "If I had wings, I ___ everywhere.",
+      "answer": "would fly",
+      "hint": "Imaginary situation → result = would + base verb",
+      "explanation": "would fly — imaginary result.",
+      "distractors": [
+        "will fly",
+        "flew",
+        "had flown"
+      ]
+    },
+    {
+      "id": "G-20-ex-019",
+      "type": "error_correction",
+      "question": "Find and fix: 'If I would have more time, I'd exercise more.'",
+      "answer": "If I had more time, I'd exercise more.",
+      "hint": "Would is forbidden in the if-clause",
+      "explanation": "NEVER use would in the if-clause. Past simple: if I had.",
+      "hebrew_note": "would אסור אחרי if ב-second conditional"
+    },
+    {
+      "id": "G-20-ex-020",
+      "type": "error_correction",
+      "question": "Find and fix: 'If I were you, I will talk to her.'",
+      "answer": "If I were you, I would talk to her.",
+      "hint": "Second conditional result → would or will?",
+      "explanation": "Second conditional = would. Will = first conditional (real).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-20-ex-021",
+      "type": "error_correction",
+      "question": "Find and fix: 'What would you do if you will win the lottery?'",
+      "answer": "What would you do if you won the lottery?",
+      "hint": "If-clause: past simple, not will",
+      "explanation": "won (past simple) in if-clause. Not will win.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-20-ex-022",
+      "type": "error_correction",
+      "question": "Find and fix: 'If I am you, I would be more careful.'",
+      "answer": "If I were you, I would be more careful.",
+      "hint": "Second conditional with be → use were for all subjects",
+      "explanation": "If I were you — were, not am. Formal rule for second conditional.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-20-ex-023",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "had",
+        "if",
+        "I",
+        "more",
+        "time",
+        "would",
+        "I",
+        "read",
+        "more"
+      ],
+      "answer": "If I had more time, I would read more.",
+      "hint": "If + past simple + would + base verb",
+      "explanation": "If I had (past simple) + I would read (result)."
+    },
+    {
+      "id": "G-20-ex-024",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "you",
+        "were",
+        "I",
+        "if",
+        "apologise",
+        "would",
+        "I"
+      ],
+      "answer": "If I were you, I would apologise.",
+      "hint": "Giving advice: If I were you, I would...",
+      "explanation": "If I were you (were for I in second conditional) + I would apologise."
+    },
+    {
+      "id": "G-20-ex-025",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "do",
+        "would",
+        "what",
+        "you",
+        "if",
+        "lost",
+        "job",
+        "your",
+        "you"
+      ],
+      "answer": "What would you do if you lost your job?",
+      "hint": "Hypothetical question: What would you do + if + past simple",
+      "explanation": "What would you do (result question) + if you lost (past simple)."
+    }
+  ],
+  "speak": [
+    {
+      "id": "G-20-sp-001",
+      "sentence": "If I had more time, I would definitely learn to cook properly.",
+      "chunks": [
+        "If I had more time,",
+        "I would definitely learn to cook properly."
+      ],
+      "phonetic_hints": "'Definitely' = DEF-ih-nit-lee — four syllables. 'Properly' = PROP-er-lee.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-20-sp-002",
+      "sentence": "What would you do if you could live anywhere in the world?",
+      "chunks": [
+        "What would you do",
+        "if you could live anywhere in the world?"
+      ],
+      "phonetic_hints": "'Anywhere' = EN-ee-wair. 'World' = WURLD.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-20-sp-003",
+      "sentence": "If I were you, I'd talk to the manager about it.",
+      "chunks": [
+        "If I were you,",
+        "I'd talk to the manager about it."
+      ],
+      "phonetic_hints": "'Were' = WUR. 'Manager' = MAN-ih-jer. 'I'd' = eyed — I would contracted.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-20-sp-004",
+      "sentence": "She would be so much happier if she changed her job.",
+      "chunks": [
+        "She would be so much happier",
+        "if she changed her job."
+      ],
+      "phonetic_hints": "'Happier' = HAP-ee-er. 'Changed' = CHAYNGD — past simple.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-20-sp-005",
+      "sentence": "If I knew the answer, I'd tell you straight away.",
+      "chunks": [
+        "If I knew the answer,",
+        "I'd tell you straight away."
+      ],
+      "phonetic_hints": "'Knew' = NYOO — silent K. 'Straight away' = immediately. STRAYT-uh-WAY.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-20-sp-006",
+      "sentence": "Would you accept the offer if the salary were higher?",
+      "chunks": [
+        "Would you accept the offer",
+        "if the salary were higher?"
+      ],
+      "phonetic_hints": "'Accept' = ak-SEPT — stress on second. 'Salary' = SAL-er-ee — three syllables.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-20-sp-007",
+      "sentence": "Life would be a lot easier if we didn't have to work so hard.",
+      "chunks": [
+        "Life would be a lot easier",
+        "if we didn't have to work so hard."
+      ],
+      "phonetic_hints": "'Easier' = EE-zee-er. 'Didn't' = DID-unt.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-20-sp-008",
+      "sentence": "If I could speak every language in the world, I'd never stop travelling.",
+      "chunks": [
+        "If I could speak every language in the world,",
+        "I'd never stop travelling."
+      ],
+      "phonetic_hints": "'Language' = LANG-gwij. 'Travelling' = TRAV-ul-ing.",
+      "pass_threshold": 0.6
+    }
+  ]
+}

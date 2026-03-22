@@ -1,0 +1,447 @@
+{
+  "id": "G-30",
+  "title": "Wish / if only",
+  "level": "B2",
+  "order": 30,
+  "explain": {
+    "rule": "Wish and if only express regrets, complaints, and desires. Three uses: (1) Wish + past simple = desire for present to be different: 'I wish I knew the answer' (I don't know now). (2) Wish + past perfect = regret about the past: 'I wish I had studied harder' (I didn't — regret). (3) Wish + would = wish someone would change their behaviour: 'I wish you would stop.' If only = same as wish but stronger/more emotional.",
+    "why_matters": "Express regrets, unfulfilled wishes, and complaints naturally. Common in everyday conversation and essential at B2.",
+    "hebrew_note": "Hebrew uses 'לו רק' or 'אם רק' similarly to 'if only'. The tense logic mirrors conditional structures. Key: wish + PAST SIMPLE for present wish (not present tense). Wish + PAST PERFECT for past regret.",
+    "tip": "Three tenses, three meanings. Wish + PAST SIMPLE = present wish (I don't have it now). Wish + PAST PERFECT = past regret (I didn't do it then). Wish + WOULD = future behaviour complaint (stop doing that!). Never: 'I wish I know' or 'I wish I studied' for present — needs past simple 'I wish I knew'.",
+    "good_examples": [
+      {
+        "id": "G-30-ge-001",
+        "sentence": "I wish I knew the answer.",
+        "audio_text": "I wish I knew the answer.",
+        "note": "Present wish — I don't know the answer now"
+      },
+      {
+        "id": "G-30-ge-002",
+        "sentence": "If only it weren't so cold!",
+        "audio_text": "If only it weren't so cold!",
+        "note": "If only = stronger wish/complaint about present"
+      },
+      {
+        "id": "G-30-ge-003",
+        "sentence": "I wish I had studied harder.",
+        "audio_text": "I wish I had studied harder.",
+        "note": "Past regret — I didn't study hard"
+      },
+      {
+        "id": "G-30-ge-004",
+        "sentence": "If only I hadn't said that.",
+        "audio_text": "If only I hadn't said that.",
+        "note": "Past regret — I did say it and I regret it"
+      },
+      {
+        "id": "G-30-ge-005",
+        "sentence": "I wish you would stop interrupting me.",
+        "audio_text": "I wish you would stop interrupting me.",
+        "note": "Complaint about someone's habit/behaviour"
+      },
+      {
+        "id": "G-30-ge-006",
+        "sentence": "She wishes she lived closer to the city.",
+        "audio_text": "She wishes she lived closer to the city.",
+        "note": "Present wish — she lives far away"
+      },
+      {
+        "id": "G-30-ge-007",
+        "sentence": "I wish I had taken that opportunity when I had the chance.",
+        "audio_text": "I wish I had taken that opportunity when I had the chance.",
+        "note": "Regret about a missed past opportunity"
+      },
+      {
+        "id": "G-30-ge-008",
+        "sentence": "If only he would listen!",
+        "audio_text": "If only he would listen!",
+        "note": "Frustration with someone's behaviour"
+      },
+      {
+        "id": "G-30-ge-009",
+        "sentence": "They wish they had saved more money when they were young.",
+        "audio_text": "They wish they had saved more money when they were young.",
+        "note": "Collective past regret"
+      },
+      {
+        "id": "G-30-ge-010",
+        "sentence": "I wish it would stop raining — we've been stuck inside all day.",
+        "audio_text": "I wish it would stop raining — we've been stuck inside all day.",
+        "note": "Weather complaint with would"
+      }
+    ],
+    "bad_examples": [
+      {
+        "id": "G-30-be-001",
+        "wrong": "I wish I know the answer.",
+        "correct": "I wish I knew the answer.",
+        "reason": "After wish for present wishes, use past simple — not present simple."
+      },
+      {
+        "id": "G-30-be-002",
+        "wrong": "I wish I studied harder last year.",
+        "correct": "I wish I had studied harder last year.",
+        "reason": "For past regrets, use past perfect after wish: had studied."
+      },
+      {
+        "id": "G-30-be-003",
+        "wrong": "I wish you stop talking.",
+        "correct": "I wish you would stop talking.",
+        "reason": "For complaints about behaviour, use would after wish."
+      },
+      {
+        "id": "G-30-be-004",
+        "wrong": "If only I would know the answer.",
+        "correct": "If only I knew the answer.",
+        "reason": "Don't use would for present wishes about yourself — use past simple."
+      },
+      {
+        "id": "G-30-be-005",
+        "wrong": "She wishes she lives in a bigger flat.",
+        "correct": "She wishes she lived in a bigger flat.",
+        "reason": "Present wish → past simple after wish. Lives → lived."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "G-30-ex-001",
+      "type": "fill_blank",
+      "question": "I wish I ___ (know) the answer to that question.",
+      "answer": "knew",
+      "hint": "Present wish → past simple after wish",
+      "explanation": "wish + past simple for present wish.",
+      "hebrew_note": "I wish + עבר פשוט = משאלה בהווה"
+    },
+    {
+      "id": "G-30-ex-002",
+      "type": "fill_blank",
+      "question": "If only it ___ (not/be) so expensive!",
+      "answer": "weren't",
+      "hint": "Present wish/complaint → past simple",
+      "explanation": "If only + weren't (past simple of be for wishes).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-30-ex-003",
+      "type": "fill_blank",
+      "question": "I wish I ___ (study) harder when I was younger.",
+      "answer": "had studied",
+      "hint": "Past regret → past perfect",
+      "explanation": "wish + past perfect for past regret.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-30-ex-004",
+      "type": "fill_blank",
+      "question": "If only I ___ (not/say) that — it was so rude.",
+      "answer": "hadn't said",
+      "hint": "Past regret — negative",
+      "explanation": "hadn't said — past perfect negative.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-30-ex-005",
+      "type": "fill_blank",
+      "question": "I wish you ___ (stop) making so much noise.",
+      "answer": "would stop",
+      "hint": "Complaint about behaviour → would",
+      "explanation": "wish + would for behaviour complaints.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-30-ex-006",
+      "type": "fill_blank",
+      "question": "She wishes she ___ (live) closer to her family.",
+      "answer": "lived",
+      "hint": "Present wish about current situation",
+      "explanation": "lived — past simple after wish.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-30-ex-007",
+      "type": "fill_blank",
+      "question": "If only we ___ (take) that opportunity when we had the chance.",
+      "answer": "had taken",
+      "hint": "Past regret — missed opportunity",
+      "explanation": "had taken — past perfect.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-30-ex-008",
+      "type": "fill_blank",
+      "question": "He wishes he ___ (can) speak another language.",
+      "answer": "could",
+      "hint": "Present wish about ability → could (past of can)",
+      "explanation": "could — past simple of can for wishes.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-30-ex-009",
+      "type": "fill_blank",
+      "question": "I wish it ___ (stop) raining — we've been inside all day.",
+      "answer": "would stop",
+      "hint": "Complaint about weather/situation",
+      "explanation": "would stop — future behaviour/change.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-30-ex-010",
+      "type": "fill_blank",
+      "question": "If only I ___ (be) taller — I can't reach the top shelf.",
+      "answer": "were",
+      "hint": "Present wish about physical state → were",
+      "explanation": "were — past simple of be for all subjects in wishes.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-30-ex-011",
+      "type": "mcq",
+      "question": "I wish I ___ the answer.",
+      "answer": "knew",
+      "hint": "Present wish → past simple",
+      "explanation": "knew — past simple after wish for present wish.",
+      "distractors": "know / will know / had known",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-30-ex-012",
+      "type": "mcq",
+      "question": "She wishes she ___ more time to travel.",
+      "answer": "had",
+      "hint": "Present wish about situation",
+      "explanation": "had — past simple after wish.",
+      "distractors": "has / will have / could have",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-30-ex-013",
+      "type": "mcq",
+      "question": "I wish you ___ so much noise!",
+      "answer": "wouldn't make",
+      "hint": "Complaint: wish + wouldn't + base verb",
+      "explanation": "wouldn't make — negative would for behaviour complaint.",
+      "distractors": "don't make / hadn't made / won't make",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-30-ex-014",
+      "type": "mcq",
+      "question": "If only I ___ taken that job offer.",
+      "answer": "had",
+      "hint": "Past regret → past perfect",
+      "explanation": "had taken — past perfect for past regret.",
+      "distractors": "have / would have / did",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-30-ex-015",
+      "type": "mcq",
+      "question": "Which expresses a present wish?",
+      "answer": "I wish I lived closer.",
+      "hint": "Present wish uses past simple",
+      "explanation": "lived = past simple after wish = present wish.",
+      "distractors": "I wish I had lived closer. / I wish I will live closer. / I wish I live closer.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-30-ex-016",
+      "type": "mcq",
+      "question": "He wishes he ___ harder when he was at school.",
+      "answer": "had worked",
+      "hint": "Past regret about school",
+      "explanation": "had worked — past perfect.",
+      "distractors": null,
+      "hebrew_note": null
+    },
+    {
+      "id": "G-30-ex-017",
+      "type": "mcq",
+      "question": "If only the weather ___ a bit warmer!",
+      "answer": "were",
+      "hint": "Present wish/complaint about weather",
+      "explanation": "were — past simple of be for wishes.",
+      "distractors": "is / will be / would be",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-30-ex-018",
+      "type": "mcq",
+      "question": "I wish you ___ your phone during dinner.",
+      "answer": "wouldn't use",
+      "hint": "Complaint about habit",
+      "explanation": "wouldn't use — negative would for complaint.",
+      "distractors": "don't use / hadn't used / won't use",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-30-ex-019",
+      "type": "error_correction",
+      "question": "Find and fix: 'I wish I know the answer.'",
+      "answer": "I wish I knew the answer.",
+      "hint": "Present wish → past simple after wish",
+      "explanation": "knew — past simple, not present.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-30-ex-020",
+      "type": "error_correction",
+      "question": "Find and fix: 'I wish I studied harder last year.'",
+      "answer": "I wish I had studied harder last year.",
+      "hint": "Past regret → past perfect",
+      "explanation": "had studied — past perfect for past regret.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-30-ex-021",
+      "type": "error_correction",
+      "question": "Find and fix: 'I wish you stop talking.'",
+      "answer": "I wish you would stop talking.",
+      "hint": "Complaint about behaviour → would",
+      "explanation": "would stop — wish + would for behaviour.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-30-ex-022",
+      "type": "error_correction",
+      "question": "Find and fix: 'She wishes she lives in a bigger flat.'",
+      "answer": "She wishes she lived in a bigger flat.",
+      "hint": "Present wish → past simple",
+      "explanation": "lived — past simple after wish.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-30-ex-023",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "wish",
+        "I",
+        "knew",
+        "I",
+        "the",
+        "answer"
+      ],
+      "answer": "I wish I knew the answer.",
+      "hint": "Wish + past simple for present wish",
+      "explanation": "wish + knew (past simple).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-30-ex-024",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "only",
+        "if",
+        "I",
+        "hadn't",
+        "said",
+        "that"
+      ],
+      "answer": "If only I hadn't said that.",
+      "hint": "If only + past perfect for past regret",
+      "explanation": "hadn't said — past perfect.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-30-ex-025",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "wish",
+        "I",
+        "would",
+        "you",
+        "stop",
+        "interrupting"
+      ],
+      "answer": "I wish you would stop interrupting.",
+      "hint": "Wish + would for behaviour complaint",
+      "explanation": "would stop — complaint about behaviour.",
+      "hebrew_note": null
+    }
+  ],
+  "speak": [
+    {
+      "id": "G-30-sp-001",
+      "sentence": "I wish I had learnt to play the piano when I was young.",
+      "chunks": [
+        "I wish I had learnt to play the piano",
+        "when I was young."
+      ],
+      "phonetic_hints": "'Learnt' = LURNT. 'Piano' = pee-AN-oh.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-30-sp-002",
+      "sentence": "If only I hadn't said that — I feel terrible about it now.",
+      "chunks": [
+        "If only I hadn't said that —",
+        "I feel terrible about it now."
+      ],
+      "phonetic_hints": "'Terrible' = TER-ih-bul. 'Hadn't' = HAD-unt.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-30-sp-003",
+      "sentence": "I wish you would tidy your room — it's a complete mess.",
+      "chunks": [
+        "I wish you would tidy your room —",
+        "it's a complete mess."
+      ],
+      "phonetic_hints": "'Tidy' = TY-dee. 'Complete' = kum-PLEET.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-30-sp-004",
+      "sentence": "She wishes she lived closer to her family.",
+      "chunks": [
+        "She wishes she lived closer",
+        "to her family."
+      ],
+      "phonetic_hints": "'Closer' = KLOH-ser. 'Family' = FAM-ih-lee.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-30-sp-005",
+      "sentence": "If only we had booked earlier — the prices have gone up so much.",
+      "chunks": [
+        "If only we had booked earlier —",
+        "the prices have gone up so much."
+      ],
+      "phonetic_hints": "'Booked' = BOOKT. 'Prices' = PRY-siz.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-30-sp-006",
+      "sentence": "I wish I could speak another language fluently.",
+      "chunks": [
+        "I wish I could speak another language",
+        "fluently."
+      ],
+      "phonetic_hints": "'Fluently' = FLOO-unt-lee. 'Language' = LANG-gwij.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-30-sp-007",
+      "sentence": "He wishes he had taken more risks when he was younger.",
+      "chunks": [
+        "He wishes he had taken more risks",
+        "when he was younger."
+      ],
+      "phonetic_hints": "'Risks' = RISKS. 'Younger' = YUNG-er.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-30-sp-008",
+      "sentence": "If only the meeting would start on time for once!",
+      "chunks": [
+        "If only the meeting would start on time",
+        "for once!"
+      ],
+      "phonetic_hints": "'Meeting' = MEET-ing. 'Once' = WUNSS.",
+      "pass_threshold": 0.65
+    }
+  ]
+}

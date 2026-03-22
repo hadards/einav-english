@@ -1,0 +1,503 @@
+{
+  "id": "G-25",
+  "title": "Used to / would for past habits",
+  "level": "B1",
+  "order": 25,
+  "explain": {
+    "rule": "Used to + base verb describes past habits, states, or situations that are no longer true now. Would + base verb ONLY describes past habits (repeated actions) — NOT past states. Used to can describe both habits AND states (used to live, used to believe, used to be). Would can ONLY describe repeated past actions (would go, would make, would visit) — never states. Both can be used to talk about things you did regularly in the past but don't do now.",
+    "why_matters": "Used to and would let you talk about the past in a natural, narrative way — describing your childhood, old habits, how things were different. They are essential for storytelling and personal anecdote.",
+    "hebrew_note": "Hebrew uses past tense for all of these: 'כשהייתי ילד, הייתי משחק כדורגל כל יום'. In English you have two options for habitual past: used to or would. The key difference: used to works for everything (habits AND states). Would only works for repeated actions. You cannot say 'I would live there' (state) but you can say 'I used to live there'. Also: used to is different from 'be used to' (= be accustomed to) and 'get used to' (= become accustomed to).",
+    "tip": "Rule: past STATE (live, love, believe, have, know) → ONLY used to. Past HABIT (go, eat, play, visit) → used to OR would. Test with a stative verb: 'I would live there' sounds wrong (state). 'I used to live there' sounds natural. 'I would go there every day' (habit) = 'I used to go there every day' (habit) — both fine. Warning: don't confuse 'used to do' (past habit) with 'be/get used to doing' (= be/become accustomed to).",
+    "comparison": [
+      {
+        "form": "used to + base verb",
+        "for": "Past habits AND past states",
+        "example": "I used to live in Haifa. / I used to believe in magic."
+      },
+      {
+        "form": "would + base verb",
+        "for": "Past habits ONLY (not states)",
+        "example": "Every summer, we would visit my grandmother."
+      },
+      {
+        "form": "be used to + -ing",
+        "for": "Be accustomed to (NOT past habit)",
+        "example": "I'm used to waking up early. (= it's normal for me)"
+      },
+      {
+        "form": "get used to + -ing",
+        "for": "Become accustomed to",
+        "example": "She got used to driving on the left."
+      }
+    ],
+    "good_examples": [
+      {
+        "id": "G-25-ge-001",
+        "sentence": "I used to play football every weekend when I was younger.",
+        "audio_text": "I used to play football every weekend when I was younger.",
+        "note": "Past habit — no longer play football"
+      },
+      {
+        "id": "G-25-ge-002",
+        "sentence": "We would go to the beach every summer as children.",
+        "audio_text": "We would go to the beach every summer as children.",
+        "note": "Repeated past action — would for habit (not state)"
+      },
+      {
+        "id": "G-25-ge-003",
+        "sentence": "She used to live in France before she moved to Israel.",
+        "audio_text": "She used to live in France before she moved to Israel.",
+        "note": "Past state (live) — only used to, not would"
+      },
+      {
+        "id": "G-25-ge-004",
+        "sentence": "He didn't use to like vegetables, but now he loves them.",
+        "audio_text": "He didn't use to like vegetables, but now he loves them.",
+        "note": "Negative: didn't use to (not 'didn't used to')"
+      },
+      {
+        "id": "G-25-ge-005",
+        "sentence": "Did you use to have long hair?",
+        "audio_text": "Did you use to have long hair?",
+        "note": "Question: Did + subject + use to (not 'used to')"
+      },
+      {
+        "id": "G-25-ge-006",
+        "sentence": "My grandmother would bake bread every Sunday morning.",
+        "audio_text": "My grandmother would bake bread every Sunday morning.",
+        "note": "Nostalgic narrative — repeated habit"
+      },
+      {
+        "id": "G-25-ge-007",
+        "sentence": "I used to believe in Father Christmas when I was a child.",
+        "audio_text": "I used to believe in Father Christmas when I was a child.",
+        "note": "Past state (believe) — only used to, not would"
+      },
+      {
+        "id": "G-25-ge-008",
+        "sentence": "We would sit outside for hours talking about everything.",
+        "audio_text": "We would sit outside for hours talking about everything.",
+        "note": "Repeated past action in a story"
+      },
+      {
+        "id": "G-25-ge-009",
+        "sentence": "Things used to be so much simpler when I was young.",
+        "audio_text": "Things used to be so much simpler when I was young.",
+        "note": "Past state (be) — only used to"
+      },
+      {
+        "id": "G-25-ge-010",
+        "sentence": "She used to own a bakery but she sold it last year.",
+        "audio_text": "She used to own a bakery but she sold it last year.",
+        "note": "Past state (own) — only used to"
+      }
+    ],
+    "bad_examples": [
+      {
+        "id": "G-25-be-001",
+        "wrong": "I would live in London. (past state)",
+        "correct": "I used to live in London.",
+        "reason": "would cannot describe past STATES (live, be, love, own, know). Use 'used to' for states."
+      },
+      {
+        "id": "G-25-be-002",
+        "wrong": "I didn't used to like fish.",
+        "correct": "I didn't use to like fish.",
+        "reason": "Negative: didn't use to (base form after didn't). Not 'didn't used to'."
+      },
+      {
+        "id": "G-25-be-003",
+        "wrong": "Did you used to have a pet?",
+        "correct": "Did you use to have a pet?",
+        "reason": "Question: Did + use to (base form). Not 'did you used to'."
+      },
+      {
+        "id": "G-25-be-004",
+        "wrong": "I'm used to wake up early.",
+        "correct": "I'm used to waking up early.",
+        "reason": "'be used to' = accustomed to. After 'be used to' → -ing always."
+      },
+      {
+        "id": "G-25-be-005",
+        "wrong": "I used to lived there for three years.",
+        "correct": "I used to live there.",
+        "reason": "used to + BASE verb always. Never used to + -ed."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "G-25-ex-001",
+      "type": "fill_blank",
+      "question": "I ___ (use to / play) football every day after school.",
+      "answer": "used to play",
+      "hint": "Past habit → used to or would",
+      "explanation": "used to play — past habit. Would play also correct.",
+      "hebrew_note": "הרגל עבר = used to / would"
+    },
+    {
+      "id": "G-25-ex-002",
+      "type": "fill_blank",
+      "question": "She ___ (use to / live) in Paris before she moved to London.",
+      "answer": "used to live",
+      "hint": "Past state (live) → only used to, not would",
+      "explanation": "used to live — state verb, only used to.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-25-ex-003",
+      "type": "fill_blank",
+      "question": "Every summer we ___ (would / visit) my grandparents by the sea.",
+      "answer": "would visit",
+      "hint": "Repeated past action → would (habit only)",
+      "explanation": "would visit — repeated action, narrative use.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-25-ex-004",
+      "type": "fill_blank",
+      "question": "He ___ (not / use to) like vegetables, but now he loves them.",
+      "answer": "didn't use to",
+      "hint": "Negative: didn't use to (base form after didn't)",
+      "explanation": "didn't use to — negative of used to.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-25-ex-005",
+      "type": "fill_blank",
+      "question": "___ you ___ (use to) have a car?",
+      "answer": "Did / use to",
+      "hint": "Question: Did + subject + use to (base form)",
+      "explanation": "Did you use to — question form.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-25-ex-006",
+      "type": "fill_blank",
+      "question": "Things ___ (use to / be) so much simpler.",
+      "answer": "used to be",
+      "hint": "Past state (be) → only used to",
+      "explanation": "used to be — state verb, only used to. Not 'would be'.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-25-ex-007",
+      "type": "fill_blank",
+      "question": "My grandmother ___ (would / bake) fresh bread every Sunday.",
+      "answer": "would bake",
+      "hint": "Repeated past habit in nostalgic narrative → would",
+      "explanation": "would bake — repeated past action in narrative.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-25-ex-008",
+      "type": "fill_blank",
+      "question": "I ___ (use to / believe) in luck, but I don't anymore.",
+      "answer": "used to believe",
+      "hint": "Past state (believe) → only used to",
+      "explanation": "used to believe — state verb, only used to.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-25-ex-009",
+      "type": "fill_blank",
+      "question": "She ___ (use to / own) a restaurant but she sold it.",
+      "answer": "used to own",
+      "hint": "Past state (own) → only used to",
+      "explanation": "used to own — state verb.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-25-ex-010",
+      "type": "fill_blank",
+      "question": "After work, we ___ (would / stop) at the café for a drink.",
+      "answer": "would stop",
+      "hint": "Regular past habit in narrative → would",
+      "explanation": "would stop — regular narrative habit.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-25-ex-011",
+      "type": "fill_blank",
+      "question": "I'm ___ (use to / get up) early now — it was hard at first.",
+      "answer": "used to getting up",
+      "hint": "be used to + -ing = accustomed to. Different meaning!",
+      "explanation": "I'm used to getting up = it's normal for me now. be used to + -ing.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-25-ex-012",
+      "type": "fill_blank",
+      "question": "Did you ___ (use to) have longer hair when you were younger?",
+      "answer": "use to",
+      "hint": "Question: Did + subject + use to (base form, NOT used)",
+      "explanation": "Did you use to — base form after Did.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-25-ex-013",
+      "type": "mcq",
+      "question": "Choose the correct form:",
+      "answer": "She used to have long hair.",
+      "hint": "Past state (have) → used to only",
+      "explanation": "used to have — state verb, only used to. Not 'would have'.",
+      "hebrew_note": [
+        "She would have long hair.",
+        "She used to had long hair.",
+        "She would had long hair."
+      ]
+    },
+    {
+      "id": "G-25-ex-014",
+      "type": "mcq",
+      "question": "Every Friday evening, we ___ to the cinema as a family.",
+      "answer": "would go / used to go",
+      "hint": "Repeated past habit — both are possible",
+      "explanation": "Both would go and used to go are correct for repeated past actions.",
+      "hebrew_note": [
+        "went",
+        "were going",
+        "had gone"
+      ]
+    },
+    {
+      "id": "G-25-ex-015",
+      "type": "mcq",
+      "question": "___ you use to live near here when you were young?",
+      "answer": "Did",
+      "hint": "Question form of used to",
+      "explanation": "Did you use to — question. Did + subject + use to (base form).",
+      "hebrew_note": [
+        "Were",
+        "Have",
+        "Do"
+      ]
+    },
+    {
+      "id": "G-25-ex-016",
+      "type": "mcq",
+      "question": "I didn't ___ to like spicy food but now I love it.",
+      "answer": "use",
+      "hint": "Negative: didn't use to (base form)",
+      "explanation": "didn't use to — base form after didn't. Not 'used to'.",
+      "hebrew_note": [
+        "used",
+        "using",
+        "uses"
+      ]
+    },
+    {
+      "id": "G-25-ex-017",
+      "type": "mcq",
+      "question": "She's getting ___ to her new job.",
+      "answer": "used",
+      "hint": "get used to = become accustomed to. Different from used to!",
+      "explanation": "get used to = become accustomed to + -ing. Different meaning from past habit.",
+      "hebrew_note": [
+        "use",
+        "using",
+        "accustomed"
+      ]
+    },
+    {
+      "id": "G-25-ex-018",
+      "type": "mcq",
+      "question": "Why is 'I would know him very well' incorrect?",
+      "answer": "know is a state verb — would cannot be used with states",
+      "hint": "would + state verb is impossible",
+      "explanation": "would is only for repeated past ACTIONS, not states. know = state verb.",
+      "hebrew_note": [
+        "Would is too formal.",
+        "We need past simple here.",
+        "would + know needs had."
+      ]
+    },
+    {
+      "id": "G-25-ex-019",
+      "type": "error_correction",
+      "question": "Find and fix: 'I would live in Haifa when I was a child.'",
+      "answer": "I used to live in Haifa when I was a child.",
+      "hint": "would cannot be used for past STATES",
+      "explanation": "live = state verb → only used to, not would.",
+      "hebrew_note": "would לא מתאים לפעלי מצב"
+    },
+    {
+      "id": "G-25-ex-020",
+      "type": "error_correction",
+      "question": "Find and fix: 'I didn't used to like mornings.'",
+      "answer": "I didn't use to like mornings.",
+      "hint": "Negative form: didn't + use to (base form)",
+      "explanation": "didn't use to — base form after didn't. Not 'used to'.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-25-ex-021",
+      "type": "error_correction",
+      "question": "Find and fix: 'Did you used to play the guitar?'",
+      "answer": "Did you use to play the guitar?",
+      "hint": "Question form: Did + subject + use to (base form)",
+      "explanation": "Did you use to — base form. Not 'used to' after Did.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-25-ex-022",
+      "type": "error_correction",
+      "question": "Find and fix: 'I used to lived in London for three years.'",
+      "answer": "I used to live in London for three years.",
+      "hint": "used to + base verb (not past tense)",
+      "explanation": "used to + BASE verb. Not used to + -ed.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-25-ex-023",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "answer": null,
+      "hint": "used to + base verb for past habit",
+      "explanation": "I used to walk to school every morning when I was young.",
+      "hebrew_note": null,
+      "words": [
+        "I",
+        "used",
+        "to",
+        "walk",
+        "to",
+        "school",
+        "every",
+        "morning",
+        "when",
+        "I",
+        "was",
+        "young"
+      ]
+    },
+    {
+      "id": "G-25-ex-024",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "answer": null,
+      "hint": "would for repeated past narrative",
+      "explanation": "Every evening my father would read us a story before bed.",
+      "hebrew_note": null,
+      "words": [
+        "Every",
+        "evening",
+        "my",
+        "father",
+        "would",
+        "read",
+        "us",
+        "a",
+        "story",
+        "before",
+        "bed"
+      ]
+    },
+    {
+      "id": "G-25-ex-025",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "answer": null,
+      "hint": "didn't use to for past negative",
+      "explanation": "She didn't use to enjoy running but now she does it every day.",
+      "hebrew_note": null,
+      "words": [
+        "She",
+        "didn't",
+        "use",
+        "to",
+        "enjoy",
+        "running",
+        "but",
+        "now",
+        "she",
+        "does",
+        "it",
+        "every",
+        "day"
+      ]
+    }
+  ],
+  "speak": [
+    {
+      "id": "G-25-sp-001",
+      "sentence": "I used to spend every summer at my grandparents' house by the sea.",
+      "chunks": [
+        "I used to spend every summer",
+        "at my grandparents' house by the sea."
+      ],
+      "phonetic_hints": "'Grandparents'' = GRAN-pair-unts. 'Spend' = SPEND.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-25-sp-002",
+      "sentence": "She used to be really shy but she's completely different now.",
+      "chunks": [
+        "She used to be really shy",
+        "but she's completely different now."
+      ],
+      "phonetic_hints": "'Shy' = SHY. 'Completely' = kum-PLEET-lee.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-25-sp-003",
+      "sentence": "Every Sunday morning my mother would make a huge breakfast for the whole family.",
+      "chunks": [
+        "Every Sunday morning my mother would make a huge breakfast",
+        "for the whole family."
+      ],
+      "phonetic_hints": "'Huge' = HYOOJ. 'Breakfast' = BREK-fust.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-25-sp-004",
+      "sentence": "I didn't use to like coffee at all when I was younger.",
+      "chunks": [
+        "I didn't use to like coffee at all",
+        "when I was younger."
+      ],
+      "phonetic_hints": "'Didn't use to' = DID-unt-YOOZ-tuh — link the words smoothly.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-25-sp-005",
+      "sentence": "Did you use to live near here? The area has changed so much.",
+      "chunks": [
+        "Did you use to live near here?",
+        "The area has changed so much."
+      ],
+      "phonetic_hints": "'Area' = AIR-ee-uh — three syllables. 'Changed' = CHAYNGD.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-25-sp-006",
+      "sentence": "As a child I would climb that tree every single day after school.",
+      "chunks": [
+        "As a child I would climb that tree",
+        "every single day after school."
+      ],
+      "phonetic_hints": "'Climb' = KLYM — silent B. 'Single' = SING-ul.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-25-sp-007",
+      "sentence": "Things used to be so much simpler before the internet.",
+      "chunks": [
+        "Things used to be so much simpler",
+        "before the internet."
+      ],
+      "phonetic_hints": "'Simpler' = SIM-pler. 'Internet' = IN-ter-net.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-25-sp-008",
+      "sentence": "I'm getting used to working from home — it's actually quite nice.",
+      "chunks": [
+        "I'm getting used to working from home —",
+        "it's actually quite nice."
+      ],
+      "phonetic_hints": "'Actually' = AK-chyoo-uh-lee — four syllables. 'Quite' = KWYT.",
+      "pass_threshold": 0.65
+    }
+  ]
+}

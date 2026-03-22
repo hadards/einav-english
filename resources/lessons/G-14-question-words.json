@@ -1,0 +1,527 @@
+{
+  "id": "G-14",
+  "title": "Question words",
+  "level": "A2",
+  "order": 14,
+  "explain": {
+    "rule": "Question words (also called Wh-words) introduce information questions — questions where the answer is not just yes or no. The main question words are: Who (person), What (thing/action), Where (place), When (time), Why (reason), How (manner/method), Which (choice from a group), Whose (possession), How much/many (quantity), How long (duration), How often (frequency), How far (distance). The structure is: Question word + auxiliary verb + subject + main verb. Exception: when the question word IS the subject, you do not invert.",
+    "why_matters": "You need question words every day — to ask for directions, to ask someone's name, to understand an explanation, to make plans. Forming questions correctly is one of the most important conversational skills.",
+    "hebrew_note": "Hebrew uses similar question words (מי, מה, איפה, מתי, למה, איך) and the structure is similar. The main difference is that English requires an auxiliary verb (do/does/did/is/are/was/were) between the question word and the subject in most cases. In Hebrew, you can often just put the question word at the start without changing anything else — in English the word order changes: 'You live where?' is NOT correct English. You must say 'Where do you live?'",
+    "tip": "Two structures: (1) Question word + auxiliary + subject + verb: Where DO you live? When DID she arrive? (2) Question word AS the subject — no inversion: Who called you? (Who = subject). What happened? (What = subject). Test: if you can replace the question word with 'he/she/they', use inversion. If the question word IS the subject (replaces the subject), no inversion.",
+    "question_words": [
+      {
+        "word": "Who",
+        "asks_about": "person",
+        "example": "Who is your manager?"
+      },
+      {
+        "word": "What",
+        "asks_about": "thing or action",
+        "example": "What do you do for work?"
+      },
+      {
+        "word": "Where",
+        "asks_about": "place",
+        "example": "Where do you live?"
+      },
+      {
+        "word": "When",
+        "asks_about": "time",
+        "example": "When does the film start?"
+      },
+      {
+        "word": "Why",
+        "asks_about": "reason",
+        "example": "Why are you late?"
+      },
+      {
+        "word": "How",
+        "asks_about": "manner/method",
+        "example": "How do you get to work?"
+      },
+      {
+        "word": "Which",
+        "asks_about": "choice from options",
+        "example": "Which bus goes to the city centre?"
+      },
+      {
+        "word": "Whose",
+        "asks_about": "possession",
+        "example": "Whose bag is this?"
+      },
+      {
+        "word": "How much",
+        "asks_about": "quantity (uncountable) / price",
+        "example": "How much does it cost?"
+      },
+      {
+        "word": "How many",
+        "asks_about": "quantity (countable)",
+        "example": "How many people are coming?"
+      },
+      {
+        "word": "How long",
+        "asks_about": "duration",
+        "example": "How long does it take?"
+      },
+      {
+        "word": "How often",
+        "asks_about": "frequency",
+        "example": "How often do you exercise?"
+      },
+      {
+        "word": "How far",
+        "asks_about": "distance",
+        "example": "How far is it from here?"
+      }
+    ],
+    "good_examples": [
+      {
+        "id": "G-14-ge-001",
+        "sentence": "Where do you work?",
+        "audio_text": "Where do you work?",
+        "note": "Where + do + subject + verb"
+      },
+      {
+        "id": "G-14-ge-002",
+        "sentence": "What time does the meeting start?",
+        "audio_text": "What time does the meeting start?",
+        "note": "What time + does + subject + verb"
+      },
+      {
+        "id": "G-14-ge-003",
+        "sentence": "Who called while I was out?",
+        "audio_text": "Who called while I was out?",
+        "note": "Who = subject → no inversion: Who called? (not Who did call?)"
+      },
+      {
+        "id": "G-14-ge-004",
+        "sentence": "Why didn't you call me?",
+        "audio_text": "Why didn't you call me?",
+        "note": "Why + didn't (past neg.) + subject + verb"
+      },
+      {
+        "id": "G-14-ge-005",
+        "sentence": "How long have you been learning English?",
+        "audio_text": "How long have you been learning English?",
+        "note": "How long + have + subject + been + -ing"
+      },
+      {
+        "id": "G-14-ge-006",
+        "sentence": "Which option do you prefer?",
+        "audio_text": "Which option do you prefer?",
+        "note": "Which + noun when choosing from a limited group"
+      },
+      {
+        "id": "G-14-ge-007",
+        "sentence": "Whose jacket is this?",
+        "audio_text": "Whose jacket is this?",
+        "note": "Whose = asking about possession"
+      },
+      {
+        "id": "G-14-ge-008",
+        "sentence": "How far is it to the nearest station?",
+        "audio_text": "How far is it to the nearest station?",
+        "note": "How far + is it = asking about distance"
+      },
+      {
+        "id": "G-14-ge-009",
+        "sentence": "What happened at the meeting yesterday?",
+        "audio_text": "What happened at the meeting yesterday?",
+        "note": "What = subject → no inversion: What happened? (not What did happen?)"
+      },
+      {
+        "id": "G-14-ge-010",
+        "sentence": "How often does he travel for work?",
+        "audio_text": "How often does he travel for work?",
+        "note": "How often + does + subject + verb"
+      }
+    ],
+    "bad_examples": [
+      {
+        "id": "G-14-be-001",
+        "wrong": "Where you live?",
+        "correct": "Where do you live?",
+        "reason": "You must use an auxiliary verb (do/does/did) between the question word and the subject."
+      },
+      {
+        "id": "G-14-be-002",
+        "wrong": "What means this word?",
+        "correct": "What does this word mean?",
+        "reason": "What = question word (not subject here). Structure: What + does + subject + verb."
+      },
+      {
+        "id": "G-14-be-003",
+        "wrong": "How much time you need?",
+        "correct": "How much time do you need?",
+        "reason": "How much + noun + do/does + subject + verb. The auxiliary is required."
+      },
+      {
+        "id": "G-14-be-004",
+        "wrong": "Why she didn't come?",
+        "correct": "Why didn't she come?",
+        "reason": "With auxiliary verbs, the subject and auxiliary invert: Why didn't she come? not Why she didn't come?"
+      },
+      {
+        "id": "G-14-be-005",
+        "wrong": "Who did call me yesterday?",
+        "correct": "Who called me yesterday?",
+        "reason": "When Who is the subject, no auxiliary is needed: Who called? (Who = the caller)"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "G-14-ex-001",
+      "type": "fill_blank",
+      "question": "___ do you usually have lunch? — Around 1pm.",
+      "answer": "When",
+      "hint": "Asking about time",
+      "explanation": "When = asks about time. When do you have lunch? Answer: at 1pm.",
+      "hebrew_note": "מתי = When"
+    },
+    {
+      "id": "G-14-ex-002",
+      "type": "fill_blank",
+      "question": "___ is your favourite restaurant? — It's near the seafront.",
+      "answer": "Where",
+      "hint": "Asking about place",
+      "explanation": "Where = asks about place/location.",
+      "hebrew_note": "איפה = Where"
+    },
+    {
+      "id": "G-14-ex-003",
+      "type": "fill_blank",
+      "question": "___ does this word mean?",
+      "answer": "What",
+      "hint": "Asking about meaning — a thing",
+      "explanation": "What = asks about a thing or meaning. What does X mean?",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-14-ex-004",
+      "type": "fill_blank",
+      "question": "___ gave you this book?",
+      "answer": "Who",
+      "hint": "Who gave it? = subject of the giving → no auxiliary needed",
+      "explanation": "Who = subject. Who gave you this book? — no do/does needed.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-14-ex-005",
+      "type": "fill_blank",
+      "question": "___ didn't you tell me about the meeting?",
+      "answer": "Why",
+      "hint": "Asking for a reason",
+      "explanation": "Why = asks for a reason/explanation.",
+      "hebrew_note": "למה = Why"
+    },
+    {
+      "id": "G-14-ex-006",
+      "type": "fill_blank",
+      "question": "___ long does it take to get to the airport from here?",
+      "answer": "How",
+      "hint": "How long = asking about duration",
+      "explanation": "How long = asking about the duration of time.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-14-ex-007",
+      "type": "fill_blank",
+      "question": "___ bag is this? It was left in the meeting room.",
+      "answer": "Whose",
+      "hint": "Asking about possession/ownership",
+      "explanation": "Whose = asks who something belongs to.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-14-ex-008",
+      "type": "fill_blank",
+      "question": "___ people are in your team?",
+      "answer": "How many",
+      "hint": "Asking about the number of people (countable)",
+      "explanation": "How many + countable noun = asking about the number.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-14-ex-009",
+      "type": "fill_blank",
+      "question": "___ does it cost to fly to London from Tel Aviv?",
+      "answer": "How much",
+      "hint": "Asking about price",
+      "explanation": "How much = asking about price or uncountable quantity.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-14-ex-010",
+      "type": "fill_blank",
+      "question": "___ way do you prefer — by train or by bus?",
+      "answer": "Which",
+      "hint": "Choosing between specific options — which option?",
+      "explanation": "Which = asking to choose from a limited set of options.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-14-ex-011",
+      "type": "fill_blank",
+      "question": "___ did you get home so late last night?",
+      "answer": "How / Why",
+      "hint": "How = by what method. Why = for what reason.",
+      "explanation": "How did you get home = what method. Why did you get home late = what reason. Both possible.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-14-ex-012",
+      "type": "fill_blank",
+      "question": "___ happened at the end of the film? I missed it.",
+      "answer": "What",
+      "hint": "What = subject here. Does it need an auxiliary?",
+      "explanation": "What happened? — What is the subject → no auxiliary needed.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-14-ex-013",
+      "type": "mcq",
+      "question": "___ do you come from originally?",
+      "answer": "Where",
+      "hint": "Asking about place of origin",
+      "explanation": "Where do you come from? = asking about place of origin.",
+      "distractors": [
+        "When",
+        "Who",
+        "Which"
+      ]
+    },
+    {
+      "id": "G-14-ex-014",
+      "type": "mcq",
+      "question": "___ often do you visit your parents?",
+      "answer": "How",
+      "hint": "How often = frequency",
+      "explanation": "How often = asking about frequency.",
+      "distractors": [
+        "What",
+        "When",
+        "Why"
+      ]
+    },
+    {
+      "id": "G-14-ex-015",
+      "type": "mcq",
+      "question": "Which is the correct question?",
+      "answer": "Where does she work?",
+      "hint": "Remember: question word + auxiliary + subject + verb",
+      "explanation": "Where does she work? = correct structure. Never 'Where she works?' or 'Where she does work?'",
+      "distractors": [
+        "Where she works?",
+        "Where she does work?",
+        "Where works she?"
+      ]
+    },
+    {
+      "id": "G-14-ex-016",
+      "type": "mcq",
+      "question": "___ is the new manager? I haven't met him yet.",
+      "answer": "Who",
+      "hint": "Asking about a person's identity",
+      "explanation": "Who = asking about a person.",
+      "distractors": [
+        "Which",
+        "What",
+        "How"
+      ]
+    },
+    {
+      "id": "G-14-ex-017",
+      "type": "mcq",
+      "question": "___ did you choose this job?",
+      "answer": "Why",
+      "hint": "Asking for a reason/motivation",
+      "explanation": "Why = reason. Why did you choose = what was your reason.",
+      "distractors": [
+        "What",
+        "How",
+        "Which"
+      ]
+    },
+    {
+      "id": "G-14-ex-018",
+      "type": "mcq",
+      "question": "___ far is it from Jerusalem to Tel Aviv?",
+      "answer": "How",
+      "hint": "How far = distance",
+      "explanation": "How far = asking about distance.",
+      "distractors": [
+        "What",
+        "Which",
+        "Who"
+      ]
+    },
+    {
+      "id": "G-14-ex-019",
+      "type": "error_correction",
+      "question": "Find and fix: 'Where you work?'",
+      "answer": "Where do you work?",
+      "hint": "What is missing between 'where' and 'you'?",
+      "explanation": "English questions need an auxiliary verb: Where DO you work?",
+      "hebrew_note": "בעברית אפשר 'איפה אתה עובד?' בלי שינוי. באנגלית חייבים do/does"
+    },
+    {
+      "id": "G-14-ex-020",
+      "type": "error_correction",
+      "question": "Find and fix: 'What means this word?'",
+      "answer": "What does this word mean?",
+      "hint": "What is not the subject here — 'this word' is. Use auxiliary.",
+      "explanation": "This word = subject. What + does + subject + verb: What does this word mean?",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-14-ex-021",
+      "type": "error_correction",
+      "question": "Find and fix: 'Why she didn't come to the meeting?'",
+      "answer": "Why didn't she come to the meeting?",
+      "hint": "With auxiliaries, subject and auxiliary invert after the question word",
+      "explanation": "Why + auxiliary + subject + verb: Why DIDN'T SHE come? (inverted)",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-14-ex-022",
+      "type": "error_correction",
+      "question": "Find and fix: 'How much people came to the event?'",
+      "answer": "How many people came to the event?",
+      "hint": "People = countable. Which question word?",
+      "explanation": "People is countable → how many, not how much.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-14-ex-023",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "do",
+        "where",
+        "you",
+        "usually",
+        "lunch",
+        "have"
+      ],
+      "answer": "Where do you usually have lunch?",
+      "hint": "Question word + auxiliary + subject + adverb + verb + object",
+      "explanation": "Where do you usually have lunch? — usually goes before the main verb."
+    },
+    {
+      "id": "G-14-ex-024",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "long",
+        "does",
+        "how",
+        "it",
+        "take",
+        "to",
+        "drive"
+      ],
+      "answer": "How long does it take to drive?",
+      "hint": "How long + does + it + take...",
+      "explanation": "How long does it take? = asking about duration."
+    },
+    {
+      "id": "G-14-ex-025",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "told",
+        "who",
+        "you",
+        "about",
+        "this"
+      ],
+      "answer": "Who told you about this?",
+      "hint": "Who = subject of the sentence. Do you need do/does?",
+      "explanation": "Who told you? — Who is the subject → no auxiliary needed. Compare: Who did you tell? (Who = object here, you = subject → auxiliary needed)."
+    }
+  ],
+  "speak": [
+    {
+      "id": "G-14-sp-001",
+      "sentence": "Where do you usually go at the weekend?",
+      "chunks": [
+        "Where do you usually go",
+        "at the weekend?"
+      ],
+      "phonetic_hints": "'Usually' = YOO-zhoo-uh-lee. 'Weekend' = WEEK-end.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-14-sp-002",
+      "sentence": "How long does it take to get to work from your house?",
+      "chunks": [
+        "How long does it take",
+        "to get to work from your house?"
+      ],
+      "phonetic_hints": "'Doesn't it take' — link smoothly. 'Work' = WURK.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-14-sp-003",
+      "sentence": "Why didn't you tell me you were coming?",
+      "chunks": [
+        "Why didn't you tell me",
+        "you were coming?"
+      ],
+      "phonetic_hints": "'Didn't' = DID-unt. 'Tell' — short 'e' sound. 'Coming' = KUM-ing.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-14-sp-004",
+      "sentence": "Which language do you find the most difficult to learn?",
+      "chunks": [
+        "Which language do you find",
+        "the most difficult to learn?"
+      ],
+      "phonetic_hints": "'Difficult' = DIF-ih-kult — three syllables. 'Language' = LANG-gwij.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-14-sp-005",
+      "sentence": "How often do you go back to visit your hometown?",
+      "chunks": [
+        "How often do you go back",
+        "to visit your hometown?"
+      ],
+      "phonetic_hints": "'Often' = OFF-en (silent T). 'Hometown' = HOHM-town — stress on first syllable.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-14-sp-006",
+      "sentence": "What happened to your car? It looks different.",
+      "chunks": [
+        "What happened to your car?",
+        "It looks different."
+      ],
+      "phonetic_hints": "'Happened' = HAP-end. 'Different' = DIF-er-unt — three syllables.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-14-sp-007",
+      "sentence": "Whose idea was it to start the meeting so early?",
+      "chunks": [
+        "Whose idea was it",
+        "to start the meeting so early?"
+      ],
+      "phonetic_hints": "'Whose' = HOOZ — rhymes with 'shoes'. 'Idea' = eye-DEE-uh. 'Early' = UR-lee.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-14-sp-008",
+      "sentence": "How much does it cost to rent a flat in the city centre?",
+      "chunks": [
+        "How much does it cost",
+        "to rent a flat in the city centre?"
+      ],
+      "phonetic_hints": "'Rent' = RENT. 'Flat' = FLAT. 'Centre' = SEN-tuh.",
+      "pass_threshold": 0.65
+    }
+  ]
+}

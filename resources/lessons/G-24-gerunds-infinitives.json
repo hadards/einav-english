@@ -1,0 +1,490 @@
+{
+  "id": "G-24",
+  "title": "Gerunds and infinitives",
+  "level": "B1",
+  "order": 24,
+  "explain": {
+    "rule": "After some verbs, use a gerund (verb + -ing). After other verbs, use an infinitive (to + base verb). Some verbs can take both with a difference in meaning. Gerund (-ing): enjoy, finish, mind, avoid, consider, suggest, practise, miss, deny, imagine, keep, risk, can't help, look forward to, be used to. Infinitive (to + verb): want, need, decide, plan, hope, agree, refuse, manage, offer, promise, seem, tend, forget, remember (future), try (attempt). Both with different meanings: stop, remember, forget, try.",
+    "why_matters": "Gerunds and infinitives are everywhere in English. Getting this right is the difference between sounding natural ('I enjoy swimming') and sounding like a learner ('I enjoy to swim'). Many of the most common verbs in English require one form or the other.",
+    "hebrew_note": "Hebrew uses the infinitive (לשחות, לאכול) after most verbs, with very few requiring a different form. In English, the choice between -ing and to-infinitive depends entirely on the preceding verb — there is no logical rule, only lists to learn. The most common Hebrew speaker mistake is using 'to' infinitive after enjoy, finish, avoid, mind, consider — verbs that require -ing in English.",
+    "tip": "Learn these key verbs by heart — they always take -ing: enjoy, finish, mind, avoid, keep, practise, miss, consider, imagine, suggest, deny, risk. These always take to-infinitive: want, need, decide, hope, plan, agree, refuse, manage, offer, expect, seem. For the verbs that take both, meaning changes: 'I stopped to smoke' (I stopped what I was doing in order to smoke) vs 'I stopped smoking' (I quit the habit).",
+    "meaning_changes": [
+      {
+        "verb": "stop",
+        "gerund": "stop smoking = quit the habit",
+        "infinitive": "stop to smoke = pause in order to smoke"
+      },
+      {
+        "verb": "remember",
+        "gerund": "remember meeting her = I have a memory of meeting her",
+        "infinitive": "remember to call = don't forget to call (future task)"
+      },
+      {
+        "verb": "forget",
+        "gerund": "forget meeting him = I have no memory of it",
+        "infinitive": "forget to lock = I didn't lock because I forgot (future task)"
+      },
+      {
+        "verb": "try",
+        "gerund": "try eating less sugar = experiment with it",
+        "infinitive": "try to sleep = make an effort to sleep"
+      },
+      {
+        "verb": "regret",
+        "gerund": "regret saying that = sorry I said it",
+        "infinitive": "regret to inform = formally sorry to tell you something"
+      }
+    ],
+    "good_examples": [
+      {
+        "id": "G-24-ge-001",
+        "sentence": "I enjoy reading before bed.",
+        "audio_text": "I enjoy reading before bed.",
+        "note": "enjoy always takes -ing. Never 'enjoy to read'."
+      },
+      {
+        "id": "G-24-ge-002",
+        "sentence": "She decided to change her career.",
+        "audio_text": "She decided to change her career.",
+        "note": "decide always takes to-infinitive."
+      },
+      {
+        "id": "G-24-ge-003",
+        "sentence": "Have you finished writing the report?",
+        "audio_text": "Have you finished writing the report?",
+        "note": "finish always takes -ing."
+      },
+      {
+        "id": "G-24-ge-004",
+        "sentence": "I'm looking forward to meeting you.",
+        "audio_text": "I'm looking forward to meeting you.",
+        "note": "look forward to + -ing (to is a preposition here, not part of infinitive)."
+      },
+      {
+        "id": "G-24-ge-005",
+        "sentence": "He refused to sign the contract.",
+        "audio_text": "He refused to sign the contract.",
+        "note": "refuse always takes to-infinitive."
+      },
+      {
+        "id": "G-24-ge-006",
+        "sentence": "I stopped smoking five years ago.",
+        "audio_text": "I stopped smoking five years ago.",
+        "note": "stopped smoking = quit the habit (-ing)"
+      },
+      {
+        "id": "G-24-ge-007",
+        "sentence": "I stopped to have a coffee on the way.",
+        "audio_text": "I stopped to have a coffee on the way.",
+        "note": "stopped to have = paused in order to (infinitive)"
+      },
+      {
+        "id": "G-24-ge-008",
+        "sentence": "She managed to get tickets for the concert.",
+        "audio_text": "She managed to get tickets for the concert.",
+        "note": "manage always takes to-infinitive."
+      },
+      {
+        "id": "G-24-ge-009",
+        "sentence": "Would you mind closing the window?",
+        "audio_text": "Would you mind closing the window?",
+        "note": "mind always takes -ing."
+      },
+      {
+        "id": "G-24-ge-010",
+        "sentence": "Remember to call him tomorrow.",
+        "audio_text": "Remember to call him tomorrow.",
+        "note": "remember + to-infinitive = don't forget to do something future."
+      }
+    ],
+    "bad_examples": [
+      {
+        "id": "G-24-be-001",
+        "wrong": "I enjoy to swim.",
+        "correct": "I enjoy swimming.",
+        "reason": "enjoy always takes -ing. Never 'enjoy to swim'."
+      },
+      {
+        "id": "G-24-be-002",
+        "wrong": "She avoided to go there.",
+        "correct": "She avoided going there.",
+        "reason": "avoid always takes -ing. Never 'avoid to go'."
+      },
+      {
+        "id": "G-24-be-003",
+        "wrong": "He suggested to take a taxi.",
+        "correct": "He suggested taking a taxi.",
+        "reason": "suggest always takes -ing. Never 'suggest to take'."
+      },
+      {
+        "id": "G-24-be-004",
+        "wrong": "I'm looking forward to meet you.",
+        "correct": "I'm looking forward to meeting you.",
+        "reason": "'Look forward to' — the 'to' here is a preposition, not part of an infinitive. After 'to' (preposition) → -ing."
+      },
+      {
+        "id": "G-24-be-005",
+        "wrong": "Would you mind to open the door?",
+        "correct": "Would you mind opening the door?",
+        "reason": "mind always takes -ing. Never 'mind to open'."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "G-24-ex-001",
+      "type": "fill_blank",
+      "question": "I enjoy ___ (cook) when I have time.",
+      "answer": "cooking",
+      "hint": "enjoy + -ing",
+      "explanation": "enjoy always takes -ing: enjoy cooking.",
+      "hebrew_note": "enjoy + ing בלבד"
+    },
+    {
+      "id": "G-24-ex-002",
+      "type": "fill_blank",
+      "question": "She decided ___ (change) her job.",
+      "answer": "to change",
+      "hint": "decide + to-infinitive",
+      "explanation": "decide always takes to: decided to change.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-24-ex-003",
+      "type": "fill_blank",
+      "question": "Have you finished ___ (write) the report?",
+      "answer": "writing",
+      "hint": "finish + -ing",
+      "explanation": "finish always takes -ing: finished writing.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-24-ex-004",
+      "type": "fill_blank",
+      "question": "I'm looking forward to ___ (see) you again.",
+      "answer": "seeing",
+      "hint": "look forward to + -ing (to = preposition)",
+      "explanation": "look forward to + -ing. Not 'to see'.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-24-ex-005",
+      "type": "fill_blank",
+      "question": "He refused ___ (sign) the contract.",
+      "answer": "to sign",
+      "hint": "refuse + to-infinitive",
+      "explanation": "refuse takes to: refused to sign.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-24-ex-006",
+      "type": "fill_blank",
+      "question": "Would you mind ___ (turn) down the music?",
+      "answer": "turning",
+      "hint": "mind + -ing",
+      "explanation": "mind takes -ing: mind turning.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-24-ex-007",
+      "type": "fill_blank",
+      "question": "She managed ___ (get) tickets for the show.",
+      "answer": "to get",
+      "hint": "manage + to-infinitive",
+      "explanation": "manage takes to: managed to get.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-24-ex-008",
+      "type": "fill_blank",
+      "question": "I avoid ___ (drive) in rush hour if I can.",
+      "answer": "driving",
+      "hint": "avoid + -ing",
+      "explanation": "avoid takes -ing: avoid driving.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-24-ex-009",
+      "type": "fill_blank",
+      "question": "Please remember ___ (call) me tomorrow morning.",
+      "answer": "to call",
+      "hint": "remember + to-infinitive = don't forget to do it (future)",
+      "explanation": "remember to call = don't forget to call (future task).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-24-ex-010",
+      "type": "fill_blank",
+      "question": "I remember ___ (meet) her at a conference last year.",
+      "answer": "meeting",
+      "hint": "remember + -ing = I have a memory of it (past)",
+      "explanation": "remember meeting = I have a memory of it.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-24-ex-011",
+      "type": "fill_blank",
+      "question": "She stopped ___ (smoke) after the doctor's advice.",
+      "answer": "smoking",
+      "hint": "stopped + -ing = quit the habit",
+      "explanation": "stopped smoking = gave up the habit.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-24-ex-012",
+      "type": "fill_blank",
+      "question": "He stopped ___ (get) some water on the way.",
+      "answer": "to get",
+      "hint": "stopped + to-infinitive = paused in order to",
+      "explanation": "stopped to get = paused what he was doing in order to get water.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-24-ex-013",
+      "type": "fill_blank",
+      "question": "I can't imagine ___ (live) without my phone.",
+      "answer": "living",
+      "hint": "imagine + -ing",
+      "explanation": "imagine takes -ing: imagine living.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-24-ex-014",
+      "type": "fill_blank",
+      "question": "They suggested ___ (book) in advance.",
+      "answer": "booking",
+      "hint": "suggest + -ing",
+      "explanation": "suggest takes -ing: suggest booking.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-24-ex-015",
+      "type": "mcq",
+      "question": "I enjoy ___ to new places.",
+      "answer": "travelling",
+      "hint": "enjoy + gerund",
+      "explanation": "enjoy always takes -ing.",
+      "hebrew_note": [
+        "to travel",
+        "to travelling",
+        "travel"
+      ]
+    },
+    {
+      "id": "G-24-ex-016",
+      "type": "mcq",
+      "question": "She hopes ___ a place at medical school.",
+      "answer": "to get",
+      "hint": "hope + to-infinitive",
+      "explanation": "hope always takes to: hope to get.",
+      "hebrew_note": [
+        "getting",
+        "get",
+        "of getting"
+      ]
+    },
+    {
+      "id": "G-24-ex-017",
+      "type": "mcq",
+      "question": "I'm used to ___ up early.",
+      "answer": "getting",
+      "hint": "be used to + -ing (to = preposition)",
+      "explanation": "be used to + -ing. to is a preposition here, not part of infinitive.",
+      "hebrew_note": [
+        "get",
+        "to get",
+        "got"
+      ]
+    },
+    {
+      "id": "G-24-ex-018",
+      "type": "mcq",
+      "question": "He denied ___ the money.",
+      "answer": "taking",
+      "hint": "deny + -ing",
+      "explanation": "deny always takes -ing: denied taking.",
+      "hebrew_note": [
+        "to take",
+        "to have taken",
+        "take"
+      ]
+    },
+    {
+      "id": "G-24-ex-019",
+      "type": "mcq",
+      "question": "We agreed ___ the meeting until Thursday.",
+      "answer": "to postpone",
+      "hint": "agree + to-infinitive",
+      "explanation": "agree takes to: agreed to postpone.",
+      "hebrew_note": [
+        "postponing",
+        "postpone",
+        "of postponing"
+      ]
+    },
+    {
+      "id": "G-24-ex-020",
+      "type": "mcq",
+      "question": "Would you consider ___ abroad for a few years?",
+      "answer": "working",
+      "hint": "consider + -ing",
+      "explanation": "consider takes -ing: consider working.",
+      "hebrew_note": [
+        "to work",
+        "work",
+        "to working"
+      ]
+    },
+    {
+      "id": "G-24-ex-021",
+      "type": "error_correction",
+      "question": "Find and fix: 'I enjoy to swim in the sea.'",
+      "answer": "I enjoy swimming in the sea.",
+      "hint": "enjoy + which form?",
+      "explanation": "enjoy always takes -ing. enjoy swimming.",
+      "hebrew_note": "enjoy + ing תמיד"
+    },
+    {
+      "id": "G-24-ex-022",
+      "type": "error_correction",
+      "question": "Find and fix: 'She avoided to go there alone.'",
+      "answer": "She avoided going there alone.",
+      "hint": "avoid + which form?",
+      "explanation": "avoid takes -ing. avoided going.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-24-ex-023",
+      "type": "error_correction",
+      "question": "Find and fix: 'I'm looking forward to meet you.'",
+      "answer": "I'm looking forward to meeting you.",
+      "hint": "Look forward to — what kind of 'to' is this?",
+      "explanation": "to in 'look forward to' is a preposition → -ing follows. meeting.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-24-ex-024",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "answer": null,
+      "hint": "enjoy + -ing",
+      "explanation": "I really enjoy learning new languages and meeting new people.",
+      "hebrew_note": null,
+      "words": [
+        "I",
+        "really",
+        "enjoy",
+        "learning",
+        "new",
+        "languages",
+        "and",
+        "meeting",
+        "new",
+        "people"
+      ]
+    },
+    {
+      "id": "G-24-ex-025",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "answer": null,
+      "hint": "remember + to = future task",
+      "explanation": "Remember to send the report before you leave the office.",
+      "hebrew_note": null,
+      "words": [
+        "Remember",
+        "to",
+        "send",
+        "the",
+        "report",
+        "before",
+        "you",
+        "leave",
+        "the",
+        "office"
+      ]
+    }
+  ],
+  "speak": [
+    {
+      "id": "G-24-sp-001",
+      "sentence": "I really enjoy exploring new cities and trying local food.",
+      "chunks": [
+        "I really enjoy exploring new cities",
+        "and trying local food."
+      ],
+      "phonetic_hints": "'Exploring' = ik-SPLAWR-ing. 'Local' = LOH-kul.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-24-sp-002",
+      "sentence": "She decided to leave her job and start her own business.",
+      "chunks": [
+        "She decided to leave her job",
+        "and start her own business."
+      ],
+      "phonetic_hints": "'Decided' = dih-SY-did. 'Business' = BIZ-nis — only two syllables.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-24-sp-003",
+      "sentence": "Would you mind closing the window? It's a bit cold in here.",
+      "chunks": [
+        "Would you mind closing the window?",
+        "It's a bit cold in here."
+      ],
+      "phonetic_hints": "'Closing' = KLOH-zing. 'Window' = WIN-doh.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-24-sp-004",
+      "sentence": "I'm really looking forward to seeing everyone at the reunion.",
+      "chunks": [
+        "I'm really looking forward to seeing everyone",
+        "at the reunion."
+      ],
+      "phonetic_hints": "'Reunion' = ree-YOON-yun — three syllables. 'Everyone' = EV-ree-wun.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-24-sp-005",
+      "sentence": "He managed to finish all the work before the deadline.",
+      "chunks": [
+        "He managed to finish all the work",
+        "before the deadline."
+      ],
+      "phonetic_hints": "'Managed' = MAN-ijd. 'Deadline' = DED-lyn.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-24-sp-006",
+      "sentence": "Remember to take your passport — you'll need it at check-in.",
+      "chunks": [
+        "Remember to take your passport —",
+        "you'll need it at check-in."
+      ],
+      "phonetic_hints": "'Passport' = PAS-port — stress on first syllable. 'Check-in' = CHEK-in.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-24-sp-007",
+      "sentence": "I stopped eating meat about two years ago.",
+      "chunks": [
+        "I stopped eating meat",
+        "about two years ago."
+      ],
+      "phonetic_hints": "'Eating' = EE-ting. stopped + eating = gave up the habit.",
+      "pass_threshold": 0.75
+    },
+    {
+      "id": "G-24-sp-008",
+      "sentence": "She avoided making any promises until she had all the information.",
+      "chunks": [
+        "She avoided making any promises",
+        "until she had all the information."
+      ],
+      "phonetic_hints": "'Avoided' = uh-VOY-did. 'Promises' = PROM-ih-siz.",
+      "pass_threshold": 0.65
+    }
+  ]
+}

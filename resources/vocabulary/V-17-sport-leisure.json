@@ -1,0 +1,307 @@
+{
+  "id": "V-17",
+  "theme": "Sport & leisure",
+  "level": "B2",
+  "words": [
+    {
+      "id": "V-17-w-001",
+      "word": "endurance",
+      "part_of_speech": "noun",
+      "definition": "the ability to sustain effort for a long time",
+      "example_sentences": [
+        "Marathon running requires enormous endurance.",
+        "She trained specifically for endurance events.",
+        "Mental endurance is as important as physical in sport."
+      ],
+      "pronunciation_tip": "en-DYOOR-unss — three syllables, stress on second.",
+      "common_mistake": "Don't say 'ability to keep going' — say 'endurance'.",
+      "collocations": "['physical endurance', 'test endurance', 'endurance sport']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-17-w-002",
+      "word": "tournament",
+      "part_of_speech": "noun",
+      "definition": "a competition in which many players take part over several rounds",
+      "example_sentences": [
+        "She reached the final of the tennis tournament.",
+        "The football tournament attracted teams from 32 countries.",
+        "He's been training hard for the upcoming tournament."
+      ],
+      "pronunciation_tip": "TOOR-nuh-munt — three syllables, stress on first.",
+      "common_mistake": "Don't say 'competition with many teams' — say 'tournament'.",
+      "collocations": "['enter a tournament', 'win a tournament', 'knockout tournament']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-17-w-003",
+      "word": "spectator",
+      "part_of_speech": "noun",
+      "definition": "a person who watches an event without taking part",
+      "example_sentences": [
+        "Thousands of spectators watched from the stands.",
+        "The spectators cheered loudly throughout the match.",
+        "A large spectator crowd creates an electric atmosphere."
+      ],
+      "pronunciation_tip": "spek-TAY-ter — three syllables, stress on second.",
+      "common_mistake": "Don't say 'people who watch' — say 'spectators'.",
+      "collocations": "['thousands of spectators', 'spectator sport', 'cheering spectators']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-17-w-004",
+      "word": "relegation",
+      "part_of_speech": "noun",
+      "definition": "being moved to a lower division in sport",
+      "example_sentences": [
+        "The team was devastated by relegation.",
+        "They fought hard to avoid relegation all season.",
+        "Relegation from the top division means huge financial losses."
+      ],
+      "pronunciation_tip": "rel-ih-GAY-shun — four syllables, stress on third.",
+      "common_mistake": "Don't say 'moved down to a lower league' — say 'relegation'.",
+      "collocations": "['face relegation', 'avoid relegation', 'relegation battle']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-17-w-005",
+      "word": "controversial",
+      "part_of_speech": "adjective",
+      "definition": "causing strong disagreement or debate",
+      "example_sentences": [
+        "The referee's decision was highly controversial.",
+        "His comments after the game were deeply controversial.",
+        "Controversial calls are unavoidable in sport."
+      ],
+      "pronunciation_tip": "kon-truh-VUR-shul — four syllables, stress on third.",
+      "common_mistake": "Don't say 'people disagree about it' — say 'it was controversial'.",
+      "collocations": "['highly controversial', 'controversial decision', 'controversial figure']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-17-w-006",
+      "word": "qualifier",
+      "part_of_speech": "noun",
+      "definition": "a match or competition that decides who can enter the main event",
+      "example_sentences": [
+        "She won the qualifier and earned a place in the finals.",
+        "The qualifier was more difficult than expected.",
+        "Three teams failed to make it through the qualifier."
+      ],
+      "pronunciation_tip": "KWOL-ih-fy-er — four syllables, stress on first.",
+      "common_mistake": "Don't say 'the match before the real competition' — say 'the qualifier'.",
+      "collocations": "['win a qualifier', 'qualify through a qualifier', 'tournament qualifier']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-17-w-007",
+      "word": "pastime",
+      "part_of_speech": "noun",
+      "definition": "an activity you enjoy in your free time",
+      "example_sentences": [
+        "His favourite pastime is watching old films.",
+        "Gardening has become a popular pastime for many people.",
+        "Reading is an excellent pastime for long journeys."
+      ],
+      "pronunciation_tip": "PAS-tym — two syllables, stress on first.",
+      "common_mistake": "Don't say 'hobby' every time — 'pastime' is slightly more general.",
+      "collocations": "['favourite pastime', 'enjoyable pastime', 'national pastime']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-17-w-008",
+      "word": "stamina",
+      "part_of_speech": "noun",
+      "definition": "physical or mental strength to sustain effort for a long time",
+      "example_sentences": [
+        "Cyclists need incredible stamina to complete the Tour de France.",
+        "She built her stamina through months of regular training.",
+        "Mental stamina is as important as physical in chess."
+      ],
+      "pronunciation_tip": "STAM-ih-nuh — three syllables, stress on first.",
+      "common_mistake": "Don't say 'energy to keep going' always — say 'stamina'.",
+      "collocations": "['build stamina', 'physical stamina', 'mental stamina']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-17-w-009",
+      "word": "sportsmanship",
+      "part_of_speech": "noun",
+      "definition": "fair and generous behaviour in sport",
+      "example_sentences": [
+        "He lost gracefully — a true example of good sportsmanship.",
+        "The team was praised for their outstanding sportsmanship.",
+        "Poor sportsmanship damages the reputation of a sport."
+      ],
+      "pronunciation_tip": "SPAWRTS-mun-ship — three syllables, stress on first.",
+      "common_mistake": "Don't say 'behaving well in sport' as a noun — say 'sportsmanship'.",
+      "collocations": "['good sportsmanship', 'show sportsmanship', 'lack of sportsmanship']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-17-w-010",
+      "word": "podium",
+      "part_of_speech": "noun",
+      "definition": "a raised platform where the top three finishers stand to receive medals",
+      "example_sentences": [
+        "She stepped onto the podium to collect her gold medal.",
+        "He trained for years to reach the Olympic podium.",
+        "Only three athletes get to stand on the podium."
+      ],
+      "pronunciation_tip": "POH-dee-um — three syllables, stress on first.",
+      "common_mistake": "Don't say 'the place for medal winners' — say 'the podium'.",
+      "collocations": "['reach the podium', 'stand on the podium', 'podium finish']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-17-w-011",
+      "word": "substitute",
+      "part_of_speech": "noun/verb",
+      "definition": "a player who replaces another during a match",
+      "example_sentences": [
+        "The manager brought on a substitute at half-time.",
+        "She was substituted after thirty minutes due to injury.",
+        "The substitute scored the winning goal."
+      ],
+      "pronunciation_tip": "SUB-stih-tyoot — three syllables, stress on first.",
+      "common_mistake": "Don't say 'the reserve player' — say 'the substitute'.",
+      "collocations": "['bring on a substitute', 'substitute for', 'named substitute']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-17-w-012",
+      "word": "seeding",
+      "part_of_speech": "noun",
+      "definition": "ranking system in tournaments giving top players easier early draws",
+      "example_sentences": [
+        "The top seed goes directly into the second round.",
+        "Her seeding means she avoids the best players early on.",
+        "Seeding ensures the strongest players don't meet too early."
+      ],
+      "pronunciation_tip": "SEE-ding — two syllables, stress on first.",
+      "common_mistake": "Don't say 'ranking in a competition' every time — say 'seeding' or 'she is the top seed'.",
+      "collocations": "['top seeding', 'seeded player', 'number one seed']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-17-w-013",
+      "word": "amateur",
+      "part_of_speech": "noun/adjective",
+      "definition": "someone who does an activity for enjoyment not professionally",
+      "example_sentences": [
+        "She plays chess at amateur level.",
+        "He started as an amateur but turned professional last year.",
+        "Amateur sport is just as competitive as professional."
+      ],
+      "pronunciation_tip": "AM-uh-ter — three syllables, stress on first. Don't say 'am-uh-TYOOR' — common mistake.",
+      "common_mistake": "Don't say 'not professional' always — say 'amateur'.",
+      "collocations": "['amateur sport', 'amateur level', 'start as amateur']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-17-w-014",
+      "word": "underdog",
+      "part_of_speech": "noun",
+      "definition": "a person or team expected to lose who sometimes wins",
+      "example_sentences": [
+        "They were the underdogs but they won the championship.",
+        "Everyone loves an underdog story.",
+        "She was the underdog in every match but reached the final."
+      ],
+      "pronunciation_tip": "UN-der-dog — stress on first syllable.",
+      "common_mistake": "Don't say 'the weaker team' every time — say 'the underdog'.",
+      "collocations": "['classic underdog', 'underdog story', 'the underdog wins']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-17-w-015",
+      "word": "comeback",
+      "part_of_speech": "noun",
+      "definition": "a return to success after a period of failure or absence",
+      "example_sentences": [
+        "After two years out injured, her comeback was remarkable.",
+        "He staged the greatest comeback in sporting history.",
+        "The team's comeback in the second half was incredible."
+      ],
+      "pronunciation_tip": "KUM-bak — stress on first syllable.",
+      "common_mistake": "Don't say 'she returned to sport and was successful' — say 'she made a comeback'.",
+      "collocations": "['stage a comeback', 'remarkable comeback', 'comeback story']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-17-w-016",
+      "word": "pitch",
+      "part_of_speech": "noun",
+      "definition": "a playing area for sports like football or cricket",
+      "example_sentences": [
+        "The pitch was in poor condition after all the rain.",
+        "They trained on the pitch every morning.",
+        "A football pitch is 100 metres long."
+      ],
+      "pronunciation_tip": "PICH — one syllable.",
+      "common_mistake": "Don't say 'the field' for football in British English — say 'the pitch'.",
+      "collocations": "['football pitch', 'pitch conditions', 'on the pitch']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-17-w-017",
+      "word": "draw",
+      "part_of_speech": "noun/verb",
+      "definition": "a game in which both teams finish with equal score",
+      "example_sentences": [
+        "The match ended in a 2-2 draw.",
+        "They drew against the top team — an impressive result.",
+        "A draw meant both teams progressed to the next round."
+      ],
+      "pronunciation_tip": "DRAW — one syllable.",
+      "common_mistake": "Don't say 'a tie' every time in British English — say 'a draw'.",
+      "collocations": "['end in a draw', 'draw a match', 'goalless draw']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-17-w-018",
+      "word": "perseverance",
+      "part_of_speech": "noun",
+      "definition": "continued effort despite difficulty",
+      "example_sentences": [
+        "Her perseverance through injury made her story remarkable.",
+        "Success in sport requires talent and perseverance.",
+        "Perseverance is more important than natural ability."
+      ],
+      "pronunciation_tip": "pur-sih-VEER-unss — four syllables, stress on third.",
+      "common_mistake": "Don't say 'she kept trying' as a noun — say 'she showed perseverance'.",
+      "collocations": "['show perseverance', 'require perseverance', 'admire perseverance']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-17-w-019",
+      "word": "venue",
+      "part_of_speech": "noun",
+      "definition": "the place where an event or competition takes place",
+      "example_sentences": [
+        "The venue for the final has not yet been announced.",
+        "The concert venue holds 20,000 people.",
+        "Finding a suitable venue was the first challenge."
+      ],
+      "pronunciation_tip": "VEN-yoo — two syllables, stress on first.",
+      "common_mistake": "Don't say 'the place for the event' — say 'the venue'.",
+      "collocations": "['event venue', 'choose a venue', 'book a venue']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-17-w-020",
+      "word": "tactics",
+      "part_of_speech": "noun",
+      "definition": "a plan or method for achieving a particular goal in sport",
+      "example_sentences": [
+        "The manager changed tactics at half-time.",
+        "Their tactics were brilliant — they pressed high all game.",
+        "Tactics are just as important as physical fitness."
+      ],
+      "pronunciation_tip": "TAK-tikss — two syllables, stress on first.",
+      "common_mistake": "Don't say 'plan for the game' — say 'tactics'.",
+      "collocations": "['change tactics', 'game tactics', 'tactical decision']",
+      "difficulty": 2
+    }
+  ]
+}

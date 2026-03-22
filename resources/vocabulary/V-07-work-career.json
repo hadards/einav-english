@@ -1,0 +1,307 @@
+{
+  "id": "V-07",
+  "theme": "Work & career",
+  "level": "B1",
+  "words": [
+    {
+      "id": "V-07-w-001",
+      "word": "promotion",
+      "part_of_speech": "noun",
+      "definition": "a move to a higher job with more responsibility",
+      "example_sentences": [
+        "She received a promotion after just one year at the company.",
+        "He's been working towards a promotion for three years.",
+        "A promotion usually comes with a salary increase."
+      ],
+      "pronunciation_tip": "pruh-MOH-shun — stress on second syllable.",
+      "common_mistake": "Don't say 'I got a higher job' — say 'I got a promotion'.",
+      "collocations": "['get a promotion', 'deserve a promotion', 'promotion prospects']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-07-w-002",
+      "word": "redundancy",
+      "part_of_speech": "noun",
+      "definition": "the situation of losing your job because your position no longer exists",
+      "example_sentences": [
+        "She was made redundant when the company downsized.",
+        "He received a redundancy package worth three months' salary.",
+        "Redundancy can be a chance to find a better job."
+      ],
+      "pronunciation_tip": "rih-DUN-dun-see — four syllables, stress on second.",
+      "common_mistake": "Don't say 'I was fired' — fired = dismissed for poor performance. Redundant = the job no longer exists.",
+      "collocations": "['made redundant', 'redundancy package', 'face redundancy']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-07-w-003",
+      "word": "appraisal",
+      "part_of_speech": "noun",
+      "definition": "a formal assessment of someone's work performance",
+      "example_sentences": [
+        "Her annual appraisal was very positive.",
+        "The manager conducted appraisals for every team member.",
+        "He was nervous before his performance appraisal."
+      ],
+      "pronunciation_tip": "uh-PRAYZ-ul — three syllables, stress on second.",
+      "common_mistake": "Don't say 'the review of my work' — say 'my appraisal' or 'performance review'.",
+      "collocations": "['annual appraisal', 'performance appraisal', 'conduct appraisals']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-07-w-004",
+      "word": "CV",
+      "part_of_speech": "noun",
+      "definition": "a document listing your education, experience, and skills (curriculum vitae)",
+      "example_sentences": [
+        "She spent an evening updating her CV before applying.",
+        "His CV was impressive — five years of relevant experience.",
+        "Always tailor your CV to the specific job you're applying for."
+      ],
+      "pronunciation_tip": "SEE-VEE — two letters, each said separately.",
+      "common_mistake": "In American English this is called a 'résumé' (REZ-yoo-may). In British English: CV.",
+      "collocations": "['update a CV', 'impressive CV', 'submit a CV']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-07-w-005",
+      "word": "networking",
+      "part_of_speech": "noun",
+      "definition": "building relationships with people who can help your career",
+      "example_sentences": [
+        "Networking is essential in the creative industries.",
+        "She attended a conference mainly to do some networking.",
+        "Don't underestimate the power of networking."
+      ],
+      "pronunciation_tip": "NET-wur-king — three syllables, stress on first.",
+      "common_mistake": "Don't say 'meeting important people' — say 'networking'.",
+      "collocations": "['professional networking', 'networking event', 'networking skills']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-07-w-006",
+      "word": "resign",
+      "part_of_speech": "verb",
+      "definition": "to formally leave a job by choice",
+      "example_sentences": [
+        "She resigned from her position after fifteen years.",
+        "He resigned because he was offered a better opportunity.",
+        "I'm thinking of resigning if things don't improve."
+      ],
+      "pronunciation_tip": "rih-ZYN — stress on second syllable.",
+      "common_mistake": "Don't say 'I quit my job' in formal contexts — say 'I resigned'.",
+      "collocations": "['resign from', 'tender your resignation', 'decide to resign']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-07-w-007",
+      "word": "workload",
+      "part_of_speech": "noun",
+      "definition": "the amount of work someone has to do",
+      "example_sentences": [
+        "Her workload has increased dramatically since the restructure.",
+        "He's struggling to manage his heavy workload.",
+        "The new software has reduced our workload considerably."
+      ],
+      "pronunciation_tip": "WURK-lohd — two syllables, stress on first.",
+      "common_mistake": "Don't say 'I have much work' — say 'I have a heavy workload'.",
+      "collocations": "['heavy workload', 'manage workload', 'increase workload']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-07-w-008",
+      "word": "delegation",
+      "part_of_speech": "noun",
+      "definition": "giving tasks or responsibility to someone else",
+      "example_sentences": [
+        "Effective delegation is a key management skill.",
+        "She delegates well — her team always knows what to do.",
+        "Poor delegation leads to managers being overworked."
+      ],
+      "pronunciation_tip": "del-ih-GAY-shun — four syllables, stress on third.",
+      "common_mistake": "Don't say 'giving work to others' — say 'delegation'.",
+      "collocations": "['effective delegation', 'delegate tasks', 'skill of delegation']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-07-w-009",
+      "word": "probation",
+      "part_of_speech": "noun",
+      "definition": "a period at the start of a job during which you can be dismissed easily",
+      "example_sentences": [
+        "He is still on probation for the first three months.",
+        "She passed her probation period with excellent feedback.",
+        "The contract specifies a six-month probation period."
+      ],
+      "pronunciation_tip": "proh-BAY-shun — three syllables, stress on second.",
+      "common_mistake": "Don't say 'trial period' — say 'probation period' or 'on probation'.",
+      "collocations": "['on probation', 'probation period', 'pass probation']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-07-w-010",
+      "word": "freelance",
+      "part_of_speech": "adjective/verb",
+      "definition": "working independently for different clients rather than one employer",
+      "example_sentences": [
+        "She works freelance as a graphic designer.",
+        "He went freelance after ten years in the same company.",
+        "Freelance work offers flexibility but no job security."
+      ],
+      "pronunciation_tip": "FREE-lanss — stress on first syllable.",
+      "common_mistake": "Don't say 'he works alone' — say 'he works freelance' or 'he is a freelancer'.",
+      "collocations": "['work freelance', 'go freelance', 'freelance work']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-07-w-011",
+      "word": "incentive",
+      "part_of_speech": "noun",
+      "definition": "something that encourages people to work harder or perform better",
+      "example_sentences": [
+        "The company offers bonuses as an incentive for high performance.",
+        "Financial incentives are not always the most effective.",
+        "What incentive is there to stay if the salary is so low?"
+      ],
+      "pronunciation_tip": "in-SEN-tiv — three syllables, stress on second.",
+      "common_mistake": "Don't say 'something that makes people want to work' — say 'incentive'.",
+      "collocations": "['financial incentive', 'offer an incentive', 'incentive scheme']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-07-w-012",
+      "word": "turnover",
+      "part_of_speech": "noun",
+      "definition": "the rate at which employees leave a company and are replaced",
+      "example_sentences": [
+        "High staff turnover is a sign of poor management.",
+        "The company has very low turnover — most people stay for years.",
+        "High turnover is costly and disrupts team performance."
+      ],
+      "pronunciation_tip": "TUR-noh-ver — stress on first syllable.",
+      "common_mistake": "Don't confuse staff turnover (employees leaving) with financial turnover (total sales).",
+      "collocations": "['staff turnover', 'high turnover', 'reduce turnover']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-07-w-013",
+      "word": "initiative",
+      "part_of_speech": "noun",
+      "definition": "the ability to decide and act on your own without being told",
+      "example_sentences": [
+        "She shows great initiative — she never waits to be told.",
+        "Take the initiative and volunteer for new projects.",
+        "Employers value people who show initiative."
+      ],
+      "pronunciation_tip": "ih-NISH-ee-uh-tiv — five syllables, stress on second.",
+      "common_mistake": "Don't say 'she works without being told' as a noun — say 'she shows initiative'.",
+      "collocations": "['show initiative', 'take the initiative', 'use initiative']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-07-w-014",
+      "word": "benchmark",
+      "part_of_speech": "noun/verb",
+      "definition": "a standard against which something is measured or compared",
+      "example_sentences": [
+        "The company uses industry benchmarks to measure performance.",
+        "Their customer service has become the benchmark for the sector.",
+        "We need to benchmark our results against competitors."
+      ],
+      "pronunciation_tip": "BENCH-mark — stress on first syllable.",
+      "common_mistake": "Don't say 'standard for comparison' every time — say 'benchmark'.",
+      "collocations": "['industry benchmark', 'set a benchmark', 'benchmark against']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-07-w-015",
+      "word": "shortlist",
+      "part_of_speech": "noun/verb",
+      "definition": "a list of the best candidates selected from all applicants",
+      "example_sentences": [
+        "She was delighted to be on the shortlist for the award.",
+        "They shortlisted five candidates for interview.",
+        "Getting onto the shortlist is already an achievement."
+      ],
+      "pronunciation_tip": "SHAWT-list — stress on first syllable.",
+      "common_mistake": "Don't say 'I was chosen from the list' — say 'I was shortlisted'.",
+      "collocations": "['make the shortlist', 'be shortlisted', 'shortlist for interview']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-07-w-016",
+      "word": "outsource",
+      "part_of_speech": "verb",
+      "definition": "to pay another company to do work rather than doing it internally",
+      "example_sentences": [
+        "They outsource their IT support to a specialist company.",
+        "Many businesses outsource customer service overseas.",
+        "Outsourcing can reduce costs but affects quality control."
+      ],
+      "pronunciation_tip": "OWT-sawss — stress on first syllable.",
+      "common_mistake": "Don't say 'give work to another company' — say 'outsource'.",
+      "collocations": "['outsource to', 'outsource work', 'outsource services']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-07-w-017",
+      "word": "flexi-time",
+      "part_of_speech": "noun",
+      "definition": "a system where employees can choose their own working hours",
+      "example_sentences": [
+        "The company offers flexi-time so parents can manage childcare.",
+        "She works flexi-time — she starts at 7am and finishes at 3pm.",
+        "Flexi-time improves work-life balance significantly."
+      ],
+      "pronunciation_tip": "FLEK-see-tym — stress on first syllable.",
+      "common_mistake": "Don't say 'flexible hours' every time — say 'flexi-time'.",
+      "collocations": "['work flexi-time', 'offer flexi-time', 'flexi-time policy']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-07-w-018",
+      "word": "headhunted",
+      "part_of_speech": "adjective/verb",
+      "definition": "approached by another company and offered a job",
+      "example_sentences": [
+        "She was headhunted by a rival firm last year.",
+        "Being headhunted is a sign that your skills are valued.",
+        "He was headhunted away from the company for a huge salary."
+      ],
+      "pronunciation_tip": "HED-hun-tid — three syllables, stress on first.",
+      "common_mistake": "Don't say 'another company called me with a job offer' — say 'I was headhunted'.",
+      "collocations": "['get headhunted', 'be headhunted', 'headhunted for a role']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-07-w-019",
+      "word": "collaborate",
+      "part_of_speech": "verb",
+      "definition": "to work with others to achieve a shared goal",
+      "example_sentences": [
+        "The two departments collaborated on the new project.",
+        "She collaborates really well with people from different backgrounds.",
+        "We need to collaborate more effectively across teams."
+      ],
+      "pronunciation_tip": "kuh-LAB-uh-rayt — four syllables, stress on second.",
+      "common_mistake": "Don't say 'work together' always — say 'collaborate' in professional contexts.",
+      "collocations": "['collaborate with', 'collaborate on', 'closely collaborate']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-07-w-020",
+      "word": "overqualified",
+      "part_of_speech": "adjective",
+      "definition": "having more education or experience than a job requires",
+      "example_sentences": [
+        "She felt overqualified for the entry-level position.",
+        "Employers sometimes reject candidates they think are overqualified.",
+        "Being overqualified can actually work against you in interviews."
+      ],
+      "pronunciation_tip": "oh-ver-KWOL-ih-fyd — five syllables, stress on third.",
+      "common_mistake": "Don't say 'she has too much experience for the job' — say 'she is overqualified'.",
+      "collocations": "['be overqualified', 'feel overqualified', 'overqualified for']",
+      "difficulty": 3
+    }
+  ]
+}

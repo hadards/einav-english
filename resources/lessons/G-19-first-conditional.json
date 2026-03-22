@@ -1,0 +1,481 @@
+{
+  "id": "G-19",
+  "title": "First conditional",
+  "level": "B1",
+  "order": 19,
+  "explain": {
+    "rule": "The first conditional is for real and likely situations. Structure: If + present simple, will + base verb. The if-clause NEVER uses will — it uses present simple even when talking about the future. The result clause uses will + base verb. Clauses can go in either order: 'If it rains, I'll stay home' = 'I'll stay home if it rains'. When the if-clause comes first, use a comma. When it comes second, no comma needed.",
+    "why_matters": "The first conditional is essential for talking about plans, consequences, warnings, offers, and promises. It is one of the most natural and frequent structures in everyday English.",
+    "hebrew_note": "Hebrew uses אם (im) + future tense for both parts: 'אם תלמד תעבור'. In English the if-clause uses PRESENT simple, not future. NEVER say 'If you will study, you will pass' — this is the most common Hebrew speaker mistake. The if-clause uses present simple: 'If you study, you will pass.' Think of it as: the condition is stated as a present fact, then you predict the future result.",
+    "tip": "Test: replace 'if' with 'when' mentally. If the sentence still makes sense, present simple is right. 'When it rains, I stay home' → correct. You would never say 'When it will rain' → so 'If it will rain' is also wrong. Also: unless = if not. 'Unless you hurry' = 'If you don't hurry'.",
+    "variations": [
+      {
+        "structure": "If + present simple + will",
+        "example": "If she calls, I'll answer."
+      },
+      {
+        "structure": "If + present simple + can/might/may",
+        "example": "If you're free, we could meet."
+      },
+      {
+        "structure": "If + present simple + imperative",
+        "example": "If you see him, tell him I called."
+      },
+      {
+        "structure": "Unless + positive = if + negative",
+        "example": "Unless you hurry = If you don't hurry"
+      }
+    ],
+    "good_examples": [
+      {
+        "id": "G-19-ge-001",
+        "sentence": "If it rains tomorrow, we'll cancel the picnic.",
+        "audio_text": "If it rains tomorrow, we'll cancel the picnic.",
+        "note": "Present simple in if-clause. will in result."
+      },
+      {
+        "id": "G-19-ge-002",
+        "sentence": "You'll pass the exam if you study hard.",
+        "audio_text": "You'll pass the exam if you study hard.",
+        "note": "If-clause at end — no comma"
+      },
+      {
+        "id": "G-19-ge-003",
+        "sentence": "If you don't hurry, you'll miss the bus.",
+        "audio_text": "If you don't hurry, you'll miss the bus.",
+        "note": "Negative in if-clause — still present simple"
+      },
+      {
+        "id": "G-19-ge-004",
+        "sentence": "If I get the job, I'll celebrate.",
+        "audio_text": "If I get the job, I'll celebrate.",
+        "note": "Real possibility"
+      },
+      {
+        "id": "G-19-ge-005",
+        "sentence": "She'll be upset if she hears about this.",
+        "audio_text": "She'll be upset if she hears about this.",
+        "note": "If-clause at end"
+      },
+      {
+        "id": "G-19-ge-006",
+        "sentence": "If you see him, tell him to call me.",
+        "audio_text": "If you see him, tell him to call me.",
+        "note": "Imperative in result clause"
+      },
+      {
+        "id": "G-19-ge-007",
+        "sentence": "Unless you book in advance, you won't get a seat.",
+        "audio_text": "Unless you book in advance, you won't get a seat.",
+        "note": "Unless = if not"
+      },
+      {
+        "id": "G-19-ge-008",
+        "sentence": "If we leave now, we might make it.",
+        "audio_text": "If we leave now, we might make it.",
+        "note": "might = less certain than will"
+      },
+      {
+        "id": "G-19-ge-009",
+        "sentence": "What will you do if you don't get the promotion?",
+        "audio_text": "What will you do if you don't get the promotion?",
+        "note": "Question with first conditional"
+      },
+      {
+        "id": "G-19-ge-010",
+        "sentence": "I'll call you if anything changes.",
+        "audio_text": "I'll call you if anything changes.",
+        "note": "Promise using first conditional"
+      }
+    ],
+    "bad_examples": [
+      {
+        "id": "G-19-be-001",
+        "wrong": "If it will rain, I'll stay home.",
+        "correct": "If it rains, I'll stay home.",
+        "reason": "NEVER use will in the if-clause. Present simple only: if it rains."
+      },
+      {
+        "id": "G-19-be-002",
+        "wrong": "If she will call, tell her I'm busy.",
+        "correct": "If she calls, tell her I'm busy.",
+        "reason": "If-clause always uses present simple, even when talking about future."
+      },
+      {
+        "id": "G-19-be-003",
+        "wrong": "Unless you won't hurry, you'll be late.",
+        "correct": "Unless you hurry, you'll be late.",
+        "reason": "Unless already means 'if not'. Don't add another negative."
+      },
+      {
+        "id": "G-19-be-004",
+        "wrong": "If you study, you would pass.",
+        "correct": "If you study, you will pass.",
+        "reason": "First conditional (real/likely) uses will. Would belongs to second conditional (hypothetical)."
+      },
+      {
+        "id": "G-19-be-005",
+        "wrong": "If I will finish early, I'll call you.",
+        "correct": "If I finish early, I'll call you.",
+        "reason": "No will in the if-clause. Ever. If I finish (present simple)."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "G-19-ex-001",
+      "type": "fill_blank",
+      "question": "If it ___ (rain) tomorrow, the match ___ (cancel).",
+      "answer": "rains / will be cancelled",
+      "hint": "If-clause = present simple. Result = will.",
+      "explanation": "If + present simple + will + base verb.",
+      "hebrew_note": "אחרי if = הווה פשוט. לעולם לא will"
+    },
+    {
+      "id": "G-19-ex-002",
+      "type": "fill_blank",
+      "question": "You ___ (pass) if you ___ (study) hard.",
+      "answer": "will pass / study",
+      "hint": "Result = will. If-clause = present simple.",
+      "explanation": "will pass (result) + if + study (present simple).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-19-ex-003",
+      "type": "fill_blank",
+      "question": "If she ___ (not / hurry), she ___ (miss) the train.",
+      "answer": "doesn't hurry / will miss",
+      "hint": "Negative present simple in if-clause",
+      "explanation": "doesn't hurry (negative present simple) + will miss (result).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-19-ex-004",
+      "type": "fill_blank",
+      "question": "___ you ___ (call) me if you have any problems?",
+      "answer": "Will / call",
+      "hint": "Asking about a likely future action",
+      "explanation": "Will you call? = asking for a promise/commitment.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-19-ex-005",
+      "type": "fill_blank",
+      "question": "If I ___ (get) the job, I ___ (take) you out to dinner.",
+      "answer": "get / will take",
+      "hint": "Real possibility about the future",
+      "explanation": "get (present simple in if-clause) + will take (result).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-19-ex-006",
+      "type": "fill_blank",
+      "question": "___ you ___ (see) him, ___ (tell) him to call me.",
+      "answer": "If / see / tell",
+      "hint": "Imperative (tell) in the result clause",
+      "explanation": "If you see him, tell him — imperative as result.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-19-ex-007",
+      "type": "fill_blank",
+      "question": "___ you ___ (book) in advance, you ___ (not / get) a seat.",
+      "answer": "Unless / book / won't get",
+      "hint": "Unless = if not. Positive verb after unless.",
+      "explanation": "Unless you book = if you don't book → won't get.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-19-ex-008",
+      "type": "fill_blank",
+      "question": "If the weather ___ (be) good, we ___ (go) to the beach.",
+      "answer": "is / will go",
+      "hint": "be in if-clause = is (present simple)",
+      "explanation": "If it is good (present simple) + will go (result).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-19-ex-009",
+      "type": "fill_blank",
+      "question": "She ___ (be) upset if she ___ (hear) about this.",
+      "answer": "will be / hears",
+      "hint": "Result comes first here — then the if-clause",
+      "explanation": "will be (result) + if she hears (if-clause at end).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-19-ex-010",
+      "type": "fill_blank",
+      "question": "If you ___ (not / leave) now, you ___ (miss) your flight.",
+      "answer": "don't leave / will miss",
+      "hint": "Negative if-clause warning",
+      "explanation": "don't leave (negative present simple) + will miss (result).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-19-ex-011",
+      "type": "fill_blank",
+      "question": "What ___ you ___ (do) if you ___ (lose) your job?",
+      "answer": "will / do / lose",
+      "hint": "Question about a real future possibility",
+      "explanation": "What will you do (result question) + if you lose (if-clause).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-19-ex-012",
+      "type": "fill_blank",
+      "question": "If he ___ (not / apologise), she ___ (never / speak) to him again.",
+      "answer": "doesn't apologise / will never speak",
+      "hint": "Negative if-clause + strong result with never",
+      "explanation": "doesn't apologise + will never speak.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-19-ex-013",
+      "type": "mcq",
+      "question": "If you ___ me, I'll be very grateful.",
+      "answer": "help",
+      "hint": "If-clause → present simple, not will",
+      "explanation": "present simple in if-clause. If you help (not will help).",
+      "distractors": [
+        "will help",
+        "helped",
+        "are helping"
+      ]
+    },
+    {
+      "id": "G-19-ex-014",
+      "type": "mcq",
+      "question": "Choose the correct first conditional:",
+      "answer": "If she calls, I'll tell her.",
+      "hint": "Present simple in if-clause + will in result",
+      "explanation": "If she calls (present simple) + I'll tell (will).",
+      "distractors": [
+        "If she will call, I'll tell her.",
+        "If she calls, I would tell her.",
+        "If she called, I'll tell her."
+      ]
+    },
+    {
+      "id": "G-19-ex-015",
+      "type": "mcq",
+      "question": "___ you hurry, you'll miss the meeting.",
+      "answer": "Unless",
+      "hint": "Unless = if not. Which word means 'if you don't hurry'?",
+      "explanation": "Unless you hurry = If you don't hurry.",
+      "distractors": [
+        "If",
+        "When",
+        "Although"
+      ]
+    },
+    {
+      "id": "G-19-ex-016",
+      "type": "mcq",
+      "question": "If it gets cold tonight, I ___ turn the heating on.",
+      "answer": "might",
+      "hint": "might = possible but not certain. Less strong than will.",
+      "explanation": "might = possible result. Less certain than will.",
+      "distractors": [
+        "would",
+        "should to",
+        "am going"
+      ]
+    },
+    {
+      "id": "G-19-ex-017",
+      "type": "mcq",
+      "question": "Which sentence shows a first conditional?",
+      "answer": "If you eat too much, you'll feel sick.",
+      "hint": "Real, likely situation → first conditional",
+      "explanation": "Real possible situation + will = first conditional.",
+      "distractors": [
+        "If you ate too much, you'd feel sick.",
+        "If you had eaten too much, you would have felt sick.",
+        "If you eat too much, you feel sick."
+      ]
+    },
+    {
+      "id": "G-19-ex-018",
+      "type": "mcq",
+      "question": "I'll send you the report if I ___ it in time.",
+      "answer": "finish",
+      "hint": "If-clause after the result clause — still present simple",
+      "explanation": "Present simple in if-clause regardless of order.",
+      "distractors": [
+        "will finish",
+        "finished",
+        "am finishing"
+      ]
+    },
+    {
+      "id": "G-19-ex-019",
+      "type": "error_correction",
+      "question": "Find and fix: 'If it will rain, I'll stay home.'",
+      "answer": "If it rains, I'll stay home.",
+      "hint": "Will is forbidden in the if-clause",
+      "explanation": "NEVER use will in the if-clause. Present simple only.",
+      "hebrew_note": "אחרי if = הווה פשוט. לעולם לא will"
+    },
+    {
+      "id": "G-19-ex-020",
+      "type": "error_correction",
+      "question": "Find and fix: 'If you study, you would pass.'",
+      "answer": "If you study, you will pass.",
+      "hint": "First conditional (real) uses will, not would",
+      "explanation": "Real/likely situations → will. Would = second conditional (hypothetical).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-19-ex-021",
+      "type": "error_correction",
+      "question": "Find and fix: 'Unless you won't be careful, you'll hurt yourself.'",
+      "answer": "Unless you are careful, you'll hurt yourself.",
+      "hint": "Unless already means if not — no extra negative",
+      "explanation": "Unless + positive: unless you are careful = if you aren't careful.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-19-ex-022",
+      "type": "error_correction",
+      "question": "Find and fix: 'If I will finish early, I'll call you.'",
+      "answer": "If I finish early, I'll call you.",
+      "hint": "No will in the if-clause — ever",
+      "explanation": "If I finish (present simple) + I'll call (result).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-19-ex-023",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "the",
+        "if",
+        "rains",
+        "it",
+        "picnic",
+        "cancel",
+        "we'll"
+      ],
+      "answer": "If it rains, we'll cancel the picnic.",
+      "hint": "If + present simple, will + base verb",
+      "explanation": "If + present simple + will + base verb."
+    },
+    {
+      "id": "G-19-ex-024",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "tell",
+        "if",
+        "you",
+        "him",
+        "see",
+        "call",
+        "to",
+        "me"
+      ],
+      "answer": "If you see him, tell him to call me.",
+      "hint": "Imperative (tell) in the result clause",
+      "explanation": "If you see + tell (imperative as result)."
+    },
+    {
+      "id": "G-19-ex-025",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "hurry",
+        "unless",
+        "you'll",
+        "you",
+        "late",
+        "be"
+      ],
+      "answer": "Unless you hurry, you'll be late.",
+      "hint": "Unless + positive verb = if + negative",
+      "explanation": "Unless you hurry = If you don't hurry."
+    }
+  ],
+  "speak": [
+    {
+      "id": "G-19-sp-001",
+      "sentence": "If it rains at the weekend, we'll stay at home and watch films.",
+      "chunks": [
+        "If it rains at the weekend,",
+        "we'll stay at home and watch films."
+      ],
+      "phonetic_hints": "'Weekend' = WEEK-end. 'Films' = FILMZ — don't forget the plural Z sound.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-19-sp-002",
+      "sentence": "You'll feel much better if you get some sleep.",
+      "chunks": [
+        "You'll feel much better",
+        "if you get some sleep."
+      ],
+      "phonetic_hints": "'Better' = BET-er. 'Sleep' = SLEEP — long ee sound.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-19-sp-003",
+      "sentence": "If she doesn't call me back, I'll send her a message.",
+      "chunks": [
+        "If she doesn't call me back,",
+        "I'll send her a message."
+      ],
+      "phonetic_hints": "'Doesn't' = DUZ-unt. 'Message' = MES-ij.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-19-sp-004",
+      "sentence": "Unless we leave now, we'll miss the last train.",
+      "chunks": [
+        "Unless we leave now,",
+        "we'll miss the last train."
+      ],
+      "phonetic_hints": "'Unless' = un-LESS — stress on second syllable. 'Miss' = MISS.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-19-sp-005",
+      "sentence": "What will you do if you don't get into university?",
+      "chunks": [
+        "What will you do",
+        "if you don't get into university?"
+      ],
+      "phonetic_hints": "'University' = yoo-NIV-er-sih-tee — five syllables, stress on second.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-19-sp-006",
+      "sentence": "If I have enough time this evening, I'll call you.",
+      "chunks": [
+        "If I have enough time this evening,",
+        "I'll call you."
+      ],
+      "phonetic_hints": "'Enough' = ih-NUF — stress on second syllable. 'Evening' = EEV-ning.",
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "G-19-sp-007",
+      "sentence": "The whole project will fail if we don't fix this problem quickly.",
+      "chunks": [
+        "The whole project will fail",
+        "if we don't fix this problem quickly."
+      ],
+      "phonetic_hints": "'Project' = PROJ-ekt — stress on first. 'Quickly' = KWIK-lee.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-19-sp-008",
+      "sentence": "If you see anything suspicious, please tell the security guard.",
+      "chunks": [
+        "If you see anything suspicious,",
+        "please tell the security guard."
+      ],
+      "phonetic_hints": "'Suspicious' = suh-SPISH-us — three syllables. 'Security' = sih-KYOOR-ih-tee.",
+      "pass_threshold": 0.6
+    }
+  ]
+}

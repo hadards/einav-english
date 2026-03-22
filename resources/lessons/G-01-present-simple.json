@@ -1,0 +1,448 @@
+{
+  "id": "G-01",
+  "title": "Present simple",
+  "level": "A2",
+  "order": 1,
+  "explain": {
+    "rule": "The present simple is used to talk about: (1) habits and routines — things you do regularly, (2) facts and things that are always true, (3) opinions and feelings, (4) schedules and timetables. The verb stays in its base form for I / you / we / they. For he / she / it — add -s or -es to the verb. To make a question or negative, use the helper verb do (I/you/we/they) or does (he/she/it). When you use do/does, the main verb always returns to its base form — never add -s to the main verb in a question or negative.",
+    "why_matters": "The present simple is the foundation of English. You use it in almost every conversation — describing your job, your family, your daily life, your opinions, and universal facts. If you get this tense right, a huge part of everyday English falls into place. It is also the tense you will compare every other tense to, so understanding it deeply makes everything else easier.",
+    "hebrew_note": "Hebrew speakers make three very common mistakes here. First: questions. In Hebrew you form a yes/no question with intonation alone — 'אתה אוהב קפה?' In English you MUST use do/does — 'Do you like coffee?' You cannot rely on intonation in writing. Second: negatives. In Hebrew you say 'אני לא אוהב' — just 'לא' before the verb. In English you need don't or doesn't — 'I don't like'. Third: the third-person -s. In English, only he/she/it gets a change (-s), and it is easy to forget under pressure. Also important: do NOT use present continuous for habits. 'I am working every day' is wrong. 'I work every day' is correct.",
+    "tip": "A simple trick for the -s rule: point to the person. If you can replace them with 'he', 'she', or 'it' — the verb needs an -s. Everyone else — no change. And remember: as soon as you use does or doesn't, the main verb drops its -s completely. Does takes the -s so the main verb does not have to.",
+    "form": {
+      "positive": "I/You/We/They + base verb | He/She/It + base verb + s/es",
+      "negative": "I/You/We/They + don't + base verb | He/She/It + doesn't + base verb",
+      "question": "Do + I/you/we/they + base verb? | Does + he/she/it + base verb?",
+      "short_answer": "Yes, I do. / No, I don't. | Yes, she does. / No, she doesn't."
+    },
+    "spelling_rules": [
+      { "rule": "Most verbs: add -s", "examples": "work→works, eat→eats, read→reads, speak→speaks, like→likes" },
+      { "rule": "Verbs ending in -ch, -sh, -ss, -x, -o: add -es", "examples": "teach→teaches, wash→washes, miss→misses, fix→fixes, go→goes, do→does" },
+      { "rule": "Verbs ending in consonant + y: change y to i, add -es", "examples": "study→studies, try→tries, fly→flies, carry→carries, worry→worries" },
+      { "rule": "Verbs ending in vowel + y: just add -s", "examples": "play→plays, say→says, enjoy→enjoys, stay→stays" },
+      { "rule": "Irregular: have→has, be→is", "examples": "She has a dog. / He is a doctor. / It has three rooms." }
+    ],
+    "frequency_adverbs": {
+      "note": "Frequency adverbs show how often something happens. They go BEFORE the main verb but AFTER the verb 'be'.",
+      "list": [
+        { "word": "always", "meaning": "100% of the time", "example": "I always brush my teeth before bed." },
+        { "word": "usually", "meaning": "about 80% of the time", "example": "She usually walks to work." },
+        { "word": "often", "meaning": "about 60% of the time", "example": "We often eat together on Fridays." },
+        { "word": "sometimes", "meaning": "about 40% of the time", "example": "He sometimes forgets his keys." },
+        { "word": "rarely / seldom", "meaning": "about 10% of the time", "example": "They rarely watch TV." },
+        { "word": "never", "meaning": "0% of the time", "example": "I never drink alcohol." }
+      ]
+    },
+    "good_examples": [
+      { "id": "G-01-ge-001", "sentence": "I work in a hospital.", "audio_text": "I work in a hospital.", "note": "Simple fact about yourself — I, no change to verb" },
+      { "id": "G-01-ge-002", "sentence": "She drinks coffee every morning.", "audio_text": "She drinks coffee every morning.", "note": "Habit — she gets -s on the verb: drink→drinks" },
+      { "id": "G-01-ge-003", "sentence": "Do you speak any other languages?", "audio_text": "Do you speak any other languages?", "note": "Question with do — verb stays as base form: speak (not speaks)" },
+      { "id": "G-01-ge-004", "sentence": "He doesn't eat meat.", "audio_text": "He doesn't eat meat.", "note": "Negative with doesn't — verb stays as base form: eat (not eats)" },
+      { "id": "G-01-ge-005", "sentence": "The sun rises in the east.", "audio_text": "The sun rises in the east.", "note": "Always-true fact — the sun = it, so rise→rises" },
+      { "id": "G-01-ge-006", "sentence": "We usually have dinner together at eight.", "audio_text": "We usually have dinner together at eight.", "note": "Routine — we, no change to verb. 'Usually' goes before the main verb." },
+      { "id": "G-01-ge-007", "sentence": "My mother teaches English at a high school.", "audio_text": "My mother teaches English at a high school.", "note": "teach ends in -ch → add -es → teaches" },
+      { "id": "G-01-ge-008", "sentence": "Does your father work from home?", "audio_text": "Does your father work from home?", "note": "Question with does — work stays as base form, no -s" },
+      { "id": "G-01-ge-009", "sentence": "The train to Jerusalem leaves at 9:15.", "audio_text": "The train to Jerusalem leaves at nine fifteen.", "note": "Timetable — present simple for fixed schedules" },
+      { "id": "G-01-ge-010", "sentence": "I don't think that's a good idea.", "audio_text": "I don't think that's a good idea.", "note": "Opinion — think/believe/know/understand are used in present simple, not continuous" },
+      { "id": "G-01-ge-011", "sentence": "Water boils at one hundred degrees Celsius.", "audio_text": "Water boils at one hundred degrees Celsius.", "note": "Scientific fact — water = it → boils" },
+      { "id": "G-01-ge-012", "sentence": "They never arrive on time.", "audio_text": "They never arrive on time.", "note": "Frequency adverb 'never' before the main verb" }
+    ],
+    "bad_examples": [
+      { "id": "G-01-be-001", "wrong": "She work in a school.", "correct": "She works in a school.", "reason": "With she/he/it you must add -s to the verb. 'She work' sounds unfinished to a native speaker." },
+      { "id": "G-01-be-002", "wrong": "You like pizza?", "correct": "Do you like pizza?", "reason": "English yes/no questions need do or does. Intonation alone works in Hebrew but not in English writing or formal speech." },
+      { "id": "G-01-be-003", "wrong": "He don't understand.", "correct": "He doesn't understand.", "reason": "Don't is for I/you/we/they only. For he/she/it always use doesn't." },
+      { "id": "G-01-be-004", "wrong": "Does she works here?", "correct": "Does she work here?", "reason": "When you use does, the main verb drops its -s completely. Does already shows it is he/she/it." },
+      { "id": "G-01-be-005", "wrong": "I am working here every day.", "correct": "I work here every day.", "reason": "For routines and habits, use present simple — not present continuous. 'Every day' is a strong signal for present simple." },
+      { "id": "G-01-be-006", "wrong": "She always is tired on Mondays.", "correct": "She is always tired on Mondays.", "reason": "Frequency adverbs go AFTER the verb 'be'. With all other verbs they go before." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "G-01-ex-001",
+      "type": "fill_blank",
+      "question": "She ___ (work) in a bank.",
+      "answer": "works",
+      "hint": "She = he/she/it → add -s to the verb",
+      "explanation": "With she, he, or it we always add -s or -es to the verb in present simple. work → works.",
+      "hebrew_note": "בעברית לא צריך לשנות את הפועל עבור גוף שלישי, אבל באנגלית חייבים להוסיף s"
+    },
+    {
+      "id": "G-01-ex-002",
+      "type": "fill_blank",
+      "question": "I ___ (not / like) spicy food.",
+      "answer": "don't like",
+      "hint": "For I, you, we, they — use don't + base verb",
+      "explanation": "Negatives with I/you/we/they use don't + base verb. Don't = do not. The main verb never changes.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-01-ex-003",
+      "type": "fill_blank",
+      "question": "___ he ___ (live) near the city centre?",
+      "answer": "Does / live",
+      "hint": "Question with he → Does at the start, then base verb — no -s on the verb!",
+      "explanation": "Questions with he/she/it: Does + subject + base verb. The verb loses its -s because Does already shows it is he/she/it.",
+      "hebrew_note": "בעברית שאלה = טון בלבד. באנגלית חייבים does/do בתחילת השאלה"
+    },
+    {
+      "id": "G-01-ex-004",
+      "type": "fill_blank",
+      "question": "Water ___ (boil) at 100 degrees.",
+      "answer": "boils",
+      "hint": "Water = it → add -s. This is an always-true fact.",
+      "explanation": "Facts that are always true use present simple. Water is 'it', so the verb gets -s. boil → boils.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-01-ex-005",
+      "type": "fill_blank",
+      "question": "They ___ (not / have) a car.",
+      "answer": "don't have",
+      "hint": "They → use don't. The main verb stays in base form.",
+      "explanation": "Negatives with they use don't + base verb. 'Have' stays as 'have' — never 'don't has'.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-01-ex-006",
+      "type": "fill_blank",
+      "question": "My sister ___ (teach) maths at a secondary school.",
+      "answer": "teaches",
+      "hint": "teach ends in -ch → add -es, not just -s",
+      "explanation": "Verbs ending in -ch, -sh, -ss, -x, -o add -es. teach → teaches, wash → washes, go → goes.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-01-ex-007",
+      "type": "fill_blank",
+      "question": "___ you ___ (understand) what the teacher says?",
+      "answer": "Do / understand",
+      "hint": "Question with you → Do at the start, base verb after subject",
+      "explanation": "Questions with I/you/we/they use Do + subject + base verb. The verb never changes in a question.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-01-ex-008",
+      "type": "fill_blank",
+      "question": "He ___ (not / watch) TV — he prefers to read.",
+      "answer": "doesn't watch",
+      "hint": "He → doesn't + base verb. The verb loses its -s.",
+      "explanation": "Negatives with he/she/it use doesn't + base verb. The verb stays in base form: doesn't watch, not doesn't watches.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-01-ex-009",
+      "type": "fill_blank",
+      "question": "The bus ___ (leave) every fifteen minutes.",
+      "answer": "leaves",
+      "hint": "The bus = it. This is a timetable / schedule.",
+      "explanation": "We use present simple for timetables and schedules. The bus = it, so leave → leaves.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-01-ex-010",
+      "type": "fill_blank",
+      "question": "David ___ (study) computer science at university.",
+      "answer": "studies",
+      "hint": "David = he. study ends in consonant + y → change y to i, add -es",
+      "explanation": "study → studies. When a verb ends in consonant + y (study, try, carry), change y to i and add -es for he/she/it.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-01-ex-011",
+      "type": "fill_blank",
+      "question": "___ your parents ___ (speak) any English?",
+      "answer": "Do / speak",
+      "hint": "Your parents = they → use Do",
+      "explanation": "Your parents = they. Questions with they use Do + subject + base verb. speak stays as speak.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-01-ex-012",
+      "type": "fill_blank",
+      "question": "She ___ (not / enjoy) long meetings at work.",
+      "answer": "doesn't enjoy",
+      "hint": "She → doesn't + base verb. enjoy ends in vowel + y so no spelling change.",
+      "explanation": "Negative with she: doesn't + base verb. enjoy → enjoy (vowel + y, no change). doesn't enjoy.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-01-ex-013",
+      "type": "fill_blank",
+      "question": "He ___ (go) to the gym three times a week.",
+      "answer": "goes",
+      "hint": "go ends in -o → add -es for he/she/it",
+      "explanation": "go is a special verb — for he/she/it it becomes goes (not gos). go → goes.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-01-ex-014",
+      "type": "fill_blank",
+      "question": "I ___ (always / drink) water before I go to bed.",
+      "answer": "always drink",
+      "hint": "Frequency adverbs go BEFORE the main verb for all verbs except 'be'",
+      "explanation": "'Always' is a frequency adverb. It goes before the main verb: I always drink, not I drink always.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-01-ex-015",
+      "type": "mcq",
+      "question": "Choose the correct sentence:",
+      "answer": "She doesn't like loud music.",
+      "hint": "Think about which negative form is correct for she",
+      "explanation": "With she/he/it, negatives use 'doesn't' + base verb. 'She don't like' is wrong — don't is only for I/you/we/they. 'Doesn't likes' is wrong — after doesn't the verb must be in base form.",
+      "distractors": [
+        "She don't like loud music.",
+        "She doesn't likes loud music.",
+        "She not like loud music."
+      ]
+    },
+    {
+      "id": "G-01-ex-016",
+      "type": "mcq",
+      "question": "Which question is correct?",
+      "answer": "Do they live in Tel Aviv?",
+      "hint": "They = I/you/we/they group → use Do",
+      "explanation": "'Do they live' is correct. Use Do for they. 'Does they' is wrong — Does is only for he/she/it. 'Do they lives' is wrong — in a question the verb stays in base form.",
+      "distractors": [
+        "Does they live in Tel Aviv?",
+        "They live in Tel Aviv?",
+        "Do they lives in Tel Aviv?"
+      ]
+    },
+    {
+      "id": "G-01-ex-017",
+      "type": "mcq",
+      "question": "My brother ___ football every Saturday morning.",
+      "answer": "plays",
+      "hint": "My brother = he → verb gets -s. play ends in vowel + y → just add -s",
+      "explanation": "'Plays' is correct. My brother = he, so we add -s. play ends in vowel (a) + y → just add -s → plays.",
+      "distractors": [
+        "play",
+        "is playing",
+        "plaies"
+      ]
+    },
+    {
+      "id": "G-01-ex-018",
+      "type": "mcq",
+      "question": "Does your mother ___ on Sundays?",
+      "answer": "work",
+      "hint": "After does, what form does the verb take?",
+      "explanation": "After does, the main verb always stays in base form: 'work', not 'works'. Does already signals he/she/it.",
+      "distractors": [
+        "works",
+        "working",
+        "worked"
+      ]
+    },
+    {
+      "id": "G-01-ex-019",
+      "type": "mcq",
+      "question": "Which sentence uses present simple correctly?",
+      "answer": "I always have breakfast before I leave the house.",
+      "hint": "Which sentence describes a habit using the correct tense and word order?",
+      "explanation": "Present simple is correct for routines. Frequency adverb 'always' goes before the main verb 'have'.",
+      "distractors": [
+        "I am always having breakfast before I leave.",
+        "I have always breakfast before I leave.",
+        "I does always have breakfast before I leave."
+      ]
+    },
+    {
+      "id": "G-01-ex-020",
+      "type": "mcq",
+      "question": "The conference ___ at nine o'clock tomorrow morning.",
+      "answer": "starts",
+      "hint": "This is a fixed, scheduled event. The conference = it.",
+      "explanation": "We use present simple for timetables and fixed schedules. The conference = it → starts.",
+      "distractors": [
+        "is starting",
+        "will starting",
+        "start"
+      ]
+    },
+    {
+      "id": "G-01-ex-021",
+      "type": "mcq",
+      "question": "She ___ tired on Monday mornings.",
+      "answer": "is always",
+      "hint": "With the verb 'be', the frequency adverb goes AFTER the verb, not before.",
+      "explanation": "Frequency adverbs go before main verbs BUT after the verb 'be'. Correct: she is always tired. Wrong: she always is tired.",
+      "distractors": [
+        "always is",
+        "always be",
+        "does always be"
+      ]
+    },
+    {
+      "id": "G-01-ex-022",
+      "type": "error_correction",
+      "question": "Find and fix the mistake: 'He don't understand the instructions.'",
+      "answer": "He doesn't understand the instructions.",
+      "hint": "Look at the negative helper verb — is it right for 'he'?",
+      "explanation": "'Don't' is for I/you/we/they. With he/she/it you must use 'doesn't'. The main verb stays as 'understand' — base form.",
+      "hebrew_note": "don't לעומת doesn't — he/she/it תמיד מקבלים doesn't"
+    },
+    {
+      "id": "G-01-ex-023",
+      "type": "error_correction",
+      "question": "Find and fix the mistake: 'Does she works in a hospital?'",
+      "answer": "Does she work in a hospital?",
+      "hint": "When you use Does, what happens to the main verb?",
+      "explanation": "When you use Does in a question, the main verb returns to its base form. 'works' → 'work'. Does already carries the he/she/it information.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-01-ex-024",
+      "type": "error_correction",
+      "question": "Find and fix the mistake: 'You like this restaurant?'",
+      "answer": "Do you like this restaurant?",
+      "hint": "How do we form a yes/no question in English?",
+      "explanation": "Yes/no questions in English always need Do or Does at the start. Intonation alone is not enough in written English.",
+      "hebrew_note": "בעברית שאלה יכולה להיווצר עם טון בלבד. באנגלית הכתובה חייבים Do/Does"
+    },
+    {
+      "id": "G-01-ex-025",
+      "type": "error_correction",
+      "question": "Find and fix the mistake: 'My father go to work by car every day.'",
+      "answer": "My father goes to work by car every day.",
+      "hint": "My father = he. What happens to 'go' for he/she/it?",
+      "explanation": "go is a special verb — for he/she/it it becomes goes (not gos). My father = he → goes.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-01-ex-026",
+      "type": "error_correction",
+      "question": "Find and fix the mistake: 'She is working in a clinic every Monday.'",
+      "answer": "She works in a clinic every Monday.",
+      "hint": "'Every Monday' = routine. Which tense is correct for routines?",
+      "explanation": "For regular routines and habits, use present simple — not present continuous. 'Every Monday' is a clear signal for present simple.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-01-ex-027",
+      "type": "error_correction",
+      "question": "Find and fix the mistake: 'She always is late to meetings.'",
+      "answer": "She is always late to meetings.",
+      "hint": "Where does a frequency adverb go when the verb is 'be'?",
+      "explanation": "With the verb 'be', frequency adverbs go AFTER the verb. She IS always late — not she always IS late.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-01-ex-028",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": ["every", "she", "morning", "does", "not", "exercise"],
+      "answer": "She does not exercise every morning.",
+      "hint": "Subject first. 'does not' comes before the base verb. Time expression at the end.",
+      "explanation": "Negative: subject + does not + base verb + time expression. 'Does not' = 'doesn't' in informal English."
+    },
+    {
+      "id": "G-01-ex-029",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": ["your", "do", "start", "when", "classes"],
+      "answer": "When do your classes start?",
+      "hint": "Question word comes first, then do, then subject, then verb",
+      "explanation": "Wh-question: question word + do/does + subject + base verb. Standard English question word order."
+    },
+    {
+      "id": "G-01-ex-030",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": ["the", "twice", "bus", "comes", "an", "hour"],
+      "answer": "The bus comes twice an hour.",
+      "hint": "The bus = it → verb gets -s. Frequency phrase at the end.",
+      "explanation": "'The bus' = it, so come → comes. 'Twice an hour' is a frequency expression that goes at the end."
+    },
+    {
+      "id": "G-01-ex-031",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": ["English", "does", "your", "speak", "manager"],
+      "answer": "Does your manager speak English?",
+      "hint": "Does comes first in yes/no questions. Subject goes between does and the verb.",
+      "explanation": "Yes/no question with does: Does + subject + base verb? Your manager = he/she → Does."
+    },
+    {
+      "id": "G-01-ex-032",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": ["usually", "they", "office", "the", "at", "eight", "open"],
+      "answer": "They usually open the office at eight.",
+      "hint": "Frequency adverbs like 'usually' go between the subject and the main verb.",
+      "explanation": "Frequency adverbs go before the main verb: subject + usually + verb + object + time."
+    }
+  ],
+  "speak": [
+    {
+      "id": "G-01-sp-001",
+      "sentence": "I usually wake up at seven o'clock in the morning.",
+      "chunks": ["I usually wake up", "at seven o'clock", "in the morning."],
+      "phonetic_hints": "'Usually' = YOO-zhoo-uh-lee — four syllables. 'Wake' — the vowel sounds like the 'a' in 'cake', not the 'a' in 'cat'. Don't swallow the final -k.",
+      "pass_threshold": 0.70
+    },
+    {
+      "id": "G-01-sp-002",
+      "sentence": "Do you speak any other languages besides Hebrew?",
+      "chunks": ["Do you speak", "any other languages", "besides Hebrew?"],
+      "phonetic_hints": "'Languages' = LANG-gwij-iz — three syllables. Don't say 'languagEES'. 'Besides' = bih-SYDZ — stress on the second syllable.",
+      "pass_threshold": 0.70
+    },
+    {
+      "id": "G-01-sp-003",
+      "sentence": "She doesn't work on Fridays because she studies in the afternoon.",
+      "chunks": ["She doesn't work on Fridays", "because she studies", "in the afternoon."],
+      "phonetic_hints": "'Doesn't' = DUZ-unt — say it as one smooth word. 'Studies' = STUD-eez — two syllables. 'Because' = bih-KOZ — stress on second syllable.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-01-sp-004",
+      "sentence": "My brother works as an engineer and travels a lot for his job.",
+      "chunks": ["My brother works as an engineer", "and travels a lot", "for his job."],
+      "phonetic_hints": "'Engineer' = en-jih-NEER — three syllables, stress on the last. 'Travels' = TRAV-ulz. Don't forget the final -s sound on both 'works' and 'travels'.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-01-sp-005",
+      "sentence": "How often do you exercise during the week?",
+      "chunks": ["How often do you exercise", "during the week?"],
+      "phonetic_hints": "'Often' — the T is silent: OFF-en. 'Exercise' = EK-ser-syz — three syllables, stress on the first. 'During' = DYOOR-ing.",
+      "pass_threshold": 0.70
+    },
+    {
+      "id": "G-01-sp-006",
+      "sentence": "The last bus to the city centre leaves at half past eleven.",
+      "chunks": ["The last bus to the city centre", "leaves at half past eleven."],
+      "phonetic_hints": "'Centre' = SEN-tuh. 'Leaves' — make sure you pronounce the final -z sound. 'Eleven' = ih-LEV-en — stress on the second syllable.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-01-sp-007",
+      "sentence": "I don't think it's a good idea to leave so late at night.",
+      "chunks": ["I don't think", "it's a good idea", "to leave so late at night."],
+      "phonetic_hints": "'Think' — the 'th' sound: put your tongue lightly between your teeth and blow air. Don't say 'tink'. 'Idea' = eye-DEE-uh — three syllables.",
+      "pass_threshold": 0.70
+    },
+    {
+      "id": "G-01-sp-008",
+      "sentence": "Does your company offer any work-from-home options these days?",
+      "chunks": ["Does your company offer", "any work-from-home options", "these days?"],
+      "phonetic_hints": "'Company' = KUM-puh-nee — three syllables, stress on the first. 'Offer' = OFF-er. 'Options' = OP-shunz. 'These' — th sound, not 'd' sound.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-01-sp-009",
+      "sentence": "My parents always drink tea together after dinner.",
+      "chunks": ["My parents always drink tea", "together after dinner."],
+      "phonetic_hints": "'Parents' = PAIR-unts — stress on first syllable. 'Always' = AWL-wayz. 'Together' = tuh-GETH-er — stress on second syllable. Practice the -th- in together.",
+      "pass_threshold": 0.70
+    },
+    {
+      "id": "G-01-sp-010",
+      "sentence": "She studies hard but she never worries about exams.",
+      "chunks": ["She studies hard", "but she never worries", "about exams."],
+      "phonetic_hints": "'Studies' = STUD-eez. 'Never' = NEV-er — stress on first syllable. 'Worries' = WUR-eez. 'Exams' = ig-ZAMZ — stress on second syllable.",
+      "pass_threshold": 0.65
+    }
+  ]
+}

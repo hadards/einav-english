@@ -1,0 +1,307 @@
+{
+  "id": "V-10",
+  "theme": "Education",
+  "level": "B1",
+  "words": [
+    {
+      "id": "V-10-w-001",
+      "word": "curriculum",
+      "part_of_speech": "noun",
+      "definition": "all the subjects and content taught in a school or programme",
+      "example_sentences": [
+        "The school updated its curriculum to include coding.",
+        "The history curriculum covers events from 1700 to present.",
+        "A broad curriculum prepares students for many careers."
+      ],
+      "pronunciation_tip": "kuh-RIK-yoo-lum — four syllables, stress on second.",
+      "common_mistake": "Don't say 'the programme of studies' — say 'the curriculum'.",
+      "collocations": "['school curriculum', 'curriculum development', 'national curriculum']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-10-w-002",
+      "word": "dissertation",
+      "part_of_speech": "noun",
+      "definition": "a long piece of research written for a university degree",
+      "example_sentences": [
+        "She spent a year writing her dissertation on urban poverty.",
+        "His dissertation was awarded the highest grade.",
+        "A dissertation is usually 10,000 to 15,000 words."
+      ],
+      "pronunciation_tip": "diss-er-TAY-shun — four syllables, stress on third.",
+      "common_mistake": "Don't say 'my long essay for university' — say 'my dissertation'.",
+      "collocations": "['write a dissertation', 'submit a dissertation', 'dissertation topic']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-10-w-003",
+      "word": "plagiarism",
+      "part_of_speech": "noun",
+      "definition": "copying someone else's work and presenting it as your own",
+      "example_sentences": [
+        "He was caught for plagiarism and failed the course.",
+        "Plagiarism is treated very seriously in universities.",
+        "Using AI to write your essay without declaring it may count as plagiarism."
+      ],
+      "pronunciation_tip": "PLAY-juh-riz-um — four syllables, stress on first.",
+      "common_mistake": "Don't say 'copying' only — say 'plagiarism' in academic contexts.",
+      "collocations": "['commit plagiarism', 'accused of plagiarism', 'plagiarism policy']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-10-w-004",
+      "word": "literacy",
+      "part_of_speech": "noun",
+      "definition": "the ability to read and write",
+      "example_sentences": [
+        "Literacy rates have improved significantly in recent decades.",
+        "Financial literacy is increasingly important for young people.",
+        "The programme aims to improve literacy in rural communities."
+      ],
+      "pronunciation_tip": "LIT-er-uh-see — four syllables, stress on first.",
+      "common_mistake": "Don't say 'the ability to read' — say 'literacy'.",
+      "collocations": "['improve literacy', 'literacy rates', 'financial literacy']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-10-w-005",
+      "word": "tuition",
+      "part_of_speech": "noun",
+      "definition": "teaching, especially individual or private teaching",
+      "example_sentences": [
+        "She gives private tuition in maths to school students.",
+        "Tuition fees at universities have risen sharply.",
+        "He improved dramatically with one-to-one tuition."
+      ],
+      "pronunciation_tip": "tyoo-ISH-un — three syllables, stress on second.",
+      "common_mistake": "Don't say 'teaching fee' only — 'tuition' also means the teaching itself.",
+      "collocations": "['private tuition', 'tuition fees', 'one-to-one tuition']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-10-w-006",
+      "word": "enrol",
+      "part_of_speech": "verb",
+      "definition": "to officially register on a course or at an institution",
+      "example_sentences": [
+        "She enrolled in a French evening class.",
+        "He enrolled at university in September.",
+        "You can enrol online or in person at the main office."
+      ],
+      "pronunciation_tip": "en-ROHL — stress on second syllable.",
+      "common_mistake": "Don't say 'I registered in the course' — say 'I enrolled in the course'.",
+      "collocations": "['enrol in', 'enrol at', 'enrol for']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-10-w-007",
+      "word": "peer pressure",
+      "part_of_speech": "noun",
+      "definition": "influence from people of your own age or social group",
+      "example_sentences": [
+        "Peer pressure can lead young people to make bad decisions.",
+        "She resisted peer pressure and made her own choices.",
+        "Peer pressure is strongest during teenage years."
+      ],
+      "pronunciation_tip": "PEER PRESH-er.",
+      "common_mistake": "Don't say 'pressure from friends' — say 'peer pressure'.",
+      "collocations": "['resist peer pressure', 'give in to peer pressure', 'peer pressure to']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-10-w-008",
+      "word": "syllabus",
+      "part_of_speech": "noun",
+      "definition": "a list of topics covered in a course or exam",
+      "example_sentences": [
+        "The syllabus covers grammar, vocabulary, and writing skills.",
+        "Check the syllabus before the exam to know what's included.",
+        "She designed the new syllabus herself."
+      ],
+      "pronunciation_tip": "SIL-uh-bus — three syllables, stress on first.",
+      "common_mistake": "Don't confuse syllabus (one course's content list) with curriculum (all subjects).",
+      "collocations": "['follow the syllabus', 'cover the syllabus', 'exam syllabus']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-10-w-009",
+      "word": "scholarship",
+      "part_of_speech": "noun",
+      "definition": "money given to a student to help pay for their education",
+      "example_sentences": [
+        "She won a scholarship to study at Oxford.",
+        "He received a full scholarship covering all tuition fees.",
+        "Many students rely on scholarships to fund their studies."
+      ],
+      "pronunciation_tip": "SKOL-er-ship — three syllables, stress on first.",
+      "common_mistake": "Don't say 'I got money for my studies' — say 'I was awarded a scholarship'.",
+      "collocations": "['win a scholarship', 'full scholarship', 'apply for a scholarship']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-10-w-010",
+      "word": "internship",
+      "part_of_speech": "noun",
+      "definition": "a period of work experience, often unpaid, as part of a course",
+      "example_sentences": [
+        "She did an internship at a law firm during her second year.",
+        "Internships are essential for building your CV.",
+        "He turned his internship into a full-time job."
+      ],
+      "pronunciation_tip": "IN-turn-ship — three syllables, stress on first.",
+      "common_mistake": "Don't say 'work experience placement' every time — say 'internship'.",
+      "collocations": "['do an internship', 'summer internship', 'paid internship']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-10-w-011",
+      "word": "assess",
+      "part_of_speech": "verb",
+      "definition": "to evaluate or measure someone's ability or knowledge",
+      "example_sentences": [
+        "The teacher assessed students through regular short tests.",
+        "The exam assesses reading, writing, and listening.",
+        "Students are assessed on both process and final outcome."
+      ],
+      "pronunciation_tip": "uh-SESS — two syllables, stress on second.",
+      "common_mistake": "Don't say 'test' and 'assess' interchangeably — assess is broader.",
+      "collocations": "['assess students', 'assess performance', 'assess knowledge']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-10-w-012",
+      "word": "attendance",
+      "part_of_speech": "noun",
+      "definition": "the act of being present at a place regularly",
+      "example_sentences": [
+        "Poor attendance will affect your final grade.",
+        "Attendance at lectures is not compulsory but is recommended.",
+        "She had perfect attendance throughout the year."
+      ],
+      "pronunciation_tip": "uh-TEN-dunss — three syllables, stress on second.",
+      "common_mistake": "Don't say 'coming to school regularly' as a noun — say 'attendance'.",
+      "collocations": "['poor attendance', 'attendance record', 'attendance rate']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-10-w-013",
+      "word": "motivate",
+      "part_of_speech": "verb",
+      "definition": "to give someone a reason and enthusiasm to do something",
+      "example_sentences": [
+        "The teacher motivated students by making lessons engaging.",
+        "It's hard to motivate yourself when you're exhausted.",
+        "Positive feedback motivates people far more than criticism."
+      ],
+      "pronunciation_tip": "MOH-tih-vayt — three syllables, stress on first.",
+      "common_mistake": "Don't say 'make people want to do something' — say 'motivate'.",
+      "collocations": "['motivate students', 'stay motivated', 'motivate yourself']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-10-w-014",
+      "word": "extracurricular",
+      "part_of_speech": "adjective",
+      "definition": "activities done outside the regular school or university curriculum",
+      "example_sentences": [
+        "She is involved in several extracurricular activities.",
+        "Sports, drama, and music are all extracurricular.",
+        "Extracurricular involvement looks good on a CV."
+      ],
+      "pronunciation_tip": "ek-struh-kuh-RIK-yoo-ler — six syllables, stress on fourth.",
+      "common_mistake": "Don't say 'activities outside class' every time — say 'extracurricular activities'.",
+      "collocations": "['extracurricular activities', 'extracurricular involvement', 'join extracurricular']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-10-w-015",
+      "word": "deadline",
+      "part_of_speech": "noun",
+      "definition": "the latest time by which work must be submitted",
+      "example_sentences": [
+        "The deadline for the essay is next Friday at noon.",
+        "She always submits work well before the deadline.",
+        "Missing deadlines can result in a grade penalty."
+      ],
+      "pronunciation_tip": "DED-lyn — stress on first syllable.",
+      "common_mistake": "Don't say 'last day to give the work' — say 'the deadline'.",
+      "collocations": "['meet a deadline', 'miss a deadline', 'submission deadline']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-10-w-016",
+      "word": "revision",
+      "part_of_speech": "noun",
+      "definition": "the process of reviewing and studying material before an exam",
+      "example_sentences": [
+        "She spent the whole week on exam revision.",
+        "Effective revision involves practising past papers.",
+        "He left his revision too late and struggled in the exam."
+      ],
+      "pronunciation_tip": "rih-VIZH-un — three syllables, stress on second.",
+      "common_mistake": "Don't say 'studying for the exam' — say 'doing revision' in British English.",
+      "collocations": "['do revision', 'exam revision', 'revision notes']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-10-w-017",
+      "word": "critical thinking",
+      "part_of_speech": "noun",
+      "definition": "the ability to analyse information and form your own conclusions",
+      "example_sentences": [
+        "University education is supposed to develop critical thinking.",
+        "Critical thinking is one of the most valued graduate skills.",
+        "The course encourages critical thinking rather than memorisation."
+      ],
+      "pronunciation_tip": "KRIT-ih-kul THINK-ing.",
+      "common_mistake": "Don't say 'thinking about things carefully' — say 'critical thinking' in academic contexts.",
+      "collocations": "['develop critical thinking', 'critical thinking skills', 'encourage critical thinking']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-10-w-018",
+      "word": "cohort",
+      "part_of_speech": "noun",
+      "definition": "a group of students who start a course at the same time",
+      "example_sentences": [
+        "Our cohort of 30 students started together in September.",
+        "The graduation cohort was the largest in the university's history.",
+        "She stayed in touch with several people from her cohort."
+      ],
+      "pronunciation_tip": "KOH-hawt — two syllables, stress on first.",
+      "common_mistake": "Don't say 'my class' in higher education — say 'my cohort'.",
+      "collocations": "['student cohort', 'graduation cohort', 'cohort of students']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-10-w-019",
+      "word": "feedback",
+      "part_of_speech": "noun",
+      "definition": "information given to someone about how they can improve",
+      "example_sentences": [
+        "The teacher gave detailed feedback on every essay.",
+        "Constructive feedback is more useful than just a grade.",
+        "She asked for feedback after her presentation."
+      ],
+      "pronunciation_tip": "FEED-bak — stress on first syllable.",
+      "common_mistake": "Don't say 'the teacher told me what to improve' — say 'the teacher gave me feedback'.",
+      "collocations": "['give feedback', 'receive feedback', 'constructive feedback']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-10-w-020",
+      "word": "graduate",
+      "part_of_speech": "verb/noun",
+      "definition": "to successfully complete a degree or school qualification",
+      "example_sentences": [
+        "She graduated from Tel Aviv University in 2020.",
+        "Recent graduates often struggle to find their first job.",
+        "He graduated with a first-class degree in economics."
+      ],
+      "pronunciation_tip": "GRAD-yoo-ayt (verb) / GRAD-yoo-ut (noun) — stress on first syllable for both.",
+      "common_mistake": "Don't say 'I finished university' — say 'I graduated from university'.",
+      "collocations": "['graduate from', 'recent graduate', 'graduate with']",
+      "difficulty": 1
+    }
+  ]
+}

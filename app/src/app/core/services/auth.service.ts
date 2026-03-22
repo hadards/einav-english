@@ -7,11 +7,20 @@ export class AuthService {
   private readonly supabase: SupabaseClient = createClient(
     environment.supabaseUrl,
     environment.supabaseAnonKey,
+    {
+      auth: {
+        storage: localStorage,
+        storageKey: 'sb-auth-token',
+        flowType: 'pkce',
+        lock: (name, acquireTimeout, fn) => fn(),
+      },
+    },
   );
 
   readonly currentUser$ = signal<User | null>(null);
   readonly currentSession$ = signal<Session | null>(null);
   readonly isLoggedIn$ = computed(() => this.currentUser$() !== null);
+  readonly sessionReady$ = signal(false);
 
   constructor() {
     const destroyRef = inject(DestroyRef);
@@ -19,6 +28,7 @@ export class AuthService {
     this.supabase.auth.getSession().then(({ data }) => {
       this.currentUser$.set(data.session?.user ?? null);
       this.currentSession$.set(data.session ?? null);
+      this.sessionReady$.set(true);
     });
 
     const { data: { subscription } } = this.supabase.auth.onAuthStateChange((_event, session) => {

@@ -1,0 +1,307 @@
+{
+  "id": "V-08",
+  "theme": "Technology",
+  "level": "B1",
+  "words": [
+    {
+      "id": "V-08-w-001",
+      "word": "algorithm",
+      "part_of_speech": "noun",
+      "definition": "a set of rules a computer follows to perform a task",
+      "example_sentences": [
+        "The search engine uses an algorithm to rank results.",
+        "Social media algorithms decide what content you see.",
+        "The algorithm was updated and traffic dropped significantly."
+      ],
+      "pronunciation_tip": "AL-guh-rith-um — four syllables, stress on first.",
+      "common_mistake": "Don't say 'the computer programme decides' — say 'the algorithm decides'.",
+      "collocations": "['search algorithm', 'algorithm update', 'run an algorithm']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-08-w-002",
+      "word": "bandwidth",
+      "part_of_speech": "noun",
+      "definition": "the amount of data that can be transmitted over a network",
+      "example_sentences": [
+        "Streaming HD video requires a lot of bandwidth.",
+        "Our bandwidth is limited so video calls are slow.",
+        "The company upgraded its bandwidth to handle more traffic."
+      ],
+      "pronunciation_tip": "BAND-width — stress on first syllable.",
+      "common_mistake": "Don't say 'internet speed' and 'bandwidth' interchangeably — bandwidth is capacity, speed is rate.",
+      "collocations": "['high bandwidth', 'use bandwidth', 'bandwidth limit']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-08-w-003",
+      "word": "encryption",
+      "part_of_speech": "noun",
+      "definition": "the process of converting data into a code to prevent unauthorised access",
+      "example_sentences": [
+        "End-to-end encryption means only you can read your messages.",
+        "All financial data is protected by strong encryption.",
+        "The encryption was so strong it could not be broken."
+      ],
+      "pronunciation_tip": "en-KRIP-shun — three syllables, stress on second.",
+      "common_mistake": "Don't say 'the data is hidden' — say 'the data is encrypted'.",
+      "collocations": "['end-to-end encryption', 'strong encryption', 'data encryption']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-08-w-004",
+      "word": "interface",
+      "part_of_speech": "noun",
+      "definition": "the point where two systems or a user and a system interact",
+      "example_sentences": [
+        "The user interface is clean and easy to navigate.",
+        "The software has an intuitive interface that anyone can use.",
+        "They redesigned the interface to make it more accessible."
+      ],
+      "pronunciation_tip": "IN-ter-fayss — three syllables, stress on first.",
+      "common_mistake": "Don't say 'the screen design' — say 'the user interface' or 'UI'.",
+      "collocations": "['user interface', 'intuitive interface', 'redesign the interface']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-08-w-005",
+      "word": "malware",
+      "part_of_speech": "noun",
+      "definition": "software designed to damage or disable computers",
+      "example_sentences": [
+        "The system was infected with malware.",
+        "Always use antivirus software to protect against malware.",
+        "The malware stole thousands of passwords."
+      ],
+      "pronunciation_tip": "MAL-wair — two syllables, stress on first.",
+      "common_mistake": "Don't say 'a computer virus' for all malicious software — malware is the general term.",
+      "collocations": "['malware attack', 'detect malware', 'remove malware']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-08-w-006",
+      "word": "firewall",
+      "part_of_speech": "noun",
+      "definition": "security software that blocks unauthorised access to a network",
+      "example_sentences": [
+        "The firewall prevented the hackers from getting in.",
+        "Make sure your firewall is up to date.",
+        "The company invested in a powerful firewall system."
+      ],
+      "pronunciation_tip": "FYR-wawl — two syllables, stress on first.",
+      "common_mistake": "Don't say 'security system' only — say 'firewall' for network protection.",
+      "collocations": "['install a firewall', 'bypass a firewall', 'firewall protection']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-08-w-007",
+      "word": "cloud storage",
+      "part_of_speech": "noun",
+      "definition": "saving data on internet servers rather than a local device",
+      "example_sentences": [
+        "I back up all my photos to cloud storage automatically.",
+        "Cloud storage means you can access files from anywhere.",
+        "The company moved all its data to cloud storage last year."
+      ],
+      "pronunciation_tip": "KLOWD STAWR-ij.",
+      "common_mistake": "Don't say 'I save online' — say 'I use cloud storage'.",
+      "collocations": "['cloud storage service', 'move to cloud storage', 'store in the cloud']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-08-w-008",
+      "word": "artificial intelligence",
+      "part_of_speech": "noun",
+      "definition": "computer systems able to perform tasks requiring human intelligence",
+      "example_sentences": [
+        "Artificial intelligence is transforming the way businesses operate.",
+        "AI can now write text, create images, and hold conversations.",
+        "The ethical implications of artificial intelligence are complex."
+      ],
+      "pronunciation_tip": "ar-tih-FISH-ul in-TEL-ih-junss.",
+      "common_mistake": "In everyday use, say 'AI' (AY-EYE) not the full phrase every time.",
+      "collocations": "['artificial intelligence system', 'AI technology', 'powered by AI']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-08-w-009",
+      "word": "disruptive",
+      "part_of_speech": "adjective",
+      "definition": "causing major changes to an established industry or technology",
+      "example_sentences": [
+        "Smartphones were disruptive technology that changed everything.",
+        "The start-up had a disruptive approach to banking.",
+        "Disruptive innovation can make existing businesses obsolete."
+      ],
+      "pronunciation_tip": "dis-RUP-tiv — three syllables, stress on second.",
+      "common_mistake": "Don't say 'it changed everything' — say 'it was disruptive technology'.",
+      "collocations": "['disruptive technology', 'disruptive innovation', 'disruptive force']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-08-w-010",
+      "word": "scalable",
+      "part_of_speech": "adjective",
+      "definition": "able to grow in size or capacity to meet increasing demand",
+      "example_sentences": [
+        "They need a scalable solution that can handle more users.",
+        "The cloud architecture is highly scalable.",
+        "A scalable business model is essential for growth."
+      ],
+      "pronunciation_tip": "SKAY-luh-bul — three syllables, stress on first.",
+      "common_mistake": "Don't say 'can grow' — say 'scalable' in tech and business contexts.",
+      "collocations": "['scalable solution', 'highly scalable', 'scalable system']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-08-w-011",
+      "word": "bug",
+      "part_of_speech": "noun",
+      "definition": "an error in a computer programme",
+      "example_sentences": [
+        "There's a bug in the code that causes it to crash.",
+        "The developers fixed several bugs in the latest update.",
+        "Report any bugs you find using the feedback button."
+      ],
+      "pronunciation_tip": "BUG — one syllable.",
+      "common_mistake": "Don't say 'mistake in the programme' — say 'bug'.",
+      "collocations": "['software bug', 'fix a bug', 'report a bug']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-08-w-012",
+      "word": "backup",
+      "part_of_speech": "noun/verb",
+      "definition": "a copy of data saved separately in case the original is lost",
+      "example_sentences": [
+        "Always back up your work in case the computer crashes.",
+        "I lost everything because I hadn't made a backup.",
+        "The system creates an automatic backup every night."
+      ],
+      "pronunciation_tip": "BAK-up — stress on first syllable.",
+      "common_mistake": "Don't say 'a copy of my files' always — say 'a backup' or 'back up your data'.",
+      "collocations": "['make a backup', 'automatic backup', 'back up data']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-08-w-013",
+      "word": "cybersecurity",
+      "part_of_speech": "noun",
+      "definition": "measures taken to protect computers and networks from attack",
+      "example_sentences": [
+        "Cybersecurity is a growing priority for every business.",
+        "The company hired a cybersecurity expert after the breach.",
+        "Poor cybersecurity can have devastating consequences."
+      ],
+      "pronunciation_tip": "sy-ber-sih-KYOOR-ih-tee — six syllables, stress on fourth.",
+      "common_mistake": "Don't say 'internet safety' — say 'cybersecurity' in professional contexts.",
+      "collocations": "['cybersecurity threat', 'cybersecurity expert', 'invest in cybersecurity']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-08-w-014",
+      "word": "automation",
+      "part_of_speech": "noun",
+      "definition": "the use of technology to perform tasks without human input",
+      "example_sentences": [
+        "Automation has replaced many factory jobs.",
+        "The company invested in automation to reduce costs.",
+        "Automation increases efficiency but reduces employment."
+      ],
+      "pronunciation_tip": "aw-tuh-MAY-shun — four syllables, stress on third.",
+      "common_mistake": "Don't say 'machines do the work' — say 'automation'.",
+      "collocations": "['industrial automation', 'increase automation', 'process automation']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-08-w-015",
+      "word": "upgrade",
+      "part_of_speech": "noun/verb",
+      "definition": "a new, improved version of something",
+      "example_sentences": [
+        "I need to upgrade my phone — it's very slow now.",
+        "The software upgrade fixed several security issues.",
+        "The company is planning a major infrastructure upgrade."
+      ],
+      "pronunciation_tip": "UP-grayd — stress on first syllable (noun), up-GRAYD (verb).",
+      "common_mistake": "Don't say 'I buy a newer version' — say 'I upgrade'.",
+      "collocations": "['software upgrade', 'hardware upgrade', 'upgrade to']",
+      "difficulty": 1
+    },
+    {
+      "id": "V-08-w-016",
+      "word": "phishing",
+      "part_of_speech": "noun",
+      "definition": "an attempt to trick someone into revealing passwords or financial information",
+      "example_sentences": [
+        "She received a phishing email pretending to be from her bank.",
+        "Phishing attacks are becoming increasingly sophisticated.",
+        "Never click links in emails — it could be phishing."
+      ],
+      "pronunciation_tip": "FISH-ing — same pronunciation as 'fishing'.",
+      "common_mistake": "Don't say 'a fake email to steal information' — say 'a phishing attack'.",
+      "collocations": "['phishing attack', 'phishing email', 'phishing scam']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-08-w-017",
+      "word": "latency",
+      "part_of_speech": "noun",
+      "definition": "a delay in the transmission of data between systems",
+      "example_sentences": [
+        "High latency makes online gaming frustrating.",
+        "The new connection has very low latency.",
+        "Latency is different from bandwidth — it measures delay, not capacity."
+      ],
+      "pronunciation_tip": "LAY-ten-see — three syllables, stress on first.",
+      "common_mistake": "Don't say 'the delay in my internet' — say 'high latency'.",
+      "collocations": "['high latency', 'low latency', 'reduce latency']",
+      "difficulty": 3
+    },
+    {
+      "id": "V-08-w-018",
+      "word": "data breach",
+      "part_of_speech": "noun",
+      "definition": "when private information is accessed or stolen illegally",
+      "example_sentences": [
+        "The company suffered a major data breach affecting millions.",
+        "A data breach can destroy customer trust overnight.",
+        "She was notified that her data had been exposed in a breach."
+      ],
+      "pronunciation_tip": "DAY-tuh BREECH.",
+      "common_mistake": "Don't say 'they stole the data' — say 'there was a data breach'.",
+      "collocations": "['suffer a data breach', 'major data breach', 'data breach notification']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-08-w-019",
+      "word": "virtual reality",
+      "part_of_speech": "noun",
+      "definition": "a computer-generated simulation of an environment",
+      "example_sentences": [
+        "Virtual reality headsets are becoming more affordable.",
+        "VR is used in training, gaming, and medicine.",
+        "She tried virtual reality for the first time at the exhibition."
+      ],
+      "pronunciation_tip": "VUR-chyoo-ul ree-AL-ih-tee.",
+      "common_mistake": "In everyday use, say 'VR' (VEE-AR) rather than the full phrase.",
+      "collocations": "['virtual reality headset', 'use virtual reality', 'VR experience']",
+      "difficulty": 2
+    },
+    {
+      "id": "V-08-w-020",
+      "word": "iterate",
+      "part_of_speech": "verb",
+      "definition": "to repeat a process, making improvements each time",
+      "example_sentences": [
+        "The development team iterates quickly based on user feedback.",
+        "We iterated on the design three times before launch.",
+        "Iterating is fundamental to agile software development."
+      ],
+      "pronunciation_tip": "IT-er-ayt — three syllables, stress on first.",
+      "common_mistake": "Don't say 'we improved it again' — say 'we iterated on the design'.",
+      "collocations": "['iterate on', 'iterate quickly', 'iterate based on feedback']",
+      "difficulty": 3
+    }
+  ]
+}

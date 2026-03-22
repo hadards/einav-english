@@ -1,0 +1,459 @@
+{
+  "id": "G-29",
+  "title": "Reported speech",
+  "level": "B2",
+  "order": 29,
+  "explain": {
+    "rule": "Reported speech reports what someone said without quoting exactly. When reporting verb (said, told) is past, tense shifts back: present simple → past simple, present continuous → past continuous, past simple → past perfect, will → would, can → could, must → had to, may → might. Pronouns and time words also change: I → he/she, here → there, now → then, today → that day, tomorrow → the next day. Say + that clause. Tell + person + that clause.",
+    "why_matters": "Essential for retelling conversations, reporting news, and relaying information. Appears constantly in speech and writing.",
+    "hebrew_note": "Hebrew often keeps the original tense: 'הוא אמר שהוא עייף' (he said he IS tired). English requires backshift: 'He said he WAS tired.' Also: say vs tell. Say = say + clause. Tell = tell + person + clause. 'He told that' = WRONG. 'He said me' = WRONG.",
+    "tip": "Say vs tell: SAY + (that) clause — no person. TELL + person + clause. No tense backshift needed for general truths: 'She said the Earth is round.' Reported questions use normal word order (no inversion): 'She asked where I lived' NOT 'She asked where did I live'.",
+    "good_examples": [
+      {
+        "id": "G-29-ge-001",
+        "sentence": "She said she was feeling much better.",
+        "audio_text": "She said she was feeling much better.",
+        "note": "'I am feeling better' → was feeling (tense shift)"
+      },
+      {
+        "id": "G-29-ge-002",
+        "sentence": "He told me he had already finished the report.",
+        "audio_text": "He told me he had already finished the report.",
+        "note": "'I have finished' → had finished (present perfect → past perfect)"
+      },
+      {
+        "id": "G-29-ge-003",
+        "sentence": "They said they would call later.",
+        "audio_text": "They said they would call later.",
+        "note": "'We will call' → would call"
+      },
+      {
+        "id": "G-29-ge-004",
+        "sentence": "She asked if I had seen the film.",
+        "audio_text": "She asked if I had seen the film.",
+        "note": "Yes/no question in reported form uses 'if'"
+      },
+      {
+        "id": "G-29-ge-005",
+        "sentence": "He wanted to know where she lived.",
+        "audio_text": "He wanted to know where she lived.",
+        "note": "Wh-question — normal word order, no inversion"
+      },
+      {
+        "id": "G-29-ge-006",
+        "sentence": "She told me not to worry.",
+        "audio_text": "She told me not to worry.",
+        "note": "Reported negative command: told + person + not to + verb"
+      },
+      {
+        "id": "G-29-ge-007",
+        "sentence": "He said he couldn't come to the meeting.",
+        "audio_text": "He said he couldn't come to the meeting.",
+        "note": "can't → couldn't"
+      },
+      {
+        "id": "G-29-ge-008",
+        "sentence": "They told us the results would be ready the following day.",
+        "audio_text": "They told us the results would be ready the following day.",
+        "note": "tomorrow → the following day"
+      },
+      {
+        "id": "G-29-ge-009",
+        "sentence": "He explained that water boils at 100 degrees.",
+        "audio_text": "He explained that water boils at 100 degrees.",
+        "note": "General truth — no tense change needed"
+      },
+      {
+        "id": "G-29-ge-010",
+        "sentence": "She said she had been waiting for over an hour.",
+        "audio_text": "She said she had been waiting for over an hour.",
+        "note": "Past continuous → past perfect continuous"
+      }
+    ],
+    "bad_examples": [
+      {
+        "id": "G-29-be-001",
+        "wrong": "He said he is tired. (past conversation)",
+        "correct": "He said he was tired.",
+        "reason": "When reporting verb is past (said), tense shifts back."
+      },
+      {
+        "id": "G-29-be-002",
+        "wrong": "She told that she was coming.",
+        "correct": "She said that she was coming. / She told me that she was coming.",
+        "reason": "Tell must be followed by a person. Say does NOT take a person."
+      },
+      {
+        "id": "G-29-be-003",
+        "wrong": "He said me he was busy.",
+        "correct": "He told me he was busy.",
+        "reason": "Say does not take a direct person. Told + person."
+      },
+      {
+        "id": "G-29-be-004",
+        "wrong": "She asked where did he live.",
+        "correct": "She asked where he lived.",
+        "reason": "Reported questions do NOT invert. Normal word order."
+      },
+      {
+        "id": "G-29-be-005",
+        "wrong": "He said he will call. (past conversation)",
+        "correct": "He said he would call.",
+        "reason": "will → would in reported speech."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "G-29-ex-001",
+      "type": "fill_blank",
+      "question": "Direct: 'I am tired.' → Reported: She said she ___ tired.",
+      "answer": "was",
+      "hint": "Present simple → past simple",
+      "explanation": "am → was.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-29-ex-002",
+      "type": "fill_blank",
+      "question": "Direct: 'I have finished.' → He said he ___ finished.",
+      "answer": "had",
+      "hint": "Present perfect → past perfect",
+      "explanation": "have → had.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-29-ex-003",
+      "type": "fill_blank",
+      "question": "Direct: 'I will call.' → She said she ___ call.",
+      "answer": "would",
+      "hint": "will → would",
+      "explanation": "will → would.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-29-ex-004",
+      "type": "fill_blank",
+      "question": "Direct: 'Can you help?' → She asked if I ___ help her.",
+      "answer": "could",
+      "hint": "can → could",
+      "explanation": "can → could.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-29-ex-005",
+      "type": "fill_blank",
+      "question": "She ___ (tell) me she was going to be late.",
+      "answer": "told",
+      "hint": "tell + person",
+      "explanation": "told me — tell takes a person.",
+      "hebrew_note": "tell + אדם"
+    },
+    {
+      "id": "G-29-ex-006",
+      "type": "fill_blank",
+      "question": "He said he ___ (not/can) come to the party.",
+      "answer": "couldn't",
+      "hint": "can → could, negative",
+      "explanation": "can't → couldn't.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-29-ex-007",
+      "type": "fill_blank",
+      "question": "She asked where I ___ (live).",
+      "answer": "lived",
+      "hint": "Reported wh-question: normal word order",
+      "explanation": "lived — no inversion, tense shifts back.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-29-ex-008",
+      "type": "fill_blank",
+      "question": "They told us the results ___ (be) ready the next day.",
+      "answer": "would be",
+      "hint": "will be → would be",
+      "explanation": "will be → would be.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-29-ex-009",
+      "type": "fill_blank",
+      "question": "He said he ___ (study) when she called.",
+      "answer": "had been studying",
+      "hint": "Past continuous → past perfect continuous",
+      "explanation": "was studying → had been studying.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-29-ex-010",
+      "type": "fill_blank",
+      "question": "She asked me ___ I ___ (see) the new film.",
+      "answer": "if / had seen",
+      "hint": "Yes/no question → if + past perfect",
+      "explanation": "asked if + had seen.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-29-ex-011",
+      "type": "fill_blank",
+      "question": "He told me ___ (not/be) late.",
+      "answer": "not to be",
+      "hint": "Reported negative command: not to + verb",
+      "explanation": "told me not to be.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-29-ex-012",
+      "type": "fill_blank",
+      "question": "She said she ___ (may/be) late.",
+      "answer": "might be",
+      "hint": "may → might",
+      "explanation": "may → might.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-29-ex-013",
+      "type": "mcq",
+      "question": "He said he ___ working on the project.",
+      "answer": "was",
+      "hint": "Present continuous → past continuous",
+      "explanation": "was working.",
+      "distractors": [
+        "is",
+        "has been",
+        "will be"
+      ],
+      "hebrew_note": null
+    },
+    {
+      "id": "G-29-ex-014",
+      "type": "mcq",
+      "question": "She told ___ she was feeling better.",
+      "answer": "me",
+      "hint": "tell + person",
+      "explanation": "told me — person object required.",
+      "distractors": "that / to me / —",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-29-ex-015",
+      "type": "mcq",
+      "question": "He asked ___ I had finished.",
+      "answer": "if / whether",
+      "hint": "Yes/no reported question",
+      "explanation": "if or whether.",
+      "distractors": [
+        "that",
+        "what",
+        "when"
+      ],
+      "hebrew_note": null
+    },
+    {
+      "id": "G-29-ex-016",
+      "type": "mcq",
+      "question": "She asked where ___ from.",
+      "answer": "I came",
+      "hint": "Normal word order in reported question",
+      "explanation": "where I came — no inversion.",
+      "distractors": "did I come / I did come / came I",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-29-ex-017",
+      "type": "mcq",
+      "question": "They said the meeting ___ at 9am.",
+      "answer": "would start",
+      "hint": "will → would",
+      "explanation": "would start.",
+      "distractors": [
+        "will start",
+        "starts",
+        "has started"
+      ],
+      "hebrew_note": null
+    },
+    {
+      "id": "G-29-ex-018",
+      "type": "mcq",
+      "question": "Which correctly reports: 'I must leave now.'?",
+      "answer": "She said she had to leave.",
+      "hint": "must → had to",
+      "explanation": "must → had to (must has no past form).",
+      "distractors": "She said she must leave. / She said she musted leave. / She said she should leave.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-29-ex-019",
+      "type": "error_correction",
+      "question": "Find and fix: 'He said he is coming.' (past conversation)",
+      "answer": "He said he was coming.",
+      "hint": "Tense must shift when reporting verb is past",
+      "explanation": "said → was coming.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-29-ex-020",
+      "type": "error_correction",
+      "question": "Find and fix: 'She told that she was busy.'",
+      "answer": "She said that she was busy. / She told me that she was busy.",
+      "hint": "tell requires a person; say does not",
+      "explanation": "told + person OR said + clause.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-29-ex-021",
+      "type": "error_correction",
+      "question": "Find and fix: 'He said me he was hungry.'",
+      "answer": "He told me he was hungry.",
+      "hint": "say does not take a person",
+      "explanation": "say + clause. told + person + clause.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-29-ex-022",
+      "type": "error_correction",
+      "question": "Find and fix: 'She asked where did he work.'",
+      "answer": "She asked where he worked.",
+      "hint": "No inversion in reported questions",
+      "explanation": "where he worked — normal word order.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-29-ex-023",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "said",
+        "she",
+        "she",
+        "was",
+        "tired",
+        "too",
+        "come",
+        "to"
+      ],
+      "answer": "She said she was too tired to come.",
+      "hint": "Tense shift: am → was",
+      "explanation": "said + she was (tense shift).",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-29-ex-024",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "told",
+        "he",
+        "me",
+        "had",
+        "he",
+        "already",
+        "finished"
+      ],
+      "answer": "He told me he had already finished.",
+      "hint": "tell + person + past perfect",
+      "explanation": "told me + had finished.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-29-ex-025",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": [
+        "asked",
+        "where",
+        "she",
+        "I",
+        "lived"
+      ],
+      "answer": "She asked where I lived.",
+      "hint": "Normal word order in reported question",
+      "explanation": "asked where I lived — no inversion.",
+      "hebrew_note": null
+    }
+  ],
+  "speak": [
+    {
+      "id": "G-29-sp-001",
+      "sentence": "She told me she had been waiting for over an hour and was really frustrated.",
+      "chunks": [
+        "She told me she had been waiting for over an hour",
+        "and was really frustrated."
+      ],
+      "phonetic_hints": "'Frustrated' = FRUS-tray-tid.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-29-sp-002",
+      "sentence": "He said he would call me back but I still haven't heard from him.",
+      "chunks": [
+        "He said he would call me back",
+        "but I still haven't heard from him."
+      ],
+      "phonetic_hints": "'Would' = WOOD. 'Heard from' = received contact.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-29-sp-003",
+      "sentence": "She asked me if I had ever been to Japan and whether I would recommend it.",
+      "chunks": [
+        "She asked me if I had ever been to Japan",
+        "and whether I would recommend it."
+      ],
+      "phonetic_hints": "'Whether' = WETH-er. 'Recommend' = rek-uh-MEND.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-29-sp-004",
+      "sentence": "He told me not to worry about the deadline and that he would handle it.",
+      "chunks": [
+        "He told me not to worry about the deadline",
+        "and that he would handle it."
+      ],
+      "phonetic_hints": "'Deadline' = DED-lyn. 'Handle' = HAN-dul.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-29-sp-005",
+      "sentence": "They announced that the results would be published the following week.",
+      "chunks": [
+        "They announced that the results",
+        "would be published the following week."
+      ],
+      "phonetic_hints": "'Announced' = uh-NOWNSED.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-29-sp-006",
+      "sentence": "She said she couldn't understand why the project had been cancelled.",
+      "chunks": [
+        "She said she couldn't understand",
+        "why the project had been cancelled."
+      ],
+      "phonetic_hints": "'Couldn't' = KOOD-unt. 'Cancelled' = KAN-suld.",
+      "pass_threshold": 0.6
+    },
+    {
+      "id": "G-29-sp-007",
+      "sentence": "He asked where I was from and how long I had been living here.",
+      "chunks": [
+        "He asked where I was from",
+        "and how long I had been living here."
+      ],
+      "phonetic_hints": "Normal word order in reported questions.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-29-sp-008",
+      "sentence": "The manager explained that the decision had already been made by the board.",
+      "chunks": [
+        "The manager explained that the decision",
+        "had already been made by the board."
+      ],
+      "phonetic_hints": "'Manager' = MAN-ih-jer. 'Decision' = dih-SIH-zhun.",
+      "pass_threshold": 0.6
+    }
+  ]
+}

@@ -1,0 +1,412 @@
+{
+  "id": "G-02",
+  "title": "Past simple — regular verbs",
+  "level": "A2",
+  "order": 2,
+  "explain": {
+    "rule": "The past simple describes completed actions in the past. For regular verbs, add -ed to the base verb. For questions, use did + subject + base verb. For negatives, use didn't + base verb. The verb never changes for any person — I worked, you worked, he worked, we worked, they worked.",
+    "full_explanation": "The past simple is used for any action that started and finished in the past. It does not matter if the action happened one second ago or one hundred years ago — if it is finished and in the past, use past simple. The key signal is that there is usually a time expression: yesterday, last week, in 2015, when I was young, an hour ago.",
+    "form_table": {
+      "positive": [
+        "All persons: subject + verb+ed → I worked, you walked, he talked, she visited, we finished, they started"
+      ],
+      "negative": [
+        "All persons: subject + didn't + base verb → I didn't work, she didn't go, they didn't finish"
+      ],
+      "question": [
+        "All persons: Did + subject + base verb? → Did you work? Did she go? Did they finish?"
+      ],
+      "short_answers": [
+        "Yes, I did. / No, I didn't.",
+        "Yes, she did. / No, she didn't."
+      ]
+    },
+    "spelling_rules": [
+      "Most verbs: add -ed → work→worked, talk→talked, start→started, finish→finished",
+      "Verbs ending in -e: add only -d → live→lived, love→loved, arrive→arrived, use→used",
+      "Verbs ending in consonant + y: change y to i, add -ed → study→studied, try→tried, carry→carried",
+      "Verbs ending in vowel + y: just add -ed → play→played, enjoy→enjoyed, stay→stayed",
+      "Short verbs ending in one vowel + one consonant: double the consonant, add -ed → stop→stopped, plan→planned, drop→dropped, travel→travelled (UK), traveled (US)"
+    ],
+    "when_to_use": [
+      "Completed actions at a specific time in the past: I visited my grandmother last Sunday.",
+      "A series of completed past actions: She woke up, had breakfast, and left the house.",
+      "Past habits that no longer happen (with used to or just past simple): As a child, I walked to school every day.",
+      "Stories and narratives: The story started in a small village in the north of England.",
+      "Historical facts with specific times: Neil Armstrong walked on the moon in 1969."
+    ],
+    "time_expressions": [
+      "yesterday, yesterday morning/afternoon/evening",
+      "last night, last week, last month, last year, last Tuesday",
+      "ago: two hours ago, three days ago, a week ago, five years ago",
+      "in + year: in 2010, in 1995, in the 1980s",
+      "when I was young / a child / a student",
+      "at + time: at seven o'clock, at midnight",
+      "on + day: on Monday, on my birthday",
+      "in + month/season: in January, in the summer"
+    ],
+    "why_matters": "The past simple is the main tense for telling stories and describing past events. Any time you talk about something that happened — a holiday, your childhood, what happened yesterday, news events, history — you need the past simple. It is one of the most used tenses in English storytelling and conversation.",
+    "hebrew_note": "The past simple is quite familiar to Hebrew speakers because Hebrew also has a clear past tense that describes completed actions. The main differences are: (1) In English, the verb form is the same for ALL persons — I worked, she worked, they worked. There is no feminine or plural distinction in the verb itself. (2) English uses 'did' to make questions and 'didn't' to make negatives — Hebrew uses a different structure. (3) The word order in English questions is: Did + subject + base verb? You cannot say 'You worked yesterday?' as a proper question.",
+    "tip": "Remember: in past simple, 'did' does all the work. Once you use did or didn't, the main verb goes back to its simplest base form. Did you work? She didn't work. Did they arrive? Never say 'Did you worked?' or 'She didn't worked' — the -ed is in did, not in the main verb.",
+    "common_errors": [
+      { "wrong": "Did you worked yesterday?", "correct": "Did you work yesterday?", "reason": "After did, the verb returns to base form — no -ed" },
+      { "wrong": "She didn't finished her homework.", "correct": "She didn't finish her homework.", "reason": "After didn't, the verb returns to base form" },
+      { "wrong": "I have visited Paris last year.", "correct": "I visited Paris last year.", "reason": "Specific past time expressions (last year) always use past simple, not present perfect" },
+      { "wrong": "Yesterday I work very late.", "correct": "Yesterday I worked very late.", "reason": "'Yesterday' signals past tense — the verb needs -ed" },
+      { "wrong": "We stoped the car.", "correct": "We stopped the car.", "reason": "Short verb ending in one vowel + one consonant: double the consonant — stop→stopped" }
+    ],
+    "good_examples": [
+      { "id": "G-02-ge-001", "sentence": "I visited my grandparents last weekend.", "audio_text": "I visited my grandparents last weekend.", "note": "Completed action with time expression 'last weekend'" },
+      { "id": "G-02-ge-002", "sentence": "She studied English for three hours yesterday.", "audio_text": "She studied English for three hours yesterday.", "note": "study→studied — consonant + y rule" },
+      { "id": "G-02-ge-003", "sentence": "Did you enjoy the film?", "audio_text": "Did you enjoy the film?", "note": "Question with did — enjoy stays as base verb" },
+      { "id": "G-02-ge-004", "sentence": "They didn't arrive until midnight.", "audio_text": "They didn't arrive until midnight.", "note": "Negative with didn't — arrive stays as base verb" },
+      { "id": "G-02-ge-005", "sentence": "We moved to Tel Aviv three years ago.", "audio_text": "We moved to Tel Aviv three years ago.", "note": "move→moved — verb ending in -e, add only -d" },
+      { "id": "G-02-ge-006", "sentence": "The concert started at eight and finished at eleven.", "audio_text": "The concert started at eight and finished at eleven.", "note": "Two completed past actions in sequence" },
+      { "id": "G-02-ge-007", "sentence": "When did you last travel abroad?", "audio_text": "When did you last travel abroad?", "note": "Wh-question with did — travel stays as base verb" },
+      { "id": "G-02-ge-008", "sentence": "He stopped the car and stepped out.", "audio_text": "He stopped the car and stepped out.", "note": "stop→stopped — short verb, double the consonant" }
+    ],
+    "bad_examples": [
+      { "id": "G-02-be-001", "wrong": "Did you worked yesterday?", "correct": "Did you work yesterday?", "reason": "After did, the main verb must be base form — no -ed" },
+      { "id": "G-02-be-002", "wrong": "She didn't finished her homework.", "correct": "She didn't finish her homework.", "reason": "After didn't, the main verb must be base form" },
+      { "id": "G-02-be-003", "wrong": "I have visited Paris last year.", "correct": "I visited Paris last year.", "reason": "'Last year' is a specific past time — always use past simple, never present perfect" },
+      { "id": "G-02-be-004", "wrong": "We stoped the car suddenly.", "correct": "We stopped the car suddenly.", "reason": "Short verb (one vowel + one consonant at the end): double the consonant before -ed" },
+      { "id": "G-02-be-005", "wrong": "Yesterday I work very late.", "correct": "Yesterday I worked very late.", "reason": "'Yesterday' signals that this is past — the verb must have -ed" }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "G-02-ex-001",
+      "type": "fill_blank",
+      "question": "She ___ (visit) her aunt in Haifa last Saturday.",
+      "answer": "visited",
+      "hint": "Regular verb in the past → add -ed",
+      "explanation": "Visit is a regular verb. Past simple = visited. Time expression 'last Saturday' confirms past tense.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-02-ex-002",
+      "type": "fill_blank",
+      "question": "I ___ (not / watch) television last night — I read a book.",
+      "answer": "didn't watch",
+      "hint": "Past negative → didn't + base verb (no -ed!)",
+      "explanation": "Past negatives use didn't + base verb. Watch stays as 'watch' — not 'watched'.",
+      "hebrew_note": "בעברית: 'לא צפיתי' — הפועל מוטה. באנגלית: didn't watch — הפועל נשאר בצורת הבסיס"
+    },
+    {
+      "id": "G-02-ex-003",
+      "type": "fill_blank",
+      "question": "___ (you / enjoy) the concert last night?",
+      "answer": "Did you enjoy",
+      "hint": "Past question → Did + subject + base verb",
+      "explanation": "Past questions: Did + subject + base verb. Enjoy stays as 'enjoy' after did — not 'enjoyed'.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-02-ex-004",
+      "type": "fill_blank",
+      "question": "They ___ (move) to a new apartment two months ago.",
+      "answer": "moved",
+      "hint": "Move ends in -e → add only -d",
+      "explanation": "Verbs ending in -e just add -d: move→moved, love→loved, live→lived.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-02-ex-005",
+      "type": "fill_blank",
+      "question": "He ___ (study) for the exam all night.",
+      "answer": "studied",
+      "hint": "Study ends in consonant + y → change y to i, add -ed",
+      "explanation": "Study → studied. Consonant (d) + y: change y to i, add -ed. Other examples: try→tried, carry→carried.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-02-ex-006",
+      "type": "fill_blank",
+      "question": "We ___ (not / finish) the project on time.",
+      "answer": "didn't finish",
+      "hint": "Past negative → didn't + base verb",
+      "explanation": "Didn't + base verb. Finish stays as 'finish' — not 'didn't finished'.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-02-ex-007",
+      "type": "fill_blank",
+      "question": "The rain ___ (stop) at about five o'clock.",
+      "answer": "stopped",
+      "hint": "Stop ends in one vowel + one consonant → double the consonant, add -ed",
+      "explanation": "Stop → stopped. Short verb rule: one vowel (o) + one consonant (p) at the end → double the final consonant.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-02-ex-008",
+      "type": "fill_blank",
+      "question": "When ___ (the meeting / start)?",
+      "answer": "did the meeting start",
+      "hint": "When question in the past → When + did + subject + base verb",
+      "explanation": "Wh-questions in the past: question word + did + subject + base verb. Start stays as 'start'.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-02-ex-009",
+      "type": "fill_blank",
+      "question": "She ___ (play) the piano when she was a child.",
+      "answer": "played",
+      "hint": "Play ends in vowel + y → just add -ed",
+      "explanation": "Play ends in vowel (a) + y → just add -ed: played. Compare: study (consonant + y) → studied.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-02-ex-010",
+      "type": "fill_blank",
+      "question": "I ___ (not / like) vegetables when I was young, but now I do.",
+      "answer": "didn't like",
+      "hint": "Past negative + like ends in -e → base form is 'like'",
+      "explanation": "Didn't + base verb. Like ends in -e but that doesn't matter here — after didn't the verb is always base form.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-02-ex-011",
+      "type": "fill_blank",
+      "question": "The children ___ (arrive) at school very early this morning.",
+      "answer": "arrived",
+      "hint": "Arrive ends in -e → add only -d",
+      "explanation": "Arrive → arrived. Ends in -e, so add just -d.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-02-ex-012",
+      "type": "fill_blank",
+      "question": "___ (they / travel) to Europe for their holiday last summer?",
+      "answer": "Did they travel",
+      "hint": "Past question → Did + subject + base verb",
+      "explanation": "Did + they + travel. Travel is the base form — not 'travelled' after did.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-02-ex-013",
+      "type": "mcq",
+      "question": "Choose the correctly formed past simple sentence:",
+      "answer": "She finished her report an hour ago.",
+      "hint": "Which sentence follows all the rules for past simple?",
+      "explanation": "'Finished' is correct — finish + ed. 'An hour ago' confirms past. The other options have errors in question/negative formation.",
+      "distractors": [
+        "She finished her report an hour ago? (wrong punctuation for statement)",
+        "She did finished her report an hour ago.",
+        "She finish her report an hour ago."
+      ]
+    },
+    {
+      "id": "G-02-ex-014",
+      "type": "mcq",
+      "question": "Which question is correctly formed?",
+      "answer": "Did you call your mother yesterday?",
+      "hint": "Past question = Did + subject + base verb",
+      "explanation": "'Did you call' is correct. After did, the verb must be base form. 'Called' after did is wrong. 'You called yesterday?' has no did.",
+      "distractors": [
+        "Did you called your mother yesterday?",
+        "You called your mother yesterday?",
+        "Do you call your mother yesterday?"
+      ]
+    },
+    {
+      "id": "G-02-ex-015",
+      "type": "mcq",
+      "question": "They ___ the game because they played very well.",
+      "answer": "won",
+      "hint": "Think about the meaning — what is the natural verb here? Note: this is an irregular verb preview.",
+      "explanation": "'Won' is the past of 'win'. This is an irregular verb — it will be covered fully in G-03. For now, notice that past simple is used here because the game is over.",
+      "distractors": [
+        "win",
+        "winned",
+        "wins"
+      ]
+    },
+    {
+      "id": "G-02-ex-016",
+      "type": "mcq",
+      "question": "I ___ (not) to the party because I was tired.",
+      "answer": "didn't go",
+      "hint": "Past negative → didn't + base verb",
+      "explanation": "'Didn't go' is correct. Go is the base verb. 'Didn't went' is a very common error — after didn't, NEVER use the past form.",
+      "distractors": [
+        "didn't went",
+        "don't go",
+        "not went"
+      ]
+    },
+    {
+      "id": "G-02-ex-017",
+      "type": "mcq",
+      "question": "The correct spelling of the past simple of 'plan' is:",
+      "answer": "planned",
+      "hint": "Plan ends in one vowel + one consonant — what is the spelling rule?",
+      "explanation": "Plan → planned. Short verb: one vowel (a) + one consonant (n) → double the final consonant before -ed.",
+      "distractors": [
+        "planed",
+        "planed",
+        "plann-ed"
+      ]
+    },
+    {
+      "id": "G-02-ex-018",
+      "type": "mcq",
+      "question": "Which time expression tells you to use past simple?",
+      "answer": "three days ago",
+      "hint": "Which expression places the action firmly in the past at a specific time?",
+      "explanation": "'Three days ago' is a specific completed past time → past simple. 'Since' and 'already' are associated with present perfect (G-15). 'Now' signals present.",
+      "distractors": [
+        "since last week",
+        "already",
+        "right now"
+      ]
+    },
+    {
+      "id": "G-02-ex-019",
+      "type": "error_correction",
+      "question": "Find and fix the mistake: 'Did you enjoyed the party last night?'",
+      "answer": "Did you enjoy the party last night?",
+      "hint": "What happens to the main verb after did in a question?",
+      "explanation": "After did, the main verb returns to its base form. 'Enjoyed' → 'enjoy'. Did already shows the past tense.",
+      "hebrew_note": "זהו טעות נפוצה מאוד — 'Did you enjoyed' טבעי ללומדים כי הם רוצים לסמן עבר פעמיים. אבל did כבר עושה זאת."
+    },
+    {
+      "id": "G-02-ex-020",
+      "type": "error_correction",
+      "question": "Find and fix the mistake: 'She didn't finished her homework before dinner.'",
+      "answer": "She didn't finish her homework before dinner.",
+      "hint": "What form does the main verb take after didn't?",
+      "explanation": "Didn't + base verb. 'Finish' is the base form — not 'finished'. The -ed ending is already in 'didn't'.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-02-ex-021",
+      "type": "error_correction",
+      "question": "Find and fix the mistake: 'Yesterday I work from nine to six.'",
+      "answer": "Yesterday I worked from nine to six.",
+      "hint": "'Yesterday' is a past time expression — what does the verb need?",
+      "explanation": "'Yesterday' confirms this is a past action. The verb needs -ed: work → worked.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-02-ex-022",
+      "type": "error_correction",
+      "question": "Find and fix the mistake: 'We stoped at a cafe on the way home.'",
+      "answer": "We stopped at a cafe on the way home.",
+      "hint": "Stop ends in one vowel + one consonant — what is the spelling rule?",
+      "explanation": "Stop → stopped. One vowel (o) + one consonant (p) → double the final consonant before -ed.",
+      "hebrew_note": null
+    },
+    {
+      "id": "G-02-ex-023",
+      "type": "error_correction",
+      "question": "Find and fix the mistake: 'I have visited London last year.'",
+      "answer": "I visited London last year.",
+      "hint": "'Last year' is a specific past time — which tense does it need?",
+      "explanation": "Specific past time expressions (last year, yesterday, in 2019, two weeks ago) always require past simple, not present perfect.",
+      "hebrew_note": "דוברי עברית לעיתים משתמשים בצורה מורכבת יותר כשהם לא בטוחים. אבל עם 'last year' — תמיד past simple"
+    },
+    {
+      "id": "G-02-ex-024",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": ["the", "did", "film", "you", "enjoy", "last", "night"],
+      "answer": "Did you enjoy the film last night?",
+      "hint": "Past question: Did + subject + base verb + object + time",
+      "explanation": "Did + you + enjoy (base verb) + the film (object) + last night (time). Never 'Did you enjoyed'."
+    },
+    {
+      "id": "G-02-ex-025",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": ["didn't", "she", "answer", "phone", "her"],
+      "answer": "She didn't answer her phone.",
+      "hint": "Past negative: subject + didn't + base verb + object",
+      "explanation": "Subject (she) + didn't + base verb (answer) + object (her phone)."
+    },
+    {
+      "id": "G-02-ex-026",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": ["ago", "arrived", "they", "minutes", "ten"],
+      "answer": "They arrived ten minutes ago.",
+      "hint": "Subject + past verb + time expression with 'ago'",
+      "explanation": "Positive past: subject + verb+ed + time. 'Ago' always goes at the end of the time expression."
+    },
+    {
+      "id": "G-02-ex-027",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": ["when", "the", "programme", "did", "start", "television"],
+      "answer": "When did the television programme start?",
+      "hint": "Wh-question: when + did + subject + base verb",
+      "explanation": "When + did + the television programme (subject) + start (base verb). Note: no -ed after did."
+    },
+    {
+      "id": "G-02-ex-028",
+      "type": "sentence_builder",
+      "question": "Put the words in the correct order:",
+      "words": ["her", "studied", "all", "she", "notes", "evening"],
+      "answer": "She studied her notes all evening.",
+      "hint": "Positive past: subject + studied + object + time. Study→studied (consonant+y rule).",
+      "explanation": "She + studied + her notes + all evening. Study→studied because it ends in consonant (d) + y."
+    }
+  ],
+  "speak": [
+    {
+      "id": "G-02-sp-001",
+      "sentence": "I visited my grandparents in Haifa last weekend.",
+      "chunks": ["I visited my grandparents", "in Haifa", "last weekend."],
+      "phonetic_hints": "'Visited' = VIZ-it-id. Three syllables. The final -ted sounds like -tid. Don't say viz-IT-ed with stress on the middle syllable.",
+      "pass_threshold": 0.70
+    },
+    {
+      "id": "G-02-sp-002",
+      "sentence": "Did you enjoy the concert last night?",
+      "chunks": ["Did you enjoy", "the concert last night?"],
+      "phonetic_hints": "'Concert' = KON-sert. Stress on first syllable. 'Enjoy' = en-JOY. Stress on second syllable. In a question, your voice rises slightly at the end.",
+      "pass_threshold": 0.70
+    },
+    {
+      "id": "G-02-sp-003",
+      "sentence": "She didn't finish her work until very late.",
+      "chunks": ["She didn't finish her work", "until very late."],
+      "phonetic_hints": "'Didn't' = DID-unt. Say quickly as one word. 'Finish' = FIN-ish. 'Until' = un-TIL. Stress on second syllable.",
+      "pass_threshold": 0.70
+    },
+    {
+      "id": "G-02-sp-004",
+      "sentence": "We moved to a new house three years ago.",
+      "chunks": ["We moved to a new house", "three years ago."],
+      "phonetic_hints": "'Moved' — the 'oo' sound like in 'food'. 'Three' — practice the TH sound: put your tongue between your teeth. 'Ago' = uh-GOH. Stress on second syllable.",
+      "pass_threshold": 0.70
+    },
+    {
+      "id": "G-02-sp-005",
+      "sentence": "He studied very hard for his exams but still failed.",
+      "chunks": ["He studied very hard", "for his exams", "but still failed."],
+      "phonetic_hints": "'Studied' = STUD-eed. Two syllables. 'Exams' = ig-ZAMZ. Stress on second syllable. 'Failed' = FAYLD. The 'ai' sounds like the 'a' in 'cake'.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-02-sp-006",
+      "sentence": "When did you last travel outside of Israel?",
+      "chunks": ["When did you last travel", "outside of Israel?"],
+      "phonetic_hints": "'Travel' = TRAV-ul. Two syllables, stress on first. 'Outside' = owt-SYD. Stress on second syllable. 'Israel' = IZ-ree-ul. Three syllables.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-02-sp-007",
+      "sentence": "The meeting started at nine and finished at half past twelve.",
+      "chunks": ["The meeting started at nine", "and finished", "at half past twelve."],
+      "phonetic_hints": "'Started' = STAR-tid. 'Finished' = FIN-isht. The final -ed sounds like a T here. 'Twelve' = TWELV. Don't forget the L sound before V.",
+      "pass_threshold": 0.65
+    },
+    {
+      "id": "G-02-sp-008",
+      "sentence": "I didn't sleep well last night because it was too hot.",
+      "chunks": ["I didn't sleep well last night", "because it was too hot."],
+      "phonetic_hints": "'Sleep' — the 'ee' is long, like in 'feet'. 'Because' = bih-KOZ. Stress on second syllable. 'Hot' — short O sound, like in British English 'not'.",
+      "pass_threshold": 0.70
+    }
+  ]
+}
