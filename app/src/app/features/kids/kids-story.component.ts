@@ -1,6 +1,5 @@
-import { Component, signal, computed, OnInit, inject } from '@angular/core';
+import { Component, signal, computed, effect, OnInit, OnDestroy, inject } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { CommonModule } from '@angular/common';
 import { KIDS_LOCATIONS, loadKidsProgress, saveKidsProgress, KidsWord } from './kids.data';
 
 type StoryPhase = 'intro' | 'letter' | 'word' | 'collect' | 'done';
@@ -8,7 +7,7 @@ type StoryPhase = 'intro' | 'letter' | 'word' | 'collect' | 'done';
 @Component({
   selector: 'app-kids-story',
   standalone: true,
-  imports: [CommonModule],
+  imports: [],
   styles: [`
     @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Nunito:wght@700;800;900&display=swap');
     :host { display: block; }
@@ -63,6 +62,15 @@ type StoryPhase = 'intro' | 'letter' | 'word' | 'collect' | 'done';
     @keyframes xpFloat {
       from { opacity:1; transform: translateY(0); }
       to   { opacity:0; transform: translateY(-60px); }
+    }
+
+    .star-pop {
+      animation: starPop 0.5s cubic-bezier(0.34,1.56,0.64,1) both;
+    }
+    @keyframes starPop {
+      0%   { transform: scale(0); opacity:0; }
+      60%  { transform: scale(1.3); opacity:1; }
+      100% { transform: scale(1); opacity:1; }
     }
   `],
   template: `
@@ -186,6 +194,12 @@ type StoryPhase = 'intro' | 'letter' | 'word' | 'collect' | 'done';
           <p style="font-family:'Press Start 2P',monospace;font-size:16px;color:white;text-shadow:2px 2px 0 rgba(0,0,0,0.3)">
             AMAZING!
           </p>
+          <!-- Star reveal animation -->
+          <div class="flex gap-3 justify-center">
+            @for (s of [1,2,3]; track s) {
+              <span class="star-pop" style="font-size:48px" [style.animation-delay]="(s-1)*200+'ms'">⭐</span>
+            }
+          </div>
           <p style="font-family:'Nunito',sans-serif;font-size:18px;color:rgba(255,255,255,0.9)">
             You learned {{ totalWords() }} new words!
           </p>
@@ -205,7 +219,7 @@ type StoryPhase = 'intro' | 'letter' | 'word' | 'collect' | 'done';
     </div>
   `,
 })
-export class KidsStoryComponent implements OnInit {
+export class KidsStoryComponent implements OnInit, OnDestroy {
   private route = inject(ActivatedRoute);
   private router = inject(Router);
 
@@ -216,9 +230,22 @@ export class KidsStoryComponent implements OnInit {
 
   private readonly locationId = signal('');
 
+  constructor() {
+    effect(() => {
+      const p = this.phase();
+      const loc = this.location();
+      const word = this.currentWord();
+      this.speakPhase(p, loc, word);
+    });
+  }
+
   ngOnInit() {
     this.locationId.set(this.route.snapshot.paramMap.get('locationId') ?? '');
     this.phase.set('intro');
+  }
+
+  ngOnDestroy() {
+    speechSynthesis.cancel();
   }
 
   readonly location = computed(() =>
@@ -245,15 +272,40 @@ export class KidsStoryComponent implements OnInit {
     return `linear-gradient(160deg, ${loc.bgFrom}, ${loc.bgTo})`;
   });
 
+  speakPhase(phase: StoryPhase, loc: ReturnType<typeof this.location>, word: KidsWord | null) {
+    if (!loc) return;
+    switch (phase) {
+      case 'intro':
+        this.speak(`Welcome to ${loc.name}! Let's learn letters ${loc.letters}!`);
+        break;
+      case 'letter':
+        if (word) {
+          this.speak(`${word.letter} — ${word.letter} is for`);
+          setTimeout(() => this.speak(word.letter), 1000);
+        }
+        break;
+      case 'word':
+        if (word) {
+          setTimeout(() => this.speak(word.audioWord), 100);
+        }
+        break;
+      case 'collect':
+        this.speak('Tap each letter!');
+        break;
+      case 'done':
+        this.playDoneJingle();
+        setTimeout(() => this.speak(`Amazing! You learned ${this.totalWords()} words!`), 600);
+        break;
+    }
+  }
+
   startStory() {
     this.wordIndex.set(0);
     this.phase.set('letter');
-    this.speak(this.currentWord()!.letter);
   }
 
   advanceToWord() {
     this.phase.set('word');
-    this.speak(this.currentWord()!.audioWord);
   }
 
   speakAndAdvance() {
@@ -279,7 +331,6 @@ export class KidsStoryComponent implements OnInit {
     } else {
       this.wordIndex.set(next);
       this.phase.set('letter');
-      setTimeout(() => this.speak(this.currentWord()!.letter), 50);
     }
   }
 
@@ -325,9 +376,33 @@ export class KidsStoryComponent implements OnInit {
     } catch { /* ignore */ }
   }
 
-  goBack() { this.router.navigate(['/kids']); }
+  private playDoneJingle() {
+    try {
+      const ctx = new AudioContext();
+      const notes = [523, 659, 784, 1047];
+      notes.forEach((freq, i) => {
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+        osc.connect(gain); gain.connect(ctx.destination);
+        osc.frequency.value = freq;
+        osc.type = 'sine';
+        const t = ctx.currentTime + i * 0.1;
+        gain.gain.setValueAtTime(0, t);
+        gain.gain.linearRampToValueAtTime(0.2, t + 0.02);
+        gain.gain.exponentialRampToValueAtTime(0.001, t + 0.3);
+        osc.start(t); osc.stop(t + 0.3);
+        if (i === notes.length - 1) osc.onended = () => ctx.close();
+      });
+    } catch { /* ignore */ }
+  }
+
+  goBack() {
+    speechSynthesis.cancel();
+    this.router.navigate(['/kids']);
+  }
 
   goToGame() {
+    speechSynthesis.cancel();
     this.router.navigate(['/kids/game', this.locationId(), 'tap']);
   }
 }

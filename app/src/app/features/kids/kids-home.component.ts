@@ -1,12 +1,11 @@
-import { Component, signal, OnInit, inject } from '@angular/core';
+import { Component, signal, OnInit, OnDestroy, inject } from '@angular/core';
 import { Router } from '@angular/router';
-import { CommonModule } from '@angular/common';
 import { KIDS_LOCATIONS, loadKidsProgress, KidsProgress } from './kids.data';
 
 @Component({
   selector: 'app-kids-home',
   standalone: true,
-  imports: [CommonModule],
+  imports: [],
   styles: [`
     @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Nunito:wght@700;800;900&display=swap');
 
@@ -47,23 +46,22 @@ import { KIDS_LOCATIONS, loadKidsProgress, KidsProgress } from './kids.data';
       border-radius: 20px;
       border: 4px solid rgba(0,0,0,0.15);
       box-shadow: 0 6px 0 rgba(0,0,0,0.2), 0 8px 20px rgba(0,0,0,0.1);
-      cursor: pointer;
-      transition: transform 0.15s ease, box-shadow 0.15s ease;
       position: relative;
       overflow: hidden;
     }
-    .platform-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 10px 0 rgba(0,0,0,0.2), 0 14px 28px rgba(0,0,0,0.15);
-    }
-    .platform-card:active {
-      transform: translateY(2px);
-      box-shadow: 0 3px 0 rgba(0,0,0,0.2);
-    }
     .platform-card.locked {
       filter: grayscale(0.6);
-      cursor: not-allowed;
     }
+
+    .action-btn {
+      transition: transform 0.12s ease, box-shadow 0.12s ease;
+      box-shadow: 0 4px 0 rgba(0,0,0,0.25);
+      cursor: pointer;
+      border: none;
+    }
+    .action-btn:hover:not(:disabled) { transform: translateY(-2px); box-shadow: 0 6px 0 rgba(0,0,0,0.2); }
+    .action-btn:active:not(:disabled) { transform: translateY(2px); box-shadow: 0 1px 0 rgba(0,0,0,0.2); }
+    .action-btn:disabled { opacity: 0.5; cursor: not-allowed; }
 
     .boxy {
       animation: boxy-idle 2s ease-in-out infinite;
@@ -106,7 +104,7 @@ import { KIDS_LOCATIONS, loadKidsProgress, KidsProgress } from './kids.data';
       <!-- Title -->
       <div class="text-center pt-2 pb-4" style="position:relative;z-index:10">
         <h1 class="title-text text-white" style="font-size:clamp(14px,4vw,20px)">ENGLISH WORLD</h1>
-        <p style="font-family:'Nunito',sans-serif;font-size:14px;color:rgba(255,255,255,0.85);margin-top:4px">Choose your level!</p>
+        <p style="font-family:'Nunito',sans-serif;font-size:14px;color:rgba(255,255,255,0.85);margin-top:4px">Choose your adventure!</p>
       </div>
 
       <!-- Boxy avatar -->
@@ -129,32 +127,84 @@ import { KIDS_LOCATIONS, loadKidsProgress, KidsProgress } from './kids.data';
       </div>
 
       <!-- Location cards grid -->
-      <div class="px-4 pb-8 grid grid-cols-2 gap-4" style="position:relative;z-index:10">
+      <div class="px-4 pb-8 grid grid-cols-2 gap-5" style="position:relative;z-index:10">
         @for (loc of locations; track loc.id; let i = $index) {
-          <div class="platform-card p-4" [class.locked]="isLocked(i)"
-            (click)="selectLocation(loc, i)">
-            <div class="rounded-xl mb-3 flex items-center justify-center" style="height:70px" [style.background]="'linear-gradient(135deg,'+loc.bgFrom+','+loc.bgTo+')'">
-              <span style="font-size:40px">{{ loc.emoji }}</span>
+          <div class="platform-card p-3" [class.locked]="isLocked(i)">
+
+            <!-- Header: emoji + name + letters -->
+            <div class="rounded-xl mb-2 flex flex-col items-center justify-center gap-1 py-3"
+              [style.background]="'linear-gradient(135deg,'+loc.bgFrom+','+loc.bgTo+')'">
+              <span style="font-size:36px">{{ loc.emoji }}</span>
+              <p style="font-family:'Press Start 2P',monospace;font-size:8px;color:white;text-shadow:1px 1px 0 rgba(0,0,0,0.3);margin:0">{{ loc.name }}</p>
+              <p style="font-family:'Nunito',sans-serif;font-size:10px;color:rgba(255,255,255,0.85);margin:0">{{ loc.letters }}</p>
             </div>
-            <p style="font-family:'Press Start 2P',monospace;font-size:9px;color:#1a1a2e;margin-bottom:6px">{{ loc.name }}</p>
-            <p style="font-family:'Nunito',sans-serif;font-size:11px;color:#6b7280;margin-bottom:6px">Letters {{ loc.letters }}</p>
-            <p style="font-family:'Nunito',sans-serif;font-size:11px;font-weight:800;margin-bottom:4px"
-              [style.color]="isCompleted(loc.id) ? '#6366f1' : '#f59e0b'">
-              {{ isCompleted(loc.id) ? '⚡ Play Games' : '📖 Learn' }}
-            </p>
-            <div class="flex gap-0.5">
+
+            <!-- Action buttons row -->
+            <div class="grid grid-cols-2 gap-1.5 mb-2">
+              <!-- Story button -->
+              <button class="action-btn rounded-xl py-2 px-1 text-white flex flex-col items-center gap-0.5"
+                style="background:linear-gradient(135deg,#22c55e,#16a34a);font-family:'Nunito',sans-serif"
+                [disabled]="isLocked(i)"
+                (click)="navStory(loc.id, i)">
+                <span style="font-size:16px">📖</span>
+                <span style="font-size:8px;font-weight:900">Story</span>
+              </button>
+
+              <!-- Tap It button -->
+              <button class="action-btn rounded-xl py-2 px-1 text-white flex flex-col items-center gap-0.5 relative"
+                style="background:linear-gradient(135deg,#6366f1,#8b5cf6);font-family:'Nunito',sans-serif"
+                [disabled]="isLocked(i) || !isCompleted(loc.id)"
+                (click)="navGame(loc.id, 'tap', i)">
+                @if (!isCompleted(loc.id) && !isLocked(i)) {
+                  <span style="position:absolute;top:3px;right:5px;font-size:9px">🔒</span>
+                }
+                <span style="font-size:16px">⚡</span>
+                <span style="font-size:8px;font-weight:900">Tap It</span>
+              </button>
+
+              <!-- Spell It button -->
+              <button class="action-btn rounded-xl py-2 px-1 text-white flex flex-col items-center gap-0.5 relative"
+                style="background:linear-gradient(135deg,#10b981,#059669);font-family:'Nunito',sans-serif"
+                [disabled]="isLocked(i) || !isCompleted(loc.id)"
+                (click)="navGame(loc.id, 'spell', i)">
+                @if (!isCompleted(loc.id) && !isLocked(i)) {
+                  <span style="position:absolute;top:3px;right:5px;font-size:9px">🔒</span>
+                }
+                <span style="font-size:16px">🔤</span>
+                <span style="font-size:8px;font-weight:900">Spell It</span>
+              </button>
+
+              <!-- Speed Run button -->
+              <button class="action-btn rounded-xl py-2 px-1 text-white flex flex-col items-center gap-0.5 relative"
+                style="background:linear-gradient(135deg,#f43f5e,#e11d48);font-family:'Nunito',sans-serif"
+                [disabled]="isLocked(i) || !isCompleted(loc.id)"
+                (click)="navGame(loc.id, 'speed', i)">
+                @if (!isCompleted(loc.id) && !isLocked(i)) {
+                  <span style="position:absolute;top:3px;right:5px;font-size:9px">🔒</span>
+                }
+                <span style="font-size:16px">⏱</span>
+                <span style="font-size:8px;font-weight:900">Speed Run</span>
+              </button>
+            </div>
+
+            <!-- Stars row -->
+            <div class="flex justify-center gap-0.5">
               @for (s of [1,2,3]; track s) {
-                <span [class]="getStars(loc.id) >= s ? 'star' : 'star-empty'" style="font-size:14px">★</span>
+                <span [class]="getStars(loc.id) >= s ? 'star' : 'star-empty'" style="font-size:16px">★</span>
               }
             </div>
+
+            <!-- Completed badge -->
+            @if (isCompleted(loc.id)) {
+              <div class="absolute top-2 right-2 w-6 h-6 rounded-full flex items-center justify-center text-xs"
+                style="background:#22c55e;color:white">✓</div>
+            }
+
+            <!-- Location locked overlay -->
             @if (isLocked(i)) {
               <div class="absolute inset-0 flex items-center justify-center rounded-2xl" style="background:rgba(255,255,255,0.6)">
                 <span style="font-size:32px">🔒</span>
               </div>
-            }
-            @if (isCompleted(loc.id)) {
-              <div class="absolute top-2 right-2 w-7 h-7 rounded-full flex items-center justify-center text-sm"
-                style="background:#22c55e;color:white">✓</div>
             }
           </div>
         }
@@ -162,13 +212,27 @@ import { KIDS_LOCATIONS, loadKidsProgress, KidsProgress } from './kids.data';
     </div>
   `,
 })
-export class KidsHomeComponent implements OnInit {
+export class KidsHomeComponent implements OnInit, OnDestroy {
   private router = inject(Router);
   readonly locations = KIDS_LOCATIONS;
   readonly progress = signal<KidsProgress>(loadKidsProgress());
 
   ngOnInit() {
     this.progress.set(loadKidsProgress());
+    this.speakWelcome();
+  }
+
+  ngOnDestroy() {
+    speechSynthesis.cancel();
+  }
+
+  private speakWelcome() {
+    speechSynthesis.cancel();
+    const utt = new SpeechSynthesisUtterance('Welcome to English World! Choose your adventure!');
+    utt.lang = 'en-US';
+    utt.rate = 0.8;
+    utt.pitch = 1.2;
+    speechSynthesis.speak(utt);
   }
 
   xpPct() {
@@ -190,12 +254,13 @@ export class KidsHomeComponent implements OnInit {
     return this.progress().locationStars[locationId] ?? 0;
   }
 
-  selectLocation(loc: typeof KIDS_LOCATIONS[0], index: number) {
+  navStory(locationId: string, index: number) {
     if (this.isLocked(index)) return;
-    if (this.isCompleted(loc.id)) {
-      this.router.navigate(['/kids/game', loc.id, 'select']);
-    } else {
-      this.router.navigate(['/kids/story', loc.id]);
-    }
+    this.router.navigate(['/kids/story', locationId]);
+  }
+
+  navGame(locationId: string, mode: string, index: number) {
+    if (this.isLocked(index) || !this.isCompleted(locationId)) return;
+    this.router.navigate(['/kids/game', locationId, mode]);
   }
 }

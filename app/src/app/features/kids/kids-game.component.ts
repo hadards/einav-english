@@ -1,6 +1,5 @@
-import { Component, signal, computed, OnInit, OnDestroy, inject } from '@angular/core';
+import { Component, signal, computed, effect, OnInit, OnDestroy, inject } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { CommonModule } from '@angular/common';
 import { KIDS_LOCATIONS, loadKidsProgress, saveKidsProgress } from './kids.data';
 
 type GameMode = 'tap' | 'spell' | 'speed';
@@ -58,10 +57,30 @@ function playWrongSound(): void {
   } catch { /* ignore */ }
 }
 
+function playVictoryFanfare(): void {
+  try {
+    const ctx = new AudioContext();
+    const notes = [523, 659, 784, 1047, 1319];
+    notes.forEach((freq, i) => {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.connect(gain); gain.connect(ctx.destination);
+      osc.frequency.value = freq;
+      osc.type = 'sine';
+      const t = ctx.currentTime + i * 0.12;
+      gain.gain.setValueAtTime(0, t);
+      gain.gain.linearRampToValueAtTime(0.25, t + 0.02);
+      gain.gain.exponentialRampToValueAtTime(0.001, t + 0.25);
+      osc.start(t); osc.stop(t + 0.25);
+      if (i === notes.length - 1) osc.onended = () => ctx.close();
+    });
+  } catch { /* ignore */ }
+}
+
 @Component({
   selector: 'app-kids-game',
   standalone: true,
-  imports: [CommonModule],
+  imports: [],
   styles: [`
     @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Nunito:wght@700;800;900&display=swap');
     :host { display: block; }
@@ -123,6 +142,15 @@ function playWrongSound(): void {
     }
     .mode-btn:hover { transform: translateY(-3px); }
     .mode-btn:active { transform: translateY(3px); box-shadow: 0 2px 0 rgba(0,0,0,0.3); }
+
+    .star-reveal {
+      animation: starReveal 0.5s cubic-bezier(0.34,1.56,0.64,1) both;
+    }
+    @keyframes starReveal {
+      0%   { transform: scale(0); opacity:0; }
+      60%  { transform: scale(1.4); opacity:1; }
+      100% { transform: scale(1); opacity:1; }
+    }
   `],
   template: `
     @if (showConfetti()) {
@@ -278,11 +306,17 @@ function playWrongSound(): void {
           <p style="font-family:'Press Start 2P',monospace;font-size:16px;color:white;text-shadow:2px 2px 0 rgba(0,0,0,0.4)">
             {{ score() }}/{{ totalWords() }}
           </p>
-          <div class="flex gap-2 justify-center">
+          <!-- Staggered star reveal -->
+          <div class="flex gap-3 justify-center">
             @for (s of [1,2,3]; track s) {
-              <span style="font-size:36px" [style.opacity]="starsEarned() >= s ? '1' : '0.2'">⭐</span>
+              <span class="star-reveal" style="font-size:44px"
+                [style.animation-delay]="(s-1)*300+'ms'"
+                [style.opacity]="starsEarned() >= s ? '1' : '0.2'">⭐</span>
             }
           </div>
+          <p style="font-family:'Nunito',sans-serif;font-size:20px;color:rgba(255,255,255,0.9);font-weight:900">
+            Great job!
+          </p>
           <div class="flex gap-3">
             <button (click)="phase.set('select')" class="mode-btn px-6 py-4 rounded-2xl text-white font-black"
               style="background:linear-gradient(135deg,#6366f1,#8b5cf6);font-family:'Nunito',sans-serif;font-size:16px;border:none;cursor:pointer">
@@ -329,6 +363,14 @@ export class KidsGameComponent implements OnInit, OnDestroy {
     dur: 800 + Math.random() * 600,
   }));
 
+  constructor() {
+    effect(() => {
+      if (this.phase() === 'done') {
+        this.onGameDone();
+      }
+    });
+  }
+
   ngOnInit() {
     this.locationId.set(this.route.snapshot.paramMap.get('locationId') ?? '');
     const modeParam = this.route.snapshot.paramMap.get('mode') ?? '';
@@ -339,6 +381,17 @@ export class KidsGameComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy() { this.clearTimer(); speechSynthesis.cancel(); }
+
+  private onGameDone() {
+    playVictoryFanfare();
+    const score = this.score();
+    const total = this.shuffledWords.length || this.totalWords();
+    const stars = this.starsEarned();
+    const praise = stars === 3 ? 'Amazing, you\'re a star!' : stars === 2 ? 'Well done!' : 'Keep practicing!';
+    setTimeout(() => {
+      this.speak(`You scored ${score} out of ${total}! ${praise}`);
+    }, 800);
+  }
 
   readonly location = computed(() =>
     KIDS_LOCATIONS.find(l => l.id === this.locationId()) ?? null
@@ -511,5 +564,5 @@ export class KidsGameComponent implements OnInit, OnDestroy {
     if (cur) this.speak(cur.audioWord);
   }
 
-  goBack() { this.clearTimer(); this.router.navigate(['/kids']); }
+  goBack() { this.clearTimer(); speechSynthesis.cancel(); this.router.navigate(['/kids']); }
 }
