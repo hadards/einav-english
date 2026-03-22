@@ -379,11 +379,9 @@ export class KidsHomeComponent implements OnInit, OnDestroy, AfterViewInit {
     return Math.min(100, ((this.progress().xp % 50) / 50) * 100);
   }
 
-  isLocked(_i: number): boolean { return false; } // All unlocked for testing
+  isLocked(_i: number): boolean { return false; }
 
-  isCompleted(locationId: string): boolean {
-    return this.progress().completedLocations.includes(locationId);
-  }
+  isCompleted(_locationId: string): boolean { return true; } // All unlocked for testing
 
   getStars(locationId: string): number {
     return this.progress().locationStars[locationId] ?? 0;
