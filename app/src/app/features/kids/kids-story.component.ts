@@ -214,15 +214,15 @@ export class KidsStoryComponent implements OnInit {
   readonly collectedLetters = signal<boolean[]>([]);
   readonly showXp = signal(false);
 
-  private locationId = '';
+  private readonly locationId = signal('');
 
   ngOnInit() {
-    this.locationId = this.route.snapshot.paramMap.get('locationId') ?? '';
+    this.locationId.set(this.route.snapshot.paramMap.get('locationId') ?? '');
     this.phase.set('intro');
   }
 
   readonly location = computed(() =>
-    KIDS_LOCATIONS.find(l => l.id === this.locationId) ?? null
+    KIDS_LOCATIONS.find(l => l.id === this.locationId()) ?? null
   );
 
   readonly totalWords = computed(() => this.location()?.words.length ?? 0);
@@ -285,8 +285,8 @@ export class KidsStoryComponent implements OnInit {
 
   private markLocationComplete() {
     const p = loadKidsProgress();
-    if (!p.completedLocations.includes(this.locationId)) {
-      p.completedLocations.push(this.locationId);
+    if (!p.completedLocations.includes(this.locationId())) {
+      p.completedLocations.push(this.locationId());
     }
     saveKidsProgress(p);
   }
@@ -321,12 +321,13 @@ export class KidsStoryComponent implements OnInit {
       gain.gain.setValueAtTime(0.15, t);
       gain.gain.exponentialRampToValueAtTime(0.001, t + 0.15);
       osc.start(t); osc.stop(t + 0.15);
+      osc.onended = () => ctx.close();
     } catch { /* ignore */ }
   }
 
   goBack() { this.router.navigate(['/kids']); }
 
   goToGame() {
-    this.router.navigate(['/kids/game', this.locationId, 'tap']);
+    this.router.navigate(['/kids/game', this.locationId(), 'tap']);
   }
 }
