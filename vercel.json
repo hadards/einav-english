@@ -2,14 +2,14 @@
   "version": 2,
   "buildCommand": "cd app && npm install && npx ng build --configuration=production",
   "outputDirectory": "app/dist/app/browser",
-  "routes": [
+  "rewrites": [
     {
-      "src": "/api/(.*)",
-      "dest": "/api/$1"
+      "source": "/api/(.*)",
+      "destination": "/api/$1"
     },
     {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "source": "/((?!api/).*)",
+      "destination": "/index.html"
     }
   ],
   "headers": [
