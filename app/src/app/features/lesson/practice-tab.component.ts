@@ -4,13 +4,13 @@ import { FormsModule } from '@angular/forms';
 import type { Lesson, Exercise } from '@shared/lesson.schema';
 
 type AnswerState = 'unanswered' | 'correct' | 'wrong_once' | 'wrong_twice';
+type Screen = 'example' | 'question';
 
 interface ExerciseState {
   exercise: Exercise;
   state: AnswerState;
   userAnswer: string;
   showHint: boolean;
-  showExplanation: boolean;
 }
 
 function shuffle<T>(arr: T[]): T[] {
@@ -22,150 +22,197 @@ function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
+// Tiny web audio success sound
+function playSuccess() {
+  try {
+    const ctx = new AudioContext();
+    const notes = [523.25, 659.25, 783.99]; // C5 E5 G5
+    notes.forEach((freq, i) => {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.frequency.value = freq;
+      osc.type = 'sine';
+      const t = ctx.currentTime + i * 0.12;
+      gain.gain.setValueAtTime(0, t);
+      gain.gain.linearRampToValueAtTime(0.18, t + 0.02);
+      gain.gain.exponentialRampToValueAtTime(0.001, t + 0.22);
+      osc.start(t);
+      osc.stop(t + 0.22);
+    });
+  } catch { /* ignore if audio not available */ }
+}
+
 @Component({
   selector: 'app-practice-tab',
   standalone: true,
   imports: [CommonModule, FormsModule],
   styles: [`
     @import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=DM+Sans:wght@400;500&display=swap');
-
     :host { font-family: 'DM Sans', sans-serif; }
 
-    .card-front {
-      animation: cardIn 0.35s cubic-bezier(0.16, 1, 0.3, 1) both;
-    }
-    .card-result {
-      animation: cardIn 0.35s cubic-bezier(0.16, 1, 0.3, 1) both;
+    .card-in {
+      animation: cardIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) both;
     }
     @keyframes cardIn {
-      from { opacity: 0; transform: translateY(12px) scale(0.98); }
+      from { opacity: 0; transform: translateY(14px) scale(0.98); }
       to   { opacity: 1; transform: translateY(0) scale(1); }
     }
 
-    .shake {
-      animation: shake 0.4s cubic-bezier(0.36, 0.07, 0.19, 0.97);
-    }
+    .shake { animation: shake 0.4s cubic-bezier(0.36, 0.07, 0.19, 0.97); }
     @keyframes shake {
       10%, 90% { transform: translateX(-3px); }
-      20%, 80% { transform: translateX(5px); }
-      30%, 50%, 70% { transform: translateX(-7px); }
-      40%, 60% { transform: translateX(7px); }
+      20%, 80% { transform: translateX(6px); }
+      30%, 50%, 70% { transform: translateX(-8px); }
+      40%, 60% { transform: translateX(8px); }
+    }
+
+    .pop-in {
+      animation: popIn 0.45s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+    }
+    @keyframes popIn {
+      from { opacity: 0; transform: scale(0.4); }
+      to   { opacity: 1; transform: scale(1); }
+    }
+
+    .confetti-burst {
+      animation: burst 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+    }
+    @keyframes burst {
+      0%   { transform: scale(0.3) rotate(-10deg); opacity: 0; }
+      60%  { transform: scale(1.15) rotate(4deg); opacity: 1; }
+      100% { transform: scale(1) rotate(0); opacity: 1; }
     }
 
     .submit-btn {
       background: linear-gradient(135deg, #6366f1, #8b5cf6);
-      transition: transform 0.15s ease, box-shadow 0.15s ease;
+      transition: transform 0.15s, box-shadow 0.15s;
     }
-    .submit-btn:hover:not(:disabled) {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 24px rgba(99,102,241,0.4);
-    }
+    .submit-btn:hover:not(:disabled) { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(99,102,241,0.4); }
     .submit-btn:active { transform: translateY(0); }
-
-    .mcq-btn {
-      transition: all 0.2s ease;
-      border: 2px solid #e0e7ff;
-    }
-    .mcq-btn:hover:not(:disabled) {
-      border-color: #6366f1;
-      background: #eef2ff;
-      transform: translateX(4px);
-    }
-    .mcq-correct { border-color: #10b981 !important; background: #ecfdf5 !important; color: #065f46 !important; }
-    .mcq-wrong   { border-color: #f43f5e !important; background: #fff1f2 !important; color: #9f1239 !important; }
-
-    .word-chip {
-      transition: all 0.15s ease;
-    }
-    .word-chip:hover { transform: scale(1.05); }
-    .word-chip:active { transform: scale(0.97); }
-
-    .explanation-drawer {
-      animation: slideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1) both;
-    }
-    @keyframes slideUp {
-      from { opacity: 0; transform: translateY(16px); }
-      to   { opacity: 1; transform: translateY(0); }
-    }
-
-    .celebrate {
-      animation: pop 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) both;
-    }
-    @keyframes pop {
-      from { opacity: 0; transform: scale(0.5); }
-      to   { opacity: 1; transform: scale(1); }
-    }
 
     .next-btn {
       background: linear-gradient(135deg, #10b981, #059669);
-      transition: transform 0.15s ease, box-shadow 0.15s ease;
+      transition: transform 0.15s, box-shadow 0.15s;
     }
-    .next-btn:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 24px rgba(16,185,129,0.35);
+    .next-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(16,185,129,0.35); }
+
+    .start-btn {
+      background: linear-gradient(135deg, #6366f1, #8b5cf6);
+      transition: transform 0.15s, box-shadow 0.15s;
     }
+    .start-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(99,102,241,0.45); }
+
+    .mcq-btn {
+      transition: all 0.18s ease;
+      border: 2px solid #e0e7ff;
+    }
+    .mcq-btn:hover:not(:disabled) { border-color: #6366f1; background: #eef2ff; transform: translateX(4px); }
+    .mcq-correct { border-color: #10b981 !important; background: #ecfdf5 !important; color: #065f46 !important; font-weight: 700 !important; }
+    .mcq-wrong   { border-color: #f43f5e !important; background: #fff1f2 !important; color: #9f1239 !important; }
+
+    .word-chip { transition: all 0.15s ease; }
+    .word-chip:hover { transform: scale(1.06); }
+    .word-chip:active { transform: scale(0.96); }
 
     .focus-input:focus { outline: none; border-color: #6366f1 !important; }
-    .focus-input::placeholder { color: #c4b5fd; font-style: italic; font-size: 14px; }
-    textarea.focus-input::placeholder { color: #c4b5fd; font-style: italic; font-size: 14px; }
+    .focus-input::placeholder { color: #c4b5fd; font-style: italic; }
+    textarea.focus-input::placeholder { color: #c4b5fd; font-style: italic; }
+
+    .drawer-in { animation: drawerIn 0.28s cubic-bezier(0.16, 1, 0.3, 1) both; }
+    @keyframes drawerIn {
+      from { opacity: 0; transform: translateY(12px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
   `],
   template: `
     <div class="flex flex-col gap-5" style="font-family:'DM Sans',sans-serif">
 
-      <!-- Progress bar -->
-      <div>
-        <div class="flex justify-between items-center mb-2">
-          <span class="text-xs font-semibold" style="color:#6b7280">
-            {{ answeredCount() }} <span style="color:#d1d5db">/</span> {{ totalCount() }}
-          </span>
-          <span class="text-sm font-bold" style="color:#6366f1;font-family:'Sora',sans-serif">{{ scoreDisplay() }}</span>
-        </div>
-        <div class="rounded-full overflow-hidden" style="height:6px;background:#e0e7ff">
-          <div class="h-full rounded-full transition-all duration-500"
-            style="background:linear-gradient(90deg,#6366f1,#8b5cf6)"
-            [style.width]="progressPct() + '%'">
+      <!-- EXAMPLE INTRO SCREEN -->
+      @if (screen() === 'example') {
+        <div class="card-in rounded-2xl overflow-hidden shadow-md" style="border:1.5px solid #bbf7d0">
+          <div class="px-5 pt-5 pb-3 flex items-center gap-2" style="background:linear-gradient(135deg,#10b981,#059669)">
+            <span class="text-xs font-black px-3 py-1 rounded-full" style="background:rgba(255,255,255,0.25);color:white">✨ QUICK LOOK</span>
           </div>
-        </div>
-      </div>
-
-      <!-- DONE SCREEN -->
-      @if (done()) {
-        <div class="flex flex-col items-center gap-4 py-8 text-center">
-          <div class="celebrate text-6xl">{{ passMark() ? '🏆' : '💪' }}</div>
-          <div>
-            <p class="text-2xl font-black mb-1" style="font-family:'Sora',sans-serif;color:#1e1b4b">{{ scoreDisplay() }}</p>
-            <p class="font-semibold text-gray-700 mb-1">{{ passMark() ? 'Practice complete!' : 'Keep going!' }}</p>
-            <p class="text-sm text-gray-400">{{ passMark() ? 'Speaking practice is now unlocked 🎤' : 'You need 70% to unlock speaking.' }}</p>
+          <div class="px-5 py-5 flex flex-col gap-3" style="background:white">
+            <p class="font-bold" style="font-size:16px;color:#1e1b4b">Before we start — here are 3 key examples:</p>
+            @for (ex of previewExamples(); track ex.id; let i = $index) {
+              <div class="rounded-xl px-4 py-3" [style.animation-delay]="i*80+'ms'"
+                style="background:#f0fdf4;border:1.5px solid #bbf7d0">
+                <p class="font-semibold" style="font-size:17px;color:#065f46">{{ ex.sentence }}</p>
+                @if (ex.note) {
+                  <p class="text-sm mt-1" style="color:#6ee7b7">{{ ex.note }}</p>
+                }
+              </div>
+            }
           </div>
-          @if (passMark()) {
-            <button (click)="completed.emit(finalScore())" class="next-btn text-white px-10 py-4 rounded-2xl font-bold text-base min-h-[44px]"
-              style="font-family:'Sora',sans-serif">
-              Continue to Speak →
+          <div class="px-5 pb-5" style="background:white">
+            <button (click)="screen.set('question')"
+              class="start-btn w-full text-white rounded-xl font-bold min-h-[52px] flex items-center justify-center gap-2"
+              style="font-family:'Sora',sans-serif;font-size:17px">
+              Let's Practice ⚡
             </button>
-          } @else {
-            <button (click)="retry()" class="submit-btn text-white px-10 py-4 rounded-2xl font-bold text-base min-h-[44px]"
-              style="font-family:'Sora',sans-serif">
-              Try Again
-            </button>
-          }
+          </div>
         </div>
       }
 
-      <!-- QUESTION CARD -->
-      @if (!done() && currentItem()) {
+      @if (screen() === 'question') {
+
+        <!-- Progress bar -->
         <div>
+          <div class="flex justify-between items-center mb-2">
+            <span class="text-sm font-semibold" style="color:#6b7280">
+              {{ answeredCount() }} <span style="color:#d1d5db">/</span> {{ totalCount() }}
+            </span>
+            <span class="font-bold" style="color:#6366f1;font-family:'Sora',sans-serif;font-size:16px">{{ scoreDisplay() }}</span>
+          </div>
+          <div class="rounded-full overflow-hidden" style="height:7px;background:#e0e7ff">
+            <div class="h-full rounded-full transition-all duration-500"
+              style="background:linear-gradient(90deg,#6366f1,#8b5cf6)"
+              [style.width]="progressPct() + '%'">
+            </div>
+          </div>
+        </div>
+
+        <!-- DONE SCREEN -->
+        @if (done()) {
+          <div class="flex flex-col items-center gap-5 py-8 text-center">
+            <div class="confetti-burst text-7xl">{{ passMark() ? '🏆' : '💪' }}</div>
+            <div>
+              <p class="font-black mb-1" style="font-family:'Sora',sans-serif;color:#1e1b4b;font-size:28px">{{ scoreDisplay() }}</p>
+              <p class="font-semibold text-gray-700 mb-2" style="font-size:17px">{{ passMark() ? 'Practice complete!' : 'Keep going!' }}</p>
+              <p class="text-sm text-gray-400">{{ passMark() ? 'Speaking practice unlocked 🎤' : 'Need 70% to unlock speaking.' }}</p>
+            </div>
+            @if (passMark()) {
+              <button (click)="completed.emit(finalScore())" class="next-btn text-white px-10 py-4 rounded-2xl font-bold min-h-[52px]"
+                style="font-family:'Sora',sans-serif;font-size:18px">
+                Continue to Speak →
+              </button>
+            } @else {
+              <button (click)="retry()" class="submit-btn text-white px-10 py-4 rounded-2xl font-bold min-h-[52px]"
+                style="font-family:'Sora',sans-serif;font-size:18px">
+                Try Again
+              </button>
+            }
+          </div>
+        }
+
+        <!-- QUESTION CARD -->
+        @if (!done() && currentItem()) {
+
           <!-- FRONT: Question -->
           @if (!isFlipped()) {
-            <div class="card-front rounded-2xl overflow-hidden shadow-md" [class.shake]="isShaking()" style="border:1.5px solid #e0e7ff">
-              <div class="px-4 pt-3 pb-2 flex items-center justify-between" style="background:linear-gradient(135deg,#eef2ff,#f5f3ff)">
-                <span class="text-xs font-bold uppercase tracking-widest px-2 py-0.5 rounded-full" style="background:#6366f1;color:white">
+            <div class="card-in rounded-2xl overflow-hidden shadow-md" [class.shake]="isShaking()" style="border:1.5px solid #e0e7ff">
+              <div class="px-5 pt-4 pb-3 flex items-center justify-between" style="background:linear-gradient(135deg,#eef2ff,#f5f3ff)">
+                <span class="text-xs font-bold px-3 py-1 rounded-full" style="background:#6366f1;color:white">
                   {{ typeLabel(currentItem()!.exercise.type) }}
                 </span>
-                <span class="text-xs" style="color:#a5b4fc">{{ currentIndex() + 1 }} / {{ totalCount() }}</span>
+                <span class="font-semibold" style="color:#a5b4fc;font-size:15px">{{ currentIndex() + 1 }} / {{ totalCount() }}</span>
               </div>
 
               <div class="px-5 py-5" style="background:white">
-                <p class="font-semibold text-gray-900 leading-relaxed mb-5" style="font-size:15px">
+                <p class="font-semibold leading-relaxed mb-5" style="font-size:19px;color:#1e1b4b">
                   {{ currentItem()!.exercise.question }}
                 </p>
 
@@ -173,19 +220,19 @@ function shuffle<T>(arr: T[]): T[] {
                 @if (currentItem()!.exercise.type === 'fill_blank') {
                   <input type="text" [(ngModel)]="userInput" (keydown.enter)="submit()"
                     placeholder="Type your answer..."
-                    class="focus-input w-full rounded-xl px-4 py-3 text-base outline-none transition"
-                    style="border:2px solid #e0e7ff;font-size:16px;font-family:'DM Sans',sans-serif" />
+                    class="focus-input w-full rounded-xl px-4 py-4 outline-none transition"
+                    style="border:2px solid #e0e7ff;font-size:18px;font-family:'DM Sans',sans-serif" />
                 }
 
                 <!-- MCQ -->
                 @if (currentItem()!.exercise.type === 'mcq') {
-                  <div class="flex flex-col gap-2">
+                  <div class="flex flex-col gap-3">
                     @for (opt of mcqOptions(); track opt) {
                       <button (click)="selectMcq(opt)" [disabled]="currentItem()!.state !== 'unanswered'"
-                        class="mcq-btn w-full text-left px-4 py-3 rounded-xl text-sm font-medium min-h-[44px]"
+                        class="mcq-btn w-full text-left px-5 py-4 rounded-xl font-medium min-h-[52px]"
                         [class.mcq-correct]="currentItem()!.state !== 'unanswered' && opt === currentItem()!.exercise.answer"
                         [class.mcq-wrong]="currentItem()!.state !== 'unanswered' && opt === currentItem()!.userAnswer && opt !== currentItem()!.exercise.answer"
-                        style="background:white;color:#374151">
+                        style="background:white;color:#374151;font-size:17px">
                         {{ opt }}
                       </button>
                     }
@@ -195,29 +242,29 @@ function shuffle<T>(arr: T[]): T[] {
                 <!-- Error correction -->
                 @if (currentItem()!.exercise.type === 'error_correction') {
                   <textarea [(ngModel)]="userInput" rows="3" placeholder="Fix the sentence..."
-                    class="focus-input w-full rounded-xl px-4 py-3 text-base outline-none transition resize-none"
-                    style="border:2px solid #e0e7ff;font-size:16px;font-family:'DM Sans',sans-serif">
+                    class="focus-input w-full rounded-xl px-4 py-4 outline-none transition resize-none"
+                    style="border:2px solid #e0e7ff;font-size:18px;font-family:'DM Sans',sans-serif">
                   </textarea>
                 }
 
                 <!-- Sentence builder -->
                 @if (currentItem()!.exercise.type === 'sentence_builder') {
-                  <div class="flex flex-col gap-3">
-                    <div class="min-h-[52px] rounded-xl px-3 py-2 flex flex-wrap gap-2 items-center"
+                  <div class="flex flex-col gap-4">
+                    <div class="min-h-[60px] rounded-xl px-3 py-3 flex flex-wrap gap-2 items-center"
                       style="background:#f5f3ff;border:2px dashed #c4b5fd">
                       @if (builtSentence().length === 0) {
-                        <span class="text-xs" style="color:#c4b5fd">Tap words to build the sentence...</span>
+                        <span style="color:#c4b5fd;font-style:italic;font-size:15px">Tap words to build the sentence...</span>
                       }
                       @for (word of builtSentence(); track $index; let i = $index) {
-                        <button (click)="removeWord(i)" class="word-chip px-3 py-1.5 rounded-lg text-sm font-medium" style="background:#6366f1;color:white">
+                        <button (click)="removeWord(i)" class="word-chip px-4 py-2 rounded-lg font-semibold" style="background:#6366f1;color:white;font-size:16px">
                           {{ word }} ×
                         </button>
                       }
                     </div>
                     <div class="flex flex-wrap gap-2">
                       @for (word of remainingWords(); track $index; let i = $index) {
-                        <button (click)="addWord(word, i)" class="word-chip px-3 py-1.5 rounded-lg text-sm font-medium min-h-[36px]"
-                          style="background:white;border:1.5px solid #e0e7ff;color:#374151">
+                        <button (click)="addWord(word, i)" class="word-chip px-4 py-2 rounded-lg font-medium min-h-[44px]"
+                          style="background:white;border:2px solid #e0e7ff;color:#374151;font-size:16px">
                           {{ word }}
                         </button>
                       }
@@ -227,60 +274,68 @@ function shuffle<T>(arr: T[]): T[] {
 
                 <!-- Hint -->
                 @if (currentItem()!.showHint) {
-                  <div class="explanation-drawer mt-4 rounded-xl px-4 py-3 flex items-start gap-2"
+                  <div class="drawer-in mt-4 rounded-xl px-4 py-3 flex items-start gap-2"
                     style="background:#fffbeb;border:1px solid #fde68a">
                     <span>💡</span>
-                    <p class="text-sm" style="color:#92400e">{{ currentItem()!.exercise.hint }}</p>
+                    <p style="color:#92400e;font-size:15px">{{ currentItem()!.exercise.hint }}</p>
                   </div>
                 }
 
-                <!-- Submit -->
+                <!-- Submit (non-MCQ) -->
                 @if (currentItem()!.exercise.type !== 'mcq') {
-                  <button (click)="submit()" class="submit-btn w-full text-white rounded-xl py-3.5 font-bold mt-4 min-h-[44px]"
-                    style="font-family:'Sora',sans-serif">
-                    {{ currentItem()!.state === 'wrong_twice' ? 'See answer →' : 'Check' }}
+                  <button (click)="submit()" class="submit-btn w-full text-white rounded-xl font-bold mt-5 min-h-[52px]"
+                    style="font-family:'Sora',sans-serif;font-size:17px">
+                    {{ currentItem()!.state === 'wrong_twice' ? 'See answer →' : 'Check ✓' }}
+                  </button>
+                }
+
+                <!-- MCQ: Next button shown after answered -->
+                @if (currentItem()!.exercise.type === 'mcq' && currentItem()!.state !== 'unanswered') {
+                  <button (click)="next()" class="next-btn w-full text-white rounded-xl font-bold mt-5 min-h-[52px]"
+                    style="font-family:'Sora',sans-serif;font-size:17px">
+                    Next →
                   </button>
                 }
               </div>
             </div>
           }
 
-          <!-- RESULT: shown after flip -->
+          <!-- RESULT (after flip) -->
           @if (isFlipped()) {
-            <div class="card-result rounded-2xl overflow-hidden shadow-md"
+            <div class="card-in rounded-2xl overflow-hidden shadow-md"
               [style.border]="currentItem()!.state === 'correct' ? '2px solid #10b981' : '2px solid #f43f5e'">
 
-              <div class="px-4 pt-3 pb-2 flex items-center gap-2"
-                [style.background]="currentItem()!.state === 'correct' ? 'linear-gradient(135deg,#ecfdf5,#f0fdf4)' : 'linear-gradient(135deg,#fff1f2,#fff5f5)'">
-                <span class="text-lg">{{ currentItem()!.state === 'correct' ? '✅' : '❌' }}</span>
-                <span class="text-sm font-bold" [style.color]="currentItem()!.state === 'correct' ? '#059669' : '#e11d48'">
+              <div class="px-5 pt-4 pb-3 flex items-center gap-3"
+                [style.background]="currentItem()!.state === 'correct' ? 'linear-gradient(135deg,#10b981,#059669)' : 'linear-gradient(135deg,#f43f5e,#e11d48)'">
+                <span class="pop-in text-2xl">{{ currentItem()!.state === 'correct' ? '✅' : '❌' }}</span>
+                <span class="font-black text-white" style="font-size:20px">
                   {{ currentItem()!.state === 'correct' ? 'Correct!' : 'Not quite' }}
                 </span>
               </div>
 
               <div class="px-5 py-5 flex flex-col gap-4" style="background:white">
-                <div class="rounded-xl px-4 py-3" style="background:#f5f3ff">
-                  <p class="text-xs font-semibold uppercase tracking-widest mb-1" style="color:#6366f1">Correct Answer</p>
-                  <p class="font-semibold text-gray-900">{{ currentItem()!.exercise.answer }}</p>
+                <div class="rounded-xl px-4 py-4" style="background:#f5f3ff;border:1.5px solid #e0e7ff">
+                  <p class="text-xs font-bold uppercase tracking-wider mb-2" style="color:#6366f1">Correct Answer</p>
+                  <p class="font-bold" style="color:#1e1b4b;font-size:18px">{{ currentItem()!.exercise.answer }}</p>
                 </div>
 
                 @if (currentItem()!.exercise.explanation) {
-                  <div class="explanation-drawer rounded-xl px-4 py-3" style="background:#eff6ff;border:1px solid #bfdbfe">
-                    <p class="text-sm text-gray-700">{{ currentItem()!.exercise.explanation }}</p>
+                  <div class="drawer-in rounded-xl px-4 py-4" style="background:#eff6ff;border:1px solid #bfdbfe">
+                    <p style="color:#1e40af;font-size:16px;line-height:1.6">{{ currentItem()!.exercise.explanation }}</p>
                     @if (currentItem()!.exercise.hebrew_note) {
-                      <p class="text-sm mt-2" style="color:#d97706">🇮🇱 {{ currentItem()!.exercise.hebrew_note }}</p>
+                      <p class="mt-2" style="color:#d97706;font-size:15px">🇮🇱 {{ currentItem()!.exercise.hebrew_note }}</p>
                     }
                   </div>
                 }
 
-                <button (click)="next()" class="next-btn w-full text-white rounded-xl py-3.5 font-bold min-h-[44px]"
-                  style="font-family:'Sora',sans-serif">
+                <button (click)="next()" class="next-btn w-full text-white rounded-xl font-bold min-h-[52px]"
+                  style="font-family:'Sora',sans-serif;font-size:17px">
                   Next →
                 </button>
               </div>
             </div>
           }
-        </div>
+        }
       }
     </div>
   `,
@@ -289,6 +344,7 @@ export class PracticeTabComponent implements OnInit {
   @Input({ required: true }) lesson!: Lesson;
   @Output() completed = new EventEmitter<number>();
 
+  readonly screen = signal<Screen>('example');
   readonly queue = signal<ExerciseState[]>([]);
   readonly currentIndex = signal(0);
   readonly flipped = signal(false);
@@ -300,16 +356,28 @@ export class PracticeTabComponent implements OnInit {
   readonly remainingWords = signal<string[]>([]);
 
   ngOnInit() {
+    this.buildQueue();
+  }
+
+  private buildQueue() {
     this.queue.set(shuffle(this.lesson.exercises).map(e => ({
       exercise: e, state: 'unanswered' as AnswerState,
-      userAnswer: '', showHint: false, showExplanation: false,
+      userAnswer: '', showHint: false,
     })));
+    this.currentIndex.set(0);
+    this.flipped.set(false);
     this.initCurrentExercise();
   }
 
+  readonly previewExamples = computed(() =>
+    this.lesson.explain.good_examples.slice(0, 3)
+  );
+
   readonly currentItem = computed(() => this.queue()[this.currentIndex()] ?? null);
   readonly totalCount = computed(() => this.lesson.exercises.length);
-  readonly answeredCount = computed(() => this.queue().slice(0, this.currentIndex()).filter(e => e.state !== 'unanswered').length);
+  readonly answeredCount = computed(() =>
+    this.queue().slice(0, this.currentIndex()).filter(e => e.state !== 'unanswered').length
+  );
   readonly progressPct = computed(() => Math.round((this.currentIndex() / Math.max(this.totalCount(), 1)) * 100));
   readonly isFlipped = computed(() => this.flipped());
   readonly isShaking = computed(() => this.shaking());
@@ -351,7 +419,6 @@ export class PracticeTabComponent implements OnInit {
       this.builtSentence.set([]);
       this.remainingWords.set(shuffle(item.exercise.words ?? []));
     }
-    // error_correction: start empty, user types the corrected sentence
   }
 
   addWord(word: string, idx: number) {
@@ -383,10 +450,7 @@ export class PracticeTabComponent implements OnInit {
   submit() {
     const item = this.currentItem();
     if (!item) return;
-    if (item.state === 'wrong_twice') {
-      this.flipCard();
-      return;
-    }
+    if (item.state === 'wrong_twice') { this.flipCard(); return; }
     const answer = item.exercise.type === 'sentence_builder'
       ? this.builtSentence().join(' ')
       : this.userInput.trim();
@@ -415,15 +479,14 @@ export class PracticeTabComponent implements OnInit {
     });
 
     if (correct) {
+      playSuccess();
       setTimeout(() => this.flipCard(), 300);
     } else if (this.currentItem()?.state === 'wrong_twice') {
       this.triggerShake();
     }
   }
 
-  private flipCard() {
-    this.flipped.set(true);
-  }
+  private flipCard() { this.flipped.set(true); }
 
   private triggerShake() {
     this.flipped.set(true);
@@ -432,18 +495,13 @@ export class PracticeTabComponent implements OnInit {
   }
 
   retry() {
-    const shuffled = shuffle(this.lesson.exercises);
-    this.queue.set(shuffled.map(e => ({
-      exercise: e, state: 'unanswered' as AnswerState,
-      userAnswer: '', showHint: false, showExplanation: false,
-    })));
-    this.currentIndex.set(0);
-    this.flipped.set(false);
-    this.initCurrentExercise();
+    this.buildQueue();
+    this.screen.set('question');
   }
 
   next() {
     const item = this.currentItem();
+    // Re-queue wrong_once items at the end
     if (item?.state === 'wrong_once') {
       this.queue.update(q => [...q, { ...item, state: 'unanswered', showHint: false, userAnswer: '' }]);
     }
