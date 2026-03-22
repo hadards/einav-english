@@ -11,106 +11,176 @@ import { KIDS_LOCATIONS, loadKidsProgress, KidsProgress } from './kids.data';
 
     :host { display: block; }
 
-    .world-bg {
-      background: linear-gradient(180deg, #87CEEB 0%, #87CEEB 60%, #4ade80 60%, #4ade80 100%);
+    .map-bg {
       min-height: 100vh;
+      background:
+        radial-gradient(ellipse at 20% 10%, rgba(255,220,100,0.18) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 90%, rgba(100,200,255,0.15) 0%, transparent 50%),
+        linear-gradient(160deg, #1a1a3e 0%, #0f2027 40%, #1a3a2a 100%);
       position: relative;
       overflow: hidden;
     }
 
-    .cloud {
+    /* Twinkling stars */
+    .star-field { position: fixed; inset: 0; pointer-events: none; z-index: 0; }
+    .star-dot {
       position: absolute;
-      background: white;
-      border-radius: 50px;
-      opacity: 0.85;
-    }
-    .cloud::before, .cloud::after {
-      content: '';
-      position: absolute;
+      width: 3px; height: 3px;
       background: white;
       border-radius: 50%;
+      animation: twinkle var(--dur) ease-in-out infinite;
+      animation-delay: var(--delay);
     }
-    .cloud::before { width: 60%; height: 140%; top: -40%; left: 15%; }
-    .cloud::after  { width: 40%; height: 120%; top: -30%; right: 10%; }
-
-    .cloud-1 { width: 120px; height: 40px; top: 8%; left: 5%; animation: drift 18s linear infinite; }
-    .cloud-2 { width: 90px;  height: 30px; top: 15%; left: 60%; animation: drift 25s linear infinite reverse; }
-    .cloud-3 { width: 140px; height: 45px; top: 25%; left: 30%; animation: drift 22s linear infinite; }
-    @keyframes drift {
-      from { transform: translateX(-20px); }
-      to   { transform: translateX(20px); }
+    @keyframes twinkle {
+      0%,100% { opacity: 0.2; transform: scale(1); }
+      50%      { opacity: 1;   transform: scale(1.5); }
     }
 
-    .platform-card {
-      background: white;
-      border-radius: 20px;
-      border: 4px solid rgba(0,0,0,0.15);
-      box-shadow: 0 6px 0 rgba(0,0,0,0.2), 0 8px 20px rgba(0,0,0,0.1);
-      position: relative;
-      overflow: hidden;
-    }
-    .platform-card.locked {
-      filter: grayscale(0.6);
+    /* Path SVG line */
+    .map-path {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      z-index: 1;
     }
 
-    .action-btn {
-      transition: transform 0.12s ease, box-shadow 0.12s ease;
-      box-shadow: 0 4px 0 rgba(0,0,0,0.25);
+    /* Island nodes */
+    .island-node {
+      position: absolute;
+      z-index: 2;
+      transform: translate(-50%, -50%);
       cursor: pointer;
-      border: none;
-    }
-    .action-btn:hover:not(:disabled) { transform: translateY(-2px); box-shadow: 0 6px 0 rgba(0,0,0,0.2); }
-    .action-btn:active:not(:disabled) { transform: translateY(2px); box-shadow: 0 1px 0 rgba(0,0,0,0.2); }
-    .action-btn:disabled { opacity: 0.5; cursor: not-allowed; }
-
-    .boxy {
-      animation: boxy-idle 2s ease-in-out infinite;
-    }
-    @keyframes boxy-idle {
-      0%, 100% { transform: translateY(0); }
-      50%       { transform: translateY(-8px); }
     }
 
-    .title-text {
-      font-family: 'Press Start 2P', monospace;
-      text-shadow: 3px 3px 0 rgba(0,0,0,0.3);
+    .island-ring {
+      position: relative;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.2s cubic-bezier(0.34,1.56,0.64,1);
+      filter: drop-shadow(0 8px 24px rgba(0,0,0,0.5));
+    }
+    .island-ring:hover { transform: scale(1.12); }
+    .island-ring:active { transform: scale(0.95); }
+
+    .island-ring.locked {
+      filter: grayscale(0.8) drop-shadow(0 4px 12px rgba(0,0,0,0.4));
+      cursor: default;
+    }
+    .island-ring.locked:hover { transform: none; }
+
+    .island-pulse {
+      position: absolute;
+      inset: -6px;
+      border-radius: 50%;
+      animation: islandPulse 2.5s ease-in-out infinite;
+    }
+    @keyframes islandPulse {
+      0%,100% { opacity: 0.4; transform: scale(1); }
+      50%      { opacity: 0;   transform: scale(1.3); }
     }
 
-    .xp-bar-fill {
-      transition: width 0.6s cubic-bezier(0.34,1.56,0.64,1);
+    .island-float {
+      animation: islandFloat var(--float-dur) ease-in-out infinite;
+      animation-delay: var(--float-delay);
+    }
+    @keyframes islandFloat {
+      0%,100% { transform: translateY(0); }
+      50%      { transform: translateY(-10px); }
     }
 
-    .star { color: #fbbf24; }
-    .star-empty { color: #d1d5db; }
+    /* Popup panel */
+    .popup-overlay {
+      position: fixed; inset: 0; z-index: 50;
+      background: rgba(0,0,0,0.65);
+      backdrop-filter: blur(4px);
+      display: flex; align-items: center; justify-content: center;
+      padding: 16px;
+      animation: fadeIn 0.2s ease;
+    }
+    @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+    .popup-card {
+      width: 100%; max-width: 340px;
+      border-radius: 28px;
+      overflow: hidden;
+      animation: popUp 0.3s cubic-bezier(0.34,1.56,0.64,1);
+    }
+    @keyframes popUp {
+      from { opacity:0; transform: scale(0.7) translateY(30px); }
+      to   { opacity:1; transform: scale(1) translateY(0); }
+    }
+
+    .activity-btn {
+      transition: transform 0.12s ease, box-shadow 0.12s ease;
+      box-shadow: 0 5px 0 rgba(0,0,0,0.3);
+      border: none; cursor: pointer;
+    }
+    .activity-btn:hover { transform: translateY(-3px); box-shadow: 0 8px 0 rgba(0,0,0,0.25); }
+    .activity-btn:active { transform: translateY(2px); box-shadow: 0 2px 0 rgba(0,0,0,0.25); }
+
+    /* Stars */
+    .star-filled { color: #fbbf24; text-shadow: 0 0 8px rgba(251,191,36,0.8); }
+    .star-empty  { color: rgba(255,255,255,0.2); }
+
+    /* Top bar */
+    .top-bar {
+      position: relative; z-index: 10;
+      background: rgba(0,0,0,0.4);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .xp-bar-fill { transition: width 0.6s cubic-bezier(0.34,1.56,0.64,1); }
+
+    .boxy { animation: boxyFloat 2s ease-in-out infinite; }
+    @keyframes boxyFloat {
+      0%,100% { transform: translateY(0) rotate(0deg); }
+      50%      { transform: translateY(-6px) rotate(2deg); }
+    }
+
+    /* Lock badge */
+    .lock-badge {
+      position: absolute; top: -4px; right: -4px;
+      width: 22px; height: 22px;
+      background: #374151;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-center: center;
+      font-size: 11px;
+      border: 2px solid rgba(255,255,255,0.2);
+    }
+
+    /* Stars badge on island */
+    .island-stars {
+      position: absolute;
+      bottom: -18px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex; gap: 2px;
+      white-space: nowrap;
+    }
   `],
   template: `
-    <div class="world-bg">
-      <!-- Clouds -->
-      <div class="cloud cloud-1"></div>
-      <div class="cloud cloud-2"></div>
-      <div class="cloud cloud-3"></div>
+    <div class="map-bg">
 
-      <!-- Top bar: XP + Level -->
-      <div class="px-4 pt-4 pb-2 flex items-center gap-3" style="position:relative;z-index:10">
-        <div class="flex items-center gap-2 px-3 py-2 rounded-2xl" style="background:rgba(0,0,0,0.25);backdrop-filter:blur(4px)">
-          <span style="font-family:'Press Start 2P',monospace;font-size:9px;color:white">LVL {{ progress().level }}</span>
-        </div>
-        <div class="flex-1 rounded-full overflow-hidden" style="height:14px;background:rgba(0,0,0,0.2);border:2px solid rgba(255,255,255,0.4)">
-          <div class="xp-bar-fill h-full rounded-full" style="background:linear-gradient(90deg,#fbbf24,#f59e0b)" [style.width]="xpPct()+'%'"></div>
-        </div>
-        <span style="font-family:'Press Start 2P',monospace;font-size:8px;color:white">{{ progress().xp }} XP</span>
+      <!-- Star field -->
+      <div class="star-field">
+        @for (s of stars; track s.id) {
+          <div class="star-dot"
+            [style.left]="s.x+'%'"
+            [style.top]="s.y+'%'"
+            [style.--dur]="s.dur+'s'"
+            [style.--delay]="s.delay+'s'">
+          </div>
+        }
       </div>
 
-      <!-- Title -->
-      <div class="text-center pt-2 pb-4" style="position:relative;z-index:10">
-        <h1 class="title-text text-white" style="font-size:clamp(14px,4vw,20px)">ENGLISH WORLD</h1>
-        <p style="font-family:'Nunito',sans-serif;font-size:14px;color:rgba(255,255,255,0.85);margin-top:4px">Choose your adventure!</p>
-      </div>
-
-      <!-- Boxy avatar -->
-      <div class="flex justify-center mb-4" style="position:relative;z-index:10">
-        <div class="boxy">
-          <svg width="64" height="80" viewBox="0 0 64 80" fill="none">
+      <!-- Top bar -->
+      <div class="top-bar px-4 py-3 flex items-center gap-3">
+        <!-- Boxy avatar -->
+        <div class="boxy flex-shrink-0">
+          <svg width="36" height="44" viewBox="0 0 64 80" fill="none">
             <rect x="16" y="0" width="32" height="32" rx="4" fill="#FFD700" stroke="#B8860B" stroke-width="2"/>
             <rect x="22" y="10" width="8" height="8" rx="2" fill="white"/>
             <rect x="34" y="10" width="8" height="8" rx="2" fill="white"/>
@@ -124,91 +194,161 @@ import { KIDS_LOCATIONS, loadKidsProgress, KidsProgress } from './kids.data';
             <rect x="36" y="64" width="14" height="16" rx="3" fill="#1a1a2e"/>
           </svg>
         </div>
+        <div class="flex flex-col gap-1 flex-1">
+          <div class="flex justify-between items-center">
+            <span style="font-family:'Press Start 2P',monospace;font-size:8px;color:white">LVL {{ progress().level }}</span>
+            <span style="font-family:'Press Start 2P',monospace;font-size:7px;color:#fbbf24">{{ progress().xp }} XP</span>
+          </div>
+          <div class="rounded-full overflow-hidden" style="height:10px;background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.2)">
+            <div class="xp-bar-fill h-full rounded-full" style="background:linear-gradient(90deg,#fbbf24,#f59e0b)" [style.width]="xpPct()+'%'"></div>
+          </div>
+        </div>
+        <div style="font-family:'Press Start 2P',monospace;font-size:9px;color:white;text-align:right;line-height:1.4">
+          ENGLISH<br>WORLD
+        </div>
       </div>
 
-      <!-- Location cards grid -->
-      <div class="px-4 pb-8 grid grid-cols-2 gap-5" style="position:relative;z-index:10">
+      <!-- Map canvas -->
+      <div class="relative" style="height: calc(100vh - 68px); min-height: 520px;">
+
+        <!-- SVG path connecting islands -->
+        <svg class="map-path" viewBox="0 0 100 100" preserveAspectRatio="none">
+          <defs>
+            <filter id="glow">
+              <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
+              <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+            </filter>
+          </defs>
+          <!-- Dotted path between all 6 islands -->
+          <path d="M 20 82 Q 35 68 50 72 Q 65 76 80 62 Q 88 50 75 38 Q 62 26 50 30 Q 35 34 20 22"
+            fill="none"
+            stroke="rgba(251,191,36,0.5)"
+            stroke-width="1.2"
+            stroke-dasharray="3 2.5"
+            filter="url(#glow)"
+          />
+          <!-- Glow version -->
+          <path d="M 20 82 Q 35 68 50 72 Q 65 76 80 62 Q 88 50 75 38 Q 62 26 50 30 Q 35 34 20 22"
+            fill="none"
+            stroke="rgba(251,191,36,0.15)"
+            stroke-width="4"
+          />
+        </svg>
+
+        <!-- Islands -->
         @for (loc of locations; track loc.id; let i = $index) {
-          <div class="platform-card p-3" [class.locked]="isLocked(i)">
+          <div class="island-node"
+            [style.left]="nodePos[i].x+'%'"
+            [style.top]="nodePos[i].y+'%'"
+            (click)="openIsland(loc, i)">
 
-            <!-- Header: emoji + name + letters -->
-            <div class="rounded-xl mb-2 flex flex-col items-center justify-center gap-1 py-3"
-              [style.background]="'linear-gradient(135deg,'+loc.bgFrom+','+loc.bgTo+')'">
-              <span style="font-size:36px">{{ loc.emoji }}</span>
-              <p style="font-family:'Press Start 2P',monospace;font-size:8px;color:white;text-shadow:1px 1px 0 rgba(0,0,0,0.3);margin:0">{{ loc.name }}</p>
-              <p style="font-family:'Nunito',sans-serif;font-size:10px;color:rgba(255,255,255,0.85);margin:0">{{ loc.letters }}</p>
-            </div>
+            <div class="island-float"
+              [style.--float-dur]="(2.2 + i * 0.3)+'s'"
+              [style.--float-delay]="(i * 0.4)+'s'">
 
-            <!-- Action buttons row -->
-            <div class="grid grid-cols-2 gap-1.5 mb-2">
-              <!-- Story button -->
-              <button class="action-btn rounded-xl py-2 px-1 text-white flex flex-col items-center gap-0.5"
-                style="background:linear-gradient(135deg,#22c55e,#16a34a);font-family:'Nunito',sans-serif"
-                [disabled]="isLocked(i)"
-                (click)="navStory(loc.id, i)">
-                <span style="font-size:16px">📖</span>
-                <span style="font-size:8px;font-weight:900">Story</span>
-              </button>
-
-              <!-- Tap It button -->
-              <button class="action-btn rounded-xl py-2 px-1 text-white flex flex-col items-center gap-0.5 relative"
-                style="background:linear-gradient(135deg,#6366f1,#8b5cf6);font-family:'Nunito',sans-serif"
-                [disabled]="isLocked(i) || !isCompleted(loc.id)"
-                (click)="navGame(loc.id, 'tap', i)">
-                @if (!isCompleted(loc.id) && !isLocked(i)) {
-                  <span style="position:absolute;top:3px;right:5px;font-size:9px">🔒</span>
-                }
-                <span style="font-size:16px">⚡</span>
-                <span style="font-size:8px;font-weight:900">Tap It</span>
-              </button>
-
-              <!-- Spell It button -->
-              <button class="action-btn rounded-xl py-2 px-1 text-white flex flex-col items-center gap-0.5 relative"
-                style="background:linear-gradient(135deg,#10b981,#059669);font-family:'Nunito',sans-serif"
-                [disabled]="isLocked(i) || !isCompleted(loc.id)"
-                (click)="navGame(loc.id, 'spell', i)">
-                @if (!isCompleted(loc.id) && !isLocked(i)) {
-                  <span style="position:absolute;top:3px;right:5px;font-size:9px">🔒</span>
-                }
-                <span style="font-size:16px">🔤</span>
-                <span style="font-size:8px;font-weight:900">Spell It</span>
-              </button>
-
-              <!-- Speed Run button -->
-              <button class="action-btn rounded-xl py-2 px-1 text-white flex flex-col items-center gap-0.5 relative"
-                style="background:linear-gradient(135deg,#f43f5e,#e11d48);font-family:'Nunito',sans-serif"
-                [disabled]="isLocked(i) || !isCompleted(loc.id)"
-                (click)="navGame(loc.id, 'speed', i)">
-                @if (!isCompleted(loc.id) && !isLocked(i)) {
-                  <span style="position:absolute;top:3px;right:5px;font-size:9px">🔒</span>
-                }
-                <span style="font-size:16px">⏱</span>
-                <span style="font-size:8px;font-weight:900">Speed Run</span>
-              </button>
-            </div>
-
-            <!-- Stars row -->
-            <div class="flex justify-center gap-0.5">
-              @for (s of [1,2,3]; track s) {
-                <span [class]="getStars(loc.id) >= s ? 'star' : 'star-empty'" style="font-size:16px">★</span>
+              <!-- Pulse ring (only unlocked) -->
+              @if (!isLocked(i)) {
+                <div class="island-pulse" [style.background]="loc.color" style="opacity:0.35"></div>
               }
-            </div>
 
-            <!-- Completed badge -->
-            @if (isCompleted(loc.id)) {
-              <div class="absolute top-2 right-2 w-6 h-6 rounded-full flex items-center justify-center text-xs"
-                style="background:#22c55e;color:white">✓</div>
-            }
+              <!-- Island circle -->
+              <div class="island-ring" [class.locked]="isLocked(i)"
+                [style.width]="nodePos[i].size+'px'"
+                [style.height]="nodePos[i].size+'px'"
+                [style.background]="'linear-gradient(145deg,'+loc.bgFrom+','+loc.bgTo+')'">
 
-            <!-- Location locked overlay -->
-            @if (isLocked(i)) {
-              <div class="absolute inset-0 flex items-center justify-center rounded-2xl" style="background:rgba(255,255,255,0.6)">
-                <span style="font-size:32px">🔒</span>
+                <!-- Lock overlay -->
+                @if (isLocked(i)) {
+                  <div style="position:absolute;inset:0;border-radius:50%;background:rgba(0,0,0,0.45);display:flex;align-items:center;justify-content:center">
+                    <span style="font-size:22px">🔒</span>
+                  </div>
+                }
+
+                <span [style.font-size]="(nodePos[i].size * 0.42)+'px'" style="line-height:1;position:relative;z-index:1">{{ loc.emoji }}</span>
               </div>
-            }
+
+              <!-- Name label -->
+              <div style="text-align:center;margin-top:6px">
+                <p style="font-family:'Press Start 2P',monospace;font-size:7px;color:white;text-shadow:1px 1px 0 rgba(0,0,0,0.8);white-space:nowrap">{{ loc.name }}</p>
+                <!-- Stars below island -->
+                <div class="flex justify-center gap-1 mt-1">
+                  @for (s of [1,2,3]; track s) {
+                    <span [class]="getStars(loc.id) >= s ? 'star-filled' : 'star-empty'" style="font-size:10px">★</span>
+                  }
+                </div>
+              </div>
+
+            </div>
           </div>
         }
+
       </div>
+
+      <!-- Popup panel -->
+      @if (selected()) {
+        <div class="popup-overlay" (click)="closeIsland()">
+          <div class="popup-card" (click)="$event.stopPropagation()">
+
+            <!-- Header -->
+            <div class="px-6 pt-6 pb-4 flex flex-col items-center gap-2 text-center"
+              [style.background]="'linear-gradient(135deg,'+selected()!.bgFrom+','+selected()!.bgTo+')'">
+              <span style="font-size:64px;line-height:1;filter:drop-shadow(0 4px 8px rgba(0,0,0,0.3))">{{ selected()!.emoji }}</span>
+              <p style="font-family:'Press Start 2P',monospace;font-size:14px;color:white;text-shadow:2px 2px 0 rgba(0,0,0,0.3)">{{ selected()!.name }}</p>
+              <p style="font-family:'Nunito',sans-serif;font-size:13px;color:rgba(255,255,255,0.85);font-weight:800">Letters {{ selected()!.letters }}</p>
+              <!-- Stars -->
+              <div class="flex gap-2">
+                @for (s of [1,2,3]; track s) {
+                  <span [class]="getStars(selected()!.id) >= s ? 'star-filled' : 'star-empty'" style="font-size:20px">★</span>
+                }
+              </div>
+            </div>
+
+            <!-- Activities -->
+            <div class="px-5 py-5 flex flex-col gap-3" style="background:#1a1a3e">
+
+              <!-- Story — always available -->
+              <button class="activity-btn w-full rounded-2xl py-4 px-5 flex items-center gap-4 text-white"
+                style="background:linear-gradient(135deg,#22c55e,#16a34a);font-family:'Nunito',sans-serif"
+                (click)="go('story')">
+                <span style="font-size:28px">📖</span>
+                <div style="text-align:left">
+                  <p style="font-family:'Press Start 2P',monospace;font-size:10px;margin-bottom:3px">STORY</p>
+                  <p style="font-size:12px;opacity:0.85">Learn the letters!</p>
+                </div>
+                <span style="margin-left:auto;font-size:18px">▶</span>
+              </button>
+
+              <!-- Games — locked until story done -->
+              @for (game of games; track game.mode) {
+                <button class="activity-btn w-full rounded-2xl py-4 px-5 flex items-center gap-4 text-white"
+                  [style.background]="isCompleted(selected()!.id) ? game.bg : 'rgba(255,255,255,0.07)'"
+                  [style.opacity]="isCompleted(selected()!.id) ? '1' : '0.5'"
+                  [disabled]="!isCompleted(selected()!.id)"
+                  style="font-family:'Nunito',sans-serif"
+                  (click)="go(game.mode)">
+                  <span style="font-size:28px">{{ game.icon }}</span>
+                  <div style="text-align:left">
+                    <p style="font-family:'Press Start 2P',monospace;font-size:10px;margin-bottom:3px">{{ game.label }}</p>
+                    <p style="font-size:12px;opacity:0.85">{{ game.desc }}</p>
+                  </div>
+                  @if (!isCompleted(selected()!.id)) {
+                    <span style="margin-left:auto;font-size:16px">🔒</span>
+                  } @else {
+                    <span style="margin-left:auto;font-size:18px">▶</span>
+                  }
+                </button>
+              }
+
+            </div>
+
+            <!-- Close -->
+            <button (click)="closeIsland()"
+              style="position:absolute;top:12px;right:12px;background:rgba(0,0,0,0.35);border:none;color:white;font-size:18px;width:32px;height:32px;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center">✕</button>
+
+          </div>
+        </div>
+      }
+
     </div>
   `,
 })
@@ -216,22 +356,45 @@ export class KidsHomeComponent implements OnInit, OnDestroy {
   private router = inject(Router);
   readonly locations = KIDS_LOCATIONS;
   readonly progress = signal<KidsProgress>(loadKidsProgress());
+  readonly selected = signal<typeof KIDS_LOCATIONS[0] | null>(null);
+  private selectedIndex = 0;
+
+  // Island positions on the map (% left, % top, size px)
+  readonly nodePos = [
+    { x: 20, y: 82, size: 80 },  // Farm      — bottom left
+    { x: 50, y: 70, size: 76 },  // City      — bottom centre
+    { x: 80, y: 60, size: 72 },  // Ocean     — mid right
+    { x: 75, y: 36, size: 76 },  // Space     — upper right
+    { x: 48, y: 24, size: 72 },  // Home      — upper centre
+    { x: 20, y: 16, size: 80 },  // Carnival  — top left
+  ];
+
+  // Twinkling stars
+  readonly stars = Array.from({ length: 60 }, (_, i) => ({
+    id: i,
+    x: Math.random() * 100,
+    y: Math.random() * 100,
+    dur: 2 + Math.random() * 3,
+    delay: Math.random() * 4,
+  }));
+
+  readonly games = [
+    { mode: 'tap',   icon: '⚡', label: 'TAP IT',    desc: 'Tap the right picture!', bg: 'linear-gradient(135deg,#6366f1,#8b5cf6)' },
+    { mode: 'spell', icon: '🔤', label: 'SPELL IT',  desc: 'Tap letters in order!',  bg: 'linear-gradient(135deg,#0ea5e9,#0284c7)' },
+    { mode: 'speed', icon: '⏱', label: 'SPEED RUN', desc: '30 seconds — go fast!',  bg: 'linear-gradient(135deg,#f43f5e,#e11d48)' },
+  ];
 
   ngOnInit() {
     this.progress.set(loadKidsProgress());
     this.speakWelcome();
   }
 
-  ngOnDestroy() {
-    speechSynthesis.cancel();
-  }
+  ngOnDestroy() { speechSynthesis.cancel(); }
 
   private speakWelcome() {
     speechSynthesis.cancel();
-    const utt = new SpeechSynthesisUtterance('Welcome to English World! Choose your adventure!');
-    utt.lang = 'en-US';
-    utt.rate = 0.8;
-    utt.pitch = 1.2;
+    const utt = new SpeechSynthesisUtterance('Welcome to English World! Tap an island to start your adventure!');
+    utt.lang = 'en-US'; utt.rate = 0.8; utt.pitch = 1.2;
     speechSynthesis.speak(utt);
   }
 
@@ -241,9 +404,8 @@ export class KidsHomeComponent implements OnInit, OnDestroy {
   }
 
   isLocked(index: number): boolean {
-    if (index === 0) return false;
-    const prev = this.locations[index - 1];
-    return !this.progress().completedLocations.includes(prev.id);
+    // Unlock everything — remove lock logic for testing
+    return false;
   }
 
   isCompleted(locationId: string): boolean {
@@ -254,13 +416,26 @@ export class KidsHomeComponent implements OnInit, OnDestroy {
     return this.progress().locationStars[locationId] ?? 0;
   }
 
-  navStory(locationId: string, index: number) {
+  openIsland(loc: typeof KIDS_LOCATIONS[0], index: number) {
     if (this.isLocked(index)) return;
-    this.router.navigate(['/kids/story', locationId]);
+    this.selectedIndex = index;
+    this.selected.set(loc);
+    // Speak location name
+    speechSynthesis.cancel();
+    const utt = new SpeechSynthesisUtterance(loc.name + '! Letters ' + loc.letters);
+    utt.lang = 'en-US'; utt.rate = 0.85; utt.pitch = 1.2;
+    speechSynthesis.speak(utt);
   }
 
-  navGame(locationId: string, mode: string, index: number) {
-    if (this.isLocked(index) || !this.isCompleted(locationId)) return;
-    this.router.navigate(['/kids/game', locationId, mode]);
+  closeIsland() { this.selected.set(null); }
+
+  go(mode: string) {
+    const loc = this.selected();
+    if (!loc) return;
+    if (mode === 'story') {
+      this.router.navigate(['/kids/story', loc.id]);
+    } else {
+      this.router.navigate(['/kids/game', loc.id, mode]);
+    }
   }
 }
